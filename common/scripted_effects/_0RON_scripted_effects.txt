@@ -1,0 +1,1171 @@
+
+RON_power_status_immediate_effects = {
+	#Army
+
+	if = { limit = { num_of_factories < 11 NOT = { has_country_flag = superstate_size1 } } set_country_flag = superstate_size1 clr_country_flag = superstate_size2 clr_country_flag = superstate_size6 clr_country_flag = superstate_size3 clr_country_flag = superstate_size4 clr_country_flag = superstate_size5 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories < 50 num_of_factories > 10 NOT = { has_country_flag = superstate_size2 } } set_country_flag = superstate_size2 clr_country_flag = superstate_size1 clr_country_flag = superstate_size6 clr_country_flag = superstate_size3 clr_country_flag = superstate_size4 clr_country_flag = superstate_size5 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories < 100 num_of_factories > 49 NOT = { has_country_flag = superstate_size3 } } set_country_flag = superstate_size3 clr_country_flag = superstate_size1 clr_country_flag = superstate_size6 clr_country_flag = superstate_size2 clr_country_flag = superstate_size4 clr_country_flag = superstate_size5 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories < 500 num_of_factories > 99 NOT = { has_country_flag = superstate_size4 } } set_country_flag = superstate_size4 clr_country_flag = superstate_size1 clr_country_flag = superstate_size6 clr_country_flag = superstate_size2 clr_country_flag = superstate_size3 clr_country_flag = superstate_size5 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories < 1000 num_of_factories > 499 NOT = { has_country_flag = superstate_size5 } } set_country_flag = superstate_size5 clr_country_flag = superstate_size1 clr_country_flag = superstate_size6 clr_country_flag = superstate_size2 clr_country_flag = superstate_size3 clr_country_flag = superstate_size4 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories > 999 num_of_factories < 1500 NOT = { has_country_flag = superstate_size6 } } set_country_flag = superstate_size6 clr_country_flag = superstate_size1 clr_country_flag = superstate_size5 clr_country_flag = superstate_size2 clr_country_flag = superstate_size3 clr_country_flag = superstate_size4 clr_country_flag = superstate_size7 }
+
+	if = { limit = { num_of_factories > 1499 NOT = { has_country_flag = superstate_size7 } } set_country_flag = superstate_size7 clr_country_flag = superstate_size1 clr_country_flag = superstate_size6 clr_country_flag = superstate_size5 clr_country_flag = superstate_size2 clr_country_flag = superstate_size3 clr_country_flag = superstate_size4 }
+
+	if = { limit = { num_divisions < 1 NOT = { has_country_flag = army_size1 } } set_country_flag = army_size1 clr_country_flag = army_size6 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size5 clr_country_flag = army_size7 clr_country_flag = army_size2 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions > 0 num_divisions < 10 NOT = { has_country_flag = army_size2 } } set_country_flag = army_size2 clr_country_flag = army_size6 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size5 clr_country_flag = army_size7 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions < 50 num_divisions > 10 NOT = { has_country_flag = army_size3 } } set_country_flag = army_size3 clr_country_flag = army_size6 clr_country_flag = army_size2 clr_country_flag = army_size4 clr_country_flag = army_size5 clr_country_flag = army_size7 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions < 100 num_divisions > 50 NOT = { has_country_flag = army_size4 } } set_country_flag = army_size4 clr_country_flag = army_size6 clr_country_flag = army_size2 clr_country_flag = army_size3 clr_country_flag = army_size5 clr_country_flag = army_size7 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions < 200 num_divisions > 100 NOT = { has_country_flag = army_size5 } } set_country_flag = army_size5 clr_country_flag = army_size6 clr_country_flag = army_size2 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size7 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions < 500 num_divisions > 200 NOT = { has_country_flag = army_size6 } } set_country_flag = army_size6 clr_country_flag = army_size5 clr_country_flag = army_size2 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size7 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions < 610 num_divisions > 500 NOT = { has_country_flag = army_size7 } } set_country_flag = army_size7 clr_country_flag = army_size5 clr_country_flag = army_size2 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size6 clr_country_flag = army_size1 clr_country_flag = army_size8 }
+
+	if = { limit = { num_divisions > 610 NOT = { has_country_flag = army_size8 } } set_country_flag = army_size8 clr_country_flag = army_size5 clr_country_flag = army_size2 clr_country_flag = army_size3 clr_country_flag = army_size4 clr_country_flag = army_size6 clr_country_flag = army_size1 clr_country_flag = army_size7 }
+
+	#Airforce
+
+	if = { limit = { has_deployed_air_force_size = { size < 1 } NOT = { has_country_flag = airforce_size1 } } set_country_flag = airforce_size1 clr_country_flag = airforce_size6    clr_country_flag = airforce_size3 clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size2 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 0 } has_deployed_air_force_size = { size < 800 } NOT = { has_country_flag = airforce_size2 } } set_country_flag = airforce_size2 clr_country_flag = airforce_size6    clr_country_flag = airforce_size3 clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 800 } has_deployed_air_force_size = { size < 2000 } NOT = { has_country_flag = airforce_size3 } } set_country_flag = airforce_size3 clr_country_flag = airforce_size6    clr_country_flag = airforce_size2 clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 2000 } has_deployed_air_force_size = { size < 4000 } NOT = { has_country_flag = airforce_size4 } } set_country_flag = airforce_size4 clr_country_flag = airforce_size6 clr_country_flag = airforce_size3    clr_country_flag = airforce_size2 clr_country_flag = airforce_size5 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 4000 } has_deployed_air_force_size = { size < 7000 } NOT = { has_country_flag = airforce_size5 } } set_country_flag = airforce_size5 clr_country_flag = airforce_size6 clr_country_flag = airforce_size3    clr_country_flag = airforce_size4 clr_country_flag = airforce_size2 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 7000 } has_deployed_air_force_size = { size < 10500 } NOT = { has_country_flag = airforce_size6 } } set_country_flag = airforce_size6 clr_country_flag = airforce_size2 clr_country_flag = airforce_size3    clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size7 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 10500 }  has_deployed_air_force_size = { size < 20500 } NOT = { has_country_flag = airforce_size7 } } set_country_flag = airforce_size7 clr_country_flag = airforce_size2 clr_country_flag = airforce_size3    clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size6 clr_country_flag = airforce_size8 }
+
+	if = { limit = { has_deployed_air_force_size = { size > 20500 }   NOT = { has_country_flag = airforce_size8 } } set_country_flag = airforce_size8 clr_country_flag = airforce_size2 clr_country_flag = airforce_size3    clr_country_flag = airforce_size4 clr_country_flag = airforce_size5 clr_country_flag = airforce_size5 clr_country_flag = airforce_size1 clr_country_flag = airforce_size6 clr_country_flag = airforce_size7 }
+
+	#Naval
+
+	if = { limit = { has_navy_size = { size < 1 } NOT = { has_country_flag = navy_size1 } } set_country_flag = navy_size1 clr_country_flag = navy_size6 clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size2 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size > 0 } has_navy_size = { size < 20 } NOT = { has_country_flag = navy_size2 } } set_country_flag = navy_size2 clr_country_flag = navy_size6 clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size < 50 } has_navy_size = { size > 20 } NOT = { has_country_flag = navy_size3 } } set_country_flag = navy_size3 clr_country_flag = navy_size6 clr_country_flag = navy_size2 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size < 110 } has_navy_size = { size > 50 } NOT = { has_country_flag = navy_size4 } } set_country_flag = navy_size4 clr_country_flag = navy_size6    clr_country_flag = navy_size3 clr_country_flag = navy_size2 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size < 175 } has_navy_size = { size > 110 } NOT = { has_country_flag = navy_size5 } } set_country_flag = navy_size5 clr_country_flag = navy_size6    clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size2 clr_country_flag = navy_size1 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size > 175 } has_navy_size = { size < 500 } NOT = { has_country_flag = navy_size6 } } set_country_flag = navy_size6 clr_country_flag = navy_size2    clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size7 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size > 500 } has_navy_size = { size < 1050 } NOT = { has_country_flag = navy_size7 } } set_country_flag = navy_size7 clr_country_flag = navy_size2    clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size6 clr_country_flag = navy_size8 }
+
+	if = { limit = { has_navy_size = { size > 1050 } NOT = { has_country_flag = navy_size8 } } set_country_flag = navy_size8 clr_country_flag = navy_size2    clr_country_flag = navy_size3 clr_country_flag = navy_size4 clr_country_flag = navy_size5 clr_country_flag = navy_size1 clr_country_flag = navy_size6 clr_country_flag = navy_size7 }
+
+}
+
+RON_power_status_ok_effects = {
+	#Army
+
+	if = { limit = { has_country_flag = superstate_size1 NOT = { has_idea = superstate_size1 } } add_ideas = superstate_size1 hidden_effect = { remove_ideas = superstate_size2 remove_ideas = superstate_size6    remove_ideas = superstate_size3 remove_ideas = superstate_size4 remove_ideas = superstate_size5 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size2 NOT = { has_idea = superstate_size2 } } add_ideas = superstate_size2 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size6    remove_ideas = superstate_size3 remove_ideas = superstate_size4 remove_ideas = superstate_size5 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size3 NOT = { has_idea = superstate_size3 } } add_ideas = superstate_size3 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size6 remove_ideas = superstate_size2 remove_ideas = superstate_size4 remove_ideas = superstate_size5 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size4 NOT = { has_idea = superstate_size4 } } add_ideas = superstate_size4 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size6 remove_ideas = superstate_size2 remove_ideas = superstate_size3 remove_ideas = superstate_size5 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size5 NOT = { has_idea = superstate_size5 } } add_ideas = superstate_size5 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size6 remove_ideas = superstate_size2 remove_ideas = superstate_size3 remove_ideas = superstate_size4 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size6 NOT = { has_idea = superstate_size6 } } add_ideas = superstate_size6 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size5 remove_ideas = superstate_size2 remove_ideas = superstate_size3 remove_ideas = superstate_size4 remove_ideas = superstate_size7 } }
+
+	if = { limit = { has_country_flag = superstate_size7 NOT = { has_idea = superstate_size7 } } add_ideas = superstate_size7 hidden_effect = { remove_ideas = superstate_size1 remove_ideas = superstate_size5 remove_ideas = superstate_size2 remove_ideas = superstate_size3 remove_ideas = superstate_size4 remove_ideas = superstate_size6 } }
+
+	#Army
+	if = { limit = { has_country_flag = army_size1 NOT = { has_idea = army_size1 } } add_ideas = army_size1 hidden_effect = { remove_ideas = army_size6    remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size5 remove_ideas = army_size2 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size2 NOT = { has_idea = army_size2 } } add_ideas = army_size2 hidden_effect = { remove_ideas = army_size6    remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size5 remove_ideas = army_size1 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size3 NOT = { has_idea = army_size3 } } add_ideas = army_size3 hidden_effect = { remove_ideas = army_size6 remove_ideas = army_size2 remove_ideas = army_size4 remove_ideas = army_size5 remove_ideas = army_size1 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size4 NOT = { has_idea = army_size4 } } add_ideas = army_size4 hidden_effect = { remove_ideas = army_size6 remove_ideas = army_size2 remove_ideas = army_size3 remove_ideas = army_size5 remove_ideas = army_size1 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size5 NOT = { has_idea = army_size5 } } add_ideas = army_size5 hidden_effect = { remove_ideas = army_size6 remove_ideas = army_size2 remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size1 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size6 NOT = { has_idea = army_size6 } } add_ideas = army_size6 hidden_effect = { remove_ideas = army_size5 remove_ideas = army_size2 remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size1 remove_ideas = army_size7 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size7 NOT = { has_idea = army_size7 } } add_ideas = army_size7 hidden_effect = { remove_ideas = army_size5 remove_ideas = army_size2 remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size1 remove_ideas = army_size6 remove_ideas = army_size8 } }
+
+	if = { limit = { has_country_flag = army_size8 NOT = { has_idea = army_size8 } } add_ideas = army_size8 hidden_effect = { remove_ideas = army_size5 remove_ideas = army_size2 remove_ideas = army_size3 remove_ideas = army_size4 remove_ideas = army_size1 remove_ideas = army_size6 remove_ideas = army_size7 } }
+
+	#Airforce
+	if = { limit = { has_country_flag = airforce_size1 NOT = { has_idea = airforce_size1 } } add_ideas = airforce_size1 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size6 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size2 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size2 NOT = { has_idea = airforce_size2 } } add_ideas = airforce_size2 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size6 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size3 NOT = { has_idea = airforce_size3 } } add_ideas = airforce_size3 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size6 remove_ideas = airforce_size2 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size4 NOT = { has_idea = airforce_size4 } } add_ideas = airforce_size4 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size6 remove_ideas = airforce_size3 remove_ideas = airforce_size2 remove_ideas = airforce_size1 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size5 NOT = { has_idea = airforce_size5 } } add_ideas = airforce_size5 hidden_effect = { remove_ideas = airforce_size2 remove_ideas = airforce_size6 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size6 NOT = { has_idea = airforce_size6 } } add_ideas = airforce_size6 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size2 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size7 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size7 NOT = { has_idea = airforce_size7 } } add_ideas = airforce_size7 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size2 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size6 remove_ideas = airforce_size8 } }
+
+	if = { limit = { has_country_flag = airforce_size8 NOT = { has_idea = airforce_size8 } } add_ideas = airforce_size8 hidden_effect = { remove_ideas = airforce_size5 remove_ideas = airforce_size2 remove_ideas = airforce_size3 remove_ideas = airforce_size4 remove_ideas = airforce_size1 remove_ideas = airforce_size6 remove_ideas = airforce_size7 } }
+
+	#Naval
+
+	if = { limit = { has_country_flag = navy_size1 NOT = { has_idea = navy_size1 } } add_ideas = navy_size1 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size6 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size2 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size2 NOT = { has_idea = navy_size2 } } add_ideas = navy_size2 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size6 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size3 NOT = { has_idea = navy_size3 } } add_ideas = navy_size3 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size6 remove_ideas = navy_size2 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size4 NOT = { has_idea = navy_size4 } } add_ideas = navy_size4 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size6 remove_ideas = navy_size3 remove_ideas = navy_size2 remove_ideas = navy_size1 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size5 NOT = { has_idea = navy_size5 } } add_ideas = navy_size5 hidden_effect = { remove_ideas = navy_size2 remove_ideas = navy_size6 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size6 NOT = { has_idea = navy_size6 } } add_ideas = navy_size6 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size2 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size7 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size7 NOT = { has_idea = navy_size7 } } add_ideas = navy_size7 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size2 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size6 remove_ideas = navy_size8 } }
+
+	if = { limit = { has_country_flag = navy_size8 NOT = { has_idea = navy_size8 } } add_ideas = navy_size8 hidden_effect = { remove_ideas = navy_size5 remove_ideas = navy_size2 remove_ideas = navy_size3 remove_ideas = navy_size4 remove_ideas = navy_size1 remove_ideas = navy_size6 remove_ideas = navy_size7 } }
+}
+
+RON_welcome_laws_ok_effects = {
+
+#Generic Per Ideology
+
+every_country = {
+	limit = {
+		has_government = democratic
+	}
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		security_liberty_first
+		civilian_economy
+		press_free
+		private_control
+		fdi_regulated
+		foreign_neutral
+		foreign_volunteers
+	}
+}
+
+every_country = {
+	limit = {
+		has_government = fascism
+	}
+	add_ideas = {
+		foreign_warmonger
+		limited_exports
+		limited_conscription
+		press_state
+		security_police_state
+	}
+}
+
+every_country = {
+	limit = {
+		has_government = communism
+	}
+	add_ideas = {
+		#laws
+		foreign_warmonger
+		press_state
+		security_police_state
+		tax_high
+		limited_exports
+		tariffs_high
+		fdi_banned
+		planned_economy
+		foreign_legion
+	}
+}
+
+#Specific For Majors
+
+JAP = {
+	add_ideas = {
+		limited_exports
+		partial_economic_mobilisation
+		press_censored
+		security_major_restrictions
+		tax_high
+		education_budget5
+		health_budget5
+		foreign_warmonger
+		train_high
+		officer_train_high
+		tariffs_high
+		fdi_banned
+		key_industries
+		age_18
+		age_35
+		army_budget3
+		airforce_budget3
+		navy_budget5
+		police_budget5
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		foreign_volunteers
+	}
+}
+
+CHI = {
+	add_ideas = {
+		#laws
+		export_focus
+		tax_average
+		tariffs_high
+		low_economic_mobilisation
+		press_censored
+		major_industries
+		fdi_regulated
+		security_minor_restrictions
+		foreign_legion
+		train_low
+		age_18
+		age_35
+		officer_train_none
+		education_budget3
+		foreign_neutral
+	}
+}
+
+USA = {
+	add_ideas = {
+		tax_high
+		tariffs_high
+		press_free
+		security_liberty_first
+		private_control
+		fdi_regulated
+		train_low
+		officer_train_low
+		age_18
+		age_35
+		army_budget3
+		airforce_budget3
+		navy_budget5
+		police_budget5
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		education_budget5
+		health_budget5
+		foreign_volunteers
+	}
+}
+
+ENG = {
+	add_ideas = {
+		press_free
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_allowed
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_interventionism
+		foreign_volunteers
+		army_budget3
+		airforce_budget3
+		navy_budget5
+		police_budget5
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		education_budget5
+		health_budget5
+	}
+}
+
+FRA = {
+	add_ideas = {
+		#laws
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_allowed
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_interventionism
+		army_budget3
+		airforce_budget3
+		navy_budget5
+		police_budget5
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		foreign_volunteers
+	}
+}
+
+SOV = {
+	add_ideas = {
+		#laws
+		low_economic_mobilisation
+		foreign_warmonger
+		press_state
+		security_police_state
+		tax_high
+		education_budget3
+		limited_exports
+		tariffs_high
+		fdi_banned
+		train_low
+		officer_train_low
+		planned_economy
+		army_budget4
+		airforce_budget4
+		navy_budget3
+		police_budget5
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		foreign_legion
+	}
+}
+
+GER = {
+	add_ideas = {
+			foreign_warmonger
+			partial_economic_mobilisation
+			limited_exports
+			limited_conscription
+			press_state
+			security_police_state
+			tax_high
+			education_budget5
+			health_budget5
+			age_18
+			age_35
+			train_high
+			officer_train_elite
+			tariffs_high
+			army_budget4
+			airforce_budget4
+			navy_budget3
+			police_budget5
+			industry_budget4
+			engineering_budget4
+			infrastructure_budget4
+		}
+}
+
+ITA = {
+	add_ideas = {
+		#laws
+		limited_exports
+		low_economic_mobilisation
+		press_state
+		security_major_restrictions
+		tax_average
+		education_budget3
+		foreign_warmonger
+		foreign_volunteers
+		tariffs_high
+		fdi_regulated
+		officer_train_none
+		train_low
+		major_industries
+		army_budget3
+		airforce_budget3
+		navy_budget5
+		police_budget3
+		industry_budget4
+		engineering_budget4
+		infrastructure_budget4
+		foreign_volunteers
+	}
+}
+
+MEX = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		security_liberty_first
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		education_budget5
+		health_budget5
+		foreign_neutral
+	}
+}
+
+ARG = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		security_minor_restrictions
+		foreign_volunteers
+		train_none
+		officer_train_none
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+BRA = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_regulated
+		security_minor_restrictions
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		education_budget5
+		health_budget5
+		foreign_neutral
+	}
+}
+
+CHL = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		security_minor_restrictions
+		foreign_volunteers
+		train_none
+		officer_train_none
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+COL = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		security_minor_restrictions
+		foreign_volunteers
+		train_none
+		officer_train_none
+		education_budget2
+		health_budget2
+	}
+}
+
+VEN = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+URG = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		security_minor_restrictions
+		foreign_volunteers
+		train_none
+		officer_train_none
+		education_budget2
+		health_budget2
+	}
+}
+
+PAR = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+PRU = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+ECU = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		security_minor_restrictions
+		foreign_volunteers
+		train_none
+		officer_train_none
+		education_budget2
+		health_budget2
+	}
+}
+
+BOL = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+IRQ = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+PER = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+TUR = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		foreign_volunteers
+	}
+}
+
+SAF = {
+	add_ideas = {
+		press_regulated
+		train_medium
+		education_budget5
+		health_budget5
+	}
+}
+
+RAJ = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		train_medium
+		officer_train_low
+		security_minor_restrictions
+		education_budget5
+		health_budget5
+		foreign_neutral
+		foreign_volunteers
+	}
+}
+
+SPR = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget3
+		foreign_neutral
+	}
+}
+
+POR = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget3
+		foreign_neutral
+	}
+}
+
+IRE = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		neutrality_idea
+	}
+}
+
+SWI = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+LUX = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		low_economic_mobilisation
+		press_free
+		private_control
+		fdi_encouraged
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+BEL = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		low_economic_mobilisation
+		press_free
+		private_control
+		fdi_encouraged
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+HOL = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		low_economic_mobilisation
+		press_free
+		private_control
+		fdi_encouraged
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+DEN = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+NOR = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+SWE = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+	}
+}
+
+FIN = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		police_budget5
+		limited_conscription
+	}
+}
+
+AUS = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_regulated
+		security_minor_restrictions
+		train_medium
+		officer_train_low
+		education_budget5
+		foreign_neutral
+		foreign_volunteers
+	}
+}
+
+CZE = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		low_economic_mobilisation
+		press_free
+		private_control
+		fdi_encouraged
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+	}
+}
+
+HUN = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_regulated
+		foreign_volunteers
+		train_low
+		age_18
+		age_35
+		security_minor_restrictions
+		officer_train_low
+		education_budget3
+		foreign_neutral
+	}
+}
+
+POL = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+	}
+}
+
+LIT = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		neutrality_idea
+	}
+}
+
+LAT = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		neutrality_idea
+	}
+}
+
+EST = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		private_control
+		fdi_allowed
+		foreign_volunteers
+		train_medium
+		officer_train_low
+		security_liberty_first
+		education_budget5
+		health_budget5
+		foreign_neutral
+		neutrality_idea
+		limited_conscription
+	}
+}
+
+YUG = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_regulated
+		foreign_volunteers
+		train_low
+		age_18
+		age_35
+		security_minor_restrictions
+		officer_train_low
+		education_budget3
+		foreign_neutral
+	}
+}
+
+ROM = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_regulated
+		foreign_volunteers
+		train_low
+		age_18
+		age_35
+		security_minor_restrictions
+		officer_train_low
+		education_budget3
+		foreign_neutral
+	}
+}
+
+BUL = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_regulated
+		foreign_volunteers
+		train_low
+		age_18
+		age_35
+		security_minor_restrictions
+		officer_train_low
+		education_budget3
+		foreign_neutral
+		limited_conscription
+	}
+}
+
+ALB = {
+	add_ideas = {
+		export_focus
+		tax_average
+		tariffs_average
+		civilian_economy
+		press_free
+		key_industries
+		fdi_regulated
+		foreign_volunteers
+		train_low
+		age_18
+		age_35
+		security_minor_restrictions
+		officer_train_low
+		education_budget3
+		foreign_neutral
+	}
+}
+
+GRE = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		education_budget2
+		health_budget2
+		officer_train_low
+		security_minor_restrictions
+		foreign_isolationism
+	}
+}
+
+SIA = {
+	add_ideas = {
+		export_focus
+		tax_low
+		tariffs_average
+		civilian_economy
+		press_regulated
+		key_industries
+		fdi_allowed
+		foreign_volunteers
+		train_none
+		officer_train_none
+		security_minor_restrictions
+		education_budget2
+		health_budget2
+		foreign_isolationism
+	}
+}
+
+}

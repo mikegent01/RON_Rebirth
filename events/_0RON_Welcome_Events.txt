@@ -1,0 +1,34 @@
+######################################
+#####RON WELCOME EVENT#######
+######################################
+add_namespace = ron_welcomeevents
+
+# WELCOME TO RISE OF NATIONS
+country_event = {
+	id = ron_welcomeevents.1
+	title = ron_welcomeevents.1.t
+	desc = ron_welcomeevents.1.d
+	picture = GFX_report_event_ron_welcome
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = power_status_in_progress
+		}
+	}
+
+	option = {
+		ai_chance = {
+			factor = 10
+		}
+		name = ron_welcomeevents.1.a
+		
+		hidden_effect = {
+			RON_welcome_laws_ok_effects = yes
+		}
+
+		country_event = {
+			id = power_status.1
+		}
+	}
+}

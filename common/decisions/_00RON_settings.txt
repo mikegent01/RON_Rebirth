@@ -1,0 +1,36 @@
+RON_game_settings = {
+
+	RON_report_on_powerstatus = {
+		icon = gre_investment_decisions
+		#allowed = {
+		#	is_ai = no
+		#}
+		available = {
+			is_ai = no
+			custom_trigger_tooltip = {
+				tooltip = TT_power_status_needs_changing
+				RON_must_change_power_status = yes
+			}
+			NOT = {
+				has_global_flag = power_status_in_progress
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 1000
+		}
+		days_re_enable = 30
+		visible = {
+			NOT = {
+				has_global_flag = power_status_in_progress
+			}
+		}
+		complete_effect = {
+			country_event = {
+				id = power_status.1
+			}
+			set_global_flag = power_status_in_progress
+		}
+	}
+
+}

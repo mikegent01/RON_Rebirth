@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_report_event_RON_World_Politics_Report"
+        texturefile = "gfx/event_pictures/WELCOME/World_Politics_Report.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_report_event_ron_welcome"
+        texturefile = "gfx/event_pictures/WELCOME/welcome.dds"
+    }
+
+}

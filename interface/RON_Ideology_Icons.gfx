@@ -1,0 +1,13 @@
+spriteTypes = {
+
+spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+
+spriteType = {
+		name = "GFX_ideology_islamism_group"
+		texturefile = "gfx/interface/ideologies/islamism_group.dds"
+	}
+
+}
