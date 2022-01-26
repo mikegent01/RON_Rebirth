@@ -13,9 +13,10 @@ ideas = {
 				always = yes
 				#				NOT = {
 				#					has_government = fascism
-				#					#has_government = islamism
+				#					has_government = islamism
 				#					has_government = communism
 				#					has_government = neutrality
+				#					has_government = monarchism
 				#
 				#					has_idea = press_state
 				#					has_idea = press_censored
@@ -48,9 +49,10 @@ ideas = {
 				always = yes
 				#			NOT = {
 				#				has_government = fascism
-				#				#has_government = islamism
+				#				has_government = islamism
 				#				has_government = communism
 				#				has_government = neutrality
+				#				has_government = monarchism
 				#
 				#				has_idea = press_state
 				#			}
@@ -90,9 +92,10 @@ ideas = {
 						has_war = yes
 					}
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 			}
 			level = 2
@@ -118,9 +121,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				NOT = {
 					has_idea = press_free
@@ -143,7 +147,7 @@ ideas = {
 					factor = 100
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 					}
 				}

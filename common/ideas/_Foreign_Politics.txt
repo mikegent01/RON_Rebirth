@@ -156,7 +156,7 @@ ideas = {
 						tag = USA
 						tag = SOV
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 					}
 				}
 				modifier = {
@@ -207,12 +207,16 @@ ideas = {
 						tag = ITA
 						tag = SOV
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 					}
 				}
 				modifier = {
 					factor = 10
 					has_government = neutrality
+				}
+				modifier = {
+					factor = 10
+					has_government = monarchism
 				}
 				modifier = {
 					factor = 100
@@ -236,9 +240,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 			}
 
@@ -262,7 +267,7 @@ ideas = {
 				}
 				modifier = {
 					factor = 40
-					#has_government = islamism
+					has_government = islamism
 				}
 				modifier = {
 					factor = 0
@@ -360,6 +365,7 @@ ideas = {
 					AND = {
 						OR = {
 							has_government = neutrality
+							has_government = monarchism
 							has_government = fascism
 						}
 						OR = {
@@ -425,6 +431,7 @@ ideas = {
 					AND = {
 						OR = {
 							has_government = neutrality
+							has_government = monarchism
 							has_government = fascism
 						}
 						OR = {

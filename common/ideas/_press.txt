@@ -12,9 +12,10 @@ ideas = {
 			available = {
 				NOT = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 
 					has_idea = security_police_state
 					has_idea = security_major_restrictions
@@ -53,9 +54,10 @@ ideas = {
 				NOT = {
 					has_idea = security_police_state
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 			}
 
@@ -83,9 +85,10 @@ ideas = {
 						NOT = {
 							OR = {
 								has_government = fascism
-								#has_government = islamism
+								has_government = islamism
 								has_government = communism
 								has_government = neutrality
+								has_government = monarchism
 								has_war = yes
 							}
 						}
@@ -96,7 +99,7 @@ ideas = {
 					factor = 0
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 					}
 				}
@@ -114,9 +117,10 @@ ideas = {
 						has_war = yes
 					}
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 			}
 
@@ -141,11 +145,16 @@ ideas = {
 					OR = {
 						has_government = democratic
 						has_government = neutrality
+						has_government = monarchism
 					}
 				}
 				modifier = {
 					factor = 10
 					has_government = neutrality
+				}
+				modifier = {
+					factor = 10
+					has_government = monarchism
 				}
 				modifier = {
 					factor = 0
@@ -174,9 +183,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				NOT = {
 					has_idea = security_liberty_first
@@ -203,9 +213,10 @@ ideas = {
 					factor = 1000
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 						has_government = neutrality
+						has_government = monarchism
 					}
 				}
 			}

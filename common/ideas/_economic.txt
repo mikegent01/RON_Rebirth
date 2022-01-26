@@ -251,6 +251,7 @@ ideas = {
 					has_government = fascism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes

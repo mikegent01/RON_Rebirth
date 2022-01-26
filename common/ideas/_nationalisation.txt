@@ -12,9 +12,10 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 						has_government = neutrality
+						has_government = monarchism
 						has_country_flag = taxes_extreme
 						has_country_flag = press_state
 					}
@@ -107,9 +108,10 @@ ideas = {
 						}
 					}
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 			}
 
@@ -138,7 +140,7 @@ ideas = {
 				}
 				modifier = {
 					factor = 100
-					#has_government = islamism
+					has_government = islamism
 				}
 				modifier = {
 					factor = 100
@@ -156,9 +158,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				NOT = {
 					has_idea = tax_minimal

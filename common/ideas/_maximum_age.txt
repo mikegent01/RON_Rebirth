@@ -160,7 +160,7 @@ ideas = {
 				OR = {
 					has_war = yes
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 				}
 			}
 

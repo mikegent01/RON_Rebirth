@@ -58,8 +58,9 @@ ideas = {
 
 			available = {
 				NOT = { has_government = fascism }
-				NOT = { #has_government = islamism }
+				NOT = { has_government = islamism }
 				NOT = { has_government = neutrality }
+				NOT = { has_government = monarchism }
 			}
 
 			modifier = {

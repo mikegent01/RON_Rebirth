@@ -13,9 +13,10 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 						has_government = neutrality
+						has_government = monarchism
 						has_idea = tariffs_high
 						has_idea = closed_economy
 					}
@@ -48,9 +49,10 @@ ideas = {
 					factor = 0
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = communism
 						has_government = neutrality
+						has_government = monarchism
 					}
 				}
 				modifier = {
@@ -136,8 +138,9 @@ ideas = {
 					factor = 10
 					OR = {
 						has_government = fascism
-						#has_government = islamism
+						has_government = islamism
 						has_government = neutrality
+						has_government = monarchism
 					}
 				}
 
@@ -151,9 +154,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				NOT = {
 					has_idea = tariffs_none

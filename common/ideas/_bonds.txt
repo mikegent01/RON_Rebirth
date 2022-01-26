@@ -68,8 +68,9 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				has_war = yes
 				has_idea = bonds_basic
@@ -153,9 +154,10 @@ ideas = {
 				has_war = yes
 				OR = {
 					has_government = fascism
-					#has_government = islamism
+					has_government = islamism
 					has_government = communism
 					has_government = neutrality
+					has_government = monarchism
 				}
 				OR = {
 					AND = {
