@@ -1,0 +1,13 @@
+
+leader_traits = {
+	islamist_advocate = {
+		random = no
+		# Boosts Unaligned
+		sprite = 13
+		islamism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

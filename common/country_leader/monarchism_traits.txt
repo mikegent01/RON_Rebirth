@@ -1,0 +1,13 @@
+
+leader_traits = {
+	monarchist_advocate = {
+		random = no
+		# Boosts Unaligned
+		sprite = 13
+		monarchism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

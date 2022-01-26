@@ -1,0 +1,36 @@
+characters = {	
+	generic_islamism_advisor={
+		advisor={
+			slot = political_advisor
+			idea_token = islamism_advisor
+			allowed = {
+				NOT = {
+					OR= {
+						AND = {
+							original_tag = HUN
+							has_dlc = "Death or Dishonor"
+						}
+						original_tag = SOV
+					}
+				}
+			}
+			traits = {
+				islamist_advocate 
+			}
+			visible = {
+				always = yes
+			}
+			available = {
+				always = yes
+			}
+			do_effect  = {
+				not  = {
+					has_government  = islamism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 0.000
+			}
+		}
+	}
+}
