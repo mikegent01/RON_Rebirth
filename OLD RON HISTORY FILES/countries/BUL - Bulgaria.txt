@@ -1,0 +1,516 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 48
+oob = "BUL_1900"
+
+add_ideas = {
+	export_focus
+	tax_average
+	tariffs_average
+	civilian_economy
+	press_free
+	key_industries
+	fdi_regulated
+	foreign_volunteers
+	train_low
+	age_18
+	age_35
+	security_minor_restrictions
+	officer_train_low
+	education_budget3
+	foreign_neutral
+	limited_conscription
+}
+
+set_convoys = 5
+### WW1 Start Date
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1900.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 50
+	democratic = 35
+	communism = 15
+}
+
+create_country_leader = {
+	name = "Ferdinand I"
+	picture = "gfx/leaders/BUL/WW1/BUL_Ferdinand_I.dds"
+	desc = "POLITICS_FERDINAND_I_BUL_DESC"
+	expire = "2060.1.1"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Ivan Geshov"
+	picture = "gfx/leaders/BUL/WW1/Bul_Ivan_Geshovconservatism.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Yanko Sakazov"
+	picture = "gfx/leaders/BUL/WW1/LW_Socialist_Yanko_Sakazov.dds"
+	expire = "2060.1.1"
+	ideology = lw_socialism
+}
+
+create_country_leader = {
+	name = "Alexandar Tsankov"
+	picture = "alexandar_tsankov.dds"
+	expire = "2060.1.1"
+	ideology = nazism
+}
+
+if = {
+	limit = {
+
+		has_start_date < 1930.01.01
+	}
+	create_field_marshal = {
+		name = "Nikola Zhekov"
+		picture = "gfx/leaders/BUL/WW1/FM-Nikola_Zhekov.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Kelment Boyadijew"
+		picture = "gfx/leaders/BUL/WW1/General_Kelment_Boyadijew.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Konstantin Zhostov"
+		picture = "gfx/leaders/BUL/WW1/General_Konstantin_Zhostov.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Stefan Toshev"
+		picture = "gfx/leaders/BUL/WW1/General_Stefan_Toshev.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Georgi Todorov"
+		picture = "gfx/leaders/BUL/WW1/General-Georgi_Todorov.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Dimitar Dobrev"
+		picture = "gfx/leaders/BUL/WW1/Admiral_Dimitar_Dobrev.dds"
+		traits = {
+			bulgaria_army_trait
+		}
+		skill = 1
+	}
+}
+
+1910.1.1 = {
+	oob = "BUL_1910"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1910.1.1"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		monarchism = 50
+		democratic = 35
+		communism = 15
+	}
+
+	create_country_leader = {
+		name = "Ferdinand I"
+		desc = "POLITICS_FERDINAND_I_DESC"
+		picture = "gfx/leaders/BUL/WW1/Portrait_Bulgaria_Ferdinand_I.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+
+	set_technology = {
+		tech_support = 1
+		early_infantry_weapons = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
+		horses = 1
+		ww1_electronic_mechanical_engineering = 1
+	}
+
+}
+
+1914.1.1 = {
+	oob = "BUL_1914"
+}
+
+1919.1.1 = {
+	oob = "BUL_1919"
+}
+
+### END OF WW1 Start Date
+1919.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1919.1.1"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		monarchism = 50
+		democratic = 35
+		communism = 15
+	}
+	create_country_leader = {
+		name = "Boris III"
+		picture = "gfx/leaders/BUL/WW1/Bulgaria_BorisIII.dds"
+		expire = "1925.1.1"
+		ideology = absolute_monarchy
+	}
+}
+
+1933.1.1 = {
+	oob = "BUL_1933"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1931.6.21"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 5
+		fascism = 35
+		monarchism = 60
+	}
+	create_country_leader = {
+		name = "Boris III"
+		desc = "POLITICS_BORIS_III_DESC"
+		picture = "Portrait_Bulgaria_Boris_III.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+	create_country_leader = {
+		name = "Georgi Dimitrov"
+		desc = "POLITICS_GEORGI_DIMITROV_DESC"
+		picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+	create_country_leader = {
+		name = "Atanas Burov"
+		desc = "POLITICS_ATANAS_BUROV_DESC"
+		picture = "gfx/leaders/BUL/burov.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+	create_country_leader = {
+		name = "Hristo Lukov"
+		desc = "POLITICS_HRISTO_LUKOV_DESC"
+		picture = "portrait_bul_hristo_lukov.dds"
+		expire = "2060.1.1"
+		ideology = legionnairism
+	}
+
+	if = {
+		limit = {
+			has_start_date > 1930.01.01
+			has_start_date < 1949.01.01
+		}
+		add_ideas = {
+			disarmed_nation
+			BUL_bulgarian_tsardom
+			BUL_imro
+			BUL_second_national_catastrophe
+			neutrality_idea
+		}
+
+	}
+
+}
+
+1936.1.1 = {
+	oob = "BUL_1936"
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1
+		tech_engineers = 1
+		motorised_infantry = 1
+		early_fighter = 1
+		fuel_silos = 1
+	}
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1931.6.21"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 60
+		fascism = 35
+		democratic = 5
+		communism = 0
+	}
+	create_country_leader = {
+		name = "Boris III"
+		desc = "POLITICS_BORIS_III_DESC"
+		picture = "Portrait_Bulgaria_Boris_III.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+	create_country_leader = {
+		name = "Georgi Dimitrov"
+		desc = "POLITICS_GEORGI_DIMITROV_DESC"
+		picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+	create_country_leader = {
+		name = "Atanas Burov"
+		desc = "POLITICS_ATANAS_BUROV_DESC"
+		picture = "burov.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+	create_country_leader = {
+		name = "Hristo Lukov"
+		desc = "POLITICS_HRISTO_LUKOV_DESC"
+		picture = "portrait_bul_hristo_lukov.dds"
+		expire = "2060.1.1"
+		ideology = legionnairism
+	}
+
+}
+
+1939.1.1 = {
+	oob = "BUL_1939"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1938.3.27"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
+1940.1.1 = {
+	oob = "BUL_1940"
+}
+
+1941.1.1 = {
+	oob = "BUL_1941"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1941.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+}
+
+1942.1.1 = {
+	oob = "BUL_1942"
+}
+
+1943.1.1 = {
+	oob = "BUL_1943"
+}
+
+1944.1.1 = {
+	oob = "BUL_1944"
+}
+
+1945.1.1 = {
+	oob = "BUL_1944_D"
+	set_politics = {
+		ruling_party = communism
+		last_election = "1945.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 100
+	}
+}
+
+1949.1.1 = {
+	oob = "BUL_1949"
+	set_politics = {
+		ruling_party = communism
+		last_election = "1949.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 100
+	}
+	create_country_leader = {
+		name = "Aleksandar Tsankov"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_Aleksandar_Tsankov_Nazism_1950.dds"
+		expire = "2060.1.1"
+		ideology = nazism
+	}
+	create_country_leader = {
+		name = "Simeon II"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_Simeon_II_Despotism_1970.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+	create_country_leader = {
+		name = "Aleksandar Lilov"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_Aleksandar_Lilov_SocialDemocracy_1970.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1960.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 75
+		democratic = 10
+		monarchism = 10
+		fascism = 5
+	}
+	create_country_leader = {
+		name = "Todor Zhirkov"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_TodorZhivkov.dds"
+		expire = "2060.1.1"
+		ideology = stalinism
+	}
+}
+
+1970.1.1 = {
+	oob = "BUL_1970"
+}
+
+1980.1.1 = {
+	create_country_leader = {
+		name = "Todor Zhivkov"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_TodorZhivkov.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+}
+
+1990.1.1 = {
+	create_country_leader = {
+		name = "Petar Toshev Mladenov"
+		picture = "gfx/leaders/BUL/CW/Bulgaria_PetarToshevMladenov.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+}
+
+2000.1.1 = {
+	oob = "BUL_2000"
+	set_popularities = {
+		islamism = 1
+		fascism = 4
+		democratic = 80
+		communism = 15
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	create_country_leader = {
+		name = "Ivan Kostov"
+		picture = "gfx/leaders/BUL/MD/Bulgaria_Ivan_Kostov.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+	create_country_leader = {
+		name = "Aleksandar Paunov"
+		picture = "gfx/leaders/BUL/MD/Bulgaria_Aleksandar_Paunov_Leninism_2000.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+	create_country_leader = {
+		name = "Boyan Rasate"
+		picture = "gfx/leaders/BUL/MD/Bulgaria_Boyan_Rasate_Neo_Nazism_2000.dds"
+		expire = "2060.1.1"
+		ideology = neo_nazism
+	}
+	create_country_leader = {
+		name = "Simeon II"
+		picture = "gfx/leaders/BUL/MD/Bulgaria_Simeon_II_Despotism_2000.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Georgi Parvanov"
+		picture = "gfx/leaders/BUL/MD/Bulgaria_Georgi_Parvanov.dds"
+		expire = "2060.1.1"
+		ideology = democratic_socialism
+	}
+}
+
+2016.1.1 = {
+	oob = "BUL_2016"
+	set_popularities = {
+		islamism = 1
+		fascism = 4
+		democratic = 78
+		monarchism = 2
+		communism = 15
+	}
+	create_country_leader = {
+		name = "Boyko Borisov"
+		picture = "gfx/leaders/BUL/MD/Bulgaria-Boyko_Borisov.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Rumen Radev"
+		picture = "gfx/leaders/BUL/MD/BUL_Rumen_Radev_Democratic_Independent.dds"
+		expire = "2060.1.1"
+		ideology = democratic_independent
+	}
+}

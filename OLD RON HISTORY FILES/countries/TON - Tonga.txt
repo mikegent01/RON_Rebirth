@@ -1,0 +1,62 @@
+RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 1
+
+oob = "TON_2000"
+
+set_research_slots = 2
+set_convoys = 30
+set_stability = 0.5
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1997.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 40
+	democratic = 56
+	communism = 4
+}
+
+create_country_leader = {
+	name = "Tāufaʻahau Tupou IV"
+	picture = "gfx/leaders/TON/CW/Tonga_Taufa_ahauTupouIV.dds"
+	ideology = absolute_monarchy
+	expire = "2006.9.10"
+}
+
+2006.9.10 = {
+	create_country_leader = {
+		name = "George Tupou V"
+		picture = "gfx/leaders/TON/MD/George_Tupou_V.dds"
+		ideology = absolute_monarchy
+		expire = "2012.3.18"
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Feleti Sevele"
+		picture = "gfx/leaders/TON/MD/Tonga_Feleti_Sevele.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+}
+2012.3.18 = {
+	create_country_leader = {
+		name = "Tupou VI"
+		picture = "gfx/leaders/TON/MD/Tupou_VI.dds"
+		ideology = absolute_monarchy
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Tupou VI"
+		picture = "gfx/leaders/TON/MD/TON_Tupou_VI_Despotism.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+}

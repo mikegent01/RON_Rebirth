@@ -1,0 +1,73 @@
+RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 1101
+set_research_slots = 3
+set_politics = {
+	ruling_party = democratic
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Barak Sopé"
+	picture = "gfx/leaders/VAN/MD/Vanuatu_Barak_Sopé.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "Tallis Obed Moses"
+	picture = "gfx/leaders/VAN/MD/VAN_Tallis_Obed_Moses_Independent.dds"
+	expire = "2060.1.1"
+	ideology = independent
+}
+
+2000.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Kalkot Mataskelekele"
+		picture = "gfx/leaders/VAN/MD/Vanuatu_Kalkot_Mataskelekele.dds"
+		expire = "2060.1.1"
+		ideology = christian_democracy
+	}
+}
+2016.1.1 = {
+	create_country_leader = {
+		name = "Sato Kilman"
+		picture = "gfx/leaders/VAN/MD/Vanuatu_Sato_Kilman.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}
+2020.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "2020.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Tallis Obed Moses"
+		picture = "gfx/leaders/VAN/MD/VAN_Tallis_Obed_Moses_Independent.dds"
+		expire = "2060.1.1"
+		ideology = independent
+	}
+}

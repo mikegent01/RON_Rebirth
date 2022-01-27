@@ -1,0 +1,36 @@
+capital = 803
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+
+set_convoys = 5
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	monarchism = 100
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1935.3.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Volosin Avgusztin"
+	desc = ""
+	picture = "gfx/leaders/RUT/Portrait_Ruthenia_Avgusztin_Volosin.dds"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "András Bródy"
+	desc = ""
+	picture = "gfx/leaders/RUT/Portrait_Ruthenia_Andras_Brody.dds"
+	ideology = moderatism
+
+}

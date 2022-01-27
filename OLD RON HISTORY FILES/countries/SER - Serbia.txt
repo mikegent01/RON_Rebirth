@@ -1,0 +1,314 @@
+RON_start_techs = yes
+RON_country_setup = yes 
+RON_handle_era_flags = yes 
+RON_handle_era_generals = yes
+capital = 107
+oob = "SER_1900"
+
+set_research_slots = 3
+set_convoys = 10
+set_stability = 0.6
+
+if = {
+	limit = {
+		has_start_date < 1910.01.01
+	}
+	add_ideas = {
+		SER_unpopular_monarchy
+		SER_legacy_of_serbo_bulgarian_war
+	}
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1900.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 10
+	monarchism = 80
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Peter I"
+	picture = "gfx/leaders/SER/WW1/Portrait_Serbia_Peter_I.dds"
+	expire = "2060.1.1"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Alexander I"
+	picture = "gfx/leaders/SER/WW1/SER_Alexander_I.dds"
+	expire = "1903.6.11"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Draza Mihailovic"
+	picture = "gfx/leaders/SER/Portrait_Yugoslav_Dragoljub_Draza_Mihailovic.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Milan Nedić"
+	picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Nedic.dds"
+	expire = "2060.1.1"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Aleksandar Ranković"
+	picture = "gfx/leaders/SER/Portrait_Serbia_Aleksandar_Rankovic.dds"
+	expire = "2060.1.1"
+	ideology = leninism
+}
+
+if = {
+	limit = {
+
+		has_start_date < 1930.01.01
+	}
+	create_field_marshal = {
+		name = "Petar Bojovia"
+		picture = "gfx/leaders/SER/WW1/FM-Petar_Bojovia.dds"
+		traits = {
+			serbia_army_trait
+		}
+		skill = 1
+	}
+	create_field_marshal = {
+		name = "Radomir Putnik"
+		picture = "gfx/leaders/SER/WW1/FM-Radomir_Putnik.dds"
+		traits = {
+			serbia_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Pavle Juribia"
+		picture = "gfx/leaders/SER/WW1/General-Pavle_Juribia_uturm.dds"
+		traits = {
+			serbia_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Stepa Stepanovia"
+		picture = "gfx/leaders/SER/WW1/General-Stepa_Stepanovia.dds"
+		traits = {
+			serbia_army_trait
+		}
+		skill = 1
+	}
+}
+
+### WW1 Start Date
+
+1910.1.1 = {
+	oob = "SER_1910"
+
+	if = {
+		limit = {
+			has_start_date > 1909.1.1
+			has_start_date < 1911.1.1
+		}
+		country_event = { id = ww1_serbia.1 days = 762 }
+		country_event = { id = ww1_serbia.1 days = 762 }
+	}
+
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1907.1.12"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		fascism = 10
+		monarchism = 80
+		communism = 10
+	}
+
+	create_country_leader = {
+		name = "Peter I"
+		picture = "gfx/leaders/SER/WW1/Portrait_Serbia_Peter_I.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+		traits = {
+			stout_defender
+		}
+	}
+
+	set_technology = {
+		tech_support = 1
+		early_infantry_weapons = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
+		horses = 1
+		ww1_electronic_mechanical_engineering = 1
+	}
+
+}
+
+1914.1.1 = {
+	oob = "SER_1914"
+}
+
+### END OF WW1 Start Date
+1936.1.1 = {
+	if = {
+		limit = {
+			has_start_date < 1949.01.01
+		}
+		add_ideas = {
+			anti_german_military
+		}
+	}
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1936.1.1"
+		election_frequency = 36
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 30
+		communism = 20
+		monarchism = 30
+	}
+	create_country_leader = {
+		name = "Peter II"
+		picture = "gfx/leaders/SER/Portrait_Yugoslavia_Peter_II.dds"
+		expire = "2060.1.1"
+		ideology = absolute_monarchy
+	}
+	create_country_leader = {
+		name = "Draza Mihailovic"
+		picture = "gfx/leaders/SER/Portrait_Yugoslav_Dragoljub_Draza_Mihailovic.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+	create_country_leader = {
+		name = "Milan Nedić"
+		picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Nedic.dds"
+		expire = "2060.1.1"
+		ideology = fascism_ideology
+	}
+	create_country_leader = {
+		name = "Aleksandar Ranković"
+		picture = "gfx/leaders/SER/Portrait_Serbia_Aleksandar_Rankovic.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+	set_technology = {
+		tech_support = 1
+		tech_engineers = 1
+		tech_mountaineers = 1
+		early_fighter = 1
+		basic_light_tank = 1
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		fuel_silos = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+1941.1.1 = {
+	oob = "SER_1941"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1941.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+}
+
+1942.1.1 = {
+	oob = "SER_1942"
+}
+
+1943.1.1 = {
+	oob = "SER_1943"
+}
+
+1949.1.1 = {
+	if = {
+		limit = {
+			has_start_date > 1948.01.01
+		}
+		set_cosmetic_tag = SER_MODERN
+	}
+}
+
+2000.1.1 = {
+	oob = "SER_2000"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Aleksandar Vucic"
+		picture = "gfx/leaders/SER/MD/Serbia-Aleksandar_Vucic.dds"
+		expire = "2060.1.1"
+		ideology = nationalism
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Boris Tadić"
+		picture = "gfx/leaders/SER/MD/Serbia_Boris_Tadić.dds"
+		expire = "2060.1.1"
+		ideology = democratic_socialism
+	}
+}
+2016.1.1 = {
+	oob = "SER_2016"
+	set_popularities = {
+		fascism = 15
+		democratic = 70
+		communism = 15
+	}
+}
+
+2020.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "2020.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Aleksandar Vučić"
+		picture = "gfx/leaders/SER/MD/SER_Aleksandar_Vučić_Populism.dds"
+		expire = "2060.1.1"
+		ideology = populism
+	}
+}

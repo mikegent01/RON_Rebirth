@@ -1,0 +1,569 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 278
+oob = "ARG_1900"
+set_country_flag = monroe_doctrine
+add_ideas = {
+	export_focus
+	tax_low
+	tariffs_average
+	civilian_economy
+	press_regulated
+	key_industries
+	fdi_allowed
+	security_minor_restrictions
+	foreign_volunteers
+	train_none
+	officer_train_none
+	education_budget2
+	health_budget2
+	foreign_isolationism
+}
+
+set_convoys = 120
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1900.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 95
+	communism = 5
+}
+
+create_country_leader = {
+	name = "Julio Argentino Roca"
+	picture = "gfx/leaders/ARG/WW1/ARG_Julio_Argentino_Roca.dds"
+	expire = "2060.1.1"
+	ideology = nationalism
+}
+
+create_country_leader = {
+	name = "Hipolito Yrigoyen"
+	desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
+	picture = "gfx/leaders/ARG/WW1/Portrait_Argentina_Hipolito_Yrigoyen.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "José Félix Uriburu"
+	picture = "INT/Jose_Felix_Uriburu.tga"
+	expire = "2060.1.1"
+	ideology = ultranationalism
+}
+
+create_country_leader = {
+	name = "Rodolfo Ghioldi"
+	desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
+	picture = "gfx/leaders/ARG/Portrait_Argentine_Rodolfo_Ghioldi.tga"
+	expire = "2060.1.1"
+	ideology = marxism
+	traits = {
+		dictator
+	}
+}
+
+
+1910.1.1 = {
+	oob = "ARG_1910"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1907.1.12"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		democratic = 95
+		communism = 5
+	}
+
+	set_technology = {
+		tech_support = 1
+		early_infantry_weapons = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
+		horses = 1
+		ww1_electronic_mechanical_engineering = 1
+	}
+
+
+}
+
+1914.1.1 = {
+	oob = "ARG_1914"
+}
+
+1933.1.1 = {
+	oob = "ARG_1933"
+	set_naval_oob = "ARG_1933_naval_legacy"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 5
+		fascism = 5
+		communism = 12
+		monarchism = 78
+	}
+	create_country_leader = {
+		name = "Agustín Pedro Justo"
+		desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.tga"
+		expire = "2060.1.1"
+		ideology = militarism
+	}
+
+	create_country_leader = {
+		name = "Marcelo T. de Alvear"
+		desc = "POLITICS_MARCELO_ALVEAR_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentine_Marcelo_Alvear.tga"
+		expire = "2060.1.1"
+		ideology = liberalism
+	}
+	create_country_leader = {
+		name = "Juan Domingo Peron"
+		picture = "gfx/leaders/ARG/Portrait_Argentina_Juan_Domingo_Peron.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+		traits = {
+			dictator
+		}
+	}
+
+	create_country_leader = {
+		name = "Rodolfo Ghioldi"
+		desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentine_Rodolfo_Ghioldi.tga"
+		expire = "2060.1.1"
+		ideology = marxism
+		traits = {
+			dictator
+		}
+	}
+
+	if = {
+		limit = {
+			has_start_date > 1930.01.01
+			has_start_date < 1949.01.01
+		}
+		add_ideas = {
+			ra_political_turmoil
+			ra_roca_runciman_treaty
+			ra_strikes_and_lockouts
+			ARG_saavedra_lamas_treaty
+		}
+
+	}
+}
+
+1936.1.1 = {
+	oob = "ARG_1936"
+	set_naval_oob = "ARG_1936_naval_legacy"
+	# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+		gw_artillery = 1
+		interwar_antiair = 1
+		early_fighter = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1931.11.8"
+		election_frequency = 72
+		elections_allowed = yes
+	}
+	set_popularities = { ### REVISED THE PARTIES' POPULARITY TO REFLECT EFFECTS OF THE INFAMOUS DECADE.
+		democratic = 30
+		monarchism = 40
+		fascism = 15
+		communism = 15
+	}
+	create_country_leader = {
+		name = "Agustín Pedro Justo"
+		desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.tga"
+		expire = "1943.1.11"
+		ideology = militarism
+		traits = { ### NEW TRAITS FOR STARTER LEADER
+			civil_engineer
+			misguided_patriot
+		}
+	}
+	create_country_leader = {
+		name = "Marcelo T. de Alvear"
+		desc = "POLITICS_MARCELO_ALVEAR_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentine_Marcelo_Alvear.tga"
+		expire = "1942.3.23"
+		ideology = socialism
+		traits = {
+			ra_antitotalitarian
+			ra_respected_politician
+		}
+	}
+
+	create_country_leader = {
+		name = "Nimio de Anquín"
+		desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+		picture = "gfx/leaders/ARG/ARG_leader_fascism_nimio_anquin.dds"
+		expire = "1979.05.16"
+		ideology = fascism_ideology
+		traits = {
+			ra_erudite_conversationalist
+			ra_national_syndicalism
+		}
+	}
+
+	create_country_leader = {
+		name = "Jose Fernando Penelon"
+		desc = "POLITICS_JOSE_FERNANDO_PENELON_DESC"
+		picture = "gfx/leaders/ARG/ARG_leader_communism_jose_penelon.dds"
+		expire = "1965.11.29"
+		ideology = marxism
+		traits = {
+			ra_media_expert
+			ra_comintern_secreatary
+		}
+	}
+
+	create_country_leader = {
+		name = "Rodolfo Ghioldi"
+		desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
+		picture = "gfx/leaders/ARG/Portrait_Argentine_Rodolfo_Ghioldi.tga"
+		expire = "2060.1.1"
+		ideology = marxism
+		traits = {
+			dictator
+		}
+	}
+	create_country_leader = {
+		name = "Juan Domingo Peron"
+		picture = "gfx/leaders/ARG/Portrait_Argentina_Juan_Domingo_Peron.dds"
+		expire = "1974.6.1"
+		ideology = peronism
+		traits = {
+			dictator
+		}
+	}
+
+	### VARIANTS ###
+	# 1936 Start #
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Cervantes Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Veinticinco de Mayo Class"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_armor_upgrade = 1
+			ship_gun_upgrade = 1
+		}
+	}
+}
+
+1939.1.1 = {
+	oob = "ARG_1939"
+	set_naval_oob = "ARG_1939_naval_legacy"
+}
+
+1940.1.1 = {
+	oob = "ARG_1940"
+	set_naval_oob = "ARG_1940_naval_legacy"
+}
+
+1949.1.1 = {
+	oob = "ARG_1949"
+	set_naval_oob = "ARG_1949_naval_legacy"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1949.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 60
+		democratic = 39
+		communism = 1
+	}
+	create_country_leader = {
+		name = "Juan Domingo Peron"
+		picture = "gfx/leaders/ARG/Portrait_Argentina_Juan_Domingo_Peron.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+		traits = {
+			dictator
+		}
+	}
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1958.2.23"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 60
+		communism = 40
+	}
+	create_country_leader = {
+		name = "Arturo Frondizi"
+		picture = "gfx/leaders/ARG/CW/Argentina_ArturoFrondizi.dds"
+		expire = "2060.1.1"
+		ideology = liberalism
+	}
+	create_country_leader = {
+		name = "Juan Carlos Ongania"
+		picture = "gfx/leaders/ARG/CW/Argentina_JuanCarlosOngania.dds"
+		expire = "2060.1.1"
+		ideology = militarism
+	}
+	create_country_leader = {
+		name = "Hector Campora"
+		picture = "gfx/leaders/ARG/CW/Argentina_1960_Hector_Campora_Peronism.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+	}
+	create_country_leader = {
+		name = "Ricard Balbin"
+		picture = "gfx/leaders/ARG/CW/Argentina_1960_Ricardo_Balbin_Lw_Socialism.dds"
+		expire = "2060.1.1"
+		ideology = lw_socialism
+	}
+}
+
+1970.1.1 = {
+	oob = "ARG_1970"
+	set_naval_oob = "ARG_1970_naval_legacy"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+	create_country_leader = {
+		name = "Juan Domingo Peron"
+		picture = "gfx/leaders/ARG/CW/Argentina_1970_Juan_Peron.dds"
+		expire = "1974.6.1"
+		ideology = peronism
+	}
+}
+
+1974.7.1 = {
+	create_country_leader = {
+		name = "Isabel Peron"
+		picture = "gfx/leaders/ARG/CW/Isabel_Peron.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+	}
+}
+
+1980.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+	#create_country_leader = {
+	#	name = "Italo Luder"
+	#	picture = "gfx/leaders/ARG/CW/Argentina_1980_Italo_Luder_Peronism.dds"
+	#	expire = "2060.1.1"
+	#	ideology = peronism
+	#}
+	create_country_leader = {
+		name = "Alvaro Alsogaray"
+		picture = "gfx/leaders/ARG/CW/Alvaro_Alsogaray.dds"
+		expire = "2060.1.1"
+		ideology = centrism
+	}
+	create_country_leader = {
+		name = "Jorge Rafael Videla"
+		picture = "gfx/leaders/ARG/CW/Argentina_Jorge_Rafael_Videla.dds"
+		expire = "2060.1.1"
+		ideology = rw_militarism
+	}
+	create_country_leader = {
+		name = "Raul Alfonsin"
+		picture = "gfx/leaders/ARG/CW/Argentina_1980_Raul_Alfonsin_Lw_Socialism.dds"
+		expire = "2060.1.1"
+		ideology = lw_socialism
+	}
+	create_country_leader = {
+		name = "Oscar Allende"
+		picture = "gfx/leaders/ARG/CW/Argentina_1980_Oscar_Allende_Socdem.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+}
+
+1990.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1989.5.14"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		fascism = 47
+		democratic = 37
+		monarchism = 16
+	}
+	create_country_leader = {
+		name = "Carlos Menem"
+		picture = "gfx/leaders/ARG/CW/Argentine-Carlos_Menem.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+	}
+	create_country_leader = {
+		name = "Oscar Allende"
+		picture = "gfx/leaders/ARG/CW/Argentina_1990_Oscar_Allende_LW_socialism.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+}
+
+2000.1.1 = {
+	oob = "ARG_2000"
+	set_naval_oob = "ARG_2000_naval_legacy"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1999.10.24"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 48
+		fascism = 38
+		monarchism = 13
+		communism = 1
+	}
+	create_country_leader = {
+		name = "Fernando de la Rúa"
+		picture = "gfx/leaders/ARG/MD/Argentina_Fernando_de_la_Rúa.dds"
+		expire = "2060.1.1"
+		ideology = liberalism
+	}
+	create_country_leader = {
+		name = "Ernesto Kirchner"
+		picture = "gfx/leaders/ARG/MD/Argentina_Ernesto_Kirchner.dds"
+		expire = "2060.1.1"
+		ideology = kirchnerism
+	}
+	create_country_leader = {
+		name = "Eduarto Duhalde"
+		picture = "gfx/leaders/ARG/MD/Argentina_Eduarto_Duhalde.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+	}
+	create_country_leader = {
+		name = "Roberto Lavagna"
+		picture = "gfx/leaders/ARG/MD/Argentina_Roberto_Lavagna.dds"
+		expire = "2060.1.1"
+		ideology = independent
+	}
+
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Cristina Fernández de Kirchner"
+		picture = "gfx/leaders/ARG/MD/Argentina_Cristina_Fernández_de_Kirchner.dds"
+		expire = "2060.1.1"
+		ideology = kirchnerism
+	}
+}
+
+2016.1.1 = {
+	oob = "ARG_2016"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2015.11.22"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 51
+		fascism = 49
+	}
+	create_country_leader = {
+		name = "Mauricio Macri"
+		picture = "gfx/leaders/ARG/MD/Argentina_Mauricio_Macri.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+	create_country_leader = {
+		name = "Cristina Fernandez"
+		picture = "gfx/leaders/ARG/MD/Argentina_Cristina_Fernandez.dds"
+		expire = "2060.1.1"
+		ideology = kirchnerism
+	}
+	create_country_leader = {
+		name = "Daniel Scioli"
+		picture = "gfx/leaders/ARG/MD/Argentina_Daniel_Scioli.dds"
+		expire = "2060.1.1"
+		ideology = peronism
+	}
+	create_country_leader = {
+		name = "Alberto Fernandez"
+		picture = "gfx/leaders/ARG/MD/Argentina_Alberto_Fernandez.dds"
+		expire = "2060.1.1"
+		ideology = populism
+	}
+}
+
+2020.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "2019.10.27"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		monarchism = 60
+		democratic = 40
+	}
+}	

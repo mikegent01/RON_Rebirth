@@ -1,0 +1,135 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 274
+set_convoys = 15
+set_politics = {
+	ruling_party = communism
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+}
+
+create_country_leader = {
+	name = "Kwam Nkrumah"
+	picture = "gfx/leaders/GHA/CW/Ghana_Kwame_Nkrumah.dds"
+	expire = "2060.1.1"
+	ideology = african_socialism
+}
+create_country_leader = {
+	name = "Edward Akufo"
+	picture = "gfx/leaders/GHA/CW/Ghana_EdwardAkufo.dds"
+	expire = "2060.1.1"
+	ideology = militarism
+}
+
+create_country_leader = {
+	name = "Jerry Rawlings"
+	picture = "gfx/leaders/GHA/MD/Ghana_Jerry_Rawlings.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1960.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 100
+	}
+}
+
+1970.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+}
+
+1980.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1980.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 100
+	}
+	create_country_leader = {
+		name = "Hilla Limann"
+		picture = "gfx/leaders/GHA/CW/Ghana_Hilla_Limann.dds"
+		expire = "2060.1.1"
+		ideology = african_socialism
+	}
+	create_country_leader = {
+		name = "Jerry Rawlings"
+		picture = "gfx/leaders/GHA/CW/Ghana_Jerry_Rawlings.dds"
+		expire = "2060.1.1"
+		ideology = authoritarian_democracy
+	}
+}
+
+1990.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1990.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+}
+
+2000.1.1 = {
+	oob = "GHA_2000"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "John Kufuor"
+		picture = "gfx/leaders/GHA/MD/Ghana_John_Kufuor.dds"
+		expire = "2060.1.1"
+		ideology = liberalism
+	}
+}
+
+
+2016.1.1 = {
+	create_country_leader = {
+		name = "John Dramani Mahama"
+		picture = "gfx/leaders/GHA/MD/Ghana_JohnDramaniMahama.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Nana Akufo-Addo"
+		picture = "gfx/leaders/GHA/MD/GHA_Nana_Akufo-Addo_Conservatism.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}

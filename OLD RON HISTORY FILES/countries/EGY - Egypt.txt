@@ -1,0 +1,204 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 446
+oob = "EGY_1936"
+set_convoys = 20
+
+if = {
+	limit = {
+		has_start_date > 1918.01.01
+		has_start_date < 1945.01.01
+	}
+	set_cosmetic_tag = EGY_DOMINION
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1910.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 25
+	fascism = 20
+	communism = 5
+	monarchism = 50
+}
+
+create_country_leader = {
+	name = "Abbas II"
+	picture = "gfx/leaders/EGY/WW1/Abbas_II.dds"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Muhammad Naguib"
+	picture = "Muhammad_Naguib.dds"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Salah Adli"
+	picture = "Salah_Adli.dds"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Gamal Abdel Nasser"
+	picture = "gfx/leaders/EGY/CW/United_Arab_Republic_Nasser.dds"
+	ideology = nasserism
+}
+
+
+1914.12.19 = {
+	create_country_leader = {
+		name = "Hussein Kamel"
+		picture = "gfx/leaders/EGY/WW1/Hussein_Kamel.dds"
+		ideology = absolute_monarchy
+	}
+}
+
+1922.3.15 = {
+	create_country_leader = {
+		name = "Fuad I"
+		picture = "gfx/leaders/EGY/WW1/Fuad_I.dds"
+		ideology = absolute_monarchy
+	}
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 25
+		fascism = 20
+		communism = 5
+		monarchism = 50
+	}
+	create_country_leader = {
+		name = "Farouk Muhammad Ali"
+		picture = "Portrait_Egypt_Farouk.dds"
+		ideology = absolute_monarchy
+	}
+}
+
+1949.1.1 = {
+	oob = "EGY_1949"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1949.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "gfx/leaders/EGY/Farouk Muhammad Ali"
+		picture = "gfx/leaders/EGY/CW/Egypt_Farouk_I.dds"
+		ideology = absolute_monarchy
+	}
+}
+
+1952.1.1 = {
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1952.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+}
+
+1970.1.1 = {
+	oob = "EGY_1970"
+	create_country_leader = {
+		name = "Anwar Sadat"
+		picture = "gfx/leaders/EGY/CW/Egypt_AnwarSadat.dds"
+		ideology = rw_nationalism
+	}
+}
+
+1980.1.1 = {
+	create_country_leader = {
+		name = "Anwar Sadat"
+		picture = "gfx/leaders/EGY/CW/Egypt_Anwar_Sadat.dds"
+		expire = "2060.1.1"
+		ideology = rw_nationalism
+	}
+}
+
+1990.1.1 = {
+	create_country_leader = {
+		name = "Hosni Mubarak"
+		picture = "gfx/leaders/EGY/CW/Egypt_Hosni_Mubarak.dds"
+		expire = "2060.1.1"
+		ideology = rw_nationalism
+	}
+}
+
+2000.1.1 = {
+	oob = "EGY_2000"
+	set_naval_oob = "EGY_2000_naval_legacy"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+	create_country_leader = {
+		name = "Hosni Mubarak"
+		picture = "gfx/leaders/EGY/MD/Egypt_Hosni_Mubarak.dds"
+		expire = "2060.1.1"
+		ideology = rw_nationalism
+	}
+	create_country_leader = {
+		name = "Adbel Fattahel-Sisi"
+		picture = "gfx/leaders/EGY/MD/Egypt_AdbelFattahel-Sisi.dds"
+		expire = "2060.1.1"
+		ideology = progressivism
+	}
+
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Hosni Mubarak"
+		picture = "gfx/leaders/EGY/MD/Egypt_Hosni_Mubarak.dds"
+		expire = "2060.1.1"
+		ideology = rw_nationalism
+	}
+}
+
+2016.1.1 = {
+	oob = "EGY_2016"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2016.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Abdel Fattah el-Sisi"
+		picture = "gfx/leaders/EGY/MD/EGY_Abdel_Fattah_el-Sisi_Independent.dds"
+		expire = "2060.1.1"
+		ideology = progressivism
+	}
+}

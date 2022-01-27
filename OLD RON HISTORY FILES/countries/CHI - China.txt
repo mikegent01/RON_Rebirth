@@ -1,0 +1,381 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 613# Nanjing
+oob = "CHI_1914"
+
+add_ideas = {
+	#laws
+	export_focus
+	tax_average
+	tariffs_high
+	low_economic_mobilisation
+	press_censored
+	major_industries
+	fdi_regulated
+	security_minor_restrictions
+	foreign_legion
+	train_low
+	age_18
+	age_35
+	officer_train_none
+	education_budget3
+	foreign_neutral
+	#ideas
+	###incompetent_industry_fake
+	###incompetent_industry_fake_navy
+	###PRC_lack_skilled_personnel
+}
+
+## FLAGS
+set_global_flag = CHI_sino_german_mission_going_FLAG
+
+set_stability = 0.2
+set_war_support = 0.5
+save_global_event_target_as = WTT_current_china_leader
+set_convoys = 40
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1910.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Xu Shichang"
+	picture = "gfx/leaders/CHI/WW1/BeiyangGov_XuShichang.dds"
+	expire = "2060.1.1"
+	ideology = chinese_nationalism
+}
+
+create_country_leader = {
+	name = "Zhang Guotao"
+	desc = "POLITICS_ZHANG_GUOTAO_DESC"
+	picture = "gfx/leaders/CHI/Zhang_Guotao.dds"
+	expire = "2060.1.1"
+	ideology = leninism
+	traits = {
+		cornered_fox
+	}
+}
+
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "POLITICS_WANG_JINGWEI_DESC"
+	picture = "gfx/leaders/CHI/INT/China_Wang_Jingwei.dds"
+	expire = "2060.1.1"
+	ideology = japanese_fascism
+}
+
+create_country_leader = {
+	name = "Weng Wenhao"
+	desc = "POLITICS_ZHANG_LAN_DESC"
+	picture = "gfx/leaders/CHI/Weng_Wenhao.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+
+
+1919.1.1 = {
+	oob = "CHI_1919"
+	add_ideas = boxer_protocols
+	add_ideas = boxer_protocols_visible
+	country_lock_all_division_template = yes
+}
+
+1933.1.1 = {
+	recruit_character = CHI_dai_li_wtt
+	recruit_character = CHI_random_prince_of_terror
+	oob = "CHI_1933"
+	set_naval_oob = "CHI_1933_naval_legacy"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1933.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	country_lock_all_division_template = no
+	remove_ideas = boxer_protocols
+	remove_ideas = boxer_protocols_visible
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Chiang Kai-Shek"
+		desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+		picture = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+		traits = {
+			CHI_kaishek_T1  CHI_kaishek_T2 CHI_kaishek_T3 CHI_kaishek_T4 CHI_kaishek_T5
+		}
+	}
+	create_country_leader = {
+		name = "Wang Jingwei"
+		picture = "INT/China_Wang_Jingwei.dds"
+		expire = "1935.12.1"
+		ideology = chinese_nationalism
+	}
+}
+
+1936.1.1 = {
+	oob = "CHI_1936"
+	set_naval_oob = "CHI_1936_naval_legacy"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 16
+		democratic = 12
+		communism = 0
+		monarchism = 72
+	}
+	create_country_leader = {
+		name = "Chiang Kai-Shek"
+		desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+		picture = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+		traits = {
+			CHI_kaishek_T1  CHI_kaishek_T2 CHI_kaishek_T3 CHI_kaishek_T4 CHI_kaishek_T5
+		}
+	}
+	add_opinion_modifier = {
+		target = PRC
+		modifier = hostile_status
+	}
+	# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		interwar_antiair = 1
+		early_fighter = 1
+		early_bomber = 1
+		mass_assault = 1
+		fleet_in_being = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+	if = {
+		limit = {
+			has_start_date > 1935.01.01
+			has_start_date < 1948.01.01
+		}
+
+		add_ideas = {
+			# LAWS
+			free_trade
+			low_economic_mobilisation
+
+			# ADVISORS
+			CHI_alexander_von_falkenhausen
+
+			# NATIONAL SPIRITS
+			CHI_nine_power_treaty
+			CHI_army_corruption_I5
+			CHI_ineffective_bureaucracy
+			CHI_incompetent_officers
+
+			CHI_hyper_inflation_1
+			SHA_popular_support_good_I2
+			CHI_GER_cooperation_I1
+
+			###incompetent_industry_fake
+			###incompetent_industry_fake_navy
+			###PRC_lack_skilled_personnel
+		}
+
+	}
+	remove_ideas = boxer_protocols
+	remove_ideas = boxer_protocols_visible
+	country_lock_all_division_template = no
+}
+
+1939.1.1 = {
+	oob = "CHI_1939"
+	set_naval_oob = "CHI_1939_naval_legacy"
+
+
+	### 1939-1945 Stuff
+	if = {
+		limit = {
+			has_start_date > 1939.01.01
+			has_start_date < 1946.01.01
+		}
+		set_stability = 0.5
+		set_war_support = 0.7
+
+		add_ideas = {
+			war_economy
+			service_by_requirement
+			closed_economy
+		}
+		if = {
+			limit = {
+				has_dlc = "Waking the Tiger"
+			}
+			remove_ideas = CHI_army_corruption_1
+			add_ideas = {
+				#national spirits
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+				CHI_army_corruption_2
+				CHI_ineffective_bureaucracy
+				CHI_incompetent_officers
+				free_trade
+				CHI_military_affairs_commission
+				###incompetent_industry_fake
+				###incompetent_industry_fake_navy
+				###PRC_lack_skilled_personnel
+			}
+		}
+
+		set_global_flag = fall_of_nanjing
+		create_faction = chinese_united_front
+		add_to_faction = PRC
+		add_to_faction = SHX
+		add_to_faction = GXC
+		add_to_faction = YUN
+		add_to_faction = XSM
+		remove_opinion_modifier = { target = PRC modifier = hostile_status }
+		#load_oob = "CHI_united_front"
+		set_global_flag = CHI_unite
+	}
+
+}
+
+1940.1.1 = {
+	oob = "CHI_1940"
+	set_naval_oob = "CHI_1940_naval_legacy"
+}
+
+1941.1.1 = {
+	oob = "CHI_1941"
+}
+
+1942.1.1 = {
+	oob = "CHI_1942"
+}
+
+1943.1.1 = {
+	oob = "CHI_1943"
+}
+
+1944.1.1 = {
+	oob = "CHI_1944"
+}
+
+1945.1.1 = {
+	oob = "CHI_1944_D"
+}
+
+1949.1.1 = {
+	if = {
+		limit = {
+			has_start_date > 1948.01.01
+			has_start_date < 1950.01.01
+		}
+		add_ideas = {
+			CHI_army_corruption_1
+			CHI_incompetent_officers
+		}
+	}
+	oob = "CHI_1949"
+	set_naval_oob = "CHI_1949_naval_legacy"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1949.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Chiang Kai-Shek"
+		desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+		picture = "gfx/leaders/CHI/CW/China_Chiang_Kai_Shek_1949.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+		traits = {
+			generallissimo
+		}
+	}
+}
+
+1970.1.1 = {
+	oob = "CHI_1970"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Chiang Kai-Shek"
+		desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+		picture = "gfx/leaders/CHI/CW/Taiwan_ChiangKai-Shek.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+		traits = {
+			generallissimo
+		}
+	}
+}
+
+2000.1.1 = {
+	oob = "CHI_2000"
+	set_naval_oob = "CHI_2000_naval_legacy"
+	create_country_leader = {
+		name = "Lee Teng-Hui"
+		picture = "gfx/leaders/CHI/MD/Taiwan_Lee_Teng-hui.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Chen Shui-bian"
+		picture = "gfx/leaders/CHI/MD/Taiwan_Chen_Shui-bian.dds"
+		expire = "2060.1.1"
+		ideology = independent
+	}
+}
+
+2016.1.1 = {
+	create_country_leader = {
+		name = "Ma Ying-Jeou"
+		picture = "gfx/leaders/CHI/MD/Taiwan_MaYing-jeou.dds"
+		expire = "2060.1.1"
+		ideology = chinese_nationalism
+	}
+}
+
+2020.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2020.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	create_country_leader = {
+		name = "Tsai Ing-wen"
+		picture = "gfx/leaders/CHI/MD/CHI_Tsai_Ing-wen_Progressivism.dds"
+		expire = "2060.1.1"
+		ideology = progressivism
+	}
+}

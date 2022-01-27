@@ -1,0 +1,65 @@
+recruit_character = GUC_long_yun
+recruit_character = GUC_lu_han
+recruit_character = GUC_li_hongzhang
+recruit_character = GUC_alex_walker
+recruit_character = GUC_johannes_taylor
+recruit_character = GUC_marcus_brown
+recruit_character = GUC_bob_brown
+RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 325
+if = {
+	limit = {
+		has_dlc = "Waking the Tiger"
+	}
+	add_ideas = {
+		PRC_government_corruption
+		CHI_ineffective_bureaucracy_warlord
+	}
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 20
+	monarchism = 80
+}
+
+create_country_leader = {
+	name = "Long Yun"
+	desc = "POLITICS_LONG_YUN_DESC"
+	picture = "GFX_portrait_yun_long_yun"
+	expire = "2060.1.1"
+	ideology = chinese_nationalism
+}
+
+create_corps_commander = {
+	name = "Lu Han"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = {
+		nationalist_chinese
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+1900.1.1 = {
+	create_country_leader = {
+		name = "Li Hongzhang"
+		picture = "Portrait_Li_Hongzhang.dds"
+		ideology = absolute_monarchy
+		expire = "1901.11.7"
+	}
+}
+1936.1.1 = {
+	set_technology = {
+		infantry_weapons = 1
+	}
+}

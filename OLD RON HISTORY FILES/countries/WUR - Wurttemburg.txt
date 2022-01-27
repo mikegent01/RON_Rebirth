@@ -1,0 +1,39 @@
+﻿RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 50
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 20
+	communism = 10
+	monarchism = 50
+}
+
+create_country_leader = {
+	name = "Karl Wendlinger"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+	expire = "1960.1.1"
+	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Heinrich Daluege"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
+	expire = "1960.1.1"
+	ideology = stalinism
+}
+
+create_country_leader = {
+	name = "Johann Ungerer"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_2.dds"
+	expire = "1960.1.1"
+	ideology = socialism
+}

@@ -1,0 +1,64 @@
+﻿RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 611
+oob = "MEN_1936"
+
+add_ideas = {
+	MON_nomadic
+}
+
+add_ideas = {
+	export_focus
+	tax_low
+	tariffs_average
+	civilian_economy
+	press_regulated
+	key_industries
+	fdi_allowed
+	foreign_volunteers
+	train_none
+	officer_train_none
+	security_minor_restrictions
+	education_budget2
+	health_budget2
+	foreign_isolationism
+}
+
+add_ideas = {
+	press_state
+	security_police_state
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 80
+	monarchism = 20
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "GFX_portrait_men_demchugdongrub"
+	expire = "2060.1.1"
+	ideology = fascist_monarchism
+	traits = {
+		spirit_of_genghis
+	}
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
+	picture = "GFX_portrait_men_demchugdongrub"
+	expire = "2060.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		spirit_of_genghis
+	}
+}

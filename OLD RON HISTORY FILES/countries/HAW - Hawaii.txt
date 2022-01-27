@@ -1,0 +1,25 @@
+﻿RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 629
+set_research_slots = 3
+
+set_popularities = {
+	democratic = 60
+	communism = 10
+	monarchism = 30
+}
+
+create_country_leader = {
+	name = "Liliʻuokalani"
+	picture = "gfx/leaders/ARG/WW1/Queen_Liliuokalani.dds"
+	expire = "1917.11.11"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Joseph Poindexter"
+	picture = "Joseph_Poindexter.dds"
+	expire = "1960.1.1"
+	ideology = conservatism
+}
+

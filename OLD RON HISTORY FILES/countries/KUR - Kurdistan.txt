@@ -1,0 +1,34 @@
+RON_start_techs = yes
+RON_country_setup = yes
+RON_handle_era_flags = yes
+RON_handle_era_generals = yes
+capital = 421
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 23
+	democratic = 44
+	communism = 13
+	islamism = 20
+}
+
+create_country_leader = {
+	name = "Masoud Barzani"
+	picture = "gfx/leaders/KUR/MD/Masoud_Barzani_Nationalism.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+
+2016.1.1 = {
+	oob = "KUR_2016"
+}
+
+2020.1.1 = {
+	oob = "KUR_2020"
+}

@@ -1,0 +1,413 @@
+RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 49
+
+set_research_slots = 3
+add_ideas = {
+	limited_conscription
+}
+
+oob = "TUK_1919"
+
+add_ideas = {
+	export_focus
+	tax_average
+	tariffs_average
+	civilian_economy
+	press_free
+	private_control
+	fdi_allowed
+	train_medium
+	officer_train_low
+	security_liberty_first
+	education_budget5
+	health_budget5
+	foreign_neutral
+	foreign_volunteers
+}
+
+set_convoys = 20
+set_stability = 0.55
+### WW1 Start Date
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1907.1.12"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 58
+	democratic = 42
+}
+
+create_country_leader = {
+	name = "Mustafa Kemal Atatürk"
+	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+	expire = "1938.11.10"
+	ideology = kemalism
+}
+
+create_country_leader = {
+	name = "Şefik Hüsnü"
+	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
+	expire = "2060.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Celâl Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Celal_Bayar.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Recep Peker"
+	desc = "POLITICS_RECEP_PEKER_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Recep_Peker.dds"
+	expire = "2060.1.1"
+	ideology = fascism_ideology
+}
+
+if = {
+	limit = {
+		has_start_date > 1900.01.01
+		has_start_date < 1923.01.01
+	}
+	set_cosmetic_tag = TUR_Turkish_National_Movement
+}
+
+### END OF WW1 Start Date
+1919.1.1 = {
+
+	if = {
+		limit = {
+			has_start_date > 1918.01.01
+			has_start_date < 1920.01.01
+		}
+		load_oob = "TUR_independence_war"
+		declare_war_on = {
+			target = FRA
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = ITA
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = GRE
+			type = annex_everything
+		}
+	}
+
+
+}
+
+1936.1.1 = {
+
+	oob = "TUR_1936"
+	set_naval_oob = "TUR_1936_naval_legacy"
+
+	### Guarantee Romania
+	if = {
+		limit = {
+			has_start_date > 1935.01.01
+			has_start_date < 1937.01.01
+		}
+		give_guarantee = ROM
+		give_guarantee = GRE
+		give_guarantee = YUG
+	}
+
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_mountaineers = 1
+		gw_artillery = 1
+		interwar_antiair = 1
+		early_fighter = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1935.2.8"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 10
+		monarchism = 90
+	}
+	# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
+	create_country_leader = {
+		name = "Ismet Inönü"
+		desc = "POLITICS_ISMET_INÖNÜ_DESC"
+		picture = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+		expire = "2060.1.1"
+		ideology = kemalism
+		traits = {
+			extreme_cautious diplomatic_acrobat
+		}
+	}
+	create_country_leader = {
+		name = "Mustafa Kemal Atatürk"
+		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+		picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+		expire = "1938.11.10"
+		ideology = kemalism
+		traits = {
+			founder_of_republic
+		}
+	}
+
+	if = {
+		limit = {
+			has_start_date > 1935.01.01
+			has_start_date < 1949.01.01
+		}
+		add_ideas = {
+			entente_balkanique
+			limited_conscription
+			debt_of_ottomans
+			ten_years_war_exhaustion
+			kurdish_separatism
+		}
+
+
+	}
+	### VARIANTS ###
+	# 1936 Start #
+	### Ship Variants ###
+	create_equipment_variant = {
+		name = "Kocatepe Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Tinaztepe Class"
+		type = destroyer_1
+		obsolete = yes
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Dumlupinar Class"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 2
+			sub_engine_upgrade = 2
+			sub_stealth_upgrade = 2
+			sub_torpedo_upgrade = 2
+		}
+	}
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1939.2.8"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Ismet Inönü"
+		desc = "POLITICS_ISMET_INÖNÜ_DESC"
+		picture = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+		expire = "2060.1.1"
+		ideology = kemalism
+	}
+	if = {
+		limit = {
+			has_unit_leader = 59
+		}
+		remove_unit_leader = 59
+	}
+}
+
+1949.1.1 = {
+	oob = "TUR_1949"
+	set_naval_oob = "TUR_1949_naval_legacy"
+
+	create_country_leader = {
+		name = "Cemal Gursel"
+		picture = "gfx/leaders/TUR/CW/Turkey_Cemal_Gursel.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+	create_country_leader = {
+		name = "Alparslan Türkeş"
+		picture = "gfx/leaders/TUR/CW/Turkey_Alparslan_Türkeş_Ultranationalism_1970.dds"
+		expire = "2060.1.1"
+		ideology = ultranationalism
+	}
+	create_country_leader = {
+		name = "Ismael Bilen"
+		picture = "gfx/leaders/TUR/CW/Turkey_Ismael_Bilen_Marxism_1970.dds"
+		expire = "2060.1.1"
+		ideology = marxism
+	}
+	create_country_leader = {
+		name = "Necmettin Erbakan"
+		picture = "gfx/leaders/TUR/CW/Turkey_Necmettin_Erbakan_Islamic_Republican_1970.dds"
+		expire = "2060.1.1"
+		ideology = islamic_republican
+	}
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1960.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+1970.1.1 = {
+	oob = "TUR_1970"
+	set_naval_oob = "TUR_1970_naval_legacy"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	create_country_leader = {
+		name = "Cevdet Sunay"
+		picture = "gfx/leaders/TUR/CW/Turkey_CevdetSunay.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+	create_country_leader = {
+		name = "Fahri Koruturk"
+		picture = "gfx/leaders/TUR/CW/Turkey_FahriKoruturk.dds"
+		expire = "2060.1.1"
+		ideology = erdoganism
+	}
+}
+
+1980.1.1 = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1980.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Turgut Özal"
+		picture = "gfx/leaders/TUR/CW/Turkey_Turgut_Özal.dds"
+		expire = "2060.1.1"
+		ideology = market_liberalism
+	}
+}
+
+1990.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1990.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+2000.1.1 = {
+	oob = "TUR_2000"
+	set_naval_oob = "TUR_2000_naval_legacy"
+	create_country_leader = {
+		name = "Bülent Ecevit"
+		picture = "gfx/leaders/TUR/MD/Turkey_Bülent_Ecevit.dds"
+		expire = "2060.1.1"
+		ideology = market_liberalism
+	}
+	create_country_leader = {
+		name = "Aydemir Guler"
+		picture = "gfx/leaders/TUR/MD/Turkey_Aydemir_Guler_Stalinism_2000.dds"
+		expire = "2060.1.1"
+		ideology = stalinism
+	}
+	create_country_leader = {
+		name = "Doğu Perinçek"
+		picture = "gfx/leaders/TUR/MD/Turkey_Doğu_Perinçek_Kemalism_2000.dds"
+		expire = "2060.1.1"
+		ideology = kemalism
+	}
+	create_country_leader = {
+		name = "Muhsin Yazicioglu"
+		picture = "gfx/leaders/TUR/MD/Turkey_Muhsin_Yazicioglu_Ultranationalism_2000.dds"
+		expire = "2060.1.1"
+		ideology = ultranationalism
+	}
+	create_country_leader = {
+		name = "Recai Kutan"
+		picture = "gfx/leaders/TUR/MD/Turkey_Recai_Kutan_Islamic_Republican_2000.dds"
+		expire = "2060.1.1"
+		ideology = islamic_republican
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Abdullah Gül"
+		picture = "gfx/leaders/TUR/MD/Turkey_Abdullah_Gül.dds"
+		expire = "2060.1.1"
+		ideology = democratic_independent
+	}
+}
+
+2016.1.1 = {
+	oob = "TUR_2016"
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "2016.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchism = 100
+	}
+	create_country_leader = {
+		name = "Recep Tayyip Erdogan"
+		picture = "gfx/leaders/TUR/MD/Turkey_RecepTayyipErdogan.dds"
+		expire = "2060.1.1"
+		ideology = erdoganism
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Recep Tayyip Erdoğan"
+		picture = "gfx/leaders/TUR/MD/TUR_Recep_Tayyip_Erdoğan_Conservatism.dds"
+		expire = "2060.1.1"
+		ideology = erdoganism
+	}
+}

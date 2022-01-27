@@ -1,0 +1,39 @@
+﻿RON_start_techs = yes
+RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
+capital = 65
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 39
+	communism = 0
+	monarchism = 41
+}
+
+create_country_leader = {
+	name = "Martin Mutschmann"
+	picture = "gfx/leaders/SAX/Portrait_Saxony_Martin_Mutschmann.dds"
+	expire = "1960.1.1"
+	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Hugo Eberlein"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
+	expire = "1960.1.1"
+	ideology = stalinism
+}
+
+create_country_leader = {
+	name = "Friedrich Christian"
+	picture = "gfx/leaders/GER/Portrait_Germany_Generic_2.dds"
+	expire = "1960.1.1"
+	ideology = socialism
+}
