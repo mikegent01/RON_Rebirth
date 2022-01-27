@@ -538,10 +538,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 
-			despotism = {
-				can_be_randomly_selected = no
-			}
-
 			anarchism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
@@ -607,6 +603,11 @@ ideologies = {
 			}
 
 			putinism = {
+				can_be_randomly_selected = no
+			}
+			
+			#Keep Despotism to avoid bugs, but use absolute_monarchy instead
+			despotism = {
 				can_be_randomly_selected = no
 			}
 			
