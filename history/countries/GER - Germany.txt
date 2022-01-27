@@ -28,7 +28,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Wilhelm II"
-	picture = "gfx/leaders/GER/DNC/GER_Wilhelm_II.dds"
+	picture = "gfx/leaders/GER/WW1/GER_Wilhelm_II.dds"
 	desc = "POLITICS_WILHELM_II_1900_DESC"
 	expire = "2060.1.1"
 	ideology = absolute_monarchy
@@ -40,7 +40,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "August Bebel"
-	picture = "gfx/leaders/GER/DNC/August_Bebel_Democratic"
+	picture = "gfx/leaders/GER/WW1/August_Bebel_Democratic"
 	expire = "1913.8.13"
 	ideology = socialism
 }
