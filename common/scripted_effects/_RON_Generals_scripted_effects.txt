@@ -1,0 +1,34 @@
+RON_handle_ww1_generals = {
+	if = {
+		limit = {
+			tag = GER
+		}
+	recruit_character = GER_august_von_mackensen
+	recruit_character = GER_karl_von_bulow
+	recruit_character = GER_paul_von_hindenburg
+	recruit_character = GER_remus_von_woyrsch
+	recruit_character = GER_albrecht_duke_of_württemberg
+	recruit_character = GER_erich_von_falkenhayn
+	recruit_character = GER_felix_graf_von_bothmer
+	recruit_character = GER_helmuth_von_moltke
+	recruit_character = GER_hermann_von_eichorn
+	recruit_character = GER_alexander_von_kluck
+	recruit_character = GER_friedrich_sixt_von_armin
+	recruit_character = GER_ferdinand_von_quast
+	recruit_character = GER_hermann_von_francois
+	recruit_character = GER_paul_von_lettowvorbeck
+	recruit_character = GER_karl_von_einem
+	recruit_character = GER_prince_leopold_of_bavaria
+	recruit_character = GER_prince_rupprecht_of_bavaria
+	recruit_character = GER_crown_prince_wilhelm
+	recruit_character = GER_fritz_von_below
+	recruit_character = GER_alfred_von_tirpitz
+	recruit_character = GER_franz_von_hipper
+	recruit_character = GER_hugo_von_pohl
+	recruit_character = GER_wilhelm_souchon
+	recruit_character = GER_maximilian_von_spee
+	recruit_character = GER_adolf_von_trotha
+	recruit_character = GER_ludwig_von_reuter
+	}
+}
+
