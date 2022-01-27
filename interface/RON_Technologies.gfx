@@ -1,0 +1,48 @@
+spriteTypes = {	
+	#Folder Icons
+	SpriteType = {
+		name = "GFX_zombies_folder_tab"
+		texturefile = "gfx/interface/techtree_zombies_tab.dds"
+		noOfFrames = 2
+	}
+	
+	SpriteType = {
+		name = "GFX_wmd_folder_tab"
+		texturefile = "gfx/interface/techtree_wmd_tab.dds"
+		noOfFrames = 2
+	}
+	
+	SpriteType = {
+		name = "GFX_train_folder_tab"
+		texturefile = "gfx/interface/techtree_train_tab.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_space_folder_tab"
+		textureFile = "gfx/interface/techtree_space_tab.dds"
+		noOfFrames = 2		
+	}
+	
+	SpriteType = {
+		name = "GFX_helicopter_folder_tab"
+		texturefile = "gfx/interface/techtree_helicopter_tab.dds"
+		noOfFrames = 2
+	}
+	#Folder Backgrounds
+	SpriteType = {
+		name = "GFX_wmd_techtree_bg"
+		texturefile = "gfx/interface/wmd_techstree_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_space_techtree_bg"
+		textureFile = "gfx/interface/space_techtree_bg.dds"
+		allwaystransparent = yes		
+	}
+	SpriteType = {
+		name = "GFX_helicopter_techtree_bg"
+		texturefile = "gfx/interface/helicopter_techtree_bg.dds"
+	}
+	
+		
+}
