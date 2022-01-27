@@ -1,34 +1,698 @@
 RON_handle_ww1_generals = {
 	if = {
 		limit = {
+			tag = AUS
+		}
+		create_field_marshal = {
+		name = "Alexander von Brosch-Aarenau"
+		picture = "gfx/leaders/AUS/WW1/General_Alexander_von_Brosch_Aarenau.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 1
+	}
+	create_field_marshal = {
+		name = "Franz Conrad von Hotzendorf"
+		picture = "gfx/leaders/AUS/WW1/FM_Franz_Conrad_von_Hotzendorf.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			defensive_doctrine
+			offensive_doctrine
+		}
+		skill = 1        #Not 0, but we really need to get a new trait for Cardona and Hotzendorf. They seriously sucked.
+		attack_skill = 0
+		defense_skill = 0
+		planning_skill = 0
+		logistics_skill = 0
+		id = 3000
+	}
+	create_field_marshal = {
+		name = "Johann von Friedel"
+		picture = "gfx/leaders/AUS/WW1/FM_Johann_von_Friedel.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_field_marshal = {
+		name = "Stephan Ljubicic"
+		picture = "gfx/leaders/AUS/WW1/FM_Stephan_Ljubicic.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Archduke Friedrich Duke of Teschen"
+		picture = "gfx/leaders/AUS/WW1/General_Erzherzog_Friedrich.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 3003
+	}
+	create_corps_commander = {
+		name = "Archduke Franz Ferdinand"
+		picture = "gfx/leaders/AUS/WW1/General_Franz_Ferdinand.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Liborius Ritte von Frank"
+		picture = "gfx/leaders/AUS/WW1/General_Liborius_Ritte_von_Frank.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Oskar Potiorek"
+		picture = "gfx/leaders/AUS/WW1/General_Oskar_Potiorek.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Rudolp_Ritter_von_Brudermann"
+		picture = "gfx/leaders/AUS/WW1/General_Rudolp_Ritter_von_Brudermann.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 3
+	}
+	create_corps_commander = {
+		name = "Alexander von Krobatin"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alexander_von_Krobatin.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			commando
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 4
+		id = 3001
+	}
+	create_corps_commander = {
+		name = "Archduke Eugen"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Eugen.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			trait_mountaineer
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 2
+		id = 3002
+	}
+	create_corps_commander = {
+		name = "Archduke Josef August"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_August.dds"
+		traits = {
+			imperial_austrian_army
+			trait_mountaineer
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+		id = 3004
+	}
+	create_corps_commander = {
+		name = "Archduke Josef Ferdinand"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_Ferdinand.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 1
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+		id = 3005
+	}
+	create_corps_commander = {
+		name = "Arthur Arz von Straußenburg"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Arz_von_Straussenburg.dds"
+		traits = {
+			imperial_austrian_army
+			fortress_buster
+		}
+		skill = 5
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 5
+		logistics_skill = 2
+		id = 3006
+	}
+	create_corps_commander = {
+		name = "Eduard von Böhm-Ermolli"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Eduard_von_Bohm-Ermolli.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 2
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 1
+		logistics_skill = 2
+		id = 3007
+	}
+	create_corps_commander = {
+		name = "Franz Rohr von Denta"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Franz_Rohr_von_Denta.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 1
+		planning_skill = 2
+		logistics_skill = 2
+		id = 3008
+	}
+	create_corps_commander = {
+		name = "Alois Schönburg-Hartenstein"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alois_Schonburg-Hartenstein.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			commando
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+		id = 3009
+	}
+	create_corps_commander = {
+		name = "Hermann Kövess von Kövessháza"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Hermann_Kovess_von_Kovesshaza.dds"
+		traits = {
+			imperial_austrian_army
+			trait_mountaineer
+		}
+		skill = 3
+		attack_skill = 1
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 3010
+	}
+	create_field_marshal = {
+		name = "Anton Liposcak"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Anton_Liposcak.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			offensive_doctrine
+			fast_planner
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+		id = 3011
+	}
+	create_corps_commander = {
+		name = "Rudolf Stöger-Steiner von Steinstätten"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Rudolf_Stoger-Steiner_von_Steinstatten.dds"
+		traits = {
+			imperial_austrian_army
+		}
+		skill = 5
+		attack_skill = 5
+		defense_skill = 3
+		planning_skill = 4
+		logistics_skill = 2
+		id = 3013
+	}
+	create_corps_commander = {
+		name = "Svetozar Boroević"
+		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Svetozar_Borojevic.dds"
+		traits = {
+			imperial_austrian_army
+			old_guard
+			trickster
+		}
+		skill = 5
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 5
+		id = 3014
+	}
+	create_navy_leader = {
+		name = "Anton Haus"
+		picture = "gfx/leaders/AUS/WW1/Admiral_Anton_Haus.dds"
+		traits = {
+			imperial_austrian_navy
+			old_guard_navy
+			blockade_runner
+			ironside
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		id = 3015
+	}
+	create_navy_leader = {
+		name = "Archduke Charles Stephen"
+		picture = "gfx/leaders/AUS/WW1/Admiral_Charles_Steven.dds"
+		traits = {
+			imperial_austrian_navy
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Maximilian Njegovan"
+		picture = "gfx/leaders/AUS/WW1/Admiral_Maximilian_Njegovan.dds"
+		traits = {
+			imperial_austrian_navy
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Miklos Horthy"
+		picture = "gfx/leaders/AUS/WW1/Admiral_Miklos_Horthy.dds"
+		traits = {
+			imperial_austrian_navy
+			superior_tactician
+			blockade_runner
+		}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 4
+		id = 3017
+	}
+	create_navy_leader = {
+		name = "Rudolf Montecuccoli"
+		picture = "gfx/leaders/AUS/WW1/Admiral_Rudolf_Montecuccoli.dds"
+		traits = {
+			imperial_austrian_navy
+		}
+		skill = 1
+	}
+	}	
+	if = {
+		limit = {
 			tag = GER
 		}
-	recruit_character = GER_august_von_mackensen
-	recruit_character = GER_karl_von_bulow
-	recruit_character = GER_paul_von_hindenburg
-	recruit_character = GER_remus_von_woyrsch
-	recruit_character = GER_albrecht_duke_of_württemberg
-	recruit_character = GER_erich_von_falkenhayn
-	recruit_character = GER_felix_graf_von_bothmer
-	recruit_character = GER_helmuth_von_moltke
-	recruit_character = GER_hermann_von_eichorn
-	recruit_character = GER_alexander_von_kluck
-	recruit_character = GER_friedrich_sixt_von_armin
-	recruit_character = GER_ferdinand_von_quast
-	recruit_character = GER_hermann_von_francois
-	recruit_character = GER_paul_von_lettowvorbeck
-	recruit_character = GER_karl_von_einem
-	recruit_character = GER_prince_leopold_of_bavaria
-	recruit_character = GER_prince_rupprecht_of_bavaria
-	recruit_character = GER_crown_prince_wilhelm
-	recruit_character = GER_fritz_von_below
-	recruit_character = GER_alfred_von_tirpitz
-	recruit_character = GER_franz_von_hipper
-	recruit_character = GER_hugo_von_pohl
-	recruit_character = GER_wilhelm_souchon
-	recruit_character = GER_maximilian_von_spee
-	recruit_character = GER_adolf_von_trotha
-	recruit_character = GER_ludwig_von_reuter
+		create_field_marshal = {
+			name = "August von Mackensen"
+			picture = "gfx/leaders/GER/WW1/FM-August_von_Mackensen.dds"
+			traits = {
+				imperial_german_army
+				offensive_doctrine
+				logistics_wizard
+				thorough_planner
+			}
+			skill = 5
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 2
+			id = 1028
+		}
+		create_field_marshal = {
+			name = "Karl von Bulow"
+			picture = "gfx/leaders/GER/WW1/FM-Karl_von_Bulow.dds"
+			traits = {
+				imperial_german_army
+				fortress_buster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			id = 1023
+		}
+		create_field_marshal = {
+			name = "Paul von Hindenburg"
+			picture = "gfx/leaders/GER/WW1/FM-Paul_von_Hindenburg.dds"
+			traits = {
+				imperial_german_army
+				defensive_doctrine
+				offensive_doctrine
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 4
+			id = 1001
+		}
+		create_field_marshal = {
+			name = "Erich Ludendorff"
+			picture = "gfx/leaders/GER/WW1/General-Erich_Ludendorff.dds"
+			traits = {
+				imperial_german_army
+				defensive_doctrine
+				organisational_leader
+				offensive_doctrine
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+			id = 1002
+		}
+		create_field_marshal = {
+			name = "Remus von Woyrsch"
+			picture = "gfx/leaders/GER/WW1/FM-Remus_von_Woyrsch.dds"
+			traits = {
+				imperial_german_army
+			}
+			skill = 1
+			id = 1003
+		}
+		create_corps_commander = {
+			name = "Albrecht Duke of Württemberg"
+			picture = "gfx/leaders/GER/WW1/General-Albrecht_Duke_of_Wurttemberg.dds"
+			traits = {
+				imperial_german_army
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Erich von Falkenhayn"
+			picture = "gfx/leaders/GER/WW1/General-Erich_von_Falkenhayn.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+				offensive_doctrine
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Felix Graf von Bothmer"
+			picture = "gfx/leaders/GER/WW1/General-Felix_Graf_von_Bothmer.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+				trait_mountaineer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_field_marshal = {
+			name = "Helmuth von Moltke"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Helmuth_von_Moltke.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+				defensive_doctrine
+				offensive_doctrine
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 5
+			logistics_skill = 5
+			id = 100101
+		}
+		create_field_marshal = {
+			name = "Hermann von Eichorn"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Hermann_von_Eichorn.dds"
+			traits = {
+				imperial_german_army
+				defensive_doctrine
+				offensive_doctrine
+				organisational_leader
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			id = 5101
+		}
+		create_corps_commander = {
+			name = "Alexander von Kluck"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Alexander_von_Kluck.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+				trickster
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Friedrich Sixt von Armin"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Friedrich_Sixt_von_Armin.dds"
+			traits = {
+				imperial_german_army
+				trickster
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Ferdinand von Quast"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Ferdinand_von_Quast.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+				trickster
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Hermann von Francois"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Hermann_von_Francois.dds"
+			traits = {
+				imperial_german_army
+				trickster
+				commando
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Paul von Lettow-Vorbeck"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Paul_von_Lettow_Vorbeck.dds"
+			traits = {
+				imperial_german_army
+				trickster
+				commando
+				jungle_rat
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 6
+			logistics_skill = 5
+		}
+		create_corps_commander = {
+			name = "Karl von Einem"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Karl_von_Einem.dds"
+			traits = {
+				imperial_german_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_field_marshal = {
+			name = "Prince Leopold of Bavaria"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Prince_Leopold_of_Bavaria.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+			}
+			skill = 6
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 4
+			id = 1018
+		}
+		create_corps_commander = {
+			name = "Prince Rupprecht of Bavaria"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Prince_Rupprecht.dds"
+			traits = {
+				imperial_german_army
+				trickster
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		create_corps_commander = {
+			name = "Crown Prince Wilhelm"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Kronprinz.dds"
+			traits = {
+				imperial_german_army
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		create_corps_commander = {
+			name = "Fritz von Below"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Fritz_von_Below.dds"
+			traits = {
+				imperial_german_army
+				old_guard
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		create_navy_leader = {
+			name = "Alfred von Tirpitz"
+			picture = "gfx/leaders/GER/WW1/Admiral-Alfred_von_Tirpitz.dds"
+			traits = {
+				imperial_german_navy
+				old_guard_navy
+				superior_tactician
+				ironside
+			}
+			skill = 6
+			id = 1033
+		}
+		create_navy_leader = {
+			name = "Franz von Hipper"
+			picture = "gfx/leaders/GER/WW1/Admiral-Franz_von_Hipper.dds"
+			traits = {
+				imperial_german_navy
+				blockade_runner
+				ironside
+				spotter
+			}
+			skill = 6
+			id = 1034
+		}
+		create_navy_leader = {
+			name = "Hugo von Pohl"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Hugo_von_Pohl.dds"
+			traits = {
+				imperial_german_navy
+				blockade_runner
+				seawolf
+			}
+			skill = 4
+			id = 1029
+		}
+		create_navy_leader = {
+			name = "Wilhelm Souchon"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Wilhelm_Souchon.dds"
+			traits = {
+				imperial_german_navy
+				blockade_runner
+				ironside
+			}
+			skill = 4
+			id = 1030
+		}
+		create_navy_leader = {
+			name = "Maximilian von Spee"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Maximilian_von_Spee.dds"
+			traits = {
+				imperial_german_navy
+				superior_tactician
+				spotter
+			}
+			skill = 3
+			id = 1024
+		}
+		create_navy_leader = {
+			name = "Adolf von Trotha"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Adolf_von_Trotha.dds"
+			traits = {
+				imperial_german_navy
+				seawolf
+				ironside
+			}
+			skill = 4
+			id = 1031
+		}
+		create_navy_leader = {
+			name = "Ludwig von Reuter"
+			picture = "gfx/leaders/GER/WW1/Portrait_Germany_Ludwig_von_Reuter.dds"
+			traits = {
+				imperial_german_navy
+				blockade_runner
+			}
+			skill = 3
+			id = 1032
+		}
 	}
 }
 

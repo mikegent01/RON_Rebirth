@@ -26,7 +26,42 @@ set_popularities = {
 	monarchism = 64
 }
 
-recruit_character = GER_wilhelm_ii
-recruit_character = GER_friedrich_ebert
-recruit_character = GER_karl_liebknecht
-recruit_character = GER_erich_ludendorff
+create_country_leader = {
+	name = "Wilhelm II"
+	picture = "gfx/leaders/GER/DNC/GER_Wilhelm_II.dds"
+	desc = "POLITICS_WILHELM_II_1900_DESC"
+	expire = "2060.1.1"
+	ideology = absolute_monarchy
+	traits = {
+		DNC_bismarck_legacy
+		DNC_indecisive_kaiser
+	}
+}
+
+create_country_leader = {
+	name = "August Bebel"
+	picture = "gfx/leaders/GER/DNC/August_Bebel_Democratic"
+	expire = "1913.8.13"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "Friedrich Ebert"
+	picture = "gfx/leaders/GER/WW1/Democratic-Friedrich_Ebert.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "Karl Liebknecht"
+	picture = "gfx/leaders/GER/WW1/Far_Left-Karl_Liebknecht.dds"
+	expire = "2060.1.1"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Erich Ludendorff"
+	picture = "gfx/leaders/GER/WW1/General-Erich_Ludendorff.dds"
+	expire = "1923.11.8"
+	ideology = ultranationalism
+}
