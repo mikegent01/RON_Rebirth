@@ -4,341 +4,341 @@ RON_handle_ww1_generals = {
 			tag = AUS
 		}
 		create_field_marshal = {
-		name = "Alexander von Brosch-Aarenau"
-		picture = "gfx/leaders/AUS/WW1/General_Alexander_von_Brosch_Aarenau.dds"
-		traits = {
-			imperial_austrian_army
+			name = "Alexander von Brosch-Aarenau"
+			picture = "gfx/leaders/AUS/WW1/General_Alexander_von_Brosch_Aarenau.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
 		}
-		skill = 2
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 3
-		logistics_skill = 1
-	}
-	create_field_marshal = {
-		name = "Franz Conrad von Hotzendorf"
-		picture = "gfx/leaders/AUS/WW1/FM_Franz_Conrad_von_Hotzendorf.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			defensive_doctrine
-			offensive_doctrine
+		create_field_marshal = {
+			name = "Franz Conrad von Hotzendorf"
+			picture = "gfx/leaders/AUS/WW1/FM_Franz_Conrad_von_Hotzendorf.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				defensive_doctrine
+				offensive_doctrine
+			}
+			skill = 1        #Not 0, but we really need to get a new trait for Cardona and Hotzendorf. They seriously sucked.
+			attack_skill = 0
+			defense_skill = 0
+			planning_skill = 0
+			logistics_skill = 0
+			id = 3000
 		}
-		skill = 1        #Not 0, but we really need to get a new trait for Cardona and Hotzendorf. They seriously sucked.
-		attack_skill = 0
-		defense_skill = 0
-		planning_skill = 0
-		logistics_skill = 0
-		id = 3000
-	}
-	create_field_marshal = {
-		name = "Johann von Friedel"
-		picture = "gfx/leaders/AUS/WW1/FM_Johann_von_Friedel.dds"
-		traits = {
-			imperial_austrian_army
+		create_field_marshal = {
+			name = "Johann von Friedel"
+			picture = "gfx/leaders/AUS/WW1/FM_Johann_von_Friedel.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_field_marshal = {
-		name = "Stephan Ljubicic"
-		picture = "gfx/leaders/AUS/WW1/FM_Stephan_Ljubicic.dds"
-		traits = {
-			imperial_austrian_army
+		create_field_marshal = {
+			name = "Stephan Ljubicic"
+			picture = "gfx/leaders/AUS/WW1/FM_Stephan_Ljubicic.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Archduke Friedrich Duke of Teschen"
-		picture = "gfx/leaders/AUS/WW1/General_Erzherzog_Friedrich.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
+		create_corps_commander = {
+			name = "Archduke Friedrich Duke of Teschen"
+			picture = "gfx/leaders/AUS/WW1/General_Erzherzog_Friedrich.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			id = 3003
 		}
-		skill = 4
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 2
-		id = 3003
-	}
-	create_corps_commander = {
-		name = "Archduke Franz Ferdinand"
-		picture = "gfx/leaders/AUS/WW1/General_Franz_Ferdinand.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Archduke Franz Ferdinand"
+			picture = "gfx/leaders/AUS/WW1/General_Franz_Ferdinand.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Liborius Ritte von Frank"
-		picture = "gfx/leaders/AUS/WW1/General_Liborius_Ritte_von_Frank.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Liborius Ritte von Frank"
+			picture = "gfx/leaders/AUS/WW1/General_Liborius_Ritte_von_Frank.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Oskar Potiorek"
-		picture = "gfx/leaders/AUS/WW1/General_Oskar_Potiorek.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Oskar Potiorek"
+			picture = "gfx/leaders/AUS/WW1/General_Oskar_Potiorek.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Rudolp_Ritter_von_Brudermann"
-		picture = "gfx/leaders/AUS/WW1/General_Rudolp_Ritter_von_Brudermann.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Rudolp_Ritter_von_Brudermann"
+			picture = "gfx/leaders/AUS/WW1/General_Rudolp_Ritter_von_Brudermann.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Alexander von Krobatin"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alexander_von_Krobatin.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			commando
+		create_corps_commander = {
+			name = "Alexander von Krobatin"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alexander_von_Krobatin.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				commando
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			id = 3001
 		}
-		skill = 4
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 4
-		id = 3001
-	}
-	create_corps_commander = {
-		name = "Archduke Eugen"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Eugen.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			trait_mountaineer
+		create_corps_commander = {
+			name = "Archduke Eugen"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Eugen.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				trait_mountaineer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			id = 3002
 		}
-		skill = 4
-		attack_skill = 3
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 2
-		id = 3002
-	}
-	create_corps_commander = {
-		name = "Archduke Josef August"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_August.dds"
-		traits = {
-			imperial_austrian_army
-			trait_mountaineer
+		create_corps_commander = {
+			name = "Archduke Josef August"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_August.dds"
+			traits = {
+				imperial_austrian_army
+				trait_mountaineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			id = 3004
 		}
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 2
-		id = 3004
-	}
-	create_corps_commander = {
-		name = "Archduke Josef Ferdinand"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_Ferdinand.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Archduke Josef Ferdinand"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Archduke_Joseph_Ferdinand.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			id = 3005
 		}
-		skill = 1
-		attack_skill = 1
-		defense_skill = 3
-		planning_skill = 1
-		logistics_skill = 2
-		id = 3005
-	}
-	create_corps_commander = {
-		name = "Arthur Arz von Straußenburg"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Arz_von_Straussenburg.dds"
-		traits = {
-			imperial_austrian_army
-			fortress_buster
+		create_corps_commander = {
+			name = "Arthur Arz von Straußenburg"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Arz_von_Straussenburg.dds"
+			traits = {
+				imperial_austrian_army
+				fortress_buster
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 2
+			id = 3006
 		}
-		skill = 5
-		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 5
-		logistics_skill = 2
-		id = 3006
-	}
-	create_corps_commander = {
-		name = "Eduard von Böhm-Ermolli"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Eduard_von_Bohm-Ermolli.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Eduard von Böhm-Ermolli"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Eduard_von_Bohm-Ermolli.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			id = 3007
 		}
-		skill = 2
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 1
-		logistics_skill = 2
-		id = 3007
-	}
-	create_corps_commander = {
-		name = "Franz Rohr von Denta"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Franz_Rohr_von_Denta.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Franz Rohr von Denta"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Franz_Rohr_von_Denta.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			id = 3008
 		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 2
-		id = 3008
-	}
-	create_corps_commander = {
-		name = "Alois Schönburg-Hartenstein"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alois_Schonburg-Hartenstein.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			commando
+		create_corps_commander = {
+			name = "Alois Schönburg-Hartenstein"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Alois_Schonburg-Hartenstein.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				commando
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			id = 3009
 		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-		id = 3009
-	}
-	create_corps_commander = {
-		name = "Hermann Kövess von Kövessháza"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Hermann_Kovess_von_Kovesshaza.dds"
-		traits = {
-			imperial_austrian_army
-			trait_mountaineer
+		create_corps_commander = {
+			name = "Hermann Kövess von Kövessháza"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Hermann_Kovess_von_Kovesshaza.dds"
+			traits = {
+				imperial_austrian_army
+				trait_mountaineer
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			id = 3010
 		}
-		skill = 3
-		attack_skill = 1
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 2
-		id = 3010
-	}
-	create_field_marshal = {
-		name = "Anton Liposcak"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Anton_Liposcak.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			offensive_doctrine
-			fast_planner
+		create_field_marshal = {
+			name = "Anton Liposcak"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Anton_Liposcak.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				offensive_doctrine
+				fast_planner
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			id = 3011
 		}
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 2
-		id = 3011
-	}
-	create_corps_commander = {
-		name = "Rudolf Stöger-Steiner von Steinstätten"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Rudolf_Stoger-Steiner_von_Steinstatten.dds"
-		traits = {
-			imperial_austrian_army
+		create_corps_commander = {
+			name = "Rudolf Stöger-Steiner von Steinstätten"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Rudolf_Stoger-Steiner_von_Steinstatten.dds"
+			traits = {
+				imperial_austrian_army
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			id = 3013
 		}
-		skill = 5
-		attack_skill = 5
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 2
-		id = 3013
-	}
-	create_corps_commander = {
-		name = "Svetozar Boroević"
-		picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Svetozar_Borojevic.dds"
-		traits = {
-			imperial_austrian_army
-			old_guard
-			trickster
+		create_corps_commander = {
+			name = "Svetozar Boroević"
+			picture = "gfx/leaders/AUS/WW1/Portrait_Austria_Svetozar_Borojevic.dds"
+			traits = {
+				imperial_austrian_army
+				old_guard
+				trickster
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+			id = 3014
 		}
-		skill = 5
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 4
-		logistics_skill = 5
-		id = 3014
-	}
-	create_navy_leader = {
-		name = "Anton Haus"
-		picture = "gfx/leaders/AUS/WW1/Admiral_Anton_Haus.dds"
-		traits = {
-			imperial_austrian_navy
-			old_guard_navy
-			blockade_runner
-			ironside
+		create_navy_leader = {
+			name = "Anton Haus"
+			picture = "gfx/leaders/AUS/WW1/Admiral_Anton_Haus.dds"
+			traits = {
+				imperial_austrian_navy
+				old_guard_navy
+				blockade_runner
+				ironside
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			id = 3015
 		}
-		skill = 4
-		attack_skill = 3
-		defense_skill = 4
-		id = 3015
-	}
-	create_navy_leader = {
-		name = "Archduke Charles Stephen"
-		picture = "gfx/leaders/AUS/WW1/Admiral_Charles_Steven.dds"
-		traits = {
-			imperial_austrian_navy
+		create_navy_leader = {
+			name = "Archduke Charles Stephen"
+			picture = "gfx/leaders/AUS/WW1/Admiral_Charles_Steven.dds"
+			traits = {
+				imperial_austrian_navy
+			}
+			skill = 1
 		}
-		skill = 1
-	}
-	create_navy_leader = {
-		name = "Maximilian Njegovan"
-		picture = "gfx/leaders/AUS/WW1/Admiral_Maximilian_Njegovan.dds"
-		traits = {
-			imperial_austrian_navy
+		create_navy_leader = {
+			name = "Maximilian Njegovan"
+			picture = "gfx/leaders/AUS/WW1/Admiral_Maximilian_Njegovan.dds"
+			traits = {
+				imperial_austrian_navy
+			}
+			skill = 1
 		}
-		skill = 1
-	}
-	create_navy_leader = {
-		name = "Miklos Horthy"
-		picture = "gfx/leaders/AUS/WW1/Admiral_Miklos_Horthy.dds"
-		traits = {
-			imperial_austrian_navy
-			superior_tactician
-			blockade_runner
+		create_navy_leader = {
+			name = "Miklos Horthy"
+			picture = "gfx/leaders/AUS/WW1/Admiral_Miklos_Horthy.dds"
+			traits = {
+				imperial_austrian_navy
+				superior_tactician
+				blockade_runner
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			id = 3017
 		}
-		skill = 4
-		attack_skill = 4
-		defense_skill = 4
-		id = 3017
-	}
-	create_navy_leader = {
-		name = "Rudolf Montecuccoli"
-		picture = "gfx/leaders/AUS/WW1/Admiral_Rudolf_Montecuccoli.dds"
-		traits = {
-			imperial_austrian_navy
+		create_navy_leader = {
+			name = "Rudolf Montecuccoli"
+			picture = "gfx/leaders/AUS/WW1/Admiral_Rudolf_Montecuccoli.dds"
+			traits = {
+				imperial_austrian_navy
+			}
+			skill = 1
 		}
-		skill = 1
 	}
-	}	
 	if = {
 		limit = {
 			tag = GER
@@ -694,5 +694,951 @@ RON_handle_ww1_generals = {
 			id = 1032
 		}
 	}
+	if = {
+		limit = {
+			tag = USA
+		}
+		create_corps_commander = {
+			name = "Theodore Roosevelt Jr"
+			picture = "Portrait_USA_Theodore_Roosevelt_Jr.dds"
+			traits = { 
+				urban_assault_specialist 
+			}
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		recruit_character = USA_arthur_macarthur
+		add_corps_commander_role = {
+			character = USA_fred_walker
+			traits = { 
+				us_army_trait
+				war_hero
+				brilliant_strategist 
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 2
+		}
+		add_naval_commander_role = {
+			character = USA_wiliam_sims
+			traits = { superior_tactician ironside }
+			skill=5
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_william_benson
+			traits = { ironside spotter }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_albert_winterhalter
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_frank_fletcher
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_walter_cowles
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+	}
 }
+RON_handle_md_generals = {
+	if = {
+		limit = {
+			tag = USA
+		}
+		add_field_marshal_role = {
+			character = USA_colin_powel
+			traits={ old_guard defensive_doctrine thorough_planner }
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_james_n_mattis
+			traits={ old_guard }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_john_g_coburn
+			traits={ offensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_eric_k_shinseki
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_dennis_reimer
+			traits={ defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_joseph_dunford
+			traits={ old_guard organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_paul_selva
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_curtis_scaparrotti
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_raymond_thomas_iii
+			traits={ offensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_john_hyten
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_darren_mcdew
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_joseph_lengyel
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_john_nicholson_jr
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_vincent_brooks
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_mark_milley
+			traits={ inspirational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_daniel_allyn
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_gustave_perna
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_robert_brown
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_david_perkins
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_robert_neller
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_glenn_walters
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_james_mcconville
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_david_goldfein
+			traits={ old_guard logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_stephen_wilson
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_james_holmes
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_robin_rand
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_ellen_pawlikowski
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_john_raymond
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_carlton_everhart_ii
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_terrence_o_shaughnessy
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_field_marshal_role = {
+			character = USA_tod_wolters
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
 
+		### CORPS COMMANDERS ###
+
+		add_corps_commander_role = {
+			character = USA_john_m_keane
+			traits={ urban_assault_specialist }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_thomas_a_schwartz
+			traits={ desert_fox }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_lori_j_robinson
+			traits={ commando }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_erik_kurilla
+			traits={ winter_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_robert_b_abrams
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_joseph_l_votel
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_john_n_abrams
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_thomas_d_waldhauser
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_andrew_p_poppas
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_john_w_hendrix
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_kurt_w_tidd
+			traits={ swamp_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_joseph_m_martin
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_christopher_g_cavoli
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_joseph_harrington
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_michael_garrett
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_ben_hodges
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_jeffrey_buchanan
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_clarence_k_k_chinn
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_susan_davidson
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_paul_nakasone
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_james_dickinson
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_kenneth_tovo
+			traits={ trickster trait_engineer commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_thomas_vandal
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_todd_semonite
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_christopher_ballard
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_bradley_becker
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_jeffrey_snow
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_william_rapp
+			traits={ trickster trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_robert_caslen
+			traits={ panzer_leader ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_blake_ortner
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_burke_whitman
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_brian_brakke
+			traits={ trickster naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_carl_epting_mundy
+			traits={ trickster commando naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_charles_chiarotti
+			traits={ trait_engineer naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_charles_luckey
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_craig_timberlake
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_daniel_o_donohue
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_david_ottignon
+			traits={ trait_engineer naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_gary_volesky
+			traits={ panzer_leader ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_harry_e_miller_jr
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_helen_g_pratt
+			traits={ trait_engineer naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_james_e_kraft
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_james_b_linder
+			traits={ trickster commando fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+		add_corps_commander_role = {
+			character = USA_william_f_kernan
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+
+		### NAVY LEADERS ###
+
+		add_naval_commander_role = {
+			character = USA_jeffrey_bennett
+			traits={ spotter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_james_kilby
+			traits={ fly_swatter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_fernandez_ponds
+			traits={ air_controller }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_dee_mewbourne
+			traits={ fly_swatter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_christopher_grady
+			traits={ spotter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_craig_blakely
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_brian_davies
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_bruce_lindsey
+			traits={ air_controller }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_harry_harris_jr
+			traits={ old_guard superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_michael_rogers
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_john_richardson
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_william_moran
+			traits={ air_controller }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_james_caldwell_jr
+			traits={ seawolf }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_philip_davidson
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_michelle_howard
+			traits={ fly_swatter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_scott_swift
+			traits={ ironside }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_paul_zukunft
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_charles_michel
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_james_o_ellis
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_dennis_c_blair
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_vernon_e_clark
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_thomas_b_fargo
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+		add_naval_commander_role = {
+			character = USA_charles_s_abbot
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+		}
+	}
+}
