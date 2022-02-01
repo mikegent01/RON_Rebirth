@@ -3,5 +3,6 @@ RON_has_custom_generals_ww1 = {
 		tag = GER
 		tag = AUS
 		tag = SOV
+		tag = USA
 	}
 }
