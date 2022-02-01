@@ -1,4 +1,1390 @@
 RON_handle_ww1_generals = {
+		if = {
+		limit = {
+			tag = FRA
+		}
+		create_field_marshal = {
+		name = "Aristide Briand"
+		picture = "gfx/leaders/FRA/WW1/FM_Aristide_Briand.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_field_marshal = {
+		name = "Ferdinand Sarrien"
+		picture = "gfx/leaders/FRA/WW1/FM_Ferdinand_Sarrien.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_field_marshal = {
+		name = "Gaston Doumergue"
+		picture = "gfx/leaders/FRA/WW1/FM_Gaston_Doumergue.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_field_marshal = {
+		name = "Georges Clemenceau"
+		picture = "gfx/leaders/FRA/WW1/FM_Georges_Clemenceau.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_field_marshal = {
+		name = "Joseph Caillaux"
+		picture = "gfx/leaders/FRA/WW1/FM_Joseph_Caillaux.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Ferdinand Foch"
+		picture = "gfx/leaders/FRA/WW1/General_Ferdinand_Foch.dds"
+		traits = {
+			french_army_trait
+			organisational_leader
+			offensive_doctrine
+			defensive_doctrine
+		}
+		skill = 6
+		attack_skill = 6
+		defense_skill = 6
+		planning_skill = 5
+		logistics_skill = 5
+		id = 6200
+	}
+	create_corps_commander = {
+		name = "Fernand de Langle de Cary"
+		picture = "gfx/leaders/FRA/WW1/General_Fernand_de_Langle_de_Cary.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Georges Louis Humbert"
+		picture = "gfx/leaders/FRA/WW1/General_Georges_Louis_Humbert.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Joseph Joffre"
+		picture = "gfx/leaders/FRA/WW1/General_Joseph_Joffre.dds"
+		traits = {
+			french_army_trait
+			trickster
+		}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6201
+	}
+	create_corps_commander = {
+		name = "Maurice Sarrail"
+		picture = "gfx/leaders/FRA/WW1/General_Maurice_Sarrail.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Michel-Joseph Maunoury"
+		picture = "gfx/leaders/FRA/WW1/General_Michel-Joseph_Maunoury.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Philippe Pétain"
+		picture = "gfx/leaders/FRA/WW1/General_Philippe_Petain.dds"
+		traits = {
+			french_army_trait
+			bearer_of_artillery
+			commando
+			trickster
+		}
+		skill = 6
+		attack_skill = 4
+		defense_skill = 7
+		planning_skill = 4
+		logistics_skill = 4
+		id = 6204
+	}
+	create_corps_commander = {
+		name = "Robert Nivelle"
+		picture = "gfx/leaders/FRA/WW1/General_Robert_Nivelle.dds"
+		traits = {
+			french_army_trait
+			bearer_of_artillery
+		}
+		skill = 5
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 4
+		id = 6205
+	}
+	create_navy_leader = {
+		name = "Amedee Bienaime"
+		picture = "gfx/leaders/FRA/WW1/Admiral_Amedee_Bienaime.dds"
+		traits = {
+			french_navy_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Charles Touchard"
+		picture = "gfx/leaders/FRA/WW1/Admiral_Charles_Touchard.dds"
+		traits = {
+			french_navy_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Georges Durand-Viel"
+		picture = "gfx/leaders/FRA/WW1/Admiral_Georges_Durand-Viel.dds"
+		traits = {
+			french_navy_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Paul Auvert"
+		picture = "gfx/leaders/FRA/WW1/Admiral_Paul_Auvert.dds"
+		traits = {
+			french_navy_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Louis Franchet d' Esperey"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Louis_Franchet_d_Esperey.dds"
+		traits = {
+			french_army_trait
+			trait_mountaineer
+			fortress_buster
+			commando
+		}
+		skill = 5
+		attack_skill = 4
+		defense_skill = 5
+		planning_skill = 5
+		logistics_skill = 3
+		id = 6202
+	}
+	create_corps_commander = {
+		name = "Maurice Sairrail"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Maurice_Sairrail.dds"
+		traits = {
+			french_army_trait
+			trickster
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6203
+	}
+	create_corps_commander = {
+		name = "Emile Fayolle"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Emile_Fayolle.dds"
+		traits = {
+			french_army_trait
+			bearer_of_artillery
+			trickster
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6206
+	}
+	create_corps_commander = {
+		name = "Adolphe Guillaumat"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Adolphe_Guillaumat.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 4
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 4
+		logistics_skill = 3
+		id = 6207
+	}
+	create_corps_commander = {
+		name = "Noel Edouard de Castelnau"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Noel_Edouard_de_Castelnau.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 5
+		attack_skill = 5
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+		id = 6208
+	}
+	create_corps_commander = {
+		name = "Paul Maistre"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Paul_Maistre.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6209
+	}
+	create_corps_commander = {
+		name = "Pierre Dubois"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Pierre_Dubois.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+		id = 6210
+	}
+	create_corps_commander = {
+		name = "Jean Degoutte"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Jean_Degoutte.dds"
+		traits = {
+			french_army_trait
+			jungle_rat
+		}
+		skill = 4
+		attack_skill = 2
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 4
+		id = 6211
+	}
+	create_corps_commander = {
+		name = "Denis Auguste Duchene"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Denis_Auguste_Duchene.dds"
+		traits = {
+			french_army_trait
+		}
+		skill = 3
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6212
+	}
+	create_navy_leader = {
+		name = "Auguste Boue de Lapeyrere"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Augustin_Boue_de_Lapeyrere.dds"
+		traits = {
+			french_navy_trait
+			spotter
+		}
+		skill = 2
+	}
+	create_navy_leader = {
+		name = "Dominique Marie Gauchet"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Dominique_Marie_Gauchet.dds"
+		traits = {
+			french_navy_trait
+			ironside
+		}
+		skill = 4
+	}
+	create_navy_leader = {
+		name = "Louis Dartige du Fournet"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Louis_Dartige_du_Fournet.dds"
+		traits = {
+			french_navy_trait
+		}
+		skill = 2
+	}
+	create_navy_leader = {
+		name = "Marie Jean Lucien Lacaze"
+		picture = "gfx/leaders/FRA/WW1/Portrait_France_Marie_Jean_Lucien_Lacaze.dds"
+		traits = {
+			french_navy_trait
+			old_guard_navy
+		}
+		skill = 3
+	}
+		}
+		if = {
+		limit = {
+			tag = ITA
+		}
+		create_field_marshal = {
+		name = "Luigi Cadorna"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Luigi_Cadorna.dds"
+		traits = {
+			regio_esercito_trait
+			old_guard
+			offensive_doctrine
+		}
+		skill = 1
+		id = 6300
+		attack_skill = 0
+		defense_skill = 0
+		planning_skill = 0
+		logistics_skill = 0
+	}
+	create_field_marshal = {
+		name = "Gaeteno Giradino"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Gaeteno_Giardino.dds"
+		traits = {
+			regio_esercito_trait
+			offensive_doctrine
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 1
+		logistics_skill = 2
+		id = 6301
+	}
+	create_corps_commander = {
+		name = "Armando Diaz"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Armando_Diaz.dds"
+		traits = {
+			regio_esercito_trait
+			trickster
+		}
+		skill = 3
+		attack_skill = 4
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 2
+		id = 6302
+	}
+	create_corps_commander = {
+		name = "Guglielmo Pecori Giraldi"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Guglielmo_Pecori_Giraldi.dds"
+		traits = {
+			regio_esercito_trait
+			old_guard
+		}
+		skill = 2
+		attack_skill = 2
+		defense_skill = 3
+		planning_skill = 2
+		logistics_skill = 1
+		id = 6303
+	}
+	create_corps_commander = {
+		name = "Pietro Badolgio"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Pietro_Badoglio_Young.dds"
+		traits = {
+			regio_esercito_trait
+			commando
+			trickster
+		}
+		skill = 4
+		attack_skill = 4
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 3
+		id = 6304
+	}
+	create_field_marshal = {
+		name = "Prince Emanuele Filiberto"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Prince_Emanuele_Filiberto.dds"
+		traits = {
+			regio_esercito_trait
+			old_guard
+		}
+		skill = 3
+		attack_skill = 3
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 2
+		id = 6305
+	}
+	create_corps_commander = {
+		name = "Mario Nicolis di Robilant"
+		picture = "gfx/leaders/ITA/WW1/General_Di_Robilant.dds"
+		traits = {
+			regio_esercito_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Enrico Caviglia"
+		picture = "gfx/leaders/ITA/WW1/General_Enrico_Caviglia.dds"
+		traits = {
+			regio_esercito_trait
+		}
+		skill = 1
+	}
+	create_corps_commander = {
+		name = "Pietro Frugoni"
+		picture = "gfx/leaders/ITA/WW1/General_Pietro_Frugoni.dds"
+		traits = {
+			regio_esercito_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Luigi Amedeo"
+		picture = "gfx/leaders/ITA/WW1/portrait_italy_prince_luigi_amedeo.dds"
+		traits = {
+			regia_marina_trait
+		}
+		skill = 2
+		attack_skill = 1
+		defense_skill = 3
+		#planning_skill = 2
+		#logistics_skill = 2
+		id = 6306
+	}
+	create_navy_leader = {
+		name = "Paolo Thaon di Revel"
+		picture = "gfx/leaders/ITA/WW1/Portrait_Italy_Paolo_Thaon_di_Revel.dds"
+		traits = {
+			regia_marina_trait
+			ironside
+		}
+		skill = 4
+		attack_skill = 5
+		defense_skill = 3
+		#planning_skill = 2
+		#logistics_skill = 2
+		id = 6307
+	}
+	create_navy_leader = {
+		name = "Alfredo Acton"
+		picture = "gfx/leaders/ITA/WW1/Admiral_Alfredo_Acton.dds"
+		traits = {
+			regia_marina_trait
+		}
+		skill = 1
+	}
+	create_navy_leader = {
+		name = "Osvaldo Paladini"
+		picture = "gfx/leaders/ITA/WW1/Admiral_Osvaldo_Paladini.dds"
+		traits = {
+			regia_marina_trait
+		}
+		skill = 1
+	}
+		}
+	if = {
+		limit = {
+			tag = ENG
+		}
+		create_field_marshal = {
+			name = "Sir Douglas Haig"
+			picture = "gfx/leaders/ENG/WW1/FM-Douglas_Haig.dds"
+			traits = {
+				british_army_trait
+				trickster
+				commando
+				fortress_buster
+			}
+			skill = 6
+			attack_skill = 6
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		create_field_marshal = {
+			name = "Henry Wilson"
+			picture = "gfx/leaders/ENG/WW1/FM-Henry_Wilson.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "John French"
+			picture = "gfx/leaders/ENG/WW1/FM-John_French.dds"
+			traits = {
+				british_army_trait
+				defensive_doctrine
+				offensive_doctrine
+				old_guard
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_field_marshal = {
+			name = "Sir William Robertson"
+			picture = "gfx/leaders/ENG/WW1/FM-William_Robertson.dds"
+			traits = {
+				british_army_trait
+				commando
+				trickster
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Henry Horne"
+			picture = "gfx/leaders/ENG/WW1/General-Henry_Horne.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Henry Rawlinson"
+			picture = "gfx/leaders/ENG/WW1/General-Henry_Rawlinson.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Ian Hamilton"
+			picture = "gfx/leaders/ENG/WW1/General-Ian_Hamilton.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Reginald Wingate"
+			picture = "gfx/leaders/ENG/WW1/General-Reginald_Wingate.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Lord Kitchener"
+			id = 6111
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Lord_Kitchener.dds"
+			traits = {
+				british_army_trait
+				old_guard
+				inspirational_leader
+				offensive_doctrine
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Edmund Allenby"
+			id = 6100
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Edmund_Allenby.dds"
+			traits = {
+				british_army_trait
+				desert_fox
+				trickster
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Lionel Dunsterville"
+			id = 61001
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Lionel_Dunsterville.dds"
+			traits = {
+				british_army_trait
+				desert_fox
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+		create_corps_commander = {
+			name = "George Milne"
+			id = 6101
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_George_Milne.dds"
+			traits = {
+				british_army_trait
+				trait_mountaineer
+				trickster
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Henry Rawlinson"
+			id = 6102
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Henry_Rawlinson.dds"
+			traits = {
+				british_army_trait
+				bearer_of_artillery
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Herbert Plumer"
+			id = 6103
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Herbert_Plumer.dds"
+			traits = {
+				british_army_trait
+				trait_engineer
+				fortress_buster
+			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Horace Smith"
+			id = 6104
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Horace_Smith.dds"
+			traits = {
+				british_army_trait
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		create_corps_commander = {
+			name = "Hubert Gough"
+			id = 6105
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Hubert_Gough.dds"
+			traits = {
+				british_army_trait
+				trickster
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Ian Standish"
+			id = 6106
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Ian_Standish.dds"
+			traits = {
+				british_army_trait
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Julian Byng"
+			id = 6107
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Julian_Byng.dds"
+			traits = {
+				british_army_trait
+				naval_invader
+				trickster
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		create_navy_leader = {
+			name = "Arthur Balfour"
+			picture = "gfx/leaders/ENG/WW1/Admiral-Arthur_Balfour.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Henry Jackson"
+			picture = "gfx/leaders/ENG/WW1/Admiral-Henry_Jackson.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Prince Louis of Battenberg"
+			picture = "gfx/leaders/ENG/WW1/Admiral-Prince_Louis_of_Battenberg.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Winston Churchill"
+			picture = "gfx/leaders/ENG/WW1/Admiral-Winston_Churchill.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "John Fisher"
+			id = 6112
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_John_Fisher.dds"
+			traits = {
+				royal_navy_trait
+				ironside
+			}
+			skill = 4
+		}
+		create_navy_leader = {
+			name = "Christopher Cradock"
+			id = 6113
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Christopher_Cradock.dds"
+			traits = {
+				royal_navy_trait
+				superior_tactician
+			}
+			skill = 3
+		}
+		create_navy_leader = {
+			name = "Archibald Berkely Milne"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Archibald_Berkeley_Milne.dds"
+			traits = {
+				royal_navy_trait
+				old_guard_navy
+			}
+			skill = 2
+		}
+		create_navy_leader = {
+			name = "David Beatty"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_David_Beatty.dds"
+			traits = {
+				royal_navy_trait
+				superior_tactician
+				ironside
+			}
+			skill = 4
+		}
+		create_navy_leader = {
+			name = "Dudley de Chair"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Dudley_de_Chair.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "George Callaghan"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_George_Callaghan.dds"
+			traits = {
+				royal_navy_trait
+				spotter
+			}
+			skill = 2
+		}
+		create_navy_leader = {
+			name = "John Jellicoe"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_John_Jellicoe.dds"
+			traits = {
+				royal_navy_trait
+				old_guard_navy
+				seawolf
+				ironside
+			}
+			skill = 5
+		}
+		create_navy_leader = {
+			name = "Lionel Halsey"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Lionel_Halsey.dds"
+			traits = {
+				royal_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Reginald Bacon"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Reginald_Bacon.dds"
+			traits = {
+				royal_navy_trait
+				seawolf
+				ironside
+				superior_tactician
+			}
+			skill = 6
+		}
+		create_navy_leader = {
+			name = "Reginald Tyrwhitt"
+			picture = "gfx/leaders/ENG/WW1/Portrait_Britain_Reginald_Tyrwhitt.dds"
+			traits = {
+				royal_navy_trait
+				fly_swatter
+			}
+			skill = 4
+		}
+	}
+	if = {
+		limit = {
+			tag = TUR
+		}
+		create_field_marshal = {
+			name = "Ahmed Djemal Pasha"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Ahmed_Djemal_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+				defensive_doctrine
+				offensive_doctrine
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			id = 2004
+		}
+		create_corps_commander = {
+			name = "Ali Ihsan Sabis"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Ali_Ihsan_Sabis.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			id = 2000
+		}
+		create_corps_commander = {
+			name = "Ali Fuat Cebesoy"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Ali_Fuat_Cebesoy.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			id = 2001
+		}
+		create_corps_commander = {
+			name = "Cemal Mersinli"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Cemal_Mersinli.dds"
+			traits = {
+				imperial_ottoman_army
+				old_guard
+			}
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			id = 2002
+		}
+		create_corps_commander = {
+			name = "Cevat Cobanli"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Cevat_Cobanli.dds"
+			traits = {
+				imperial_ottoman_army
+				old_guard
+				trickster
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 2
+			id = 2003
+		}
+		create_corps_commander = {
+			name = "Hafiz Hakki Pasha"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Hafiz_Hakki_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 2007
+		}
+		create_corps_commander = {
+			name = "Halil Kut"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Halil_Kut.dds"
+			traits = {
+				imperial_ottoman_army
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+			id = 2009
+		}
+		create_corps_commander = {
+			name = "Ismet Pasha"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Ismet_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 2011
+		}
+		create_corps_commander = {
+			name = "Nureddin Ibrahim"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Nureddin_Ibrahim.dds"
+			traits = {
+				imperial_ottoman_army
+				desert_fox
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
+			id = 2014
+		}
+		create_corps_commander = {
+			name = "Wehib Pasha"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Wehib_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			skill = 4
+			id = 2016
+		}
+		create_field_marshal = {
+			name = "Behaeddin Shakir"
+			picture = "gfx/leaders/TUR/WW1/FM_Behaeddin_Shakir.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Damat Ferid Pasha"
+			picture = "gfx/leaders/TUR/WW1/FM_Damat_Ferid_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Mehmed Talat Pasha"
+			picture = "gfx/leaders/TUR/WW1/FM_Mehmed_Talat_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Said Halim Pasha"
+			picture = "gfx/leaders/TUR/WW1/FM_Said_Halim_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Djemal Pasha"
+			picture = "gfx/leaders/TUR/WW1/General_Djemal_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+				defensive_doctrine
+				offensive_doctrine
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Enver Pasha"
+			picture = "gfx/leaders/TUR/WW1/General_Enver_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+				offensive_doctrine
+				defensive_doctrine
+				fast_planner
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			id = 2005
+		}
+		create_corps_commander = {
+			name = "Fevzi Cakmak"
+			picture = "gfx/leaders/TUR/WW1/General_Fevzi_Cakmak.dds"
+			traits = {
+				imperial_ottoman_army
+				logistics_wizard
+				defensive_doctrine
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+			id = 2006
+		}
+		create_corps_commander = {
+			name = "Friedrich Freiherr Kress von Kressenstein"
+			picture = "gfx/leaders/TUR/WW1/General_Friedrich_Freiherr_Kress_von_Kressenstein.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Fritz Bronsart von Schellendorf"
+			picture = "gfx/leaders/TUR/WW1/General_Fritz_Bronsart_von_Schellendorf.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Mehmet Esat Bulkat"
+			picture = "gfx/leaders/TUR/WW1/General_Mehmet_Esat_Bulkat.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			id = 2012
+		}
+		create_corps_commander = {
+			name = "Mustafa Kemal Pasha"
+			picture = "gfx/leaders/TUR/WW1/General_Mustafa_Kemal_Pasha.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Otto Liman von Sanders"
+			picture = "gfx/leaders/TUR/WW1/General_Otto_Liman_von_Sanders.dds"
+			traits = {
+				imperial_ottoman_army
+			}
+			skill = 1
+		}
+
+		### ADDED BY EVENT
+
+		#	create_navy_leader = {
+		#		name = "Wilhelm Souchon"
+		#		picture = "gfx/leaders/TUR/WW1/Admiral_Wilhelm_Souchon.dds"
+		#		traits = {
+		#			imperial_ottoman_navy
+		#		}
+		#		skill = 1
+		#	}
+		create_navy_leader = {
+			name = "Arif Pasha"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Arif_Pasha.dds"
+			traits = {
+				imperial_ottoman_navy
+			}
+			attack_skill = 2
+			defense_skill = 2
+			#planning_skill = 2
+			#logistics_skill = 2
+			skill = 2
+			id = 2017
+		}
+		create_navy_leader = {
+			name = "Ahmed Ramiz Bey"
+			picture = "gfx/leaders/TUR/WW1/Portrait_Turkey_Ahmed_Ramiz_Bey.dds"
+			traits = {
+				imperial_ottoman_navy
+				old_guard_navy
+			}
+			attack_skill = 1
+			defense_skill = 2
+			#planning_skill = 1
+			#logistics_skill = 1
+			skill = 1
+			id = 2018
+		}
+	}
+	if = {
+		limit = {
+			tag = JAP
+		}
+		create_corps_commander = {
+			name = "Kamio Mitsuomi"
+			picture = "gfx/leaders/JAP/WW1/Portrait_Japan_Kamio_Mitsuomi.dds"
+			traits = {
+				ija_trait
+				commando
+				bearer_of_artillery
+				fortress_buster
+			}
+			skill = 4
+			id = 12100
+		}
+		create_corps_commander = {
+			name = "Kuroki Tamemoto"
+			picture = "gfx/leaders/JAP/WW1/Portrait_Japan_Kuroki_Tamemoto.dds"
+			traits = {
+				ija_trait
+				old_guard
+				trickster
+				naval_invader
+			}
+			skill = 5
+			id = 12101
+		}
+		create_corps_commander = {
+			name = "Nogi Maresuke"
+			picture = "gfx/leaders/JAP/WW1/Portrait_Japan_Nogi_Maresuke.dds"
+			traits = {
+				ija_trait
+				fortress_buster
+				naval_invader
+			}
+			skill = 6
+			id = 12102
+		}
+		create_field_marshal = {
+			name = "Oyama Iwao"
+			picture = "gfx/leaders/JAP/WW1/Portrait_Japan_Oyama_Iwao.dds"
+			traits = {
+				ija_trait
+				offensive_doctrine
+				organisational_leader
+				fast_planner
+			}
+			skill = 6
+			id = 12103
+		}
+		create_corps_commander = {
+			name = "Fukushima Yasumasa"
+			picture = "gfx/leaders/JAP/WW1/General_Fukushima_Yasumasa.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Fushimi Sadanaru"
+			picture = "gfx/leaders/JAP/WW1/General_Fushimi_Sadanaru.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Hasegawa Yoshimichi"
+			picture = "gfx/leaders/JAP/WW1/General_Hasegawa_Yoshimichi.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Kanin Kotohito"
+			picture = "gfx/leaders/JAP/WW1/General_Kanin_Kotohito.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Kawamura Kageki"
+			picture = "gfx/leaders/JAP/WW1/General_Kawamura_Kageki.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Oku Yasukata"
+			picture = "gfx/leaders/JAP/WW1/General_Oku_Yasukata.dds"
+			traits = {
+				ija_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Togo Heihachiro"
+			picture = "gfx/leaders/JAP/WW1/Portrait_Japan_Togo_Heihachiro.dds"
+			traits = {
+				ijn_trait
+				ironside
+				superior_tactician
+				spotter
+			}
+			skill = 6
+			id = 12104
+		}
+		create_navy_leader = {
+			name = "Inoue Yoshika"
+			picture = "gfx/leaders/JAP/WW1/Admiral_Inoue_Yoshika.dds"
+			traits = {
+				ijn_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Itoh Sukeyuki"
+			picture = "gfx/leaders/JAP/WW1/Admiral_Itoh_Sukeyuki.dds"
+			traits = {
+				ijn_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Kaminura Hikonojo"
+			picture = "gfx/leaders/JAP/WW1/Admiral_Kaminura_Hikonojo.dds"
+			traits = {
+				ijn_trait
+			}
+			skill = 1
+		}
+	}
+	if = {
+		limit = {
+			tag = CHI
+		}
+		create_field_marshal = {
+			name = "Chen Bing Kun"
+			picture = "gfx/leaders/CHI/WW1/China_FM_ChenBingkun.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Duan Zhigui"
+			picture = "gfx/leaders/CHI/WW1/China_FM_DuanZhigui.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_field_marshal = {
+			name = "Yin Chang"
+			picture = "gfx/leaders/CHI/WW1/China_FM_Yinchang.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Jiang Chaozong"
+			picture = "gfx/leaders/CHI/WW1/China_Gen_JiangChaozong.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Jiang Guiti"
+			picture = "gfx/leaders/CHI/WW1/China_Gen_JiangGuiti.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Liu Xianshi"
+			picture = "gfx/leaders/CHI/WW1/China_Gen_LiuXianshi.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Long Jiguang"
+			picture = "gfx/leaders/CHI/WW1/China_Gen_LongJiguang.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_corps_commander = {
+			name = "Ma Fuxiang"
+			picture = "gfx/leaders/CHI/WW1/China_Gen_MaFuxiang.dds"
+			traits = {
+				qing_army_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Cheng Biguang"
+			picture = "gfx/leaders/CHI/WW1/China_Adm_ChengBiguang.dds"
+			traits = {
+				qing_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Du Xigui"
+			picture = "gfx/leaders/CHI/WW1/China_Adm_DuXigui.dds"
+			traits = {
+				qing_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Liu Guanxiong"
+			picture = "gfx/leaders/CHI/WW1/China_Adm_LiuGuanxiong.dds"
+			traits = {
+				qing_navy_trait
+			}
+			skill = 1
+		}
+		create_navy_leader = {
+			name = "Sa Zhenbing"
+			picture = "gfx/leaders/CHI/WW1/China_Adm_SaZhenbing.dds"
+			traits = {
+				qing_navy_trait
+			}
+			skill = 1
+		}
+	}
 	if = {
 		limit = {
 			tag = USA
