@@ -1,7 +1,6 @@
 RON_has_custom_generals_ww1 = {
 	OR = {
-		tag = AUS
 		tag = GER
-		tag = USA
+		tag = AUS
 	}
 }
