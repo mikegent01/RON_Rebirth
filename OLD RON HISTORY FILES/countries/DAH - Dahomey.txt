@@ -1,104 +1,89 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 776
+﻿capital = 776
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
 
 set_convoys = 10
+
+recruit_character = DAH_stc
+recruit_character = DAH_aco2
+recruit_character = DAH_aa2
+recruit_character = DAH_ncs
+recruit_character = DAH_nt
+recruit_character = DAH_acas
+recruit_character = DAH_acd2
+recruit_character = DAH_democratic_guy
+recruit_character = DAH_mt
+recruit_character = DAH_ai2
+recruit_character = DAH_coi
+recruit_character = DAH_acr
+recruit_character = DAH_pot
+recruit_character = DAH_awt
+recruit_character = DAH_communist_guy
+recruit_character = DAH_ncm
+recruit_character = DAH_acgs
+recruit_character = DAH_nccr
+recruit_character = DAH_fascist_guy
+recruit_character = DAH_ar
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1900.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
-}
-
-create_country_leader = {
-	name = "Hubert Maga"
-	picture = "gfx/leaders/DAH/CW/Dahomey_Hubert_Maga.dds"
-	expire = "2060.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Mathieu Kerekou"
-	picture = "gfx/leaders/DAH/CW/Benin_Mathieu_Kerekou.dds"
-	expire = "2060.1.1"
-	ideology = leninism
-}
-
-create_country_leader = {
-	name = "Patrice Talon"
-	picture = "gfx/leaders/DAH/MD/DAH_Patrice_Talon.dds"
-	expire = "2060.1.1"
-	ideology = independent
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-1980.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1980.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-}
-
-2000.1.1 = {
-	oob = "DAH_2000"
-	create_country_leader = {
-		name = "Thomas Boni Yayi"
-		picture = "MD/Benin_ThomasBoniYayi.dds"
-		expire = "2060.1.1"
-		ideology = progressivism
-	}
-}
-
-2008.1.1 = {
-	create_country_leader = {
-		name = "Thomas Boni Yayi"
-		picture = "gfx/leaders/DAH/MD/Benin_Thomas_Boni_Yayi.dds"
-		expire = "2060.1.1"
-		ideology = progressivism
-	}
-}
-
-2016.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2016.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-2020.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "2020.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }

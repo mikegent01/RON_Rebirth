@@ -1,3 +1,7 @@
+NDefines.NGame.START_DATE = "1775.1.1.1";
+NDefines.NGame.END_DATE = "2060.1.1.1";
+NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1775.1.1.12"
+
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 60            -- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1                -- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 60            -- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked

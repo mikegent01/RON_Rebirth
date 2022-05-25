@@ -1,70 +1,87 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 690
-oob = "generic_1910"
+﻿capital = 690
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
 set_convoys = 5
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
-	democratic = 100
+	democratic = 75
+	fascism = 1
+	communism = 1
+	neutrality = 23
+}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}
+
+
 }
 
-create_country_leader = {
-	name = "Lynden Pindeling"
-	picture = "gfx/leaders/BAH/CW/Bahamas_Lynden_Pindeling.dds"
-	expire = "2060.1.1"
-	ideology = liberalism
-}
 
-2000.1.1 = {
-	oob = "BAH_2000"
-	set_naval_oob = "BAH_2000_naval_legacy"
-	create_country_leader = {
-		name = "Hubert Ingraham"
-		picture = "gfx/leaders/BAH/MD/Bahamas-Hubert_Ingraham.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Hubert Ingraham"
-		picture = "gfx/leaders/BAH/MD/Bahamas_Hubert_Ingraham.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Perry Christie"
-		picture = "gfx/leaders/BAH/MD/Bahamas_Perry_Christie.dds"
-		expire = "2060.1.1"
-		ideology = progressivism
-	}
-}
-
-2020.1.1 = {
+1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
-		last_election = "2020.1.1"
+		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Hubert Minnis"
-		picture = "gfx/leaders/BAH/MD/BAH_Hubert_Minnis_Conservatism.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
+		democratic = 75
+		fascism = 1
+		communism = 1
+		neutrality = 23
 	}
 }

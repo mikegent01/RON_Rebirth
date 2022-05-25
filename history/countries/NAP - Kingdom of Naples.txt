@@ -1,0 +1,27 @@
+RON_universal_setup = yes
+capital = 117
+
+oob = "generic_1910"
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Crown of Naples"
+	picture = "Crown_of_Naples.dds"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Crown of Naples"
+	picture = "Crown_of_Naples.dds"
+	ideology = constitutional_monarchism
+}

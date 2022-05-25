@@ -1,26 +1,24 @@
-
 state = {
 	id = 560
-	name = "STATE_560" # Nikolayevsk
-	manpower = 97663
-	
-	state_category = rural
-	resources={
-		steel=18 # was: 24
+	name = "STATE_560"
+	resources = {
+		steel = 18.000
 	}
 
-	history={
-		owner = SOV
+	history = {
+		owner = CHI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+
 		}
-		add_core_of = SOV
-		add_core_of = FER
+		   add_core_of = CHI   1918.11.11 = { owner = SOV controller = SOV } 1923.1.1 = { owner = SOV controller = SOV }  1992.1.1 = { owner = SOV controller = SOV }
+
 	}
 
 	provinces = {
-		1724 1772 1807 1842 3664 4290 4841 4844 7748 7868 7871 9659 10571 10577 10590 12559 12569 12638 
+		1724 1842 3664 4290 4844 7748 9659 10571 12559 12569 12638
 	}
-
-	local_supplies = 0.0 
+	manpower = 85643
+	buildings_max_level_factor = 1.000
+	state_category = rural
 }

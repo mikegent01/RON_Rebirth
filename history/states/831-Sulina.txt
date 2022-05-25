@@ -1,0 +1,23 @@
+state = {
+	id = 831
+	name = "STATE_831"
+
+	history = {
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ROM
+		add_core_of = TUR
+
+	}
+
+	provinces = {
+		13231
+	}
+	local_supplies=0.0 
+ manpower = 981
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

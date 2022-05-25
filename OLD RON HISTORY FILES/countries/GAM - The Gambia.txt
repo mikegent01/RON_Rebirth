@@ -1,83 +1,66 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 701
+﻿capital = 701
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
 set_convoys = 10
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1900.1.1"
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	monarchism = 100
-}
-
-create_country_leader = {
-	name = "Dawda Jawara"
-	picture = "gfx/leaders/GAM/CW/Gambia_DawdaJawara.dds"
-	expire = "2060.1.1"
-	ideology = agrarianism
-}
-
-create_country_leader = {
-	name = "Yahya Jammeh"
-	picture = "gfx/leaders/GAM/MD/Gambia_Yahya_Jammeh.dds"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-1970.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1970.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-2000.1.1 = {
-	oob = "GAM_2000"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Yahya Jammeh"
-		picture = "gfx/leaders/GAM/MD/Gambia_Yahya_Jammeh.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Adama Barrow"
-		picture = "gfx/leaders/GAM/MD/GMB_Adama_Barrow_Liberalism.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
+	democratic = 55
+	fascism = 15
+	communism = 5
+	neutrality = 25
 }

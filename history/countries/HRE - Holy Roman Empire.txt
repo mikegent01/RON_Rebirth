@@ -1,0 +1,29 @@
+RON_universal_setup = yes
+capital = 1105
+oob = "HRE_1775"
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Joseph II"
+	picture = "gfx/leaders/HRE/AOR/Joseph_II.dds"
+	desc = "POLITICS_JOSEPH_II_DESC"
+	ideology = absolute_monarchy
+}

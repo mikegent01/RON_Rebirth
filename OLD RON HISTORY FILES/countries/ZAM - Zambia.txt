@@ -1,91 +1,88 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 771
+﻿capital = 771
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+recruit_character = ZAM_acas
+recruit_character = ZAM_acgs
+recruit_character = ZAM_ncm
+recruit_character = ZAM_nt
+recruit_character = ZAM_pot
+recruit_character = ZAM_nccr
+recruit_character = ZAM_aco2
+recruit_character = ZAM_coi
+recruit_character = ZAM_aa2
+recruit_character = ZAM_democratic_guy
+recruit_character = ZAM_acd2
+recruit_character = ZAM_acr
+recruit_character = ZAM_fascist_guy
+recruit_character = ZAM_stc
+recruit_character = ZAM_ncs
+recruit_character = ZAM_awt
+recruit_character = ZAM_mt
+recruit_character = ZAM_communist_guy
+recruit_character = ZAM_ai2
+recruit_character = ZAM_ar
+
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1900.1.1"
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	communism = 100
-}
-
-create_country_leader = {
-	name = "Kenneth Kaunda"
-	picture = "gfx/leaders/ZAM/CW/Zambia_KennethKaunda.dds"
-	expire = "2060.1.1"
-	ideology = african_socialism
-}
-
-create_country_leader = {
-	name = "Frederick Chiluba"
-	picture = "gfx/leaders/ZAM/MD/Zambia_Frederick_Chiluba.dds"
-	expire = "2060.1.1"
-	ideology = socialism
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-
-}
-
-1970.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1970.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-}
-
-2000.1.1 = {
-	oob = "ZAM_2000"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Rupiah Banda"
-		picture = "gfx/leaders/ZAM/MD/Zambia_Rupiah_Banda.dds"
-		expire = "2060.1.1"
-		ideology = democratic_socialism
-	}
-}
-2016.1.1 = {
-	oob = "ZAM_2016"
-	create_country_leader = {
-		name = "Edgar Lungu"
-		picture = "gfx/leaders/ZAM/MD/Zambia_EdgarLungu.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Edgar Lungu"
-		picture = "gfx/leaders/ZAM/MD/ZAM_Edgar_Lungu_Social_Democracy.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
+	democratic = 55
+	fascism = 15
+	communism = 5
+	neutrality = 25
 }

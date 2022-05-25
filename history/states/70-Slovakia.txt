@@ -1,15 +1,11 @@
-state={
-	id=70
-	name="STATE_70"
-	manpower = 1230500
-	
-	state_category = city
-	
-	resources={
-		tungsten=1 # was: 2
+state = {
+	id = 70
+	name = "STATE_70"
+	resources = {
+		tungsten = 1.000
 	}
 
-	history={
+	history = {
 		owner = AUS
 		victory_points = {
 			9692 10
@@ -18,24 +14,53 @@ state={
 			11539 5
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 3
-			arms_factory = 2
 			air_base = 3
+
 		}
 		add_core_of = CZE
+		add_core_of = SLO
 		add_core_of = AUS
-
+		1910.1.1 = {
+			owner = AUS
+			controller = AUS
+		}
+		1918.11.11 = {
+			owner = CZE
+			controller = CZE
+			#remove_core_of = AUS
+		}
+		1919.3.27 = {
+			set_province_name = {
+				id = 9692
+				name = RON_BRATISLAVA
+			}
+		}
 		1939.3.14 = {
 			owner = SLO
 			controller = SLO
 			add_core_of = SLO
+
 		}
+
+		1946.1.1 = {
+			owner = CZE
+			controller = CZE
+		}
+
+		1993.1.1 = {
+			owner = SLO
+			controller = SLO
+		}
+
 	}
 
-	provinces={
-		541 3484 3537 9539 9692 11522 11539 
+	provinces = {
+		541 3484 3537 9692 11522 11539
 	}
-
+	manpower = 1210100
+	buildings_max_level_factor = 1.000
+	state_category = city
 	local_supplies=3.0 
 }

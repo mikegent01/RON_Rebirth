@@ -1,204 +1,27 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 335#Jakarta
-oob = "INS_1900"
+﻿capital = 335 #Jakarta
+
+oob = "INS_1936"
+
 set_research_slots = 2
+
+# Starting tech
+# clone of Holland
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	
+	transport = 1
+	fuel_silos = 1
+}
+
 if = {
 	limit = {
-		has_start_date < 1946.01.01
+		not = { has_dlc = "Man the Guns" }
 	}
-	set_cosmetic_tag = INS_HOL    # Netherlands East Indies
-}
-
-set_convoys = 25
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1909.12.18"
-	election_frequency = 84
-	elections_allowed = yes
-}
-
-set_popularities = {
-	democratic = 53
-	communism = 20
-	monarchism = 27
-}
-
-create_country_leader = {
-	name = "Alexander Willem Frederik Idenburg"
-	picture = "gfx/leaders/INS/WW1/Portrait_Indonesia_Alexander_Willem_Frederik_Idenburg.dds"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = "Sjafruddin Prawiranegara"
-	picture = "gfx/leaders/INS/CW/Indonesia_Sjafruddin_Prawiranegara.dds"
-	expire = "2060.1.1"
-	ideology = islamic_republican
-}
-
-create_country_leader = {
-	name = "Bonifacius Cornelis de Jonge"
-	desc = ""
-	picture = "jonge.dds"
-	expire = "1936.9.16"
-	ideology = colonialism
-	traits = {
-		committed_colonialist
-	}
-}
-
-create_country_leader = {
-	name = "Amir Sjarifuddin Harahap"
-	desc = ""
-	picture = "sjarifuddin.dds"
-	expire = "2060.1.1"
-	ideology = marxism
-	traits = {
-		committed_revolutionary
-	}
-}
-
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "sukarno.dds"
-	expire = "2060.1.1"
-	ideology = rw_nationalism
-	traits = {
-		nationalist_uniter
-	}
-}
-
-1910.1.1 = {
-	oob = "INS_1910"
-}
-
-1914.1.1 = {
-	oob = "INS_1914"
-}
-
-1933.1.1 = {
-	oob = "INS_1933"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1933.1.1"
-		election_frequency = 84
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 5
-		fascism = 25
-		communism = 25
-		monarchism = 45
-	}
-
-	create_country_leader = {
-		name = "A. T. van Starkenborgh Stachouwer"
-		desc = ""
-		picture = "GFX_portrait_indonesia_at_van_starkenborgh"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-		traits = { stout_defender
-
-		}
-	}
-
-	create_country_leader = {
-		name = "Bonifacius Cornelis de Jonge"
-		desc = ""
-		picture = "jonge.dds"
-		expire = "1936.9.16"
-		ideology = colonialism
-		traits = {
-			committed_colonialist
-		}
-	}
-
-	create_country_leader = {
-		name = "Sukarno"
-		desc = ""
-		picture = "sukarno.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-		traits = {
-			nationalist_uniter
-		}
-	}
-	create_country_leader = {
-		name = "Sutan Sjahrir"
-		desc = ""
-		picture = "sjahrir.dds"
-		expire = "2060.1.1"
-		ideology = marhaenism #Marhaenism his own unique mix of stuff
-	}
-
-
-	create_country_leader = {
-		name = "Amir Sjarifuddin Harahap"
-		desc = ""
-		picture = "sjarifuddin.dds"
-		expire = "2060.1.1"
-		ideology = marxism
-		traits = {
-			committed_revolutionary
-		}
-	}
-
-
-	create_country_leader = {
-		name = "Sukarno"
-		desc = ""
-		picture = "sukarno.dds"
-		expire = "2060.1.1"
-		ideology = rw_nationalism
-		traits = {
-			nationalist_uniter
-		}
-	}
-
-	if = {
-		limit = {
-			has_start_date > 1930.01.01
-			has_start_date < 1949.01.01
-		}
-		add_ideas = {
-			INS_army_idea
-			INS_economy_idea
-			INS_science_idea
-			INS_political_idea
-		}
-	}
-}
-
-1936.1.1 = {
-	oob = "INS_1936"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1936.1.1"
-		election_frequency = 84
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 5
-		fascism = 25
-		communism = 25
-		monarchism = 45
-	}
-
-	# Starting tech
-	# clone of Holland
 	set_technology = {
-		infantry_weapons = 1
-		tech_support = 1
-		tech_recon = 1
-		early_fighter = 1
-		early_bomber = 1
-		transport = 1
-		fuel_silos = 1
 		early_submarine = 1
 		basic_destroyer = 1
 		early_destroyer = 1
@@ -208,107 +31,114 @@ create_country_leader = {
 	}
 }
 
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		basic_battery = 1
+	}
+}
+
+set_convoys = 25
+set_popularities = {
+	democratic = 10
+	fascism = 10
+	communism = 30
+	neutrality = 50
+}
+
+
+recruit_character = INS_a_t_van_starkenborgh_stachouwer
+recruit_character = INS_sukarno
+recruit_character = INS_amir_sjarifuddin_harahap
+recruit_character = INS_suharto
+recruit_character = INS_sutan_sjahrir
+
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	recruit_character = INS_hein_ter_poorten
+}
+
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
 1939.1.1 = {
-	oob = "INS_1939"
-}
+	add_political_power = 1198
+	add_command_power = 100
 
-1940.1.1 = {
-	oob = "INS_1940"
-}
+	oob = "INS_1939" #straight copy of INS 1936
 
-1942.1.1 = {
-	oob = "INS_1942"
-}
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		interwar_artillery = 1
+		interwar_antiair = 1
+		tech_recon = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
 
-1949.1.1 = {
-	oob = "INS_1949"
-	set_politics = {
-		ruling_party = islamism
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		islamism = 100
-	}
-	create_country_leader = {
-		name = "Sjafruddin Prawiranegara"
-		picture = "gfx/leaders/INS/CW/Indonesia_Sjafruddin_Prawiranegara.dds"
-		expire = "2060.1.1"
-		ideology = islamic_republican
-	}
-	create_country_leader = {
-		name = "Sukarno"
-		picture = "gfx/leaders/INS/CW/Indonesia_Sukarno.dds"
-		expire = "1970.1.1"
-		ideology = marhaenism
-	}
-	create_country_leader = {
-		name = "Suharto"
-		picture = "gfx/leaders/INS/CW/Indonesia_Suharto.dds"
-		expire = "2008.1.1"
-		ideology = pancasila
-	}
-}
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
 
-1960.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-}
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
 
-1970.1.1 = {
-	oob = "INS_1970"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1970.1.1"
-		election_frequency = 48
-		elections_allowed = yes
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
 	}
-	set_popularities = {
-		democratic = 100
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_technology = {
+			gwtank = 1
+			basic_light_tank = 1
+		}
 	}
-}
-
-2000.1.1 = {
-	oob = "INS_2000"
-	set_naval_oob = "INS_2000_naval_legacy"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Abdurrahman Wahid"
-		picture = "gfx/leaders/INS/MD/Indonesia_Abdurrahman_Wahid.dds"
-		expire = "2060.1.1"
-		ideology = pancasila
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Susilo Bambang Yudhoyono"
-		picture = "gfx/leaders/INS/MD/Indonesi_Susilo-Bambang_Yudhoyono.dds"
-		expire = "2060.1.1"
-		ideology = centrism
+	if = {
+		limit = {
+			
+			has_dlc = "No Step Back"
+			
+		}
+		set_technology = {
+			gwtank_chassis = 1
+			basic_light_tank_chassis = 1
+		}
 	}
 }
 
-2020.1.1 = {
-	create_country_leader = {
-		name = "Joko Widodo"
-		picture = "gfx/leaders/INS/MD/INS_Joko_Widodo_Pancasila.dds"
-		expire = "2060.1.1"
-		ideology = pancasila
-	}
-}

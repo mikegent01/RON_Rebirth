@@ -1,0 +1,22 @@
+state = {
+	id = 1090
+	name = "STATE_1090"
+
+	history = {
+		owner = CHI
+		buildings = {
+			infrastructure = 2
+
+		}
+		   add_core_of = CHI   1918.11.11 = { owner = SOV controller = SOV } 1923.1.1 = { owner = SOV controller = SOV }  1992.1.1 = { owner = SOV controller = SOV }
+
+	}
+
+	provinces = {
+		1772 1807 7871 10577 10590
+	}
+	local_supplies=0.0 
+ manpower = 12020
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
+}

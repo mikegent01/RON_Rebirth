@@ -16,4 +16,9 @@ tags={
 	"Utilities"
 }
 name="Rise of Nations Rebirth"
-supported_version="1.11.4"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
+supported_version="1.11.11"

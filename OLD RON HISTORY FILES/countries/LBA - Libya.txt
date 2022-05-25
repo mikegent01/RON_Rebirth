@@ -1,148 +1,111 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 448
+﻿capital = 448
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
 set_convoys = 20
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1900.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	monarchism = 100
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }
 
 create_country_leader = {
 	name = "Bashir es Sadawi"
-	picture = "Bashir_es_Sadawi.dds"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_democratic1.dds"
 	ideology = liberalism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
 	name = "Ettore Bastico"
-	picture = "Ettore_Bastico.dds"
+	desc = ""
+	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
 	ideology = fascism_ideology
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Muammar Gaddafi"
-	picture = "gfx/leaders/LBA/CW/Muammar_Gaddafi_1970.dds"
-	expire = "2060.1.1"
-	ideology = third_international_theory
+	name = "Idris Senussi"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_land_3.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
-	name = "Idris I"
-	picture = "gfx/leaders/LBA/CW/Libia_Idris_I.dds"
-	expire = "2060.1.1"
-	ideology = absolute_monarchy
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-	create_country_leader = {
-		name = "Idris I"
-		picture = "gfx/leaders/LBA/CW/Libia_Idris_I.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-1970.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1969.9.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-	if = {
-		limit = {
-			has_start_date > 1968.01.01
-			has_start_date < 1977.01.01
-		}
-		set_cosmetic_tag = LBA_ARAB
-	}
-}
-
-1990.1.1 = {
-	create_country_leader = {
-		name = "Muammar Gaddafi"
-		picture = "gfx/leaders/LBA/CW/Muammar_Gaddafi_1990.dds"
-		expire = "2060.1.1"
-		ideology = third_international_theory
-	}
-}
-
-2000.1.1 = {
-	oob = "LBA_2000"
-	set_politics = {
-		ruling_party = communism
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-	create_country_leader = {
-		name = "Muammar Gaddafi"
-		picture = "gfx/leaders/LBA/CW/Muammar_Gaddafi_2000.dds"
-		expire = "2060.1.1"
-		ideology = third_international_theory
-	}
-	create_country_leader = {
-		name = "Fayez Al-Sarraj"
-		picture = "gfx/leaders/LBA/MD/Libya_FayezAl-Sarraj.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Muammar Gaddafi"
-		picture = "gfx/leaders/LBA/MD/Lybia_Muammar_Gaddafi.dds"
-		expire = "2060.1.1"
-		ideology = third_international_theory
-	}
-}
-
-2012.1.1 = {
-	oob = "LBA_2016"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2011.10.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "House of Representatives"
-		picture = "gfx/leaders/LBA/MD/LBA_House_of_Representatives.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-	create_country_leader = {
-		name = "Fayez al-Sarraj"
-		picture = "gfx/leaders/LBA/MD/LBA_Fayez_al-Sarraj_Independent.dds"
-		expire = "2060.1.1"
-		ideology = democratic_independent
+	name = "Hassan as-Senussi"
+	desc = ""
+	picture = "Portrait_Arabia_Generic_communism1.dds"
+	ideology = leninism
+	traits = {
+		#
 	}
 }

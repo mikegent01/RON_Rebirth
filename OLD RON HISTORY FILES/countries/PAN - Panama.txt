@@ -1,279 +1,108 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 304
-oob = "PAN_1900"
+﻿capital = 304
+
+oob = "PAN_1936"
+
+# Starting tech
 set_technology = {
-	tech_support = 1
-	early_infantry_weapons = 1
-	light_field_gun1 = 1
-	heavy_field_gun1 = 1
-	# Navy
-	ww1_destroyer0 = 1
-	ww1_destroyer1 = 1
-	ww1_light_cruiser1 = 1
-	ww1_light_cruiser0 = 1
-	ww1_battlecruiser0 = 1
-	ww1_battleship0 = 1
-	ww1_submarine1 = 1
-	ww1_coastal_submarine1 = 1
-	transport = 1
-	horses = 1
-	ww1_electronic_mechanical_engineering = 1
+	infantry_weapons = 1
 }
+
+recruit_character = PAN_harmodio_arias_madrid
+recruit_character = PAN_bartolomé_sinibaldi
+recruit_character = PAN_tiburcio_andino
+recruit_character = PAN_aniceto_andino
+recruit_character = PAN_enrique_jimenez_brin
+recruit_character = PAN_nestor_urribe_suarez
+recruit_character = PAN_carlos_zavala
+recruit_character = PAN_marcos_a_gelabert
+recruit_character = PAN_juan_jose_parada
+recruit_character = PAN_arturo_osborne_irraga
+recruit_character = PAN_enrico_fabrego_paz
+recruit_character = PAN_ferdinando_hernandez_ytuarte
+recruit_character = PAN_margarita_belloso_jimenez
+recruit_character = PAN_omar_torrijos
+recruit_character = PAN_bolivar_villarino
+recruit_character = PAN_juan_a_hernandez
+recruit_character = PAN_juan_remon
+recruit_character = PAN_manuel_rios_urribe
+recruit_character = PAN_victor_pareja
+recruit_character = PAN_nicolas_ardito_barletta
+recruit_character = PAN_jose_pezet
+
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 10
-set_politics = {
-	ruling_party = democratic
-	last_election = "1910.1.1"
-	election_frequency = 60
-	elections_allowed = yes
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "PAN_1939"
+	set_technology = {
+		infantry_weapons1 = 1
+
+		#doctrines
+		air_superiority = 1
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1		
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		fleet_in_being = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
 }
 
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.6.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
 set_popularities = {
 	democratic = 100
 }
 
-create_country_leader = {
-	name = "José Domingo de Obaldía"
-	picture = "gfx/leaders/PAN/WW1/Jose_Domingo.dds"
-	expire = "2060.1.1"
-	ideology = market_liberalism
-}
-
-create_country_leader = {
-	name = "Diógenes de la Rosa"
-	picture = "Diogenes_de_la_Rosa.dds"
-	expire = "2060.1.1"
-	ideology = lw_socialism
-}
-
-create_country_leader = {
-	name = "Omar Torrijos"
-	picture = "gfx/leaders/PAN/CW/Panama_OmarTorrijos.dds"
-	expire = "2060.1.1"
-	ideology = militarism
-}
-
-create_country_leader = {
-	name = "Manuel Noriega"
-	picture = "gfx/leaders/PAN/CW/Manuel_Noriega.dds"
-	expire = "2060.1.1"
-	ideology = rw_militarism
-}
-
-1910.1.1 = {
-	oob = "PAN_1910"
-}
-
-1914.1.1 = {
-	oob = "PAN_1914"
-}
-
-1919.1.1 = {
-	create_country_leader = {
-		name = "Belisario Porras Barahona"
-		picture = "gfx/leaders/PAN/WW1/Panama_BelisarioPorrasBarahona.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-1933.1.1 = {
-	oob = "PAN_1933"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1932.6.5"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Harmodio Arias Madrid"
-		desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-		picture = "GFX_portrait_panama_harmodio_arias_madrid"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-1936.1.1 = {
-	oob = "PAN_1936"
-	# Starting tech
-	set_technology = {
-		infantry_weapons = 1
-	}
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1932.6.5"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Harmodio Arias Madrid"
-		desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-		picture = "GFX_portrait_panama_harmodio_arias_madrid"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
 1939.1.1 = {
-	oob = "PAN_1939"
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1936.6.7"
 		election_frequency = 48
 		elections_allowed = yes
 	}
-	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
-		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-
-}
-
-1940.1.1 = {
-	oob = "PAN_1940"
-}
-
-1949.1.1 = {
-	oob = "PAN_1949"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Domingo Diaz Arosemena"
-		picture = "gfx/leaders/PAN/CW/Panama_Domingo_Diaz_Arosemena.dds"
-		expire = "2060.1.1"
-		ideology = market_liberalism
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Ernesto De La Guardia"
-		picture = "gfx/leaders/PAN/CW/Panama_ErnestoDeLaGuardia.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-
-1970.1.1 = {
-	oob = "PAN_1970"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1970.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-1980.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1980.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Aristides Royo"
-		picture = "gfx/leaders/PAN/CW/Panama_Aristides_Royo.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-}
-
-1990.1.1 = {
-	create_country_leader = {
-		name = "Guillermo Endara"
-		picture = "gfx/leaders/PAN/CW/Panama-Guillermo_Endara.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-
-2000.1.1 = {
-	oob = "PAN_2000"
-	set_politics = {
-		ruling_party = fascism
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 100
-	}
-	create_country_leader = {
-		name = "Mireya Moscoso"
-		picture = "gfx/leaders/PAN/MD/Panama-Mireya_Moscoso.dds"
-		expire = "2060.1.1"
-		ideology = rw_populism
-	}
-	create_country_leader = {
-		name = "Juan Carlos Varela"
-		picture = "gfx/leaders/PAN/MD/Panama_Juan_Carlos_Varela.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Martín Torrijos"
-		expire = "2060.1.1"
-		picture = "gfx/leaders/PAN/MD/Panama_ Martín_Torrijos.dds"
-		ideology = rw_populism
-	}
-}
-
-2016.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2016.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Laurentino Cortizo"
-		picture = "gfx/leaders/PAN/MD/PAN_Laurentino_Cortizo_Social_Democracy.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
+	recruit_character = PAN_juan_demostenes_arosemena
+	promote_character = PAN_juan_demostenes_arosemena
+	recruit_character = PAN_july_portocarrero
+	promote_character = PAN_july_portocarrero
+	retire_character = PAN_harmodio_arias_madrid
+	retire_character = PAN_bartolomé_sinibaldi
 }

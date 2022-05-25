@@ -1,309 +1,113 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 301
-oob = "PAR_1900"
-add_ideas = {
-	export_focus
-	tax_low
-	tariffs_average
-	civilian_economy
-	press_regulated
-	key_industries
-	fdi_allowed
-	foreign_volunteers
-	train_none
-	officer_train_none
-	security_minor_restrictions
-	education_budget2
-	health_budget2
-	foreign_isolationism
+﻿capital = 301
+
+oob = "PAR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
 }
 
-set_technology = {
-	tech_support = 1
-	early_infantry_weapons = 1
-	light_field_gun1 = 1
-	heavy_field_gun1 = 1
-	# Navy
-	ww1_destroyer0 = 1
-	ww1_destroyer1 = 1
-	ww1_light_cruiser1 = 1
-	ww1_light_cruiser0 = 1
-	ww1_battlecruiser0 = 1
-	ww1_battleship0 = 1
-	ww1_submarine1 = 1
-	ww1_coastal_submarine1 = 1
-	transport = 1
-	horses = 1
-	ww1_electronic_mechanical_engineering = 1
-}
+recruit_character = PAR_rafael_franco
+recruit_character = PAR_emilio_melgarejo
+recruit_character = PAR_francisco_daza
+recruit_character = PAR_manuel_de_la_cruz
+recruit_character = PAR_manuel_t_aponte
+recruit_character = PAR_hector_velasquez
+recruit_character = PAR_jesus_g_arraza
+recruit_character = PAR_juan_stefanich
+recruit_character = PAR_juan_manuel_frutos
+recruit_character = PAR_isaias_baez_allende
+recruit_character = PAR_vicente_almonacid
+recruit_character = PAR_alfred_stroessner_matiauda
+recruit_character = PAR_amancio_pampliega
+recruit_character = PAR_hernan_rojas_baltassare
+recruit_character = PAR_higenio_morinigo_martinez
+recruit_character = PAR_juan_natalicio_gonzalez
+recruit_character = PAR_remigio_bastia_martin
+recruit_character = PAR_francisco_esculies
+recruit_character = PAR_riccardo_odriosola
+
 
 set_country_flag = monroe_doctrine
 
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "PAR_1939"
+	set_technology = {
+		CAS1 = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1900.1.1"
-	election_frequency = 60
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
-	democratic = 90
-	communism = 10
-}
-
-create_country_leader = {
-	name = "Emilio Aceval"
-	picture = "DNC/PAR_Emilio_Aceval.dds"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = "Rafael Franco"
-	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
-	expire = "2060.1.1"
-	ideology = lw_nationalism
-}
-create_country_leader = {
-	name = "José Félix Estigarribia"
-	picture = "Jose_Felix_Estigarribia.dds"
-	expire = "2060.1.1"
-	ideology = militarism
-}
-create_country_leader = {
-	name = "Alfredo Stroessner"
-	picture = "gfx/leaders/PAR/CW/Paruguay_AlfredoStroessner.dds"
-	expire = "2060.1.1"
-	ideology = stroessnerism
-}
-
-1910.1.1 = {
-	oob = "PAR_1910"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1907.1.12"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 90
-		communism = 10
-	}
-
-	create_country_leader = {
-		name = "Emiliano González Navero"
-		desc = "POLITICS_EMILIANO_GONZALEZ_NAVERO_DESC"
-		picture = "gfx/leaders/PAR/WW1/portrait_par_emilano_gonzalez_navero.dds"
-		expire = "2060.1.1"
-		ideology = market_liberalism
-	}
-}
-
-1914.1.1 = {
-	oob = "PAR_1914"
-}
-
-1919.1.1 = {
-	create_country_leader = {
-		name = "Jose Pedro Montero"
-		picture = "WW1/Paraguay_JosePedroMontero.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-1933.1.1 = {
-	oob = "PAR_1933"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1933.1.1"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 90
-		communism = 10
-	}
-	create_country_leader = {
-		name = "Eusebio Ayala"
-		desc = "POLITICS_EUSEBIO_AYALA_DESC"
-		picture = "gfx/leaders/PAR/INT/Paraguay_Eusebio_Ayala.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-	# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
-	create_country_leader = {
-		name = "Rafael Franco"
-		desc = "POLITICS_RAFAEL_FRANCO_DESC"
-		picture = "GFX_Portrait_paraguay_rafael_franco"
-		expire = "2060.1.1"
-		ideology = lw_nationalism
-	}
-	create_country_leader = {
-		name = "José Félix Estigarribia"
-		picture = "Jose_Felix_Estigarribia.dds"
-		expire = "2060.1.1"
-		ideology = militarism
-	}
-	create_country_leader = {
-		name = "Alfredo Stroessner"
-		picture = "gfx/leaders/PAR/CW/Paruguay_AlfredoStroessner.dds"
-		expire = "2060.1.1"
-		ideology = stroessnerism
-	}
-	create_country_leader = {
-		name = "Juan Manuel Frutos"
-		picture = "Juan_Manuel_Frutos.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-	if = {
-		limit = {
-			has_start_date > 1932.01.01
-			has_start_date < 1949.01.01
-		}
-		add_ideas = {
-			army_with_a_state
-			government_chaos
-			PAR_unemployment
-			gua_rani
-			argentine_landlords
-		}
-	}
-}
-
-1936.1.1 = {
-	oob = "PAR_1936"
-	# Starting tech
-	set_technology = {
-		infantry_weapons = 1
-		gw_artillery = 1
-		early_fighter = 1
-	}
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 55
-		communism = 33
-		fascism = 10
-		monarchism = 2
-	}
-
+	democratic = 25
+	communism = 75
 }
 
 1939.1.1 = {
-	oob = "PAR_1939"
-}
-
-1940.1.1 = {
-	oob = "PAR_1940"
-}
-
-1949.1.1 = {
-	oob = "PAR_1949"
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Juan Natalicio Gonzalez"
-		picture = "gfx/leaders/PAR/CW/Paraguay_Juan_Natalicio_Gonzalez.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1960.1.1"
+		ruling_party = neutrality
+		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 100
+		democratic = 20
+		communism = 30
+		neutrality = 50
 	}
-}
 
-1970.1.1 = {
-	oob = "PAR_1970"
-	create_country_leader = {
-		name = "Andres Rodriguez"
-		picture = "gfx/leaders/PAR/CW/Paraguay-Andres_Rodriguez.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
+	recruit_character = PAR_higinio_morinigo
+	promote_character = PAR_higinio_morinigo
+	retire_character = PAR_manuel_de_la_cruz
 
-1990.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1990.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
 
-2000.1.1 = {
-	oob = "PAR_2000"
-	create_country_leader = {
-		name = "Luis Ángel González Macchi"
-		picture = "gfx/leaders/PAR/MD/Paraguay_Luis_Ángel_González_Macchi.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-	create_country_leader = {
-		name = "Lenin Amado"
-		picture = "gfx/leaders/PAR/MD/2000_Paraguay_Lenin_Amado_Marxism.dds"
-		expire = "2060.1.1"
-		ideology = marxism
-	}
-	create_country_leader = {
-		name = "Lino Oviedo"
-		picture = "gfx/leaders/PAR/MD/2000_Paraguay_Lino_Oviedo_Nationalism.dds"
-		expire = "2060.1.1"
-		ideology = nationalism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Fernando Lugo Mendez"
-		expire = "2060.1.1"
-		picture = "gfx/leaders/PAR/MD/Paraguay_Fernando_Lugo_Mendez.dds"
-		ideology = conservatism
-	}
-}
-
-2016.1.1 = {
-	create_country_leader = {
-		name = "Horacio Cartes"
-		picture = "gfx/leaders/PAR/MD/Parguay_Horacio_Cartes.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Mario Abdo Benítez"
-		picture = "gfx/leaders/PAR/MD/PAR_Mario_Abdo_Benítez_Conservatism.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
 }

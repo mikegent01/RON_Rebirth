@@ -1,24 +1,24 @@
-
 state = {
 	id = 655
 	name = "STATE_655"
 	manpower = 94759
-	
+
 	state_category = pastoral
 	history = {
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = FER
+		owner = NAT
+		 
+		#add_core_of = SOV
+		
+		1918.11.11 = { owner = SOV controller = SOV } 1923.1.1 = { owner = SOV controller = SOV }
+		1992.1.1 = { owner = SOV controller = SOV }
 		add_claim_by = JAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
 		}
 	}
 
 	provinces = {
-		855 1742 1755 
+		855 1742 1755
 	}
-
-	local_supplies = 0.0 
 }

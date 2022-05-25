@@ -1,331 +1,121 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 6
-oob = "BEL_1900"
+﻿capital = 6
+
+oob = "BEL_1936"
+
 set_research_slots = 3
-set_stability = 0.7
-set_war_support = 0.3#we see what you are doing there Adolf
-add_ideas = {
-	export_focus
-	tax_average
-	tariffs_average
-	low_economic_mobilisation
-	press_free
-	private_control
-	fdi_encouraged
-	foreign_volunteers
-	train_medium
-	officer_train_low
-	security_liberty_first
-	education_budget5
-	health_budget5
-	foreign_neutral
-	police_budget5
+set_stability = 0.8
+set_war_support = 0.3 #we see what you are doing there Adolf
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	trench_warfare = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
 }
 
-if = {
-	limit = {
+recruit_character = BEL_hubert_pierlot
+recruit_character = BEL_joseph_jacquemotte
+recruit_character = BEL_mcl_keyaerts
+recruit_character = BEL_georges_timmermans
+recruit_character = BEL_gilles_wyvekens
+recruit_character = BEL_fritz_conrad
+recruit_character = BEL_raoul_overstraeten
+recruit_character = BEL_georges_deffontaine
+recruit_character = BEL_victor_strydonck_burkel
+recruit_character = BEL_georges_vereecken
+recruit_character = BEL_jules_pire
+recruit_character = BEL_oscar_michiels
+recruit_character = BEL_charles_bastin
+recruit_character = BEL_yvan_gerard
+recruit_character = BEL_rene_lagrou
+recruit_character = BEL_leon_degrelle
+recruit_character = BEL_fritz_lob
+recruit_character = BEL_jules_iserentant
+recruit_character = BEL_victor_van_strydonck_de_burkel
+recruit_character = BEL_paul-henri_spaak
+recruit_character = BEL_gaston_eyskens
+recruit_character = BEL_paul_van_zeeland
 
-		has_start_date < 1918.01.01
-	}
+
+1939.1.1 = {
 	add_ideas = {
-		ww1_Scramble_for_Africa
+		limited_conscription
+	}
+
+	add_political_power = 1198
+	add_command_power = 100
+
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+
+	oob = "BEL_1939"
+	set_technology = {
+		fighter1 = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		interwar_antiair = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		synth_oil_experiments = 1
+		fuel_refining2 = 1
 	}
 }
 
-set_convoys = 80
-set_stability = 0.75
-### WW1 Start Date
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1900.1.1"
-	election_frequency = 60
+	last_election = "1932.11.27"
+	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 90
-	communism = 4
-	fascism = 5
-	monarchism = 1
-}
-
-create_country_leader = {
-	name = "Leopold II"
-	picture = "gfx/leaders/BEL/WW1/BEL_Leopold_II.dds"
-	expire = "2060.1.1"
-	ideology = absolute_monarchy
-}
-
-create_country_leader = {
-	name = "Leopold II"
-	picture = "gfx/leaders/BEL/WW1/BEL_Leopold_II.dds"
-	expire = "2060.1.1"
-	ideology = constitutional_monarchism
-}
-
-create_country_leader = {
-	name = "Joseph Jacquemotte"
-	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "COM_BEL_JACQUEMOTTE.dds"
-	expire = "2060.1.1"
-	ideology = anarchist_communism
-}
-create_country_leader = {
-	name = "Léon Degrelle"
-	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.dds"
-	expire = "2060.1.1"
-	ideology = rexism
-}
-
-# PUPPET Congo
-if = {
-	limit = {
-		has_start_date < 1910.01.01
-	}
-	puppet = COG
-}
-
-if = {
-	limit = {
-
-		has_start_date < 1930.01.01
-	}
-	create_field_marshal = {
-		name = "Cyriaque Gillain"
-		picture = "gfx/leaders/BEL/WW1/FM-Cyriaque_Gillain.dds"
-		skill = 1
-	}
-	create_field_marshal = {
-		name = "Felix Wielemans"
-		picture = "gfx/leaders/BEL/WW1/FM-Felix_Wielemans.dds"
-		skill = 1
-	}
-	create_corps_commander = {
-		name = "Alphonse Jacques de Dixmude"
-		picture = "gfx/leaders/BEL/WW1/General-Alphonse_Jacques_de_Dixmude.dds"
-		skill = 1
-	}
-	create_corps_commander = {
-		name = "Emile Dossin de Saint-Georges"
-		picture = "gfx/leaders/BEL/WW1/General-Emile_Dossin_de_Saint-Georges.dds"
-		skill = 1
-	}
-}
-
-1910.1.1 = {
-	oob = "BEL_1910"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1907.1.12"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 90
-		communism = 4
-		fascism = 5
-		monarchism = 1
-	}
-
-	create_country_leader = {
-		name = "Albert I"
-		desc = "POLITICS_ALBERT_I_DESC"
-		picture = "gfx/leaders/BEL/WW1/Portrait_Belgium_Albert_I.dds"
-		expire = "1934.2.17"
-		ideology = constitutional_monarchism
-	}
-
-	create_country_leader = {
-		name = "Albert I"
-		desc = "POLITICS_ALBERT_I_DESC"
-		picture = "gfx/leaders/BEL/WW1/Portrait_Belgium_Albert_I.dds"
-		expire = "1934.2.17"
-		ideology = absolute_monarchy
-	}
-
-	set_technology = {
-		tech_support = 1
-		early_infantry_weapons = 1
-		light_field_gun1 = 1
-		heavy_field_gun1 = 1
-		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
-		ww1_light_cruiser0 = 1
-		ww1_battlecruiser0 = 1
-		ww1_battleship0 = 1
-		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
-		transport = 1
-		horses = 1
-		ww1_electronic_mechanical_engineering = 1
-	}
-
-}
-
-1914.1.1 = {
-	oob = "BEL_1914"
-}
-
-1933.1.1 = {
-	oob = "BEL_1933"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1933.1.1"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 83
-		fascism = 11
-		communism = 6
-	}
-	create_country_leader = {
-		name = "Paul Van Zeeland"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Paul_Van_Zeeland.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-	create_country_leader = {
-		name = "Charles de Broqueville"
-		picture = "gfx/leaders/BEL/INT/Belgium_Charles_de_Broqueville.dds"
-		expire = "1934.11.20"
-		ideology = christian_democracy
-	}
-	create_country_leader = {
-		name = "Leopold III"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Leopold_III.dds"
-		expire = "1983.9.15"
-		ideology = absolute_monarchy
-		traits = {
-			stout_defender
-		}
-	}
-	create_country_leader = {
-		name = "Albert I"
-		desc = "POLITICS_ALBERT_I_DESC"
-		picture = "gfx/leaders/BEL/WW1/Portrait_Belgium_Albert_I.dds"
-		expire = "1934.2.17"
-		ideology = absolute_monarchy
-	}
-
-	create_country_leader = {
-		name = "Joseph Jacquemotte"
-		desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-		picture = "COM_BEL_JACQUEMOTTE.dds"
-		expire = "2060.1.1"
-		ideology = anarchist_communism
-	}
-	create_country_leader = {
-		name = "Léon Degrelle"
-		desc = "POLITICS_LEON_DEGRELLE_DESC"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.dds"
-		expire = "2060.1.1"
-		ideology = rexism
-	}
-
-	if = {
-		limit = {
-			has_start_date > 1930.01.01
-			has_start_date < 1949.01.01
-		}
-
-		add_ideas = {
-			limited_conscription
-			tblra_leopold3
-			tblra_pillarized_society
-			tblra_peacetime_national_union
-			tblra_linguistic_question_in_military
-			tblra_recovery_from_the_great_depression1
-			tblra_digging_of_the_albert_canal
-		}
-
-	}
-
-}
-
-### END OF WW1 Start Date
-1936.1.1 = {
-	oob = "BEL_1936"
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_support = 1
-		tech_recon = 1
-		tech_engineers = 1
-		motorised_infantry = 1
-		early_fighter = 1
-		trench_warfare = 1
-		fuel_silos = 1
-		fuel_refining = 1
-	}
-	if = {
-		limit = {
-			has_start_date > 1934.01.01
-			has_start_date < 1951.01.01
-		}
-		add_ideas = {
-			king_leopold_iii
-		}
-	}
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1932.11.27"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 83
-		fascism = 11
-		communism = 6
-	}
-	create_country_leader = {
-		name = "Hubert Pierlot"
-		desc = "POLITICS_HUBERT_PIERLOT_DESC"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-	create_country_leader = {
-		name = "Paul Van Zeeland"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Paul_Van_Zeeland.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-	create_country_leader = {
-		name = "Joseph Jacquemotte"
-		desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-		picture = "COM_BEL_JACQUEMOTTE.dds"
-		expire = "2060.1.1"
-		ideology = anarchist_communism
-	}
-	create_country_leader = {
-		name = "Léon Degrelle"
-		desc = "POLITICS_LEON_DEGRELLE_DESC"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.dds"
-		expire = "2060.1.1"
-		ideology = rexism
-	}
-	create_country_leader = {
-		name = "Leopold III"
-		picture = "gfx/leaders/BEL/Portrait_Belgium_Leopold_III.dds"
-		expire = "1983.9.15"
-		ideology = absolute_monarchy
-		traits = {
-			stout_defender
-		}
-	}
+	democratic = 83
+	fascism = 11
+	communism = 6
 }
 
 1939.1.1 = {
-	oob = "BEL_1939"
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1939.4.2"
@@ -339,184 +129,5 @@ if = {
 	}
 }
 
-1940.1.1 = {
-	oob = "BEL_1940"
-}
-
-1941.1.1 = {
-	oob = "BEL_1941"
-}
-
-1942.1.1 = {
-	oob = "BEL_1942"
-}
-
-1949.1.1 = {
-	oob = "BEL_1949"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 90
-		communism = 5
-		fascism = 5
-	}
-	create_country_leader = {
-		name = "Paul-Henri Spaak"
-		picture = "gfx/leaders/BEL/CW/Belgium_Paul-Henri_Spaak.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-	create_country_leader = {
-		name = "Baudouin"
-		picture = "gfx/leaders/BEL/CW/Belgium_Baudouin_Despotism_1970.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-	create_country_leader = {
-		name = "Leon Degrelle"
-		picture = "gfx/leaders/BEL/CW/Belgium_Leon_Degrelle_Rexism_1970.dds"
-		expire = "2060.1.1"
-		ideology = rexism
-	}
-	create_country_leader = {
-		name = "Ludo Martens"
-		picture = "gfx/leaders/BEL/CW/Belgium_Ludo_Martens_Marxism_1970.dds"
-		expire = "2060.1.1"
-		ideology = marxism
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Gaston Eyskens"
-		picture = "gfx/leaders/BEL/CW/Belgium-Gaston_Eyskens.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-	create_country_leader = {
-		name = "Baudouin"
-		picture = "gfx/leaders/BEL/CW/Belgium_Baudouin.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-1970.1.1 = {
-	oob = "BEL_1970"
-}
-
-1980.1.1 = {
-	create_country_leader = {
-		name = "Wilfred Martens"
-		picture = "gfx/leaders/BEL/CW/Belgium_WilfredMartens.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-}
-
-2000.1.1 = {
-	oob = "BEL_2000"
-	set_naval_oob = "BEL_2000_naval_legacy"
-	set_popularities = {
-		fascism = 17
-		monarchism = 10
-		communism = 8
-		democratic = 65
-	}
-	create_country_leader = {
-		name = "Guy Verhofstadt"
-		picture = "gfx/leaders/BEL/MD/Belgium_Guy_Verhofstadt.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-	create_country_leader = {
-		name = "Abdelhay Bakkali Tahiri"
-		picture = "gfx/leaders/BEL/MD/Belgium_Abdelhay_Bakkali_Tahiri_islamic_authoritarian_2000.dds"
-		expire = "2060.1.1"
-		ideology = islamic_authoritarian
-	}
-	create_country_leader = {
-		name = "Albert II"
-		picture = "gfx/leaders/BEL/MD/Belgium_Albert_II_Despotism_2000.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-	create_country_leader = {
-		name = "Herve Van Laethem"
-		picture = "gfx/leaders/BEL/MD/Belgium_Herve_Van_Laethem_Fascism_2000.dds"
-		expire = "2060.1.1"
-		ideology = neo_fascism
-	}
-	create_country_leader = {
-		name = "Peter Mertens"
-		picture = "gfx/leaders/BEL/MD/Belgium_Peter_Mertens_Marxism_2000.dds"
-		expire = "2060.1.1"
-		ideology = marxism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Guy Verhofstadt"
-		picture = "gfx/leaders/BEL/MD/Belgium_Guy_Verhofstadt.dds"
-		expire = 2060.1.1
-		ideology = liberalism
-	}
-	create_country_leader = {
-		name = "King Albert II"
-		picture = "gfx/leaders/BEL/MD/Belgium_King_Albert_II.dds"
-		expire = 2060.1.1
-		ideology = authoritarian_democracy
-	}
-}
-
-2016.1.1 = {
-	oob = "BEL_2016"
-	set_naval_oob = "BEL_2016_naval_legacy"
-	set_popularities = {
-		fascism = 23
-		monarchism = 7
-		democratic = 60
-		communism = 10
-	}
-	create_country_leader = {
-		name = "Charles Michel"
-		picture = "gfx/leaders/BEL/MD/Belgium-Charles_Michel.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Alexander de Croo"
-		picture = "gfx/leaders/BEL/MD/BEL_Alexander_De_Croo_Liberalism.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-	create_country_leader = {
-		name = "Sophie Wilmès"
-		picture = "gfx/leaders/BEL/MD/BEL_Sophie_Wilmès_Liberalism.dds"
-		expire = "2020.10.1"
-		ideology = liberalism
-	}
-	create_country_leader = {
-		name = "Philippe"
-		picture = "gfx/leaders/BEL/MD/BEL_Philippe_of_Belgium_Despotism.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
+set_convoys = 80
+set_stability = 0.75

@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
-capital = 64
-oob = "GER_1900"
+capital = 1105
+oob = "GER_1775"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -12,53 +12,25 @@ set_war_support = 0.3
 
 set_politics = {
 	ruling_party = monarchism
-	last_election = "1900.1.1"
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 27
-	communism = 9
-	monarchism = 64
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "Wilhelm II"
-	picture = "gfx/leaders/GER/WW1/GER_Wilhelm_II.dds"
-	desc = "POLITICS_WILHELM_II_1900_DESC"
-	expire = "2060.1.1"
+	name = "Joseph II"
+	picture = "gfx/leaders/GER/AOR/Joseph_II.dds"
+	desc = "POLITICS_JOSEPH_II_DESC"
 	ideology = absolute_monarchy
-	traits = {
-		DNC_bismarck_legacy
-		DNC_indecisive_kaiser
+}
+
+if = {
+	limit = {
+		has_start_date < 1806.01.01
 	}
-}
-
-create_country_leader = {
-	name = "August Bebel"
-	picture = "gfx/leaders/GER/WW1/August_Bebel_Democratic"
-	expire = "1913.8.13"
-	ideology = socialism
-}
-
-create_country_leader = {
-	name = "Friedrich Ebert"
-	picture = "gfx/leaders/GER/WW1/Democratic-Friedrich_Ebert.dds"
-	expire = "2060.1.1"
-	ideology = socialism
-}
-
-create_country_leader = {
-	name = "Karl Liebknecht"
-	picture = "gfx/leaders/GER/WW1/Far_Left-Karl_Liebknecht.dds"
-	expire = "2060.1.1"
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Erich Ludendorff"
-	picture = "gfx/leaders/GER/WW1/General-Erich_Ludendorff.dds"
-	expire = "1923.11.8"
-	ideology = ultranationalism
+	set_cosmetic_tag = FORM_HRE
 }

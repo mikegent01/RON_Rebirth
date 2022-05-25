@@ -1,18 +1,17 @@
-
-state={
-	id=329
-	name="STATE_329"
+state = {
+	id = 329
+	name = "STATE_329"
 	manpower = 85000
-	resources={
-		chromium=2 # was: 2
+	resources = {
+		chromium = 2 # was: 2
 	}
-	
+
 	state_category = rural
 
-	history={
+	history = {
 		owner = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
 		}
@@ -20,12 +19,27 @@ state={
 			10627 3
 		}
 		add_core_of = TAN
-		add_core_of = SOV
+		add_core_of = CHI
+		 
+		add_core_of = SOV 
+
+		1900.1.1 = {
+			set_state_flag = RUE_influence
+
+		}
+
+		1912.1.1 = { owner = TAN controller = TAN }
+
+		1918.11.11 = { owner = SOV controller = SOV }
+
+		1923.1.1 = { owner = TAN controller = TAN }
+
+		1944.1.1 = { owner = SOV controller = SOV }
+
+		1992.1.1 = { owner = SOV controller = SOV }
 	}
 
-	provinces={
-		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	provinces = {
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625
 	}
-
-	local_supplies=0.0 
 }

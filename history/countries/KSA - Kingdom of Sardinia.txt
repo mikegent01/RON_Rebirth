@@ -1,0 +1,30 @@
+RON_universal_setup = yes
+ 
+ 
+
+capital = 114
+
+oob = "generic_1775"
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Crown of Sardinia"
+	picture = "Kingdom_of_Sardinia_Crown_of_Sardinia.dds"
+	ideology = absolute_monarchy
+}
+
+create_country_leader = {
+	name = "Crown of Sardinia"
+	picture = "Kingdom_of_Sardinia_Crown_of_Sardinia.dds"
+	ideology = constitutional_monarchism
+}

@@ -1,22 +1,40 @@
-state={
-	id=661
-	name="STATE_661"
-	manpower = 17617
-	
-	state_category = wasteland
-	
-	history={
+state = {
+	id = 661
+	name = "STATE_661"
+
+	history = {
 		owner = TUR
 		buildings = {
 			infrastructure = 1
+
 		}
-		add_core_of = LBA
-		add_core_of = TUR
-	}
-	
-	provinces={
-		1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 
+		add_core_of = LBA # add_core_of = TUR 
+		1910.1.1 = {
+			owner = TUR
+			controller = TUR
+		}
+		1914.1.1 = {
+			owner = ITA
+			controller = ITA
+		}
+
+		1943.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+
+
+		1951.1.1 = {
+			owner = LBA
+			controller = LBA
+		}
+
 	}
 
-	local_supplies=0.0 
+	provinces = {
+		1174 4051 4117 4176 7154 10037 10067 11940 12009
+	}
+	manpower = 17617
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 }

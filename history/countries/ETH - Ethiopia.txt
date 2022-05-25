@@ -1,82 +1,279 @@
-﻿capital = 271
+RON_universal_setup = yes
 
-oob = "ETH_1936"
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
 
-recruit_character = ETH_haile_selassie
-recruit_character = ETH_fitawrari_yeebio_woldai
-recruit_character = ETH_seyoum_mengesha
-recruit_character = ETH_amare_makonnen
-recruit_character = ETH_haile_mariam
-recruit_character = ETH_gabriel_zawde_gilaneh
-recruit_character = ETH_woldemeskal_tariku
-recruit_character = ETH_ras_kebbede
-recruit_character = ETH_wondossen_kassa
-recruit_character = ETH_ras_kassa
-recruit_character = ETH_dedja_zinatch_nadeon
-recruit_character = ETH_haile_abba_mersa
-recruit_character = ETH_ras_seyum
-recruit_character = ETH_mesfin_sileshi
-recruit_character = ETH_lij_abiye_abebe
-recruit_character = ETH_john_robinson
-recruit_character = ETH_lij_johannes
-recruit_character = ETH_fitauri_zawde_gobena
-recruit_character = ETH_desta_damtew
-recruit_character = ETH_ras_imru_haile_selassie
-recruit_character = ETH_bedjironde_tekle_hawariate
-recruit_character = ETH_makonnen_endelkatchew
-
+capital = 271
+oob = "ETH_1900"
 
 set_convoys = 5
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1900.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Menelek II"
+	picture = "gfx/leaders/ETH/DNC/ETH_Menelek_II.dds"
+	expire = "2060.1.1"
+	ideology = despotism
+}
+
+create_country_leader = {
+	name = "Makonnen Endelkachew"
+	desc = "POLITICS_MAKONNEN_ENDELKACHEW_DESC"
+	picture = "Makonnen_Endelkachew.dds"
+	expire = "2060.1.1"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Haile Selassie Gugsa" #Most notable defector to Italy
+	desc = "POLITICS_HAILE_SELASSIE_GUGSA_DESC"
+	picture = "Haile_Selassie_Gugsa.dds"
+	expire = "2060.1.1"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Mengistu Haile Mariam"
+	picture = "gfx/leaders/ETH/CW/Ethiopia_Mengistu_Haile_Mariam.dds"
+	expire = "2060.1.1"
+	ideology = marxism
+}
+
+1910.1.1 = {
+	oob = "ETH_1910"
+
+	if = {
+		limit = {
+			has_start_date > 1909.1.1
+			has_start_date < 1911.1.1
+		}
+		country_event = { id = ww1_ethiopia.1 days = 1442 }
+	}
+
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1900.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		neutrality = 100
+	}
+
+	create_country_leader = {
+		name = "Zewditu I"
+		desc = "POLITICS_MENELEK_DESC"
+		picture = "gfx/leaders/ETH/WW1/Portrait_Ethiopia_Zewditu.dds"
+		expire = "2060.1.1"
+		ideology = despotism
+	}
+
+	create_country_leader = {
+		name = "Iyasu V"
+		desc = "POLITICS_MENELEK_DESC"
+		picture = "gfx/leaders/ETH/WW1/Portrait_Ethiopia_Iyasu_V.dds"
+		expire = "1916.9.27"
+		ideology = despotism
+	}
+
+	create_country_leader = {
+		name = "Menelek II"
+		desc = "POLITICS_MENELEK_DESC"
+		picture = "gfx/leaders/ETH/DNC/ETH_Menelek_II.dds"
+		expire = "1913.12.12"
+		ideology = despotism
+	}
+
 	set_technology = {
+		tech_support = 1
+		early_infantry_weapons = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
+		horses = 1
+		ww1_electronic_mechanical_engineering = 1
+	}
 
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
+}
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
+1914.1.1 = {
+	oob = "ETH_1914"
+}
 
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
+1919.1.1 = {
+	create_country_leader = {
+		name = "Zewditu"
+		picture = "gfx/leaders/ETH/WW1/Portrait_Ethiopia_Zewditu.dds"
+		expire = "2060.1.1"
+		ideology = despotism
 	}
 }
 
-# A colony of Italy in 1939, however if independent it would have the same politics as in 1936
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
+1933.1.1 = {
+	oob = "ETH_1933"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 6
+		fascism = 1
+		communism = 4
+		neutrality = 89
+	}
+	create_country_leader = {
+		name = "Haile Selassie"
+		desc = "POLITICS_HAILE_SELASSIE_DESC"
+		picture = "Portrait_Ethiopia_Haile_Selassie.dds"
+		expire = "2060.1.1"
+		ideology = despotism
+		traits = { DARK_lion_of_judah }
+	}
+
+
+
+	if = {
+		limit = {
+			has_start_date > 1930.01.01
+			has_start_date < 1949.01.01
+		}
+
+		add_ideas = war_economy
+		add_ideas = limited_conscription
+		add_ideas = ETH_african_expertise
+		add_ideas = ETH_gas_attacks
+		add_ideas = ETH_medieval_warfare1
+		add_ideas = ETH_bad_encryption
+
+
+	}
+
 }
-set_popularities = {
-	neutrality = 100
+
+1936.1.1 = {
+	oob = "ETH_1936"
+	# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+	}
+	# A colony of Italy in 1939, however if independent it would have the same politics as in 1936
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
+
+1949.1.1 = {
+	oob = "ETH_1949"
+}
+
+1970.1.1 = {
+	oob = "ETH_1970"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+	create_country_leader = {
+		name = "Haile Selassie"
+		desc = "POLITICS_HAILE_SELASSIE_DESC"
+		picture = "gfx/leaders/ETH/CW/Ethiopia_HaileSelassie.dds"
+		expire = "2060.1.1"
+		ideology = despotism
+	}
+}
+
+1980.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "1980.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		communism = 100
+	}
+}
+
+2000.1.1 = {
+	oob = "ETH_2000"
+	set_politics = {
+		ruling_party = communism
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 100
+	}
+	create_country_leader = {
+		name = "Meles Zenawi"
+		picture = "gfx/leaders/ETH/MD/Ethiopia_Meles_Zenawi.dds"
+		expire = "2060.1.1"
+		ideology = lw_socialism
+	}
+	create_country_leader = {
+		name = "Mulatu Teshome"
+		picture = "gfx/leaders/ETH/MD/Ethiopia_MulatuTeshome.dds"
+		expire = "2060.1.1"
+		ideology = democratic_socialism
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Girma Wolde Giorgis"
+		picture = "gfx/leaders/ETH/MD/Ethiopia_Girma_Wolde_Giorgis.dds"
+		expire = "2060.1.1"
+		ideology = democratic_independent
+	}
+}
+
+2016.1.1 = {
+	oob = "ETH_2016"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2016.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Sahle-Work Zewde"
+		picture = "gfx/leaders/ETH/MD/ETH_Sahle-Work_Zewde_Independent.dds"
+		expire = "2060.1.1"
+		ideology = democratic_independent
+	}
 }

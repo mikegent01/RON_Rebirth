@@ -14,7 +14,7 @@ country_event = {
 	picture = GFX_report_event_german_troops
 	is_triggered_only = yes
 	option = {
-		name = ideologychange.0.a
+		name = "Authoritarian"
 		ai_chance = {
 			factor = 100
 		}
@@ -39,7 +39,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.0.b
+		name = "Fascist"
 		ai_chance = {
 			factor = 100
 		}
@@ -64,7 +64,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.0.c
+		name = "Communist"
 		ai_chance = {
 			factor = 100
 		}
@@ -89,7 +89,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.0.d
+		name = "Next Page"
 		ai_chance = {
 			factor = 100
 		}
@@ -107,7 +107,7 @@ country_event = {
 	picture = GFX_report_event_german_troops
 	is_triggered_only = yes
 	option = {
-		name = ideologychange.1.a
+		name = "Democratic"
 		ai_chance = {
 			factor = 100
 		}
@@ -129,7 +129,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.1.b
+		name = "Islamist"
 		ai_chance = {
 			factor = 100
 		}
@@ -151,7 +151,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.1.c
+		name = "Monarchist"
 		ai_chance = {
 			factor = 100
 		}
@@ -173,7 +173,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ideologychange.1.e
+		name = "Previous Page"
 		ai_chance = {
 			factor = 100
 		}

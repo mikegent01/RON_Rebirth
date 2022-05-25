@@ -1,0 +1,53 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1789.1.1.12
+		picture = "GFX_select_date_1789"
+		default_country = "FRA"
+	
+		"FRA"={
+			history = "FRA_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"ENG"={
+			history = "ENG_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"SOV"={
+			history = "SOV_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"AUS"={
+			history = "AUS_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"SWE"={
+			history = "SWE_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"SPR"={
+			history = "SPR_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+		
+		"POL"={
+			history = "POL_BLITZKRIEG_DESC"
+			ideology = monarchism
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

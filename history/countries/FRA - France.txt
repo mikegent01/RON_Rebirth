@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
 capital = 16
-oob = "FRA_1900"
+oob = "FRA_1775"
 
 starting_train_buffer = 2
 set_research_slots = 3
@@ -9,43 +9,19 @@ add_command_power = 20
 set_convoys = 300
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1900.1.1"
+	ruling_party = monarchism
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 78
-	communism = 22
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "Émile Loubet"
-	picture = "gfx/leaders/FRA/WW1/FRA_Émile_Loubet.dds"
-	desc = "POLITICS_EMILE_LOUBET_DESC"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = "Jean d'Orléans"
-	desc = "POLITICS_JEAN_DORLEANS_DESC"
-	picture = "Portrait_France_Jean_dOrleans.tga"
-	expire = "2060.1.1"
+	name = "Louis XVI"
+	picture = "gfx/leaders/FRA/AOR/Louis_XVI.dds"
+	desc = "POLITICS_LOUIS_XVI_DESC"
 	ideology = absolute_monarchy
-}
-
-create_country_leader = {
-	name = "Leon Blum"
-	picture = "gfx/leaders/FRA/WW1/Communist_Leon_Blum.dds"
-	expire = "2060.1.1"
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Maurice Pujo"
-	picture = "gfx/leaders/FRA/WW1/Far_Right_Maurice_Pujo.dds"
-	expire = "2060.1.1"
-	ideology = french_fascism
 }

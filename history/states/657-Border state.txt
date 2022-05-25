@@ -1,28 +1,32 @@
-
-state={
+state = {
 	id = 657
 	name = "STATE_657" # Birobidzhan
 	manpower = 308380
 	resources = {
-		steel=18 # was: 24
+		steel = 18 # was: 24
 	}
 
 
 	state_category = pastoral
 
 	history = {
-		owner = SOV
+		owner = CHI
+
+		victory_points = {
+			7672 3
+		}
+		victory_points = {
+			7763 1
+		}
+
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 2
 		}
-		add_core_of = SOV
-		add_core_of = FER
+		   add_core_of = CHI   1918.11.11 = { owner = SOV controller = SOV } 1923.1.1 = { owner = SOV controller = SOV }  1992.1.1 = { owner = SOV controller = SOV }
 	}
 
 	provinces = {
-		675 1802 4246 4701 4725 4779 4805 4829 7616 7672 7763 7801 10655 10722 12192 12261 12263 12654 12678 
+		675 1802 4246 4701 4725 4779 4805 4829 7616 7672 7763 7801 10655 10722 12192 12261 12263 12654 12678
 	}
-
-	local_supplies = 0.0 
 }

@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
 capital = 126
-set_oob = "ENG_1900"
+set_oob = "ENG_1775"
 
 starting_train_buffer = 4
 set_research_slots = 4
@@ -9,109 +9,48 @@ set_war_support = 0.1
 add_command_power = 20
 set_convoys = 800
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
-}
-
-
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
-
 set_politics = {
-	ruling_party = democratic
-	last_election = "1900.1.1"
+	ruling_party = monarchism
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 2
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "George V"
-	picture = "gfx/leaders/ENG/WW1/Young_George_V.dds"
-	expire = "1936.1.20"
-	ideology = constitutional_monarchism
-}
-
-create_country_leader = {
-	name = "George V"
-	picture = "gfx/leaders/ENG/WW1/Young_George_V.dds"
-	expire = "1936.1.20"
+	name = "George III"
+	picture = "gfx/leaders/ENG/AOR/George_III.dds"
+	desc = "POLITICS_GEORGE_III_DESC"
 	ideology = absolute_monarchy
 }
 
-create_country_leader = {
-	name = "Edward VII"
-	picture = "gfx/leaders/ENG/WW1/England_Monarchy_Edward_VII.dds"
-	expire = "1910.5.6"
-	ideology = constitutional_monarchism
+if = {
+	limit = {
+		has_start_date < 1795.01.01
+	}
+	puppet = HAN
 }
 
-create_country_leader = {
-	name = "Edward VII"
-	picture = "gfx/leaders/ENG/WW1/England_Monarchy_Edward_VII.dds"
-	expire = "1910.5.6"
-	ideology = absolute_monarchy
+if = {
+	limit = {
+		has_start_date < 1776.01.01
+	}
+	puppet = THI
 }
 
-create_country_leader = {
-	name = "Queen Victoria"
-	picture = "gfx/leaders/ENG/WW1/ENG_Victoria.dds"
-	desc = "POLITICS_QUEEN_VICTORIA_DESC"
-	expire = "1901.1.22"
-	ideology = constitutional_monarchism
-	traits = { DNC_Beloved_Monarch DNC_Well_Connected }
+if = {
+	limit = {
+		has_start_date < 1867.01.01
+	}
+	puppet = BNA
 }
 
-create_country_leader = {
-	name = "Queen Victoria"
-	picture = "gfx/leaders/ENG/WW1/ENG_Victoria.dds"
-	desc = "POLITICS_QUEEN_VICTORIA_DESC"
-	expire = "1901.1.22"
-	ideology = absolute_monarchy
-	traits = { DNC_Beloved_Monarch DNC_Well_Connected }
-}
-
-create_country_leader = {
-	name = "Henry Hyndman"
-	picture = "gfx/leaders/ENG/WW1/Britain_Socialist_HenryHyndman.dds"
-	expire = "2060.1.1"
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Leopold Canning"
-	picture = "gfx/leaders/ENG/WW1/Britain_Fascist_LeopoldErnestStratfordGeorgeCanning.dds"
-	expire = "2060.1.1"
-	ideology = british_fascism
+if = {
+	limit = {
+		has_start_date < 1910.01.01
+	}
+	set_cosmetic_tag = ENG_EMPIRE
 }

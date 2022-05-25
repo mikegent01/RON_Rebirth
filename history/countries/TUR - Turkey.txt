@@ -8,35 +8,25 @@ set_war_support = 0.3
 
 set_politics = {
 	ruling_party = monarchism
-	last_election = "1900.1.1"
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	monarchism = 58
-	democratic = 42
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "Abdul Hamid II"
-	picture = "gfx/leaders/TUR/WW1/OTT_Abdul_Hamid_II.dds"
-	expire = "2060.1.1"
+	name = "Abdul Hamid I"
+	picture = "gfx/leaders/TUR/AOR/Abdulhamid_I.dds"
+	desc = "POLITICS_ABDULHAMID_I_DESC"
 	ideology = absolute_monarchy
 }
 
-create_country_leader = {
-	name = "Abdul Hamid II"
-	picture = "gfx/leaders/TUR/WW1/OTT_Abdul_Hamid_II.dds"
-	expire = "2060.1.1"
-	ideology = emiratism
+if = {
+	limit = {
+		has_start_date < 1918.01.01
+	}
+	set_cosmetic_tag = OTT
 }
-
-create_country_leader = {
-	name = "Enver Pasha"
-	picture = "gfx/leaders/TUR/WW1/Enver_Pasha.dds"
-	expire = "2060.1.1"
-	ideology = ottomanism
-}
-
-

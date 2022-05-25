@@ -3,7 +3,7 @@ capital = 195
 
 starting_train_buffer = 3.0
 
-oob = "SOV_1900"
+oob = "SOV_1775"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -12,68 +12,26 @@ set_war_support = 0.3
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
-}
-
-### Guarantee Serbia
-if = {
-	limit = {
-		has_start_date > 1900.01.01
-		has_start_date < 1919.01.01
-	}
-	give_guarantee = SER
-}
-
-set_politics = {
 	ruling_party = monarchism
-	last_election = "1900.1.1"
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	monarchism = 91
-	communism = 9
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "Nicholas II"
-	picture = "gfx/leaders/SOV/WW1/Nicolas_II.dds"
-	desc = "POLITICS_NICHOLAS_II_DESC"
-	expire = "2060.1.1"
+	name = "Catherine II"
+	picture = "gfx/leaders/SOV/AOR/Catherine_II.dds"
+	desc = "POLITICS_CATHERINE_II_DESC"
 	ideology = absolute_monarchy
-	traits = {
-		inexperienced_imperialist
-		unpopular_leader
-		
+}
+
+if = {
+	limit = {
+		has_start_date < 1917.01.01
 	}
-}
-
-create_country_leader = {
-	name = "Alexander Kerensky"
-	picture = "gfx/leaders/SOV/WW1/Democratic-Alexander_Kerensky.dds"
-	expire = "2060.1.1"
-	ideology = socialism
-}
-
-create_country_leader = {
-	name = "Vladimir Lenin"
-	picture = "gfx/leaders/SOV/WW1/Far_Left-Vladimir_Lenin.dds"
-	expire = "2060.1.1"
-	ideology = leninism
-}
-
-create_country_leader = {
-	name = "Alexander Kolchak"
-	picture = "gfx/leaders/SOV/WW1/Admiral-Alexander_Kolchak.dds"
-	expire = "2060.1.1"
-	ideology = ultranationalism
+	set_cosmetic_tag = RUE
 }

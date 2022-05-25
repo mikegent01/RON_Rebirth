@@ -1,144 +1,87 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 558
+﻿capital = 558
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
 set_convoys = 20
 
+recruit_character = NGA_ncs
+recruit_character = NGA_pot
+recruit_character = NGA_nccr
+recruit_character = NGA_fascist_guy
+recruit_character = NGA_coi
+recruit_character = NGA_ai2
+recruit_character = NGA_democratic_guy
+recruit_character = NGA_ar
+recruit_character = NGA_acgs
+recruit_character = NGA_awt
+recruit_character = NGA_acd2
+recruit_character = NGA_nt
+recruit_character = NGA_aco2
+recruit_character = NGA_acas
+recruit_character = NGA_acr
+recruit_character = NGA_mt
+recruit_character = NGA_stc
+recruit_character = NGA_aa2
+recruit_character = NGA_ncm
+recruit_character = NGA_communist_guy
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1900.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	monarchism = 100
-}
-
-create_country_leader = {
-	name = "Abubakar Tafawa Balewa"
-	picture = "gfx/leaders/NGA/CW/Nigeria_Abubakar_Tafawa_Balewa.dds"
-	expire = "2060.1.1"
-	ideology = nationalism
-}
-
-create_country_leader = {
-	name = "Shehu Shagari"
-	picture = "gfx/leaders/NGA/CW/Nigeria_ShehuShagari.dds"
-	expire = "2060.1.1"
-	ideology = liberalism
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-1970.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-	create_country_leader = {
-		name = "Yakubu Gowon"
-		picture = "gfx/leaders/NGA/CW/Nigeria_YakubuGowon.dds"
-		expire = "2060.1.1"
-		ideology = militarism
-	}
-}
-
-1980.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1980.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-1990.1.1 = {
-	create_country_leader = {
-		name = "Ibrahim Babangida"
-		picture = "gfx/leaders/NGA/CW/Nigeria_Ibrahim_Babangida.dds"
-		expire = "2060.1.1"
-		ideology = market_liberalism
-	}
-}
-
-2000.1.1 = {
-	oob = "NGA_2000"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Olusegun Obasanjo"
-		picture = "gfx/leaders/NGA/MD/Nigeria_Olusegun_Obasanjo.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
-	}
-	create_country_leader = {
-		name = "Muhammadu Buhari"
-		picture = "gfx/leaders/NGA/MD/Nigeria_MuhammaduBuhari.dds"
-		expire = "2060.1.1"
-		ideology = nonaligned_socialism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Umaru Musa Yar'Adua"
-		picture = "gfx/leaders/NGA/MD/Nigeria_Umaru_Musa_Yar'Adua.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-2016.1.1 = {
-	oob = "NGA_2016"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "2016.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-2020.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2020.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Muhammadu Buhari"
-		picture = "gfx/leaders/NGA/MD/NGA_Muhammadu_Buhari_Big_Tent.dds"
-		expire = "2060.1.1"
-		ideology = big_tent
-	}
+	democratic = 25
+	fascism = 20
+	communism = 5
+	neutrality = 50
 }

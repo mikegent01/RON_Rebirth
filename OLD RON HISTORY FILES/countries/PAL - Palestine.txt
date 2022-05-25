@@ -1,14 +1,68 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 554
+﻿capital = 554
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
 set_convoys = 5
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
 	democratic = 40
 	fascism = 30
@@ -17,116 +71,40 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Ahmed Hilmi Pasha"
-	picture = "Ahmed_Hilmi_Pasha.dds"
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds"
 	ideology = liberalism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
 	name = "Amin al-Husseini"
-	picture = "Amin_al_Husseini.dds"
-	ideology = rw_nationalism
-}
-
-create_country_leader = {
-	name = "Amin al-Husseini"
-	picture = "Amin_al_Husseini.dds"
-	ideology = islamic_authoritarian
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_land_2.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
 	name = "Prince Henry"
-	picture = "Portrait_Britain_George_VI.dds"
-	ideology = absolute_monarchy
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
 	name = "Bulus Farah"
-	picture = "Portrait_Arabia_Generic_2.dds"
+	desc = ""
+	picture = "gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds"
 	ideology = leninism
-}
-
-1949.1.1 = {
-	oob = "PAL_1949"
-
-	capital = 1121
-
-	create_country_leader = {
-		name = "Palestinian National Authority"
-		picture = "PNA.dds"
-		ideology = nationalism
-	}
-
-	create_country_leader = {
-		name = "Palestinian National Authority"
-		picture = "PNA.dds"
-		ideology = rw_nationalism
-	}
-
-	create_country_leader = {
-		name = "Palestinian National Authority"
-		picture = "PNA.dds"
-		ideology = lw_nationalism
-	}
-
-	create_country_leader = {
-		name = "Palestinian National Authority"
-		picture = "PNA.dds"
-		ideology = democratic_nationalism
-	}
-
-}
-
-1970.1.1 = {
-	oob = "PAL_1970"
-}
-
-2000.1.1 = {
-	oob = "PAL_2000"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Mahmoud Abba"
-		picture = "gfx/leaders/PAL/MD/Palestine_MahmoudAbbas.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-	create_country_leader = {
-		name = "Yasser Arafat"
-		picture = "gfx/leaders/PAL/MD/Palestine_Yasser_Arafat.dds"
-		expire = "2060.1.1"
-		ideology = nationalism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Mahmoud Abbas"
-		picture = "gfx/leaders/PAL/MD/Palestinian_National_Authority_Mahmoud_Abbas.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-2020.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "2020.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-	create_country_leader = {
-		name = "Mahmoud Abbas"
-		picture = "gfx/leaders/PAL/MD/PAL_Mahmoud_Abbas_Nationalism.dds"
-		expire = "2060.1.1"
-		ideology = nationalism
+	traits = {
+		#
 	}
 }

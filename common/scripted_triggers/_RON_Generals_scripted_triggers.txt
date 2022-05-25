@@ -10,5 +10,7 @@ RON_has_custom_generals_ww1 = {
 		tag = ENG
 		tag = FRA
 		tag = ITA
+		tag = POR
+		tag = SPR
 	}
 }

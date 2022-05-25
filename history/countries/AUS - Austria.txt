@@ -1,64 +1,46 @@
 ﻿RON_universal_setup = yes
 capital = 4
 
-oob = "AUH_1900"
+oob = "AUH_1775"
 
 set_research_slots = 3
-
-if = {
-	limit = {
-		has_start_date < 1919.01.01
-	}
-	set_cosmetic_tag = AUH
-}
-
 set_stability = 0.50
 
 set_politics = {
 	ruling_party = monarchism
-	last_election = "1900.1.1"
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 31
-	communism = 5
-	monarchism = 64
+	monarchism = 100
 }
 
 create_country_leader = {
-	name = "Franz Joseph"
-	picture = "gfx/leaders/AUS/WW1/AUH_Franz_Joseph.dds"
-	desc = "POLITICS_FRANZ_JOSEPH_DESC"
-	expire = "2060.1.1"
+	name = "Maria Theresa"
+	picture = "gfx/leaders/AUS/AOR/Maria_Theresa.dds"
+	desc = "POLITICS_MARIA_THERESA_DESC"
 	ideology = absolute_monarchy
 }
 
-create_country_leader = {
-	name = "Bela Kun"
-	picture = "gfx/leaders/AUS/WW1/Communist_Leader_Bela_Kun.dds"
-	expire = "2060.1.1"
-	ideology = marxism
+if = {
+	limit = {
+		has_start_date < 1799.01.01
+	}
+	puppet = HNE
 }
 
-create_country_leader = {
-	name = "Karl I"
-	picture = "gfx/leaders/AUS/WW1/Archduke_Karl_I.dds"
-	expire = "2060.1.1"
-	ideology = constitutional_monarchism
+if = {
+	limit = {
+		has_start_date < 1799.01.01
+	}
+	puppet = GDT
 }
 
-create_country_leader = {
-	name = "Miklos Horthy"
-	picture = "gfx/leaders/AUS/WW1/Admiral_Miklos_Horthy.dds"
-	expire = "2060.1.1"
-	ideology = rw_militarism
-}
-
-create_country_leader = {
-	name = "Heinrich von Wittek"
-	picture = "gfx/leaders/AUS/DNC/Heinrich_von_Wittek.tga"
-	expire = "2060.1.1"
-	ideology = liberalism
+if = {
+	limit = {
+		has_start_date < 1867.01.01
+	}
+	set_cosmetic_tag = Form_Greater_Austria
 }

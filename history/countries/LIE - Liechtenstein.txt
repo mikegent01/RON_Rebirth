@@ -1,0 +1,27 @@
+RON_universal_setup = yes
+capital = 826
+set_research_slots = 3
+add_ideas = {
+	neutrality_idea
+	limited_conscription
+}
+
+set_stability = 0.75
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Franz Joseph I"
+	picture = "gfx/leaders/LIE/AOR/Franz_Joseph_I.dds"
+	desc = "POLITICS_FRANZ_JOSEPH_I_DESC"
+	ideology = absolute_monarchy
+}

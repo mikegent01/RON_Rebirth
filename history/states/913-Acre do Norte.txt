@@ -1,0 +1,27 @@
+
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = VRP
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = BRA
+		add_core_of = ACR
+		add_core_of = BOL
+		add_core_of = PRU
+		add_core_of = VRP
+
+	}
+
+	provinces={
+		10960 13310 13314 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

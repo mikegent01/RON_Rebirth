@@ -1,0 +1,33 @@
+state = {
+	id = 1102
+	name = "STATE_1102"
+
+	history = {
+		owner = NAT
+		add_core_of = SMO
+
+		victory_points = {
+			13080 1
+		}
+
+		buildings = {
+			infrastructure = 3
+			13080 = {
+				naval_base = 1
+
+			}
+
+		}
+		
+		1900.1.1 = { owner = USA controller = USA }
+
+	}
+
+	provinces = {
+		13080
+	}
+	local_supplies=0.0 
+ manpower = 46104
+	buildings_max_level_factor = 1.000
+	state_category = tiny_island
+}

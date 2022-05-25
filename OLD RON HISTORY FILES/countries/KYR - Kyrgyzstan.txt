@@ -1,79 +1,90 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 732
-oob = "generic_1910"
+﻿capital = 732
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
 set_convoys = 5
+
+recruit_character = KYR_ncs
+recruit_character = KYR_pot
+recruit_character = KYR_nccr
+recruit_character = KYR_fascist_guy
+recruit_character = KYR_coi
+recruit_character = KYR_ai2
+recruit_character = KYR_democratic_guy
+recruit_character = KYR_ar
+recruit_character = KYR_acgs
+recruit_character = KYR_awt
+recruit_character = KYR_acd2
+recruit_character = KYR_nt
+recruit_character = KYR_aco2
+recruit_character = KYR_acas
+recruit_character = KYR_acr
+recruit_character = KYR_mt
+recruit_character = KYR_stc
+recruit_character = KYR_aa2
+recruit_character = KYR_ncm
+recruit_character = KYR_communist_guy
+
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1900.1.1"
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	monarchism = 100
+	democratic = 50
+	fascism = 1
+	communism = 40
+	neutrality = 9
 }
 
-create_country_leader = {
-	name = "Askar Akayev"
-	picture = "gfx/leaders/KYR/CW/Kyrgyzstan_AskarAkayev.dds"
-	expire = "2060.1.1"
-	ideology = independent
-}
-
-create_country_leader = {
-	name = "Almazbek Atambayev"
-	picture = "gfx/leaders/KYR/MD/Kyrgystan_AlmazbekAtambayev.dds"
-	expire = "2060.1.1"
-	ideology = socialism
-}
-
-1990.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1990.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-}
-
-2000.1.1 = {
-	oob = "KUR_2000"
-	create_country_leader = {
-		name = "Askar Akayev"
-		picture = "gfx/leaders/KYR/MD/Kyrgyzstan_Askar_Akayev.dds"
-		expire = "2060.1.1"
-		ideology = authoritarian_democracy
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Kurmanbek Bakiyev"
-		picture = "gfx/leaders/KYR/MD/Kyrgystan_Kurmanbek_Bakiyev.dds"
-		expire = "2060.1.1"
-		ideology = liberalism
-	}
-}
-
-2016.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2016.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Sooronbay Jeenbekov"
-		picture = "gfx/leaders/KYR/MD/KYR_Sooronbay_Jeenbekov_Social_Democracy.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

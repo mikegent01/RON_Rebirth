@@ -1,0 +1,22 @@
+RON_universal_setup = yes
+capital = 59
+
+oob = "generic_1910"
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "George III"
+	picture = "gfx/leaders/ENG/AOR/George_III.dds"
+	desc = "POLITICS_GEORGE_III_DESC"
+	ideology = absolute_monarchy
+}

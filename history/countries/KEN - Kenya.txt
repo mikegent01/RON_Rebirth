@@ -1,71 +1,8 @@
-﻿capital = 547
-
+RON_universal_setup = yes
+  
+capital = 547
 oob = "KEN_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-}
-
 set_convoys = 5
-
-recruit_character = KEN_acas
-recruit_character = KEN_communist_guy
-recruit_character = KEN_ncs
-recruit_character = KEN_awt
-recruit_character = KEN_pot
-recruit_character = KEN_fascist_guy
-recruit_character = KEN_ai2
-recruit_character = KEN_nt
-recruit_character = KEN_aco2
-recruit_character = KEN_ar
-recruit_character = KEN_acr
-recruit_character = KEN_mt
-recruit_character = KEN_stc
-recruit_character = KEN_aa2
-recruit_character = KEN_acgs
-recruit_character = KEN_ncm
-recruit_character = KEN_nccr
-recruit_character = KEN_coi
-recruit_character = KEN_democratic_guy
-recruit_character = KEN_acd2
-
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
 # A colony of Italy in 1939.  However, if independent it would have the same politics as in 1936
 set_politics = {
 	ruling_party = neutrality
@@ -73,19 +10,94 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
 	neutrality = 100
 }
 
 create_country_leader = {
-	
-	
-	name = "Dedan Ngwale"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
+	name = "Jomo Kenyatta"
+	picture = "gfx/leaders/KEN/CW/Kenya_JomoKenyatta.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "Uhuru Kenyatta"
+	picture = "gfx/leaders/KEN/MD/Kenya_UhuruKenyatta.dds"
+	expire = "2060.1.1"
+	ideology = nationalism
+}
+
+1960.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1960.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
 	}
 }
 
+1970.1.1 = {
+	oob = "KEN_1970"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+1980.1.1 = {
+	create_country_leader = {
+		name = "Daniel Arap Moi"
+		picture = "gfx/leaders/KEN/CW/Kenya_Daniel_arap_Moi.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}
+
+2000.1.1 = {
+	oob = "KEN_2000"
+	create_country_leader = {
+		name = "Daniel Arap Moi"
+		picture = "gfx/leaders/KEN/MD/Kenya_Daniel_Arap_Moi.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Mwai Kibaki"
+		picture = "gfx/leaders/KEN/MD/Kenya_-Mwai_Kibaki.dds"
+		expire = "2060.1.1"
+		ideology = conservatism
+	}
+}
+2016.1.1 = {
+	oob = "KEN_2016"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "2016.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Uhuru Kenyatta"
+		picture = "gfx/leaders/KEN/MD/KEN_Uhuru_Kenyatta_Nationalism.dds"
+		expire = "2060.1.1"
+		ideology = nationalism
+	}
+}

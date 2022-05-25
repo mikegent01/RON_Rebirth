@@ -1,116 +1,143 @@
-﻿capital = 291
-
-oob = "IRQ_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	early_fighter = 1
-	CAS1 = 1
-	fuel_silos = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
+RON_universal_setup = yes
+  
+capital = 291
+oob = "IRQ_1933"
+add_ideas = {
+	export_focus
+	tax_low
+	tariffs_average
+	civilian_economy
+	press_regulated
+	key_industries
+	fdi_allowed
+	foreign_volunteers
+	train_none
+	officer_train_none
+	security_minor_restrictions
+	education_budget2
+	health_budget2
+	foreign_isolationism
 }
 
 set_convoys = 5
-
-recruit_character = IRQ_ghazi_i
-recruit_character = IRQ_rashid_ali_algaylani
-recruit_character = IRQ_yusuf_salman_yusuf
-recruit_character = IRQ_abd_almalik_ibn_hisham
-recruit_character = IRQ_taha_al_ahmani
-recruit_character = IRQ_fahmi_said
-recruit_character = IRQ_ali_mahmud_al_shaykh
-recruit_character = IRQ_iskandar_al-shami
-recruit_character = IRQ_abdullah_al-tell
-recruit_character = IRQ_mustafa_al_quidsi
-recruit_character = IRQ_hamdi_al_pachachi
-recruit_character = IRQ_fawsi_al_kaukji
-recruit_character = IRQ_khaled_al_dalabeeh
-recruit_character = IRQ_jamil_al_midfai
-recruit_character = IRQ_ali_ben_jawad
-recruit_character = IRQ_bakr_sidqi
-recruit_character = IRQ_abdullah
-recruit_character = IRQ_amir_al_illah
-recruit_character = IRQ_ali_abn_hussein
-recruit_character = IRQ_nuri_as_said
-
-
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "IRQ_1939"
-	set_technology = {
-		early_fighter = 1
-		CAS1 = 1
-		tech_support = 1
-		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_refining = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
+	last_election = "1910.1.1"
+	election_frequency = 60
 	elections_allowed = no
 }
+
 set_popularities = {
 	fascism = 20
 	neutrality = 80
 }
 
+create_country_leader = {
+	name = "Faisal I"
+	picture = "gfx/leaders/IRQ/INT/Iraq_Faisal_I.dds"
+	expire = "2060.1.1"
+	ideology = despotism
+}
+
+create_country_leader = {
+	name = "Rashid Ali al-Gaylani"
+	picture = "gfx/leaders/IRQ/Portrait_Rashid_Ali_al-Gaylani.dds"
+	expire = "2060.1.1"
+	ideology = fascism_ideology
+}
+create_country_leader = {
+	name = "Yusuf Salman Yusuf"
+	picture = "gfx/leaders/IRQ/Portrait_Yusuf_Salman_Yusuf.dds"
+	expire = "2060.1.1"
+	ideology = leninism
+}
+
+create_country_leader = {
+	name = "Faud Masum"
+	picture = "MD/Iraq_FaudMasum.dds"
+	expire = "2060.1.1"
+	ideology = socialism
+}
+
+1933.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.1.1"
+		election_frequency = 60
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 20
+		neutrality = 80
+	}
+
+	create_country_leader = {
+		name = "Ghazi I"
+		desc = "POLITICS_GHAZI_I_DESC"
+		picture = "GFX_portrait_iraq_ghazi"
+		expire = "2060.1.1"
+		ideology = despotism
+	}
+	create_country_leader = {
+		name = "Rashid Ali al-Gaylani"
+		picture = "gfx/leaders/IRQ/Portrait_Rashid_Ali_al-Gaylani.dds"
+		expire = "2060.1.1"
+		ideology = fascism_ideology
+	}
+	create_country_leader = {
+		name = "Yusuf Salman Yusuf"
+		picture = "gfx/leaders/IRQ/Portrait_Yusuf_Salman_Yusuf.dds"
+		expire = "2060.1.1"
+		ideology = leninism
+	}
+	create_country_leader = {
+		name = "Faisal I"
+		picture = "gfx/leaders/IRQ/INT/Iraq_Faisal_I.dds"
+		expire = "1933.9.8"
+		ideology = despotism
+	}
+
+
+	if = {
+		limit = {
+			has_start_date > 1930.01.01
+			has_start_date < 1949.01.01
+		}
+		add_ideas = {
+			IRQ_religious_schism
+			IRQ_military_conflict
+		}
+
+	}
+}
+
+1936.1.1 = {
+	oob = "IRQ_1936"
+	# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_mountaineers = 1
+		gw_artillery = 1
+		early_fighter = 1
+		CAS1 = 1
+		fuel_silos = 1
+	}
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 20
+		neutrality = 80
+	}
+
+}
+
 1939.1.1 = {
+	oob = "IRQ_1939"
 	set_politics = {
 		ruling_party = neutrality
 		last_election = "1936.1.1"
@@ -121,8 +148,95 @@ set_popularities = {
 		fascism = 30
 		neutrality = 70
 	}
+	create_country_leader = {
+		name = "Faisal II"
+		desc = "POLITICS_FAISAL_II_DESC"
+		picture = "gfx/leaders/IRQ/Faisal_II.dds"
+		expire = "2060.1.1"
+		ideology = despotism
+	}
+}
 
-	recruit_character = IRQ_faisal_ii
-	promote_character = IRQ_faisal_ii
-	retire_character = IRQ_ghazi_i
+1940.1.1 = {
+	oob = "IRQ_1940"
+}
+
+1949.1.1 = {
+	oob = "IRQ_1949"
+}
+
+1970.1.1 = {
+	oob = "IRQ_1970"
+	set_politics = {
+		ruling_party = fascism
+		last_election = "1970.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		fascism = 100
+	}
+	create_country_leader = {
+		name = "Ahmed Hassan Al-Bakr"
+		picture = "gfx/leaders/IRQ/CW/Iraq_AhmedHassanAl-Bakr.dds"
+		expire = "2060.1.1"
+		ideology = baathism
+	}
+}
+
+1980.1.1 = {
+	create_country_leader = {
+		name = "Saddam Hussein"
+		picture = "gfx/leaders/IRQ/CW/Iraq_Saddam_Hussein.dds"
+		expire = "2060.1.1"
+		ideology = baathism
+	}
+}
+
+1990.1.1 = {
+	create_country_leader = {
+		name = "Saddam Hussein"
+		picture = "gfx/leaders/IRQ/CW/Iraq_SaddamHussein.dds"
+		expire = "2060.1.1"
+		ideology = baathism
+	}
+}
+
+2000.1.1 = {
+	oob = "IRQ_2000"
+	create_country_leader = {
+		name = "Saddam Hussein"
+		picture = "gfx/leaders/IRQ/MD/Iraq_Saddam_Hussein.dds"
+		expire = "2060.1.1"
+		ideology = baathism
+	}
+}
+2008.1.1 = {
+	create_country_leader = {
+		name = "Jalal Talabani"
+		picture = "gfx/leaders/IRQ/MD/Iraq_Jalal_Talabani.dds"
+		expire = "2060.1.1"
+		ideology = democratic_socialism
+	}
+}
+2016.1.1 = {
+	oob = "IRQ_2016"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2016.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+2020.1.1 = {
+	create_country_leader = {
+		name = "Barham Salih"
+		picture = "gfx/leaders/IRQ/MD/IRQ_Barham_Salih_Social_Democracy.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
 }

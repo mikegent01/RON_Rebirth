@@ -1,255 +1,226 @@
-RON_start_techs = yes
-RON_country_setup = yes
-RON_handle_era_flags = yes
-RON_handle_era_generals = yes
-capital = 13
-oob = "EST_1919"
+﻿capital = 812
+
+oob = "EST_1936"
+
 set_research_slots = 3
+
 add_ideas = {
-	export_focus
-	tax_average
-	tariffs_average
-	civilian_economy
-	press_free
-	private_control
-	fdi_allowed
-	foreign_volunteers
-	train_medium
-	officer_train_low
-	security_liberty_first
-	education_budget5
-	health_budget5
-	foreign_neutral
-	neutrality_idea
 	limited_conscription
+}
+IF = {
+	limit = { has_dlc = "No Step Back" }
+	add_ideas = {
+		democratic_opposition
+		EST_vaps_idea_1
+	}
+}
+
+recruit_character = EST_konstantin_pats
+recruit_character = EST_artur_sirk
+recruit_character = EST_johannes_kabin
+recruit_character = EST_jaan_tonisson
+recruit_character = EST_andres_larka
+recruit_character = EST_oskar_eiriksson
+recruit_character = EST_leo_sepp
+recruit_character = EST_richard_veermaa
+recruit_character = EST_alex_nirk
+recruit_character = EST_richard_tomberg
+recruit_character = EST_alfred_vendt
+recruit_character = EST_juhan_tuuling
+recruit_character = EST_nikolay_g_karotamm
+recruit_character = EST_voldemar_mere
+recruit_character = EST_alfons_rebane
+recruit_character = EST_juri_uluots
+recruit_character = EST_boris_kumm
+recruit_character = EST_august_rei
+recruit_character = EST_jaan_anvelt
+recruit_character = EST_johan_laidoner
+
+IF = { 
+	limit = { has_dlc = "No Step Back"}
+	recruit_character = EST_august_jakobson
+	recruit_character = EST_viktor_puskar
+	recruit_character = EST_voldemar_voolman
+	recruit_character = EST_henrik_allik
+	recruit_character = EST_johan_pitka
+	recruit_character = EST_hjalmar_mae
+	recruit_character = EST_aleksander_jaakson
+	recruit_character = EST_herbert_brede
+	recruit_character = EST_otto_heinze
+}
+
+set_variable = {
+	var = vaps_days_var
+	value = 80
+}
+
+set_variable = {
+	var = vaps_crackdown_var
+	value = 360
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	tech_support = 1
+	basic_train = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
 }
 
 set_convoys = 5
+
+1939.1.1 = {
+
+	set_country_flag = fought_vaps_flag #Estonia shouldn't have to fight the Vaps in 39
+
+	remove_ideas = {
+		democratic_opposition
+		EST_vaps_idea_1
+	}
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	complete_national_focus = EST_era_of_silence
+	complete_national_focus = EST_fight_the_vaps
+	complete_national_focus = EST_ismaaliit
+	complete_national_focus = BALTIC_rejoin_the_railways
+	complete_national_focus = BALTIC_renew_allied_trade
+	complete_national_focus = EST_establish_the_rahvuskogu
+	complete_national_focus = EST_national_council
+	complete_national_focus = EST_chamber_of_deputies
+	complete_national_focus = EST_modernize_capital
+	complete_national_focus = BALTIC_attract_workers_to_capital
+	complete_national_focus = BALTIC_modernize_industry
+	complete_national_focus = EST_exploit_the_banks
+	complete_national_focus = EST_support_independent_militaries
+	complete_national_focus = EST_republican_defence_league
+	complete_national_focus = BALTIC_ford_motors
+	complete_national_focus = BALTIC_crossley_motors
+	complete_national_focus = BALTIC_natural_resources
+	
+	oob = "EST_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "EST_1939_naval_mtg"
+		else = {
+			set_naval_oob = "EST_1939_naval_legacy"
+		}
+	}
+	set_technology = {
+		tech_recon = 1	
+		tech_engineers = 1
+		fighter1 = 1
+		early_bomber = 1
+		CAS1 = 1
+		naval_bomber1 = 1
+		interwar_artillery = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			basic_submarine = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			basic_ship_hull_submarine = 1
+		}
+	}
+}
+
 set_politics = {
-	ruling_party = monarchism
+	ruling_party = neutrality
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
 	democratic = 20
 	fascism = 15
 	communism = 5
-	monarchism = 60
-}
-
-create_country_leader = {
-	name = "Jaan Tonisson"
-	picture = "gfx/leaders/EST/WW1/portrait_EST_jaan_tonisson.dds"
-	expire = "2060.1.1"
-	ideology = centrism
-}
-
-create_country_leader = {
-	name = "Artur_Sirk"
-	picture = "portrait_EST_artur_sirk.dds"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = "Alexander Laak"
-	picture = "Alexander_Laak_Nazi.dds"
-	expire = "1959.1.1"
-	ideology = nazism
-}
-
-create_country_leader = {
-	name = "Johannes Vares-Barbarus"
-	picture = "Portrait_Estonia_Johannes_Vares.dds"
-	expire = "1967.1.1"
-	ideology = stalinism
-}
-
-1933.1.1 = {
-	oob = "EST_1933"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1932.5.21"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		democratic = 20
-		fascism = 15
-		communism = 5
-		monarchism = 60
-	}
-	create_country_leader = {
-		name = "Konstantin Päts"
-		desc = "POLITICS_KONSTANTIN_PATS_DESC"
-		picture = "portrait_est_konstantin_pats.dds"
-		expire = "2060.1.1"
-		ideology = agrarianism
-		traits = {
-			exiled
-		}
-	}
-	create_country_leader = {
-		name = "Jaan Tõnisson"
-		picture = "Portrait_Estonia_Jaan_Tonisson.dds"
-		expire = "1967.1.1"
-		ideology = socialism
-		traits = {
-			triumphant_revolutionary
-		}
-	}
-
-	create_country_leader = {
-		name = "Johannes Vares-Barbarus"
-		picture = "Portrait_Estonia_Johannes_Vares.dds"
-		expire = "1967.1.1"
-		ideology = stalinism
-	}
-
-	create_country_leader = {
-		name = "Hjalmar Mäe"
-		picture = "Portrait_Estonia_Hjalmar_Mae.dds"
-		expire = "1959.1.1"
-		ideology = nazism
-	}
-	if = {
-		limit = {
-			has_start_date > 1932.01.01
-			has_start_date < 1949.01.01
-		}
-		add_ideas = {
-			kaitseliit
-			economic_crises
-			outdated_military
-		}
-	}
-}
-
-1936.1.1 = {
-	oob = "EST_1936"
-	create_country_leader = {
-		name = "Konstantin Päts"
-		desc = "POLITICS_KONSTANTIN_PATS_DESC"
-		picture = "portrait_est_konstantin_pats.dds"
-		expire = "2060.1.1"
-		ideology = agrarianism
-		traits = {
-			exiled
-		}
-	}
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		gw_artillery = 1
-		interwar_antiair = 1
-		early_fighter = 1
-		early_submarine = 1
-	}
+	neutrality = 60
 }
 
 1939.1.1 = {
-	oob = "EST_1939"
-	set_naval_oob = "EST_1939_naval_legacy"
-}
-
-1940.1.1 = {
-	oob = "EST_1940"
-	set_naval_oob = "EST_1940_naval_legacy"
-}
-
-1980.1.1 = {
-	create_country_leader = {
-		name = "Arnold Ruutel"
-		picture = "gfx/leaders/EST/CW/Estonia_ArnoldRuutel.dds"
-		expire = "2060.1.1"
-		ideology = rw_populism
-	}
-}
-
-1990.1.1 = {
 	set_politics = {
-		ruling_party = fascism
-		last_election = "1990.1.1"
+		ruling_party = neutrality
+		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	set_popularities = {
-		fascism = 100
-	}
 }
 
-2000.1.1 = {
-	oob = "EST_2000"
-	set_naval_oob = "EST_2000_naval_legacy"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "2000.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		fascism = 5
-		democratic = 90
-		communism = 5
-	}
-	create_country_leader = {
-		name = "Mart Laar"
-		picture = "gfx/leaders/EST/MD/Estonia_Mart_Laar.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-	create_country_leader = {
-		name = "Edgar Savisaar"
-		picture = "gfx/leaders/EST/MD/Estonia_Edgar_Savisaar_Populism_2000.dds"
-		expire = "2060.1.1"
-		ideology = populism
-	}
-	create_country_leader = {
-		name = "Mart Helme"
-		picture = "gfx/leaders/EST/MD/Estonia_Mart_Helme_RW_Populism_2000.dds"
-		expire = "2060.1.1"
-		ideology = rw_populism
-	}
-	create_country_leader = {
-		name = "Vaino Valjas"
-		picture = "gfx/leaders/EST/MD/Estonia_Vaino_Valjas_Marxism_2000.dds"
-		expire = "2060.1.1"
-		ideology = marxism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Estonia Toomas Hendrik Ilves"
-		picture = "gfx/leaders/EST/MD/Estonia_Toomas_Hendrik_Ilves.dds"
-		expire = "2060.1.1"
-		ideology = democratic_socialism
-	}
-}
 
-2016.1.1 = {
-	oob = "EST_2016"
-	set_naval_oob = "EST_2016_naval_legacy"
-	set_popularities = {
-		fascism = 5
-		democratic = 90
-		communism = 5
+### VARIANTS ###
+# 1939 Start #
+1939.1.1 = {
+	if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		# Ship variants #
 	}
-	create_country_leader = {
-		name = "Taavi Roivas"
-		picture = "gfx/leaders/EST/MD/Estonia-Taavi_Roivas.dds"
-		expire = "2060.1.1"
-		ideology = progressivism
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Kersti Kaljulaid"
-		picture = "gfx/leaders/EST/MD/EST_Kersti_Kaljulaid_Conservatism.dds"
-		expire = "2060.1.1"
-		ideology = conservatism
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		# Submarines #
+		create_equipment_variant = {
+			name = "Kalev Class"				
+			type = ship_hull_submarine_2
+			name_group = EST_SS_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				fixed_ship_engine_slot = sub_ship_engine_1
+				rear_1_custom_slot = ship_mine_layer_sub
+			}
+		}
 	}
 }

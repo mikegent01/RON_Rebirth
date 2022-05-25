@@ -1,101 +1,88 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 545
+﻿capital = 545
+
 oob = "ZIM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
 set_convoys = 5
+
+recruit_character = ZIM_acr
+recruit_character = ZIM_stc
+recruit_character = ZIM_awt
+recruit_character = ZIM_pot
+recruit_character = ZIM_mt
+recruit_character = ZIM_ncm
+recruit_character = ZIM_nt
+recruit_character = ZIM_acd2
+recruit_character = ZIM_fascist_guy
+recruit_character = ZIM_ncs
+recruit_character = ZIM_nccr
+recruit_character = ZIM_aco2
+recruit_character = ZIM_communist_guy
+recruit_character = ZIM_ai2
+recruit_character = ZIM_ar
+recruit_character = ZIM_coi
+recruit_character = ZIM_acas
+recruit_character = ZIM_acgs
+recruit_character = ZIM_aa2
+recruit_character = ZIM_democratic_guy
+
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 # A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 100
+	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Clifford Dupont"
-	picture = "gfx/leaders/ZIM/CW/Rhodesia_CliffordDupont.dds"
-	expire = "2060.1.1"
-	ideology = nationalism
-}
-
-create_country_leader = {
-	name = "Ian Smith"
-	picture = "gfx/leaders/ZIM/CW/Ian_Smith.dds"
-	expire = "2060.1.1"
-	ideology = white_nationalism
-}
-
-create_country_leader = {
-	name = "Robert Mugabe"
-	picture = "gfx/leaders/ZIM/CW/Zimbabwe_Robert_Mugabe.dds"
-	expire = "2060.1.1"
-	ideology = lw_populism
-}
-
-create_country_leader = {
-	name = "Emmerson Mnangagwa"
-	picture = "gfx/leaders/ZIM/CW/ZIM_Emmerson_Mnangagwa.dds"
-	expire = "2060.1.1"
-	ideology = democratic_socialism
-}
-
-1965.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1965.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 100
-	}
-}
-
-1970.1.1 = {
-	oob = "ZIM_1970"
-}
-
-1990.1.1 = {
-	set_politics = {
-		ruling_party = communism
-		last_election = "1990.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		communism = 100
-	}
-}
-
-2000.1.1 = {
-	oob = "ZIM_2000"
-	create_country_leader = {
-		name = "Robert Mugabe"
-		picture = "gfx/leaders/ZIM/MD/Zimbabwe_Robert_Mugabe.dds"
-		expire = "2060.1.1"
-		ideology = lw_populism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Robert Mugabe"
-		picture = "gfx/leaders/ZIM/MD/Zimbabwe_Robert_Mugabe.dds"
-		expire = "2060.1.1"
-		ideology = lw_populism
-	}
-}
-2016.1.1 = {
-	oob = "ZIM_2016"
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Emmerson Mnangagwa"
-		picture = "gfx/leaders/ZIM/MD/ZIM_Emmerson_Mnangagwa_Lw_Populism.dds"
-		expire = "2060.1.1"
-		ideology = lw_populism
+	name = " Marcus James Hugins"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = { 
+		prince_of_terror
 	}
 }

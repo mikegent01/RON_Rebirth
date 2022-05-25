@@ -1,28 +1,15 @@
 ﻿RON_universal_setup = yes
 capital = 613 # Nanjing
 
-oob = "CHI_1900"
+oob = "CHI_1775"
 
 set_stability = 0.2
 set_war_support = 0.5
 set_convoys = 40
-save_global_event_target_as = WTT_current_china_leader
-add_opinion_modifier = { target = PRC modifier = hostile_status }
-
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	neutrality = 100
-}
 
 set_politics = {
 	ruling_party = monarchism
-	last_election = "1900.1.1"
+	last_election = "1775.1.1"
 	election_frequency = 60
 	elections_allowed = no
 }
@@ -32,38 +19,15 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Prince Chun Zaifeng"
-	desc = "POLITICS_PRINCE_CHUN_DESC"
-	picture = "gfx/leaders/CHI/WW1/Portrait_Qing_Prince_Chun.dds"
-	expire = "2060.1.1"
+	name = "Qianlong"
+	desc = "POLITICS_QIANLONG_DESC"
+	picture = "gfx/leaders/CHI/AOR/Qianlong.dds"
 	ideology = absolute_monarchy
 }
 
-create_country_leader = {
-	name = "Dowager Cixi"
-	picture = "gfx/leaders/CHI/WW1/QIN_Empress_Dowager_Cixi.dds"
-    desc = "POLITICS_DOWAGER_CIXI_DESC"
-	expire = "1908.11.15"
-	ideology = absolute_monarchy
-}
-
-create_country_leader = {
-	name = "Chiang Kai-shek"
-	picture = "gfx/leaders/CHI/WW1/China_RW_Nationalism_ChiangKai-shek.dds"
-	expire = "2060.1.1"
-	ideology = rw_nationalism
-}
-
-create_country_leader = {
-	name = "Sun Yat-sen"
-	picture = "gfx/leaders/CHI/WW1/China_Conservatism_SunYat-sen.dds"
-	expire = "2060.1.1"
-	ideology = conservatism
-}
-
-create_country_leader = {
-	name = "Jiang Kanghu"
-	picture = "gfx/leaders/CHI/WW1/China_LW_Anarchist_JiangKanghu.dds"
-	expire = "2060.1.1"
-	ideology = anarchist_communism
+if = {
+	limit = {
+		has_start_date < 1912.01.01
+	}
+	set_cosmetic_tag = FORM_QIN
 }

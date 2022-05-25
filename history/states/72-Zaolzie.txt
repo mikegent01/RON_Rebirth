@@ -1,28 +1,54 @@
-state={
-	id=72
-	name="STATE_72"
+state = {
+	id = 72
+	name = "STATE_72"
 	manpower = 152000
-	
+
 	state_category = rural
-	
-	history={
+
+	history = {
 		owner = AUS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			industrial_complex = 1
 		}
 		add_core_of = CZE
+		add_core_of = CZR
+		add_core_of = MRV
 		add_core_of = AUS
 
+		1910.1.1 = {
+			owner = AUS
+			controller = AUS
+		}
+		1918.11.11 = {
+			owner = CZE
+			controller = CZE
+			#remove_core_of = AUS
+		}
 		1939.3.14 = {
-			owner = SOV
+			owner = POL
 			controller = POL
 		}
+
+		1940.1.1 = { owner = GER controller = GER }
+
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+		}
+
+		1946.1.1 = { owner = CZE controller = CZE }
+
+		1993.1.1 = {
+			owner = CZR
+			controller = CZR
+		}
+
+
 	}
 
-	provinces={
-		9551 9567 
+	provinces = {
+		9551 9567
 	}
-
 	local_supplies=1.0 
 }

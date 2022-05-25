@@ -1,89 +1,68 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 765
-oob = "generic_1910"
+﻿capital = 658
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
 set_convoys = 5
 
+1939.1.1 = {
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+
+		#doctrines
+		grand_battle_plan = 1
+		trench_warfare = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
 set_politics = {
-	ruling_party = islamism
-	last_election = "1910.1.1"
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
-
 set_popularities = {
-	islamism = 100
+	democratic = 51
+	fascism = 1
+	communism = 1
+	neutrality = 47
 }
 
-create_country_leader = {
-	name = "Khalifa bin Hamad Al-Thani"
-	picture = "gfx/leaders/QAT/CW/Qatar_Khalifa_bin_Hamad_Al_Thani.dds"
-	expire = "2060.1.1"
-	ideology = emiratism
-}
-create_country_leader = {
-	name = "Khalifa bin Hamad Al-Thani"
-	picture = "gfx/leaders/QAT/CW/Qatar_Khalifa_bin_Hamad_Al_Thani.dds"
-	expire = "2060.1.1"
-	ideology = constitutional_monarchism
-}
-create_country_leader = {
-	name = "Khalifa bin Hamad Al-Thani"
-	picture = "gfx/leaders/QAT/CW/Qatar_Khalifa_bin_Hamad_Al_Thani.dds"
-	expire = "2060.1.1"
-	ideology = absolute_monarchy
-}
-
-
-2000.1.1 = {
-	oob = "QAT_2000"
-	create_country_leader = {
-		name = "Hamad bin Khalifa Al-Thani"
-		picture = "gfx/leaders/QAT/CW/QAT_Hamad_bin_Khalifa_Al_Thani.dds"
-		expire = "2060.1.1"
-		ideology = emiratism
-	}
-	create_country_leader = {
-		name = "Hamad bin Khalifa Al-Thani"
-		picture = "gfx/leaders/QAT/CW/QAT_Hamad_bin_Khalifa_Al_Thani.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-	create_country_leader = {
-		name = "Hamad bin Khalifa Al-Thani"
-		picture = "gfx/leaders/QAT/CW/QAT_Hamad_bin_Khalifa_Al_Thani.dds"
-		expire = "2060.1.1"
-		ideology = constitutional_monarchism
-	}
-}
-
-2016.1.1 = {
-	oob = "QAT_2016"
-	create_country_leader = {
-		name = "Tamim Bin Hamad Al-Than"
-		picture = "gfx/leaders/QAT/MD/Qatar_TamimBinHamadAlThan.dds"
-		expire = "2060.1.1"
-		ideology = emiratism
-	}
-	create_country_leader = {
-		name = "Tamim Bin Hamad Al-Than"
-		picture = "gfx/leaders/QAT/MD/Qatar_TamimBinHamadAlThan.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Tamim bin Hamad Al Thani"
-		picture = "gfx/leaders/QAT/MD/QAT_Tamim_bin_Hamad_Al_Thani_Emiratism.dds"
-		expire = "2060.1.1"
-		ideology = emiratism
-	}
-	create_country_leader = {
-		name = "Tamim bin Hamad Al Thani"
-		picture = "gfx/leaders/QAT/MD/QAT_Tamim_bin_Hamad_Al_Thani_Emiratism.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

@@ -1,15 +1,14 @@
-
-state={
-	id=143
-	name="STATE_143"
+state = {
+	id = 143
+	name = "STATE_143"
 	manpower = 280271
-	
+
 	state_category = rural
 
-	history={
-		owner = SWE
+	history = {
+		owner = DEN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			arms_factory = 0
 			industrial_complex = 1
 			3022 = {
@@ -21,17 +20,27 @@ state={
 			3022 3
 		}
 		add_core_of = NOR
-		add_core_of = SWE
-		1905.09.23 = {
+		add_core_of = DEN
+		add_core_of = KNS
+
+		1905.10.26 = {
 			owner = NOR
 			controller = NOR
-			remove_core_of = SWE
+		}
+
+		1940.1.1 = {
+			owner = GER
+			controller = GER
+		}
+
+		1946.1.1 = {
+			owner = NOR
+			controller = NOR
 		}
 	}
 
-	provinces={
-		21 107 115 3018 3022 3098 3183 6038 6041 6116 6118 6173 9069 9132 9139 11118 11173 
+	provinces = {
+		21 107 115 3018 3022 3098 3183 6038 6041 6116 6118 6173 9069 9132 9139 11118 11173
 	}
-
 	local_supplies=0.0 
 }

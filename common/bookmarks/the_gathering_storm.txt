@@ -1,0 +1,55 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1775.1.1.12
+		picture = "GFX_select_date_1775"
+		default_country = "ENG"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"PRS"={
+			history = "PRS_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"SWE"={
+			history = "SWE_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"SPR"={
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = monarchism
+		}
+		
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

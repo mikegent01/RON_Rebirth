@@ -1,0 +1,21 @@
+﻿RON_universal_setup = yes
+capital = 52
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1775.1.1"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	monarchism = 100
+}
+
+create_country_leader = {
+	name = "Maximilian III Joseph"
+	picture = "gfx/leaders/BAV/AOR/Maximilian_III_Joseph.dds"
+	desc = "POLITICS_MAXIMILIAN_III_JOSEPH_DESC"
+	ideology = absolute_monarchy
+}

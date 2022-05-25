@@ -1,497 +1,189 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 51
-add_ideas = {
-	#laws
-	export_focus
-	tax_average
-	tariffs_average
-	civilian_economy
-	press_free
-	key_industries
-	fdi_allowed
-	train_medium
-	officer_train_low
-	security_liberty_first
-	education_budget5
-	health_budget5
-	army_budget1
-	airforce_budget1
-	navy_budget1
-	police_budget3
-	industry_budget4
-	engineering_budget4
-	infrastructure_budget4
+﻿capital = 64
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
 }
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		mtg_transport = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+
+
+
 
 set_research_slots = 4
 set_convoys = 50
 set_stability = 0.7
+
+1939.1.1 = {
+
+	add_political_power = 1197
+	add_command_power = 100
+	
+
+	#BUILDINGS
+	
+
+	set_technology = {
+		CAS2 = 1
+		heavy_fighter1 = 1
+		interwar_artillery = 1
+		interwar_antitank = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		paratroopers = 1
+
+		#doctrines
+		delay = 1
+		elastic_defence = 1
+		armored_spearhead = 1
+		schwerpunk = 1
+		blitzkrieg = 1
+		convoy_interdiction_ti = 1
+		unrestricted_submarine_warfare = 1
+		raider_patrols = 1
+		#air
+		formation_flying = 1		
+		dive_bombing = 1
+		direct_ground_support = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		decimetric_radar = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+
+	}
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+
+}
+set_popularities = {
+	democratic = 80
+	fascism = 10
+	communism = 10
 }
 
-set_popularities = {
-	democratic = 92
-	fascism = 3
-	communism = 5
-}
 
 add_ideas = {
+}
+
+create_country_leader = {
+	name = "Klaus Klauser"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Konrad Adenauer"
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
-	expire = "2060.1.1"
-	ideology = christian_democracy
-}
-
-create_country_leader = {
-	name = "Otto Ernst Remer"
-	picture = "gfx/leaders/GER/CW/Otto_Remer.dds"
-	expire = "2060.1.1"
-	ideology = neo_nazism
-}
-
-create_country_leader = {
-	name = "Wilhelm III"
-	picture = "gfx/leaders/GER/CW/Wilhelm.dds"
-	expire = "2060.1.1"
-	ideology = absolute_monarchy
-}
-
-create_country_leader = {
-	name = "Max Reimann"
-	picture = "gfx/leaders/GER/CW/Max_Reimann.dds"
-	expire = "2060.1.1"
-	ideology = marxism
-}
-
-create_corps_commander = {
-	name = "Adolf Heusinger"
-	picture = "gfx/leaders/GER/CW/Adolf_Heusinger.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
-		modern_heer_trait
-	}
-	skill = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Max Josef Pemsel"
-	picture = "gfx/leaders/GER/CW/Max_Pemsel.dds"
-	traits = {
-		modern_heer_trait
-	}
-	skill = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Hans Speidel"
-	picture = "gfx/leaders/GER/CW/Hans_Speidel.dds"
-	traits = {
-		modern_heer_trait
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Johann von Kielmansegg"
-	picture = "gfx/leaders/GER/CW/Johann_von_Kielmansegg.dds"
-	traits = {
-		modern_heer_trait
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Friedrich Foertsch"
-	picture = "gfx/leaders/GER/CW/Friedrich_Foertsch.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Hans-Werner Wiermann"
-	picture = "gfx/leaders/GER/CW/Hans-Werner_Wiermann.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Heinrich Trettner"
-	picture = "gfx/leaders/GER/CW/Heinrich_Trettner.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Klaus Naumann"
-	picture = "gfx/leaders/GER/CW/Klaus_Naumann.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Rainer Glatz"
-	picture = "gfx/leaders/GER/CW/Rainer_Glatz.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Ulrich de Maiziere"
-	picture = "gfx/leaders/GER/CW/Ulrich_de_Maiziere.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-
-create_corps_commander = {
-	name = "Volker Wieker"
-	picture = "gfx/leaders/GER/CW/Volker_Wieker.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Wolfgang Altenburg"
-	picture = "gfx/leaders/GER/CW/Wolfgang_Altenburg.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_corps_commander = {
-	name = "Wolfgang Schneiderhan"
-	picture = "gfx/leaders/GER/CW/Wolfgang_Schneiderhan.dds"
-	skill = 1
-	traits = { modern_heer_trait }
-}
-
-create_navy_leader = {
-	name = "Armin Zimmermann"
-	picture = "gfx/leaders/GER/CW/Armin_Zimmermann.dds"
-	skill = 1
-	traits = { modern_marine_trait }
-}
-
-create_navy_leader = {
-	name = "Dieter Wellershoff"
-	picture = "gfx/leaders/GER/CW/Dieter_Wellershoff.dds"
-	skill = 1
-	traits = { modern_marine_trait }
-}
-
-1936.1.1 = {
-	# Starting tech
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_recon = 1
-		tech_support = 1
-		tech_engineers = 1
-		tech_mountaineers = 1
-		motorised_infantry = 1
-		gw_artillery = 1
-		interwar_antiair = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_heavy_tank = 1
-		early_fighter = 1
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		strategic_bomber1 = 1
-		CAS1 = 1
-		naval_bomber1 = 1
-		mobile_warfare = 1
-		trade_interdiction = 1
-		formation_flying = 1
-		fuel_silos = 1
-		synth_oil_experiments = 1
-		oil_processing = 1
-		fuel_refining = 1
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-
-1949.1.1 = {
-	if = {
-		limit = {
-			has_start_date > 1948.01.01
-			has_start_date < 1961.01.01
-		}
-		add_ideas = {
-			denazification
-			operation_paperclip
-		}
-	}
-	if = {
-		limit = {
-			has_start_date > 1946.01.01
-			has_start_date < 1956.01.01
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = NOR
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = USA
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = FRA
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = LUX
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = HOL
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = ITR
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = ICE
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = POR
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = DEN
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = BEL
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = ENG
-				relation = military_access
-				active = yes
-			}
-		}
-		WGR = {
-			diplomatic_relation = {
-				country = CAN
-				relation = military_access
-				active = yes
-			}
-		}
-		NOR = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		USA = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		FRA = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		LUX = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		HOL = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		ITR = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		ICE = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		POR = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		DEN = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		BEL = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		ENG = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-		CAN = {
-			diplomatic_relation = {
-				country = WGR
-				relation = military_access
-				active = yes
-			}
-		}
-	}
-	oob = "WGR_1949"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
-1960.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1960.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
-1970.1.1 = {
-	oob = "WGR_1970"
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1970.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 100
-	}
-	create_country_leader = {
-		name = "Willy Brandt"
-		picture = "gfx/leaders/GER/CW/FRG-Willy_Brandt.dds"
-		expire = "2060.1.1"
-		ideology = socialism
-	}
-	create_country_leader = {
-		name = "Michael Kühnen"
-		picture = "gfx/leaders/GER/CW/Germany_Michael_Kühnen_Neo_Nazism_1970.dds"
-		expire = "2060.1.1"
-		ideology = neo_nazism
-	}
-	create_country_leader = {
-		name = "Louis Ferdinand"
-		picture = "gfx/leaders/GER/CW/Germany_Louis_Ferdinand_Despotism_1970.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-1980.1.1 = {
-	create_country_leader = {
-		name = "Helmut Schmidt"
-		picture = "gfx/leaders/GER/CW/WestGermany_HelmutSchmidt.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
-	}
-}
-
-1990.1.1 = {
-	create_country_leader = {
-		name = "Helmut Kohl"
-		picture = "gfx/leaders/GER/CW/WestGermany_HelmutJosefMichaelKohl.dds"
-		expire = "2060.1.1"
-		ideology = christian_democracy
 	}
 }

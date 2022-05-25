@@ -1,24 +1,17 @@
-state={
-	id=56
-	name="STATE_56"
-	manpower = 2058467
-	
-	state_category = city
+state = {
+	id = 56
+	name = "STATE_56"
 
-	history={
+	history = {
 		owner = GER
 		victory_points = {
-			241 5 
-		}
-		victory_points = {
-			11360 1
+			241 5
 		}
 		victory_points = {
 			11388 5
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 6
 			dockyard = 2
 			fuel_silo = 1
 			241 = {
@@ -29,17 +22,38 @@ state={
 
 		}
 		add_core_of = GER
+		add_core_of = WGR
+		add_core_of = FRG
+		add_core_of = WSP
+		
+		
+		1910.1.1 = {
+			owner = GER
+			controller = GER
+		}
+		1918.11.11 = {
+			owner = GER
+			controller = GER
+		}
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4
 				dockyard = 3
+
 			}
+
 		}
+
+		1946.1.1 = { owner = GER controller = GER }
+		1990.10.3 = { owner = GER controller = GER }
+
 	}
 
-	provinces={
-		241 247 309 336 3234 9281 11233 11264 11360 11388 
+	provinces = {
+		241 247 309 3234 9281 11233 11388
 	}
-
+	manpower = 2016434
+	buildings_max_level_factor = 1.000
+	state_category = city
 	local_supplies=14.0 
 }

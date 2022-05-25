@@ -1,102 +1,80 @@
-RON_start_techs = yes
-RON_country_setup = yes RON_handle_era_flags = yes RON_handle_era_generals = yes
-capital = 757
+﻿capital = 757
+
 oob = "TIB_1936"
 
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = TIB_jamphel_yeshe_gyaltsen
+recruit_character = TIB_namgang_rinpoche
+recruit_character = TIB_penor_tashi
+recruit_character = TIB_tsepon_shatra
+recruit_character = TIB_gyato_wangdu
+recruit_character = TIB_lobsang_tenzin
+recruit_character = TIB_sampo_tsewang_rigzin
+recruit_character = TIB_chama_samphe
+recruit_character = TIB_lhalu_tsewang_dorje
+recruit_character = TIB_chodak_karma
+recruit_character = TIB_tenpa_jamyang
+recruit_character = TIB_sogyal_rinpoche
+recruit_character = TIB_bapa_yeshe
+recruit_character = TIB_jampal_rabgye_rinpoche
+recruit_character = TIB_chaghoe_namgyal_dorje
+recruit_character = TIB_jamyang_rabten
+recruit_character = TIB_khemey_sonam_wangdi
+recruit_character = TIB_jigme_taring
+recruit_character = TIB_reting_rimpoche
+recruit_character = TIB_taktra_rinpoche
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = construction_effort_2
+	complete_national_focus = production_effort_2
+	complete_national_focus = infrastructure_effort
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "TIB_1939"
+	set_technology = {
+		#doctrines
+		air_superiority = 1
+
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
 set_politics = {
-	ruling_party = monarchism
-	last_election = "1900.1.1"
-	election_frequency = 60
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	monarchism = 100
-}
-
-create_country_leader = {
-	name = "Thubten Gyatso"
-	picture = "gfx/leaders/TIB/WW1/TIB_Thubten_Gyatso.dds"
-	expire = "2060.1.1"
-	ideology = absolute_monarchy
-}
-
-1910.1.1 = {
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1910.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		monarchism = 100
-	}
-
-	create_country_leader = {
-		name = "Thubten Gyatso"
-		picture = "gfx/leaders/TIB/WW1/TIB_Thubten_Gyatso.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-1933.1.1 = {
-
-	create_country_leader = {
-		name = "Jamphel Yeshe Gyaltsen"
-		desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-		picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-
-	create_country_leader = {
-		name = "Thubten Gyatso"
-		picture = "TIB_Thubten_Gyatso_Old.dds"
-		expire = "1933.12.17"
-		ideology = absolute_monarchy
-	}
-
-}
-
-1936.1.1 = {
-
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		monarchism = 100
-	}
-
-	create_country_leader = {
-		name = "Jamphel Yeshe Gyaltsen"
-		desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-		picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
-}
-
-1949.1.1 = {
-	oob = "TIB_1949"
-	set_politics = {
-		ruling_party = monarchism
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		monarchism = 100
-	}
-	create_country_leader = {
-		name = "Dalai Lama"
-		picture = "gfx/leaders/CW/Tibet_Dalai_Lama.dds"
-		expire = "2060.1.1"
-		ideology = absolute_monarchy
-	}
+	neutrality = 100
 }
