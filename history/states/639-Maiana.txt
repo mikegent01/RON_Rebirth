@@ -5,7 +5,7 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = ENG
+		owner = NAT
 		add_core_of = KIR
 		buildings = {
 			infrastructure = 3
@@ -24,6 +24,11 @@ state = {
 		}
 		victory_points = {
 			13021 1
+		}
+		
+		1886.1.1 = {
+			owner = ENG
+			controller = ENG
 		}
 
 		1942.1.1 = { owner = JAP controller = JAP }

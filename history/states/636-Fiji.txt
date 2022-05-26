@@ -6,13 +6,18 @@ state = {
 	state_category = small_island
 
 	history = {
-		owner = ENG
+		owner = NAT
 		add_core_of = FIJ
 		buildings = {
 			infrastructure = 3
 			4286 = {
 				naval_base = 1
 			}
+		}
+		
+		1874.1.1 = {
+			owner = ENG
+			controller = ENG
 		}
 
 		1988.1.1 = { owner = FIJ controller = FIJ }
