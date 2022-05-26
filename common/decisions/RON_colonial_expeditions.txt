@@ -1,0 +1,67 @@
+RON_expand_influence = {
+	RON_launch_expedition_in_STATE = {
+		state_target = yes
+
+		available = {
+			is_subject = no 
+			NOT = {
+				FROM = {
+					has_state_flag = expedition_underway
+				}
+			} 
+		}
+		on_map_mode = map_only
+		complete_effect = {
+			FROM = {
+				set_state_flag = {
+					flag = expedition_underway
+					days = 250
+				}
+			}
+		}
+		visible = {
+			FROM = {
+				is_controlled_by = NAT
+				OR = {
+						
+					any_neighbor_state = { is_controlled_by = ROOT }
+					is_coastal = yes
+				}
+			}
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 100
+				FROM = {
+					is_claimed_by = ROOT
+				}
+			}
+		}
+		days_remove = 250
+		remove_effect = {
+			if = {
+				limit = {
+					FROM = {
+						is_coastal = yes
+						NOT = {
+							any_neighbor_state = { is_controlled_by = ROOT }
+						}
+					}
+				}
+				ROOT = {
+					add_equipment_to_stockpile = {
+						type = convoy
+						amount = -20
+						
+					}
+					
+				}
+			}
+			transfer_state = FROM
+			add_manpower = -500
+		}
+
+	}
+}

@@ -1,0 +1,17 @@
+RON_expand_influence = {
+	icon = power_struggle
+	allowed = {
+		NOT = {
+			tag = NAT
+		}
+	}
+	
+	visible = {
+		OR = {
+			capital_scope = {
+				is_on_continent = europe
+			}
+			is_major = yes
+		}
+	}
+}

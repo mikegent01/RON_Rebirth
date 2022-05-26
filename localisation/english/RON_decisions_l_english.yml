@@ -1,0 +1,4 @@
+﻿l_english:
+ RON_expand_influence:0 "Colonial Expeditions"
+ RON_launch_expedition_in_STATE:0 "Launch Expedition in [FROM.GetName]"
+ expedition_underway:0 "a Foreign country is already launching an expedition there"
