@@ -23,6 +23,6 @@ create_country_leader = {
 	name = "Maciej Sulkiewicz"
 	desc = "POLITICS_SULKIEWICZ_DESC"
 	picture = "gfx/leaders/CRI/portrait_crimea_regional_maciej_sulkiewicz.dds"
-	expire = "2060.1.1"
+	
 	ideology = paternal_autocrat
 }

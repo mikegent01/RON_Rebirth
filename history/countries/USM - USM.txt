@@ -25,5 +25,5 @@ create_country_leader = {
 		name = "The Grand Council"
 		picture = "gfx/leaders/USA/Portrait_USA_Grand_Council.dds"
 		ideology = despotism
-		expire = "2060.1.1"
+		
 	}

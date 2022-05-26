@@ -49,7 +49,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Stephenson King"
 		picture = "gfx/leaders/STL/MD/Saint_Lucia_Stephenson_King.dds"
-		expire = "2060.1.1"
+		
 		ideology = christian_democracy
 	}
 }
@@ -79,7 +79,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Allen Chastanet"
 		picture = "gfx/leaders/STL/MD/STL_Allen_Chastanet_Christian_Democracy.dds"
-		expire = "2060.1.1"
+		
 		ideology = christian_democracy
 	}
 }

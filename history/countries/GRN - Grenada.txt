@@ -74,7 +74,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Keith Mitchell"
 		picture = "gfx/leaders/GRN/MD/Grenada_Keith_Mitchell.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 }
@@ -83,7 +83,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Keith Mitchell"
 		picture = "gfx/leaders/GRN/MD/GRN_Keith_Mitchell_Conservatism.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }

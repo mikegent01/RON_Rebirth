@@ -91,7 +91,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Ahmed Abdallah Mohamed Sambi"
 		picture = "gfx/leaders/COM/MD/Comoros_Ahmed_Abdallah_Mohamed_Sambi.dds"
-		expire = "2060.1.1"
+		
 		ideology = democratic_independent
 	}
 }
@@ -123,7 +123,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Azali Assoumani"
 		picture = "gfx/leaders/COM/MD/COM_Azali_Assoumani_Social_Democracy.dds"
-		expire = "2060.1.1"
+		
 		ideology = socialism
 	}
 }

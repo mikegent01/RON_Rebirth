@@ -28,7 +28,7 @@ set_popularities = {
 	create_country_leader = {
 		name = "Amata Kabua"
 		picture = "gfx/leaders/MRS/CW/MarshallIslands_AmataKabua.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }
@@ -47,7 +47,7 @@ set_popularities = {
 	create_country_leader = {
 		name = "Imata Kabua"
 		picture = "gfx/leaders/MRS/MD/Marshall_Islands_Imata_Kabua.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }
@@ -56,7 +56,7 @@ set_popularities = {
 	create_country_leader = {
 		name = "David Kabua"
 		picture = "gfx/leaders/MRS/MD/MRS_David_Kabua_Independent.dds"
-		expire = "2060.1.1"
+		
 		ideology = democratic_independent
 	}
 	create_country_leader = {

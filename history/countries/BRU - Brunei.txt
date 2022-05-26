@@ -34,13 +34,13 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/Brunei_HassanalBolkiah.dds"
-		expire = "2060.1.1"
+		
 		ideology = emiratism
 	}
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/Brunei_HassanalBolkiah.dds"
-		expire = "2060.1.1"
+		
 		ideology = despotism
 	}
 }
@@ -48,13 +48,13 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/Brunei_Hassanal_Bolkiah.dds"
-		expire = "2060.1.1"
+		
 		ideology = emiratism
 	}
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/Brunei_Hassanal_Bolkiah.dds"
-		expire = "2060.1.1"
+		
 		ideology = despotism
 	}
 }
@@ -63,13 +63,13 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/BRU_Hassanal_Bolkiah_Emiratism.dds"
-		expire = "2060.1.1"
+		
 		ideology = emiratism
 	}
 	create_country_leader = {
 		name = "Hassanal Bolkiah"
 		picture = "gfx/leaders/BRU/MD/BRU_Hassanal_Bolkiah_Emiratism.dds"
-		expire = "2060.1.1"
+		
 		ideology = despotism
 	}
 }

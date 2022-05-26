@@ -25,6 +25,6 @@ create_country_leader = {
 		name = "Earl Browder"
 		desc = "POLITICS_EARL_BROWDER_DESC"
 		picture = "gfx/leaders/USA/Portrait_USA_earl_browder.dds"
-		expire = "2060.1.1"
+		
 		ideology = marxism
 	}

@@ -31,7 +31,7 @@ create_country_leader = {
 	name = "Ivanis Vasily Nikolaevich"
 	desc = "POLITICS_IVANIS_NIKOLAEVICH_DESC"
 	picture = "portrait_KUB_ivanis_vasily_nikolaevich.dds"
-	expire = "2060.1.1"
+	
 	ideology = paternal_autocrat
 }
 

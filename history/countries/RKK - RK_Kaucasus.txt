@@ -32,7 +32,7 @@ create_country_leader = {
 	name = "Alfred Rosenberg"
 	desc = ""
 	picture = "gfx/leaders/GER/Portrait_Germany_Alfred_Rosenberg.dds"
-	expire = "2060.1.1"
+	
 	ideology = nazism
 	traits = {
 		reichskommissar

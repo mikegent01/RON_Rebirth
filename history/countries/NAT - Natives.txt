@@ -42,6 +42,6 @@ set_popularities = {
 create_country_leader = {
 	name = "Natives"
 	picture = "gfx/leaders/NAT/AOR/Native_Peoples.dds"
-	expire = "2060.1.1"
+	
 	ideology = anarchism
 }

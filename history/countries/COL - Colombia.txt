@@ -99,7 +99,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Marco Fidel Suarez"
 		picture = "gfx/leaders/COL/WW1/Colombia_MarcoFidelSuarez.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }
@@ -121,14 +121,14 @@ set_convoys = 10
 		name = "Mariano Ospina Pérez"
 		desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
 		picture = "gfx/leaders/COL/CW/Colombia_Mariano_Ospina_Perez.dds"
-		expire = "2060.1.1"
+		
 		ideology = centrism
 	}
 	create_country_leader = {
 		name = "Alfonso López Pumarejo"
 		desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
 		picture = "portrait_col_alfonso_lopez_pumarejo.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 	create_country_leader = {
@@ -166,14 +166,14 @@ set_convoys = 10
 		name = "Mariano Ospina Pérez"
 		desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
 		picture = "gfx/leaders/COL/CW/Colombia_Mariano_Ospina_Perez.dds"
-		expire = "2060.1.1"
+		
 		ideology = centrism
 	}
 	create_country_leader = {
 		name = "Alfonso López Pumarejo"
 		desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
 		picture = "portrait_col_alfonso_lopez_pumarejo.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 
@@ -216,7 +216,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Mariano Ospina Perez"
 		picture = "gfx/leaders/COL/CW/Colombia_Mariano_Ospina_Perez.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }
@@ -234,7 +234,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Alberto Lleras Camargo"
 		picture = "gfx/leaders/COL/CW/Columbia_AlbertoLlerasCamargo.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 }
@@ -254,13 +254,13 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Carlos Lliras Restrepo"
 		picture = "gfx/leaders/COL/CW/Columbia_CarlosLlirasRestrepo.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 	create_country_leader = {
 		name = "Jaime Pardo Leal"
 		picture = "gfx/leaders/COL/CW/1980_Colombia_Jaime_Pardo_Leal_Bolivarianism.dds"
-		expire = "2060.1.1"
+		
 		ideology = bolivarianism
 	}
 }
@@ -269,7 +269,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Julio César Turbay Ayala"
 		picture = "gfx/leaders/COL/CW/Colombia_Julio_Cesar_Turbay_Ayala.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 }
@@ -278,7 +278,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Virgilio Barco Vargas"
 		picture = "gfx/leaders/COL/CW/Colombia-Virgilio_Barco_Vargas.dds"
-		expire = "2060.1.1"
+		
 		ideology = socialism
 	}
 }
@@ -289,25 +289,25 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Andrés Pastrana Arango"
 		picture = "gfx/leaders/COL/MD/Columbia_Andrés_Pastrana_Arango.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 	create_country_leader = {
 		name = "Alfredo Devia"
 		picture = "gfx/leaders/COL/MD/2000_Colombia_Alfredo_Devia_Neonazism.dds"
-		expire = "2060.1.1"
+		
 		ideology = neo_nazism
 	}
 	create_country_leader = {
 		name = "Alvaro Uribe"
 		picture = "gfx/leaders/COL/MD/2000_Colombia_Alvaro_Uribe_Non_Aligned_Conservatism.dds"
-		expire = "2060.1.1"
+		
 		ideology = nonaligned_conservatism
 	}
 	create_country_leader = {
 		name = "Manuel Marulanda"
 		picture = "gfx/leaders/COL/MD/2000_Colombia_Manuel_Marulanda_Leninism.dds"
-		expire = "2060.1.1"
+		
 		ideology = leninism
 	}
 }
@@ -316,7 +316,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Alvaro Uribe Velez"
 		picture = "gfx/leaders/COL/MD/Colombia_Alvaro_Uribe_Velez.dds"
-		expire = "2060.1.1"
+		
 		ideology = liberalism
 	}
 }
@@ -326,19 +326,19 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Juan Manuel Santos"
 		picture = "gfx/leaders/COL/MD/Colombia_Juan_Manuel_Santos.dds"
-		expire = "2060.1.1"
+		
 		ideology = socialism
 	}
 	create_country_leader = {
 		name = "Ivan Duque"
 		picture = "gfx/leaders/COL/MD/2017_Colombia_Ivan_Duque_Non_Aligned_Conservatism.dds"
-		expire = "2060.1.1"
+		
 		ideology = nonaligned_conservatism
 	}
 	create_country_leader = {
 		name = "Timoleón Jiménez"
 		picture = "gfx/leaders/COL/MD/2017_Colombia_Timoleón_Jiménez_Leninism.dds"
-		expire = "2060.1.1"
+		
 		ideology = leninism
 	}
 }
@@ -356,7 +356,7 @@ set_convoys = 10
 	create_country_leader = {
 		name = "Ivan Duque"
 		picture = "gfx/leaders/COL/MD/COL_Iván_Duque_Márquez_Conservatism.dds"
-		expire = "2060.1.1"
+		
 		ideology = conservatism
 	}
 }

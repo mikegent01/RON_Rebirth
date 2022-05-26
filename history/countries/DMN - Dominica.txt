@@ -31,7 +31,7 @@ create_country_leader = {
 	name = "Nicholas Liverpool"
 	picture = "gfx/leaders/DMN/MD/Dominica_Nicholas_Liverpool.dds"
 	ideology = independent
-	expire = "2060.1.1"
+	
 }
 
 1983.1.1 = {
@@ -99,7 +99,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Charles Savarin Social"
 		picture = "gfx/leaders/DMN/MD/DMN_Charles_Savarin_Social_Democracy.dds"
-		expire = "2060.1.1"
+		
 		ideology = socialism
 	}
 }

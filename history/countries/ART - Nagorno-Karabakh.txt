@@ -31,7 +31,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Arayik Harutyunyan"
 	picture = "gfx/leaders/ART/MD/ART_Arayik_Harutyunyan_Nationalism.dds"
-	expire = "2060.1.1"
+	
 	ideology = nationalism
 }
 
