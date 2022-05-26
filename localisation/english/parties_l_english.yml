@@ -41,6 +41,8 @@
  constitutional_monarchy_desc:0 "In Constitional Monarchy ruler's way of governing is definied by constitution."
  absolute_monarchy:0 "Absolute Monarchy"
  absolute_monarchy_desc:0 "Absolute monarchy is a form of monarchy in which the monarch is the only one to decide and therefore rules on his own. "
+ napoleonic_monarchy:0 "Absolute Monarchy"
+ napoleonic_monarchy_desc:0 "Absolute monarchy is a form of monarchy in which the monarch is the only one to decide and therefore rules on his own. "
  
  #### ISLAMIC SUBIDEOLOGIES
  islamic_republican:0 "Islamic Republicanism"
