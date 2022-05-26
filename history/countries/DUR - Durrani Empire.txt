@@ -1,0 +1,257 @@
+RON_universal_setup = yes
+
+
+
+capital = 431
+oob = "RAJ_1900"
+add_ideas = {
+	export_focus
+	tax_average
+	tariffs_average
+	civilian_economy
+	press_free
+	private_control
+	fdi_allowed
+	train_medium
+	officer_train_low
+	security_minor_restrictions
+	education_budget5
+	health_budget5
+	foreign_neutral
+	foreign_volunteers
+}
+
+if = {
+	limit = {
+		has_start_date < 1948.01.01
+	}
+	set_cosmetic_tag = RAJ_UK    # British Raj
+	add_ideas = {
+		RAJ_religious_conflict
+		RAJ_caste_system
+		RAJ_corrupted_railroad
+	}
+}
+
+set_stability = 0.6
+set_war_support = 0.1
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1900.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Lord George Hamilton"
+	picture = "gfx/leaders/RAJ/DNC/RAJ_Lord_George_Hamilton.dds"
+	expire = "2060.1.1"
+	ideology = conservatism
+}
+1900.1.1 = {
+	every_state = {
+		limit = {
+			is_owned_by = RAJ
+			NOT = {
+				is_core_of = RAJ
+			}
+		}
+		set_state_flag = indian_integration
+	}
+}
+1910.1.1 = {
+	oob = "RAJ_1910"
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1907.1.12"
+		election_frequency = 60
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		democratic = 75
+		communism = 25
+	}
+
+	create_country_leader = {
+		name = "John Morley"
+		desc = "POLITICS_JOHN_MORLEY_DESC"
+		picture = "gfx/leaders/RAJ/WW1/Portrait_British_Raj_John_Morley.dds"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+
+	set_technology = {
+		tech_support = 1
+		early_infantry_weapons = 1
+		light_field_gun1 = 1
+		heavy_field_gun1 = 1
+		# Navy
+		ww1_destroyer0 = 1
+		ww1_destroyer1 = 1
+		ww1_light_cruiser1 = 1
+		ww1_light_cruiser0 = 1
+		ww1_battlecruiser0 = 1
+		ww1_battleship0 = 1
+		ww1_submarine1 = 1
+		ww1_coastal_submarine1 = 1
+		transport = 1
+		horses = 1
+		ww1_electronic_mechanical_engineering = 1
+	}
+
+}
+
+1914.1.1 = {
+	capital = 439
+	oob = "RAJ_1914"
+}
+
+1919.1.1 = {
+	oob = "RAJ_1919"
+}
+
+1933.1.1 = {
+	oob = "RAJ_1933"
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1933.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 17
+		fascism = 2
+		communism = 1
+		neutrality = 80
+	}
+	create_country_leader = {
+		name = "Lord Linlithgow"
+		desc = "POLITICS_LORD_LINLITHGOW_DESC"
+		picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+		expire = "2060.1.1"
+		ideology = authoritarian_democracy
+	}
+	# REVISIT Unclear if appropriate for this ideology
+	create_country_leader = {
+		name = "V. D. Savarkar"
+		desc = "POLITICS_VD_SAVARKAR_DESC"
+		picture = "GFX_RAJ_veer_savarkar"
+		expire = "2060.1.1"
+		ideology = hindu_nationalism
+	}
+	create_country_leader = {
+		name = "P. Krishna Pillai"
+		desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+		picture = "GFX_RAJ_krishna_pillai"
+		expire = "2060.1.1"
+		ideology = marxism
+	}
+	create_country_leader = {
+		name = "B. P. Sitaramayya"
+		desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+		picture = "GFX_RAJ_pattabhi_sitaramayya"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1935.11.14"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 17
+		fascism = 2
+		communism = 1
+		neutrality = 80
+	}
+	create_country_leader = {
+		name = "Lord Linlithgow"
+		desc = "POLITICS_LORD_LINLITHGOW_DESC"
+		picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+		expire = "2060.1.1"
+		ideology = authoritarian_democracy
+	}
+	# REVISIT Unclear if appropriate for this ideology
+	create_country_leader = {
+		name = "V. D. Savarkar"
+		desc = "POLITICS_VD_SAVARKAR_DESC"
+		picture = "GFX_RAJ_veer_savarkar"
+		expire = "2060.1.1"
+		ideology = hindu_nationalism
+	}
+	create_country_leader = {
+		name = "P. Krishna Pillai"
+		desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+		picture = "GFX_RAJ_krishna_pillai"
+		expire = "2060.1.1"
+		ideology = marxism
+	}
+	create_country_leader = {
+		name = "B. P. Sitaramayya"
+		desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+		picture = "GFX_RAJ_pattabhi_sitaramayya"
+		expire = "2060.1.1"
+		ideology = socialism
+	}
+
+	oob = "RAJ_1936"
+	# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_recon = 1
+		transport = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		CAS1 = 1
+		early_fighter = 1
+		fuel_silos = 1
+		fuel_refining = 1
+	}
+}
+
+1939.1.1 = {
+	oob = "RAJ_1939"
+}
+
+1940.1.1 = {
+	oob = "RAJ_1940"
+}
+
+1941.1.1 = {
+	oob = "RAJ_1941"
+	set_naval_oob = "RAJ_1941_naval_legacy"
+}
+
+1942.1.1 = {
+	oob = "RAJ_1942"
+	set_naval_oob = "RAJ_1942_naval_legacy"
+}
+
+1943.1.1 = {
+	oob = "RAJ_1943"
+	set_naval_oob = "empty"
+}
+
+1944.1.1 = {
+	oob = "RAJ_1944"
+}
+
+1945.1.1 = {
+	oob = "RAJ_1945"
+}

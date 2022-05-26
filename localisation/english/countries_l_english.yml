@@ -6885,3 +6885,31 @@ ZIM_monarchism_DEF:0 "The Kingdom of Zimbabwe"
 ZIM_neutrality:0 "Kingdom of Zimbabwe"
 ZIM_neutrality_ADJ:0 "Zimbabwean"
 ZIM_neutrality_DEF:0 "The Kingdom of Zimbabwe"
+
+DUR_DEF:0 "The Durrani Empire"
+DUR_ADJ:0 "Durrani"
+DUR:0 "Durrani Empire"
+
+MYS_DEF:0 "The Kingdom of Mysore"
+MYS_ADJ:0 "Mysoran"
+MYS:0 "Kingdom of Mysore"
+
+SIH_DEF:0 "The Sikh Empire"
+SIH_ADJ:0 "Sikh"
+SIH:0 "Sikh Empire"
+
+MAR_DEF:0 "The Maratha Empire"
+MAR_ADJ:0 "Marathan"
+MAR:0 "Maratha Empire"
+
+NAO_DEF:0 "The Nawab of Oudh"
+NAO_ADJ:0 "Indian"
+NAO:0 "Nawab of Oudh"
+
+NAS_DEF:0 "The Nawab of Sindh"
+NAS_ADJ:0 "Indian"
+NAS:0 "Nawab of Sindh"
+
+NIZ_DEF:0 "The Dominion of Nizam"
+NIZ_ADJ:0 "Indian"
+NIZ:0 "Nizam's Dominion"

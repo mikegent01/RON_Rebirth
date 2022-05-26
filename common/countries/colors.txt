@@ -1520,10 +1520,10 @@ BDW = {
 	color_ui = rgb { 249 221 22 }
 }
 
-JSA = {
-	color = rgb { 85 85 255 }
-	color_ui = rgb { 85 85 255 }
-}
+# JSA = {
+# 	color = rgb { 85 85 255 }
+# 	color_ui = rgb { 85 85 255 }
+# }
 
 UWA = {
 	color = rgb { 48 46 128 }
@@ -1548,3 +1548,32 @@ SLV = {
 	color = rgb { 9 116 246 }
 	color_ui = rgb { 230 255 122 }
 }
+MAR = {
+	color = rgb { 195 133 0 }
+	color_ui = rgb { 195 133 0 }
+}
+MYS = {
+	color = rgb { 0 40 78 }
+	color_ui = rgb { 0 40 78 }
+}
+SIH = {
+	color = rgb { 122 67 119 }
+	color_ui = rgb { 122 67 119 }
+}
+DUR = {
+	color = rgb { 11 66 8 }
+	color_ui = rgb { 11 66 8 }
+}
+NIZ = {
+	color = rgb { 240 213 138 }
+	color_ui = rgb { 240 213 138 }
+}
+NAO = {
+	color = rgb { 240 213 138 }
+	color_ui = rgb { 240 213 138 }
+}
+NAS = {
+	color = rgb { 240 213 138 }
+	color_ui = rgb { 240 213 138 }
+}
+

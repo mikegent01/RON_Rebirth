@@ -4,7 +4,7 @@ state = {
 
 	history = {
 		add_core_of = VIN add_core_of = VIE
-		owner = FRA
+		owner = VIE
 
 		buildings = {
 			infrastructure = 3

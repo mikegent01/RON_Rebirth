@@ -23,6 +23,13 @@ add_ideas = {
 
 set_convoys = 15
 
+if = {
+	limit = {
+		has_start_date < 1900.1.1
+	}
+	set_cosmetic_tag = SIA_THONBURI
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1900.1.1"

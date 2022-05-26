@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		add_core_of = VIN add_core_of = VIE
-		owner = FRA
+		owner = NAT
 		victory_points = {
 			4401 3
 		}

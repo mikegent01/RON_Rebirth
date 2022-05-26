@@ -9,7 +9,12 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = no
 }
-
+if = {
+	limit = {
+		has_start_date < 1900.1.1
+	}
+	set_cosmetic_tag = VIE_DAI_VIET
+}
 set_popularities = {
 	communism = 100
 }
