@@ -2,3 +2,6 @@
  RON_expand_influence:0 "Colonial Expeditions"
  RON_launch_expedition_in_STATE:0 "Launch Expedition in [FROM.GetName]"
  expedition_underway:0 "a Foreign country is already launching an expedition there"
+
+ RON_USA_revolutionary_war_cat:0 "Revolutionary War"
+ revoltionary_war_timer:0 "Revolutionary War"

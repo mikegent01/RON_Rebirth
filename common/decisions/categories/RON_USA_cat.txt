@@ -1,0 +1,9 @@
+RON_USA_revolutionary_war_cat = {
+	priority = 100
+	allowed = {
+		OR = {
+			tag = USA
+			tag = THI
+		}
+	}
+}
