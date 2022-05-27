@@ -38,3 +38,10 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
+
+create_country_leader = {
+	name = "Sardar Jassa Singh Ahluwalia"
+	picture = "AOR/Sardar_Jassa_Singh_Ahluwalia.dds"
+	expire = "2060.1.1"
+	ideology = paternal_autocrat
+}
