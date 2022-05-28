@@ -26,7 +26,15 @@ create_country_leader = {
 	desc = "POLITICS_GEORGE_III_DESC"
 	ideology = absolute_monarchy
 }
-puppet = RAJ
+
+if = {
+	limit = {
+		has_start_date < 1947.01.01
+	}
+	puppet = RAJ
+	
+}
+
 if = {
 	limit = {
 		has_start_date < 1795.01.01

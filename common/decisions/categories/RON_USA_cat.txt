@@ -1,6 +1,7 @@
 RON_USA_revolutionary_war_cat = {
 	priority = 100
 	allowed = {
+		has_start_date < 1776.01.01
 		OR = {
 			tag = USA
 			tag = THI

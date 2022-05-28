@@ -16,7 +16,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Natives"
+	name = "Various Leaders"
 	picture = "gfx/leaders/NAT/AOR/Native_Kazakhstan.dds"
 	ideology = anarchism
 }

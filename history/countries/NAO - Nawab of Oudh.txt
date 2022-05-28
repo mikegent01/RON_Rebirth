@@ -1,42 +1,26 @@
 RON_universal_setup = yes
 
-
-
 capital = 425
-
-add_ideas = {
-	export_focus
-	tax_average
-	tariffs_average
-	civilian_economy
-	press_free
-	private_control
-	fdi_allowed
-	train_medium
-	officer_train_low
-	security_minor_restrictions
-	education_budget5
-	health_budget5
-	foreign_neutral
-	foreign_volunteers
-}
-
 
 set_stability = 0.6
 set_war_support = 0.1
-
-
 set_convoys = 20
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1900.1.1"
-	election_frequency = 60
-	elections_allowed = yes
+	last_election = "1775.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
 	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Various Leaders"
+	picture = "gfx/leaders/NAT/AOR/Native_India.dds"
+	ideology = anarchism
 }
 
 
