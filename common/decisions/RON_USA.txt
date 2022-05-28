@@ -12,17 +12,14 @@ RON_USA_revolutionary_war_cat = {
 		timeout_effect = {
 			USA = {
 				transfer_state = 357
-				declare_war_on = {
-					target = THI
-					type = civil_war
-				}
+				
 				add_equipment_to_stockpile = {
 					type = infantry_equipment
 					amount = 1000
 				}
 				division_template = {
 					name = "Rebels"
-					is_locked = no
+					is_locked = yes
 					priority = 0
 					
 					regiments = {
@@ -35,26 +32,98 @@ RON_USA_revolutionary_war_cat = {
 					
 					
 				}
-				357 = {
-
-					create_unit = {
-						division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
-						owner = USA
-					}
-					create_unit = {
-						division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
-						owner = USA
-					}
-					create_unit = {
-						division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
-						owner = USA
-					}
-					create_unit = {
-						division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
-						owner = USA
-					} 
+				
+			}
+			THI = {
+				declare_war_on = {
+					target = USA
+					type = civil_war
 				}
-				add_civil_war_target = THI
+				add_civil_war_target = USA
+			}
+			357 = {
+
+				create_unit = {
+					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+					owner = USA
+				}
+				create_unit = {
+					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+					owner = USA
+				}
+				create_unit = {
+					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+					owner = USA
+				}
+				create_unit = {
+					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+					owner = USA
+				} 
+			}
+			
+		}
+	}
+	issue_declaration_of_independence = {
+		days_remove = 442
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = {
+			tag = USA
+		}
+		available = {
+			NOT = {
+				has_capitulated = yes
+			}
+		}
+		visible = {
+			has_war_with = THI
+		}
+		remove_effect = {
+			transfer_state = 835
+			transfer_state = 836
+			transfer_state = 365
+			transfer_state = 364
+			transfer_state = 363
+			transfer_state = 844
+			transfer_state = 841
+			transfer_state = 359
+			transfer_state = 358
+			transfer_state = 360
+			transfer_state = 837
+			transfer_state = 838
+		}
+	}
+	virginia_uprising = {
+		days_remove = 10
+
+		state_target = yes
+
+		target_trigger = {
+			FROM = {
+				state = 362
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		allowed = {
+			tag = USA
+		}
+		visible = {
+			USA = {
+				has_war_with = THI
+			}
+		}
+		remove_effect = {
+			USA = {
+				transfer_state = 362
+			}
+			362 = {
+				create_unit = {
+					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
+					owner = USA
+				} 
 			}
 		}
 	}
