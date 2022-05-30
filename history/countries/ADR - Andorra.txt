@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
 capital = 824
-#oob = "ADR_1936"
+oob = "generic_1775"
 set_research_slots = 3
 set_stability = 0.75
 give_military_access = FRA

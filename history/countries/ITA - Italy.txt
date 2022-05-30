@@ -702,7 +702,7 @@ if = {
 
 1943.1.1 = {
 	oob = "ITA_1943"
-	set_naval_oob = "empty"
+	set_naval_oob = "generic_1775"
 }
 
 1944.1.1 = {

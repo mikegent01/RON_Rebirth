@@ -2,6 +2,7 @@
   
 capital = 375#LA
 set_research_slots = 3
+oob = "generic_1775"
 
 set_convoys = 30
 set_politics = {
@@ -21,25 +22,4 @@ set_popularities = {
 add_ideas = {
 	disarmed_nation
 	free_trade
-}
-
-create_country_leader = {
-	name = "James V. Allred"
-	picture = "gfx/leaders/TEX/Portrait_Texas_James.dds"
-	
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Arthur Harvey"
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Rex O'donnell"
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	
-	ideology = marxism
 }

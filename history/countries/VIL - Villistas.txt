@@ -2,7 +2,7 @@
   
 capital = 277
 
-oob = "VIL_1914"
+oob = "generic_1775"
 
 set_country_flag = monroe_doctrine
 
@@ -20,13 +20,3 @@ set_popularities = {
 }
 
 set_stability = 0.8
-
-create_country_leader = {
-	name = "Pancho Villa"
-	desc = "POLITICS_PANCHO_VILLA_DESC"
-	picture = "gfx/leaders/VIL/WW1/Portrait_Mexico_Pancho_Villa.dds"
-	
-	ideology = populism
-}
-
-

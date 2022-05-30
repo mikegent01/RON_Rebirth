@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 574
-oob = "generic_1910"
+oob = "generic_1775"
 
 set_convoys = 5
 
@@ -17,11 +17,4 @@ set_popularities = {
 	fascism = 1
 	communism = 50
 	neutrality = 9
-}
-
-create_country_leader = {
-	name = "Pavel Pevznyak"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	
-	ideology = stalinism
 }

@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 847
 
-oob = "generic_1910"
+oob = "generic_1775"
 add_ideas = neutrality_idea
 
 set_politics = {

@@ -3,9 +3,7 @@
 
 capital = 277
 
-oob = "none"
-
-set_country_flag = monroe_doctrine
+oob = "generic_1775"
 
 set_convoys = 45
 
@@ -22,13 +20,4 @@ set_popularities = {
 	communism = 15
 }
 
-
 set_stability = 0.8
-
-create_country_leader = {
-	name = "Francisco Madero"
-	desc = "POLITICS_MADERO_DESC"
-	picture = "Portrait_Mexico_Francisco_Madero.dds"
-	
-	ideology = socialism
-}

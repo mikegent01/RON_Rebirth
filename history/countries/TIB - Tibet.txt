@@ -1,7 +1,7 @@
 RON_universal_setup = yes
   
 capital = 757
-oob = "TIB_1936"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = neutrality
@@ -12,91 +12,4 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 100
-}
-
-create_country_leader = {
-	name = "Thubten Gyatso"
-	picture = "gfx/leaders/TIB/DNC/TIB_Thubten_Gyatso.dds"
-	
-	ideology = despotism
-}
-
-1910.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1910.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		neutrality = 100
-	}
-
-	create_country_leader = {
-		name = "Thubten Gyatso"
-		picture = "gfx/leaders/TIB/DNC/TIB_Thubten_Gyatso.dds"
-		
-		ideology = despotism
-	}
-}
-
-1933.1.1 = {
-
-	create_country_leader = {
-		name = "Jamphel Yeshe Gyaltsen"
-		desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-		picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
-		
-		ideology = despotism
-	}
-
-	create_country_leader = {
-		name = "Thubten Gyatso"
-		picture = "TIB_Thubten_Gyatso_Old.dds"
-		expire = "1933.12.17"
-		ideology = despotism
-	}
-
-}
-
-1936.1.1 = {
-
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-	set_popularities = {
-		neutrality = 100
-	}
-
-	create_country_leader = {
-		name = "Jamphel Yeshe Gyaltsen"
-		desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-		picture = "gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
-		
-		ideology = despotism
-	}
-}
-
-1949.1.1 = {
-	oob = "TIB_1949"
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1949.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
-	create_country_leader = {
-		name = "Dalai Lama"
-		picture = "gfx/leaders/CW/Tibet_Dalai_Lama.dds"
-		
-		ideology = despotism
-	}
 }

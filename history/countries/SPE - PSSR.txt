@@ -2,7 +2,7 @@
   
 capital = 266
 
-oob = "BAK_1918"
+oob = "generic_1775"
 
 set_convoys = 1
 
@@ -17,12 +17,4 @@ set_popularities = {
 	democratic = 10
 	communism = 30
 	neutrality = 60
-}
-
-create_country_leader = {
-	name = "Mirza Kuchak Khan"
-	desc = "POLITICS_Shahumyan_DESC"
-	picture = "Mirza_Kuchik_Khan.dds"
-	
-	ideology = leninism
 }

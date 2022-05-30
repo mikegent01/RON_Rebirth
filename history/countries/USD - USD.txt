@@ -4,7 +4,7 @@ RON_universal_setup = yes
 
 capital = 378
 
-oob = "USA_1900"
+oob = "generic_1775"
 
 set_research_slots = 4
 set_convoys = 40
@@ -19,11 +19,4 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-recruit_character = USD_franklin_delano_roosevelt
-USD_franklin_delano_roosevelt= {
-	promote_character = {
-		Ideology = liberalism
-	}
 }

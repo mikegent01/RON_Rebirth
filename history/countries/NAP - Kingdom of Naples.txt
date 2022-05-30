@@ -1,7 +1,7 @@
 RON_universal_setup = yes
 capital = 117
 
-oob = "generic_1910"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = monarchism

@@ -4,7 +4,7 @@ RON_universal_setup = yes
 
 capital = 395
 
-oob = "USA_1900"
+oob = "generic_1775"
 
 set_research_slots = 4
 set_convoys = 40
@@ -20,11 +20,3 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-
-create_country_leader = {
-		name = "Earl Browder"
-		desc = "POLITICS_EARL_BROWDER_DESC"
-		picture = "gfx/leaders/USA/Portrait_USA_earl_browder.dds"
-		
-		ideology = marxism
-	}

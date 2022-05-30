@@ -5,6 +5,7 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.15
 set_convoys = 10
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = neutrality
@@ -17,32 +18,4 @@ set_popularities = {
 	democratic = 40
 	communism = 10
 	neutrality = 50
-}
-
-add_ideas = {
-	limited_conscription
-}
-
-create_country_leader = {
-	name = "Heinrich Muller"
-	desc = ""
-	picture = "gfx/leaders/ALS/Heinrich_muller.dds"
-	
-	ideology = paternal_autocrat
-}
-
-create_country_leader = {
-	name = "Marcel Rosenblatt"
-	desc = ""
-	picture = "gfx/leaders/ALS/Marcel_Rosenblatt.dds"
-	
-	ideology = anarchist_communism
-}
-
-create_country_leader = {
-	name = "Joseph Wasmer"
-	desc = ""
-	picture = "gfx/leaders/ALS/Joseph_Wasmer.dds"
-	
-	ideology = democratic_republicanism
 }

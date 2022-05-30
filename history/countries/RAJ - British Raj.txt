@@ -1,7 +1,7 @@
 RON_universal_setup = yes
 
 capital = 431
-oob = "RAJ_1775"
+oob = "generic_1775"
 
 if = {
 	limit = {

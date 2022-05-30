@@ -4,6 +4,8 @@ capital = 605
 
 set_research_slots = 2
 
+oob = "generic_1775"
+
 set_stability = 0.5
 set_war_support = 0.3
 
@@ -27,21 +29,4 @@ set_popularities = {
 	fascism = 20
 	communism = 0
 	neutrality = 80
-}
-1919.1.1 = {
-	add_ideas = boxer_protocols
-	add_ideas = boxer_protocols_visible
-	country_lock_all_division_template = yes
-}
-1933.1.1 = {
-	remove_ideas = boxer_protocols
-	remove_ideas = boxer_protocols_visible
-	country_lock_all_division_template = no
-}
-create_country_leader = {
-	name = "Liu Xiang"
-	desc = "POLITICS_LIU_XIANG_DESC"
-	picture = "Portrait_Sichuan_Liu_Xiang.dds"
-	expire = "1938.7.25"
-	ideology = despotism
 }

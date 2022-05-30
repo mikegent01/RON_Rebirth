@@ -2,6 +2,8 @@
 capital = 65
 set_research_slots = 3
 
+oob = "generic_1775"
+
 set_politics = {
 	ruling_party = monarchism
 	last_election = "1775.1.1"

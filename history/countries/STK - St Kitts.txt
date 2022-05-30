@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 capital = 1
 
-oob = "STK_2000"
+oob = "generic_1775"
 
 set_research_slots = 2
 set_convoys = 20
@@ -18,20 +18,4 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-create_country_leader = {
-	name = "Denzil Douglas"
-	picture = "gfx/leaders/STK/MD/Saint_Kitts_and_Nevis_Denzil_Douglas.dds"
-	
-	ideology = democratic_socialism
-}
-
-2020.1.1 = {
-	create_country_leader = {
-		name = "Timothy Harris"
-		picture = "gfx/leaders/STK/MD/STK_Timothy_Harris_Social_Democracy.dds"
-		
-		ideology = socialism
-	}
 }

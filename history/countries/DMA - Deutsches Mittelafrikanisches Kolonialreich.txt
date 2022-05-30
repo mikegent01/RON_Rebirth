@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 295 # Leopoldville
 
-oob = "generic_1910"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism

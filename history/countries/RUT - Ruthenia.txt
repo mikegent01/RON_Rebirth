@@ -1,8 +1,7 @@
 capital = 803
 RON_universal_setup = yes
 
-
-
+oob = "generic_1775"
 
 set_convoys = 5
 
@@ -18,19 +17,4 @@ set_politics = {
 	last_election = "1935.3.12"
 	election_frequency = 48
 	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Volosin Avgusztin"
-	desc = ""
-	picture = "gfx/leaders/RUT/Portrait_Ruthenia_Avgusztin_Volosin.dds"
-	ideology = despotism
-}
-
-create_country_leader = {
-	name = "András Bródy"
-	desc = ""
-	picture = "gfx/leaders/RUT/Portrait_Ruthenia_Andras_Brody.dds"
-	ideology = moderatism
-
 }

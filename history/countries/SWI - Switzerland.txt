@@ -1,31 +1,14 @@
 RON_universal_setup = yes
   
 capital = 3
-oob = "SWI_1900"
-add_ideas = {
-	export_focus
-	tax_average
-	tariffs_average
-	civilian_economy
-	press_free
-	private_control
-	fdi_allowed
-	foreign_volunteers
-	train_medium
-	officer_train_low
-	security_liberty_first
-	education_budget5
-	health_budget5
-	foreign_neutral
-	police_budget5
-}
+oob = "generic_1775"
 
 set_research_slots = 3
 set_stability = 0.85
 give_guarantee = LIE
 
 add_ideas = {
-	swiss_neutrality
+	neutrality_idea
 	limited_conscription
 }
 
@@ -56,144 +39,4 @@ create_country_leader = {
 	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
 	expire = "2100.1.1"
 	ideology = independent
-}
-
-create_country_leader = {
-	name = "Rolf Henne"
-	picture = "gfx/leaders/SWI/Rolf_Henne_Nazism.dds"
-	
-	ideology = nazism
-}
-create_country_leader = {
-	name = "Fritz Platten"
-	desc = "POLITICS_FRITZ_PLATTEN_DESC"
-	picture = "gfx/leaders/SWI/Fritz_Platten_Switzerland_Communist.dds"
-	
-	ideology = marxism
-}
-
-if = {
-	limit = {
-
-		has_start_date < 1930.01.01
-	}
-	create_corps_commander = {
-		name = "Emil Sonderegger"
-		picture = "gfx/leaders/SWI/WW1/General-Emil_Sonderegger.dds"
-		skill = 1
-	}
-	create_corps_commander = {
-		name = "Henri Guisan"
-		picture = "gfx/leaders/SWI/WW1/General-Henri_Guisan.dds"
-		skill = 1
-	}
-	create_corps_commander = {
-		name = "Theophil Sprecher von Bernegg"
-		picture = "gfx/leaders/SWI/WW1/General-Theophil_Sprecher_von_Bernegg.dds"
-		skill = 1
-	}
-	create_corps_commander = {
-		name = "Ulrich Wille"
-		picture = "gfx/leaders/SWI/WW1/General-Ulrich_Wille.dds"
-		skill = 1
-	}
-}
-
-1910.1.1 = {
-	oob = "SWI_1910"
-	set_technology = {
-		tech_support = 1
-		early_infantry_weapons = 1
-		light_field_gun1 = 1
-		heavy_field_gun1 = 1
-		# Navy
-		ww1_destroyer0 = 1
-		ww1_destroyer1 = 1
-		ww1_light_cruiser1 = 1
-		ww1_light_cruiser0 = 1
-		ww1_battlecruiser0 = 1
-		ww1_battleship0 = 1
-		ww1_submarine1 = 1
-		ww1_coastal_submarine1 = 1
-		transport = 1
-		horses = 1
-		ww1_electronic_mechanical_engineering = 1
-	}
-}
-
-1936.1.1 = {
-	oob = "SWI_1936"
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_mountaineers = 1
-		tech_support = 1
-		tech_engineers = 1
-		tech_recon = 1
-		early_fighter = 1
-		CAS1 = 1
-		fuel_silos = 1
-	}
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1935.10.27"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = 96
-		fascism = 2
-		communism = 2
-	}
-}
-
-1949.1.1 = {
-	oob = "SWI_1949"
-
-	create_country_leader = {
-		name = "James Schwarzenbach"
-		picture = "gfx/leaders/SWI/CW/Switzerland_James_Schwarzenbach_RW_Populism_1970.dds"
-		
-		ideology = rw_populism
-	}
-
-	create_country_leader = {
-		name = "Norberto Crivelli"
-		picture = "gfx/leaders/SWI/CW/Switzerland_Norberto_Crivelli_Marxism_1970.dds"
-		
-		ideology = marxism
-	}
-}
-
-2000.1.1 = {
-	oob = "SWI_2000"
-	create_country_leader = {
-		name = "Adolf Ogi"
-		picture = "gfx/leaders/SWI/MD/Switzerland_Adolf_Ogi.dds"
-		
-		ideology = nationalism
-	}
-	create_country_leader = {
-		name = "Marianne Huguenin"
-		picture = "gfx/leaders/SWI/MD/Switzerland_Marianne_Huguenin_Marxism.dds"
-		
-		ideology = marxism
-	}
-	create_country_leader = {
-		name = "Dominic Luthard"
-		picture = "gfx/leaders/SWI/MD/Switzerland_Dominic_Luthard_Neo_Nazism.dds"
-		
-		ideology = neo_nazism
-	}
-}
-2008.1.1 = {
-	create_country_leader = {
-		name = "Pascal Couchepin"
-		picture = "gfx/leaders/SWI/MD/Switzerland_Pascal_Couchepin.dds"
-		
-		ideology = liberalism
-	}
-}
-2016.1.1 = {
-	oob = "SWI_2016"
 }

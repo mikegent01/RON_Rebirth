@@ -1,23 +1,9 @@
 RON_universal_setup = yes
   
 capital = 615
-oob = "SHX_1919"
+oob = "generic_1775"
 set_stability = 0.7
 set_war_support = 0.4
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
-1919.1.1 = {
-	add_ideas = boxer_protocols
-	add_ideas = boxer_protocols_visible
-	country_lock_all_division_template = yes
-}
 
 set_politics = {
 	ruling_party = neutrality
@@ -50,13 +36,4 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
-}
-
-1936.1.1 = {
-	oob = "SHX_1936"
-}
-1933.1.1 = {
-	remove_ideas = boxer_protocols
-	remove_ideas = boxer_protocols_visible
-	country_lock_all_division_template = no
 }

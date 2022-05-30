@@ -3,7 +3,7 @@
 
 capital = 231
 
-oob = "TRA_1918"
+oob = "generic_1775"
 
 set_research_slots = 3
 
@@ -20,13 +20,4 @@ set_popularities = {
 	neutrality = 15
 	democratic = 80
 	communism = 5
-}
-
-
-create_country_leader = {
-	name = "Nikolay Chkheidze"
-	desc = "POLITICS_NIKOLAY_CHKHEIDZE_DESC"
-	picture = "gfx/leaders/TRR/Portrait_Transcaucasia_Nikolay_Chkheidze.dds"
-	
-	ideology = socialism
 }

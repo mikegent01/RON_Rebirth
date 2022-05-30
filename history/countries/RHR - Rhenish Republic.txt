@@ -1,9 +1,9 @@
 RON_universal_setup = yes
- 
- 
 
 capital = 51
 set_convoys = 20
+
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = democratic
@@ -16,25 +16,4 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	democratic = 50
-}
-
-create_country_leader = {
-	name = "Josef Friedrich Matthes"
-	picture = "Josef_Friedrich_Matthes.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-}
-
-create_country_leader = {
-	name = "Josef Friedrich Matthes"
-	picture = "Josef_Friedrich_Matthes.dds"
-	expire = "1965.1.1"
-	ideology = nonaligned_socialism
-}
-
-create_country_leader = {
-	name = "Josef Friedrich Matthes"
-	picture = "Josef_Friedrich_Matthes.dds"
-	expire = "1965.1.1"
-	ideology = lw_socialism
 }

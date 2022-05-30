@@ -1,6 +1,6 @@
 RON_universal_setup = yes
 capital = 2
-oob = "PST_1775"
+oob = "generic_1775"
 set_research_slots = 1
 set_stability = 0.75
 set_war_support = 0.1

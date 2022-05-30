@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 14 # Brittany
 
-oob = "generic_1910"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism
@@ -14,13 +14,4 @@ set_popularities = {
 	democratic = 20
 	fascism = 40
 	neutrality = 40
-}
-
-create_country_leader = {
-	name = "Célestin Lainé"
-	desc = "CELESTIN_LAINE_DESC"
-	picture = "Portrait_RPE_Celestin_Laine.dds"
-	
-	ideology = esoteric_nazism
-	traits = { reichskommissar }
 }

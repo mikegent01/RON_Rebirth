@@ -1,19 +1,11 @@
 capital = 271
 RON_universal_setup = yes
   
-
-OOB = "AOI_colonial_infantry"
+oob = "generic_1775"
 
 set_research_slots = 2
 
 set_convoys = 10
-
-add_ideas = {
-	#laws
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
 
 set_politics = {
 	ruling_party = fascism
@@ -25,12 +17,4 @@ set_popularities = {
 	democratic = 20
 	fascism = 60
 	communism = 20
-}
-
-create_country_leader = {
-	name = "Amedeo Giovanni di Savoia"
-	desc = ""
-	picture = "gfx/leaders/AOI/Portrait_Italy_Amadeo_di_Savoia.dds"
-	
-	ideology = fascism_ideology
 }

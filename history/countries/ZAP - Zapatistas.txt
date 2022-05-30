@@ -2,7 +2,7 @@
   
 capital = 277
 
-oob = "ZAP_1914"
+oob = "generic_1775"
 
 set_country_flag = monroe_doctrine
 
@@ -21,13 +21,3 @@ set_popularities = {
 }
 
 set_stability = 0.8
-
-create_country_leader = {
-	name = "Emiliano Zapata"
-	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
-	picture = "gfx/leaders/ZAP/Portrait_Mexico_Emiliano_Zapata.dds"
-	
-	ideology = anarchism
-}
-
-

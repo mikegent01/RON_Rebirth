@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 capital = 277
 
-oob = "SEN_1914"
+oob = "generic_1775"
 
 set_convoys = 45
 
@@ -18,11 +18,4 @@ set_popularities = {
 	islamism = 5
 	democratic = 80
 	communism = 15
-}
-
-create_country_leader = {
-	name = "Ahmed Sharif as-Senussi"
-	picture = "Portrait_Senussi_Order_Ahmed_Sharif_as_Senussi.dds"
-	
-	ideology = islamic_authoritarian
 }

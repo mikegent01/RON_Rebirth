@@ -1,7 +1,8 @@
 capital = 597
 
 RON_universal_setup = yes
-  
+
+oob = "generic_1775"
 
 set_convoys = 45
 
@@ -14,12 +15,4 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 100
-}
-
-create_country_leader = {
-	name = "Yuan Shikai"
-	desc = ""
-	picture = "gfx/leaders/SHA/Yuan_Shikai.dds"
-	ideology = centrism
-	expire = "1916.3.22"
 }

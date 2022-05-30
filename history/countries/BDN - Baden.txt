@@ -2,7 +2,7 @@
   
 capital = 791
 set_research_slots = 3
-oob = "BDN_1775"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = monarchism

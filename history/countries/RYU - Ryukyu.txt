@@ -2,10 +2,7 @@
   
 capital = 526
 
-add_ideas = {
-	neutrality_idea
-	disarmed_nation
-}
+oob = "generic_1775"
 
 set_convoys = 5
 

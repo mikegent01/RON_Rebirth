@@ -1,10 +1,7 @@
 capital = 229
 RON_universal_setup = yes
 
-
-
-
-oob = "BAK_1918"
+oob = "generic_1775"
 
 set_convoys = 1
 
@@ -17,12 +14,4 @@ set_politics = {
 
 set_popularities = {
 	communism = 100
-}
-
-create_country_leader = {
-	name = "Stepan Shahumyan"
-	desc = "POLITICS_Shahumyan_DESC"
-	picture = "Blank For Now"
-	
-	ideology = leninism
 }

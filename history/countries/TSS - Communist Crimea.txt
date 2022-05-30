@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 capital = 137
 
-oob = "TSS_1918"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = communism
@@ -15,19 +15,4 @@ set_politics = {
 set_popularities = {
 	democratic = 20
 	communism = 80
-}
-
-create_country_leader = {
-	name = "Anton Iosifovich Slutsky"
-	desc = "POLITICS_Shahumyan_DESC"
-	picture = "gfx/leaders/TSS/Portrait_Anton_Slut.dds"
-	
-	ideology = leninism
-}
-create_country_leader = {
-	name = "Solomon Krym"
-	desc = "POLITICS_Shahumyan_DESC"
-	picture = "gfx/leaders/TSS/Portrait_Solomon_Krym.dds"
-	
-	ideology = paternal_autocrat
 }

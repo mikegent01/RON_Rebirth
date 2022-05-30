@@ -1,7 +1,7 @@
 RON_universal_setup = yes
   
 capital = 446
-oob = "EGY_1936"
+oob = "generic_1775"
 
 set_convoys = 20
 
@@ -14,15 +14,4 @@ set_politics = {
 
 set_popularities = {
 	fascism = 100
-}
-
-create_country_leader = {
-	name = "Gamal Abdel Nasser"
-	picture = "gfx/leaders/UAR/CW/United_Arab_Republic_Nasser.dds"
-	ideology = nasserism
-}
-
-
-1952.1.1 = {
-	oob = "EGY_1970"
 }

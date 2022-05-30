@@ -4,6 +4,8 @@ capital = 747
 
 set_research_slots = 2
 
+oob = "generic_1775"
+
 set_convoys = 50
 
 set_politics = {
@@ -21,18 +23,3 @@ set_popularities = {
 
 set_convoys = 100
 set_stability = 0.4
-
-create_country_leader = {
-	name = "Hungarian Military Occupation"
-	desc = ""
-	picture = "Hungarian_Military_Occupation.dds"
-	expire = "1924.1.28"
-	ideology = leninism
-}
-
-1919.1.1 = {
-	set_cosmetic_tag = PRM_HUN
-}
-1919.1.1 = {
-	drop_cosmetic_tag = yes
-}

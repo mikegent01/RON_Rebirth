@@ -3,16 +3,6 @@ set_convoys = 0
 set_stability = 1
 set_war_support = 1
 
-add_ideas = {
-	Zombie
-	closed_economy
-	zombie_nation2
-}
-
-set_technology = {
-	zombietech = 1
-}
-
 set_popularities = {
 	neutrality = 100
 }
@@ -22,18 +12,4 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 
-}
-
-create_country_leader = {
-	name = "Horde"
-	picture = "gfx/leaders/ZOM/Portrait_Zombie.dds"
-	
-	ideology = anarchism
-}
-
-create_field_marshal = {
-	name = "Zombie"
-	picture = "gfx/leaders/ZOM/Portrait_Zombie.dds"
-	skill = 1
-	id = 1000
 }

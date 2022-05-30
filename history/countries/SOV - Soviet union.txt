@@ -3,7 +3,7 @@ capital = 195
 
 starting_train_buffer = 3.0
 
-oob = "SOV_1775"
+oob = "generic_1775"
 
 set_research_slots = 3
 set_stability = 0.5

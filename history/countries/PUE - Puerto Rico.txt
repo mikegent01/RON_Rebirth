@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 686
-oob = "generic_1910"
+oob = "generic_1775"
 set_convoys = 5
 
 set_politics = {
@@ -13,11 +13,4 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-create_country_leader = {
-	name = "Anibal Acevedo"
-	picture = "gfx/leaders/PUE/MD/Puerto_Rico_Anibal_Acevedo.dds"
-	
-	ideology = liberalism
 }
