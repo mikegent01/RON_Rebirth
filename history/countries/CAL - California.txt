@@ -3,6 +3,8 @@
 capital = 378#LA
 set_research_slots = 3
 
+oob = "generic_1775"
+
 set_convoys = 30
 set_politics = {
 	ruling_party = democratic
@@ -16,30 +18,4 @@ set_popularities = {
 	neutrality = 0
 	democratic = 92
 	communism = 3
-}
-
-add_ideas = {
-	disarmed_nation
-	free_trade
-}
-
-create_country_leader = {
-	name = "Frank Finley Merriam"
-	picture = "gfx/leaders/CAL/Portrait_California_Frank.dds"
-	
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Stanley Hamilton"
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Louvell Gibson"
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
-	
-	ideology = marxism
 }

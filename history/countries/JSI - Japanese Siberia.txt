@@ -1,6 +1,8 @@
 ﻿### Capital City
 capital = 566
 RON_universal_setup = yes
+
+oob = "generic_1775"
   
 
 ### Research slots / Stability / War support
@@ -25,13 +27,4 @@ set_popularities = {
 	fascism = 41
 	neutrality = 52
 	communism = 1
-}
-
-### Country Leaders and Party Leaders
-create_country_leader = {
-	name = "Ysuro Anaiha"
-	desc = ""
-	picture = ""
-	expire = "1982.1.1"
-	ideology = japanese_fascism
 }

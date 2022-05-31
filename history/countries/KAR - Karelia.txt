@@ -2,6 +2,9 @@
   
 capital = 216
 set_research_slots = 3
+
+oob = "generic_1775"
+
 add_ideas = {
 	limited_conscription
 }
@@ -20,36 +23,4 @@ set_popularities = {
 	fascism = 10
 	communism = 60
 	neutrality = 20
-}
-
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Pavel Prokkonen"
-	desc = "POLITICS_PAVEL_PROKKONEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	
-	ideology = stalinism
-}
-
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = "POLITICS_OTTO_WILLE_KUUSINEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Pavel Prokkonen"
-	desc = "POLITICS_PAVEL_PROKKONEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	
-	ideology = centrism
 }

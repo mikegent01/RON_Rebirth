@@ -1,6 +1,6 @@
 RON_universal_setup = yes
 capital = 1105
-oob = "HRE_1775"
+oob = "generic_1775"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8

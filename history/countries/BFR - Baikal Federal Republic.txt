@@ -6,12 +6,7 @@ set_research_slots = 3
 
 set_convoys = 10
 
-add_ideas = {
-	#laws
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism
@@ -23,12 +18,4 @@ set_popularities = {
 	democratic = 20
 	fascism = 60
 	communism = 20
-}
-
-create_country_leader = {
-	name = "Ataman Semenov"
-	desc = ""
-	picture = "gfx/leaders/JAP/Portrait_Japan_Ataman_Semenov.dds"
-	
-	ideology = fascism_ideology
 }

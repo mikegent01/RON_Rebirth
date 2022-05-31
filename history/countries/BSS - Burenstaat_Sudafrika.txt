@@ -15,11 +15,3 @@ set_popularities = {
 	fascism = 60
 	communism = 20
 }
-
-create_country_leader = {
-	name = "Johannes Van Rensburg"
-	picture = "Johannes_Van_Rensburg.dds"
-	
-	ideology = nazism
-	traits = { dictator }
-}

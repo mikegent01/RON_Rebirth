@@ -2,7 +2,7 @@ RON_universal_setup = yes
 
 capital = 55
 set_convoys = 20
-oob = "HES_1775"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = monarchism

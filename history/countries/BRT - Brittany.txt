@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 14
-#oob = "BRT_1936"
+oob = "generic_1775"
 set_research_slots = 3
 set_stability = 0.7
 set_war_support = 0.65
@@ -19,12 +19,4 @@ set_popularities = {
 	neutrality = 45
 	democratic = 20
 	communism = 0
-}
-
-create_country_leader = {
-	name = "Olier Mordrel"
-	desc = "POLITICS_OILER_MORDREL_DESC"
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_3"
-	
-	ideology = fascism_ideology
 }

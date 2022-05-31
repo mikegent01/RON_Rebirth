@@ -3,7 +3,7 @@
  
 
 capital = 117
-oob = "ITA_1936"
+oob = "generic_1775"
 set_research_slots = 3
 # Starting tech
 

@@ -3,6 +3,8 @@
 capital = 80
 set_research_slots = 3
 
+oob = "generic_1775"
+
 set_convoys = 10
 set_politics = {
 	ruling_party = neutrality

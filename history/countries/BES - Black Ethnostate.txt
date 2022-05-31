@@ -4,7 +4,7 @@ RON_universal_setup = yes
 
 capital = 367
 
-oob = "USA_1900"
+oob = "generic_1775"
 
 set_research_slots = 4
 set_convoys = 40
@@ -19,28 +19,4 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 100
-}
-
-create_country_leader = {
-	name = "Harry Haywood"
-	picture = "Harry_Haywood_Marxism.dds"
-	ideology = marxism
-}
-
-create_country_leader = {
-	name = "Harry Haywood"
-	picture = "Harry_Haywood_Marxism.dds"
-	ideology = democratic_socialism
-}
-
-create_country_leader = {
-	name = "Harry Haywood"
-	picture = "Harry_Haywood_Marxism.dds"
-	ideology = ultranationalism
-}
-
-create_country_leader = {
-	name = "Harry Haywood"
-	picture = "Harry_Haywood_Marxism.dds"
-	ideology = african_nationalism
 }
