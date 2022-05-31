@@ -1,16 +1,5 @@
-RON_has_custom_generals_ww1 = {
+RON_has_custom_generals_GEO = {
 	OR = {
-		tag = GER
-		tag = AUS
-		tag = SOV
-		tag = USA
-		tag = CHI
-		tag = JAP
-		tag = TUR
-		tag = ENG
-		tag = FRA
-		tag = ITA
-		tag = POR
-		tag = SPR
+		tag = PRS
 	}
 }

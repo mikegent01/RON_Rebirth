@@ -13,9 +13,25 @@ RON_handle_era_flags = {
 
 	if = {
 		limit = {
+			has_start_date < 1837.1.1
+		}
+		set_country_flag = RON_GEO
+	}
+	
+	if = {
+		limit = {
+			has_start_date > 1836.1.1
+			has_start_date < 1901.1.1
+		}
+		set_country_flag = RON_VIC
+	}
+
+	if = {
+		limit = {
+			has_start_date > 1901.1.1
 			has_start_date < 1919.1.1
 		}
-		set_country_flag = RON_WW1
+		set_country_flag = RON_DNC
 	}
 
 	if = {
@@ -53,9 +69,9 @@ RON_handle_era_flags = {
 RON_handle_era_generals = {
 	if = {
 		limit = {
-			has_start_date < 1933.1.1
-			RON_has_custom_generals_ww1 = yes
+			has_start_date < 1837.1.1
+			RON_has_custom_generals_GEO = yes
 		}
-		RON_handle_ww1_generals = yes
+		RON_handle_GEO_generals = yes
 	}
 }
