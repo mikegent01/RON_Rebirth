@@ -3,7 +3,7 @@
 
 capital = 608
 
-oob = "RCH_1914"
+oob = "generic_1775"
 
 set_convoys = 40
 
@@ -18,12 +18,4 @@ set_popularities = {
 	neutrality = 25
 	democratic = 72
 	communism = 3
-}
-
-create_country_leader = {
-	name = "Sun Yat-sen"
-	desc = "POLITICS_SUN_YAT_SEN_DESC"
-	picture = "Portrait_China_Sun_Yat_Sen.dds"
-	
-	ideology = conservatism
 }

@@ -2,7 +2,7 @@
   
 capital = 180
 
-oob = "POM_1919"
+oob = "generic_1775"
 
 set_research_slots = 3
 
@@ -23,11 +23,3 @@ set_popularities = {
 
 set_convoys = 100
 set_stability = 0.6
-
-create_country_leader = {
-	name = "Manuel II"
-	desc = "POLITICS_MANUEL_II_DESC"
-	picture = "gfx/leaders/POM/WW1/Portrait_Portugal_Manuel_II.dds"
-	expire = "1924.1.28"
-	ideology = despotism
-}

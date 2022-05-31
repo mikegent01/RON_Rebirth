@@ -21,11 +21,3 @@ set_popularities = {
 add_ideas = {
 	disarmed_nation
 }
-
-create_country_leader = {
-	name = "National Government"
-	picture = "gfx/leaders/NEU/Capitol.dds"
-	
-	ideology = nonaligned_liberalism
-}
-

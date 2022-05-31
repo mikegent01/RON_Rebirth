@@ -2,6 +2,8 @@
   
 capital = 1111
 
+oob = "generic_1775"
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1920.1.1"
@@ -11,20 +13,6 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-create_country_leader = {
-	name = "All-Member Assembly"
-	picture = "gfx/leaders/LON/League.dds"
-	
-	ideology = dem_intergov
-}
-
-create_country_leader = {
-	name = "All-Member Assembly"
-	picture = "gfx/leaders/LON/League.dds"
-	
-	ideology = neu_intergov
 }
 
 set_rule = { can_not_declare_war = yes }
@@ -50,8 +38,4 @@ add_ideas = {
 	nuclear_budget1
 	police_budget1
 	socialsecurity_budget1
-}
-
-1920.1.1 = {
-	add_ideas = league_of_nations_country_idea
 }

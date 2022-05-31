@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 capital = 218
 
-oob = "KUB_1918"
+oob = "generic_1775"
 
 set_research_slots = 3
 set_convoys = 25
@@ -25,20 +25,4 @@ set_popularities = {
 	democratic = 30
 	communism = 15
 	neutrality = 55
-}
-
-create_country_leader = {
-	name = "Ivanis Vasily Nikolaevich"
-	desc = "POLITICS_IVANIS_NIKOLAEVICH_DESC"
-	picture = "portrait_KUB_ivanis_vasily_nikolaevich.dds"
-	
-	ideology = paternal_autocrat
-}
-
-create_country_leader = {
-	name = "Pyotr Krasnov"
-	desc = "POLITICS_PYOTR_KRASNOV_DESC"
-	picture = "INT/Portrait_Kuban_Pyotr_Krasnov.dds"
-	expire = "1920.1.1"
-	ideology = paternal_autocrat
 }

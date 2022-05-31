@@ -3,7 +3,7 @@
 
 capital = 10
 
-oob = "MRN_1918"
+oob = "generic_1775"
 
 set_research_slots = 3
 
@@ -22,11 +22,3 @@ set_popularities = {
 
 set_convoys = 25
 set_stability = 0.6
-
-create_country_leader = {
-	name = "Tapa Tchermoeff"
-	desc = "POLITICS_TAPA_TCHERMOEFF_DESC"
-	picture = "Portrait_Mountainous_Tapa_Tchermoeff.dds"
-	
-	ideology = paternal_autocrat
-}

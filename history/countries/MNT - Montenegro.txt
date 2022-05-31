@@ -1,6 +1,6 @@
 RON_universal_setup = yes
 capital = 105# Montenegro
-oob = "MNT_1775"
+oob = "generic_1775"
 
 set_research_slots = 3
 ### WW1 Start Date

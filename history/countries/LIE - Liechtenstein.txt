@@ -1,6 +1,9 @@
 RON_universal_setup = yes
 capital = 826
 set_research_slots = 3
+
+oob = "generic_1775"
+
 add_ideas = {
 	neutrality_idea
 	limited_conscription

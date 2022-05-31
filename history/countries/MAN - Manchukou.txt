@@ -1,46 +1,8 @@
 RON_universal_setup = yes
   
 capital = 1026
-oob = "MAN_1936"
-add_ideas = {
-	export_focus
-	tax_low
-	tariffs_average
-	civilian_economy
-	press_regulated
-	key_industries
-	fdi_allowed
-	foreign_volunteers
-	train_none
-	officer_train_none
-	security_minor_restrictions
-	education_budget2
-	health_budget2
-	foreign_isolationism
-}
 
-set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-}
-
-add_ideas = {
-	press_state
-	security_police_state
-}
-
-if = {
-	limit = { date < 1948.1.1 }
-
-	set_country_flag = MAN_northern_bandits
-	set_country_flag = MAN_eastern_bandits
-	set_country_flag = MAN_western_bandits
-	add_ideas = MAN_banditry
-	add_ideas = MAN_kwantung_veto
-	add_ideas = MAN_low_legitimacy_I10
-	add_ideas = MAN_insufficient_general_staff_I
-	add_ideas = MAN_reliance_on_kwantung_army_I3
-}
+oob = "generic_1775"
 
 set_convoys = 5
 
@@ -54,24 +16,4 @@ set_politics = {
 set_popularities = {
 	fascism = 80
 	neutrality = 20
-}
-
-create_country_leader = {
-	name = "Aisin Gioro Puyi"
-	picture = "Portrait_Manchuria_Henry_Pu_Yi.dds"
-	expire = "1960.1.1"
-	ideology = fascist_monarchism
-	traits = {
-		MAN_puyi_T1 MAN_puyi_T2 MAN_puyi_T3 MAN_puyi_T4
-	}
-}
-
-create_country_leader = {
-	name = "Aisin Gioro Puyi"
-	picture = "Portrait_Manchuria_Henry_Pu_Yi.dds"
-	expire = "1960.1.1"
-	ideology = despotism
-	traits = {
-		MAN_puyi_T1 MAN_puyi_T2 MAN_puyi_T3 MAN_puyi_T4
-	}
 }

@@ -1,6 +1,7 @@
 capital = 88
 RON_universal_setup = yes
-  
+
+oob = "generic_1775"
 
 set_research_slots = 3
 
@@ -8,13 +9,6 @@ set_stability = 0.4
 set_war_support = 0.1
 
 set_convoys = 10
-
-add_ideas = {
-	#laws
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
 
 set_politics = {
 	ruling_party = fascism
@@ -27,13 +21,4 @@ set_popularities = {
 	fascism = 15
 	communism = 2
 	neutrality = 65
-}
-
-create_country_leader = {
-	name = "Hans Frank"
-	desc = ""
-	picture = "gfx/leaders/GER/Portrait_Germany_Hans_Frank.dds"
-	
-	ideology = nazism
-
 }

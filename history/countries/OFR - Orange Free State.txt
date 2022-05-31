@@ -1,11 +1,8 @@
 RON_universal_setup = yes
 
-
-
-
 capital = 1115
 
-oob = "OFR_1900"
+oob = "generic_1775"
 
 set_convoys = 25
 
@@ -18,20 +15,4 @@ set_politics = {
 
 set_popularities = {
 	democratic = 100
-}
-
-create_country_leader = {
-	name = "Martinus Theunis Steyn"
-	picture = "gfx/leaders/OFR/DNC/OFR_Martinus_Theunis_Steyn.dds"
-	
-	ideology = conservatism
-}
-
-if = {
-	limit = {
-		has_start_date < 1903.01.01
-	}
-	add_ideas = {
-		ENG_second_boer_war2
-	}
 }

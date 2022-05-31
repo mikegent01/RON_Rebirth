@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 capital = 206
 
-oob = "LOK_1947"
+oob = "generic_1775"
 
 set_research_slots = 3
 
@@ -18,12 +18,4 @@ set_popularities = {
 	fascism = 70
 	neutrality = 15
 	communism = 15
-}
-
-create_country_leader = {
-	name = "Bronislav Kaminski"
-	desc = ""
-	picture = "Portrait_Lokot_Bronislav_Kaminski.dds"
-	
-	ideology = fascism_ideology
 }

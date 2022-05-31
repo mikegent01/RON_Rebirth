@@ -4,7 +4,8 @@ capital = 31
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.15
-# Starting tech
+
+oob = "generic_1775"
 
 set_convoys = 10
 set_politics = {
@@ -22,13 +23,4 @@ set_popularities = {
 
 add_ideas = {
 	limited_conscription
-}
-
-#Order matters here Daladier will start as leaders because added last
-create_country_leader = {
-	name = "François Fontan"
-	desc = "POLITICS_FRANCOIS_FONTAN_DESC"
-	picture = "gfx/leaders/FRA/Portrait_France_Generic_3"
-	
-	ideology = fascism_ideology
 }

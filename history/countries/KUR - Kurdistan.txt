@@ -1,6 +1,6 @@
 RON_universal_setup = yes
 
-
+oob = "generic_1775"
 
 capital = 421
 
@@ -16,19 +16,4 @@ set_popularities = {
 	democratic = 44
 	communism = 13
 	islamism = 20
-}
-
-create_country_leader = {
-	name = "Masoud Barzani"
-	picture = "gfx/leaders/KUR/MD/Masoud_Barzani_Nationalism.dds"
-	
-	ideology = conservatism
-}
-
-2016.1.1 = {
-	oob = "KUR_2016"
-}
-
-2020.1.1 = {
-	oob = "KUR_2020"
 }
