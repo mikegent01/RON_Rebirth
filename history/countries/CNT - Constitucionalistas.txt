@@ -4,7 +4,7 @@ RON_universal_setup = yes
 
 
 
-oob = "CNT_1914"
+oob = "generic_1775"
 
 set_country_flag = monroe_doctrine
 
@@ -23,12 +23,3 @@ set_popularities = {
 }
 
 set_stability = 0.8
-
-create_country_leader = {
-	name = "Venustiano Carranza"
-	desc = "POLITICS_CARRANZA_DESC"
-	picture = "Portrait_Mexico_Venustiano_Carranza.dds"
-	
-	ideology = liberalism
-}
-

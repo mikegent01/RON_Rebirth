@@ -6,12 +6,8 @@ set_research_slots = 2
 
 set_convoys = 10
 
-add_ideas = {
-	#laws
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
+
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism
@@ -23,15 +19,4 @@ set_popularities = {
 	democratic = 20
 	fascism = 60
 	communism = 20
-}
-
-create_country_leader = {
-	name = "Rikichi Andō"
-	desc = ""
-	picture = "gfx/leaders/JAP/Portrait_JAP_Rikichi_Ando.dds"
-	
-	ideology = fascism_ideology
-	traits = {
-		prince_of_terror
-	}
 }

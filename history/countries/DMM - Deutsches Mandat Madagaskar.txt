@@ -15,11 +15,3 @@ set_popularities = {
 	fascism = 40
 	neutrality = 40
 }
-
-create_country_leader = {
-	name = "Walter Schellenberg"
-	picture = "Walter_Schellenberg.dds"
-	
-	ideology = esoteric_nazism
-	traits = { reichskommissar }
-}

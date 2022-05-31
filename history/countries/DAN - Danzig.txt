@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 85
-oob = "DAN_1936"
+oob = "generic_1775"
 set_research_slots = 2
 set_convoys = 5
 set_politics = {
@@ -19,26 +19,3 @@ set_popularities = {
 }
 
 give_military_access = POL
-create_country_leader = {
-	name = "Arthur Karl Greiser"
-	desc = "POLITICS_ARTHUR_KARL_GREISER_DESC"
-	picture = "gfx/leaders/DAN/Portrait_Danzig_Arthur_Greiser.dds"
-	
-	ideology = nazism
-}
-
-create_country_leader = {
-	name = "Carl Jacob Burckhardt"
-	desc = "POLITICS_CARL_BURCKHARDT_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
-	
-	ideology = stalinism
-}
-
-create_country_leader = {
-	name = "Arthur Brill"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/GER/Portrait_Germany_Generic_2.dds"
-	
-	ideology = socialism
-}

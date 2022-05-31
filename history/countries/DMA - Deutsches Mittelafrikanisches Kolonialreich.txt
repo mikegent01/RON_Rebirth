@@ -15,19 +15,3 @@ set_popularities = {
 	fascism = 60
 	communism = 20
 }
-
-create_country_leader = {
-	name = "Hermann Göring"
-	picture = "Portrait_Germany_Hermann_Goring.dds"
-	
-	ideology = nazism
-	traits = { reichskommissar }
-}
-
-create_country_leader = {
-	name = "Hermann Göring"
-	picture = "Portrait_Germany_Hermann_Goring.dds"
-	
-	ideology = militarism
-	traits = { reichskommissar }
-}

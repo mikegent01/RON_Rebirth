@@ -6,22 +6,7 @@ add_ideas = {
 	disarmed_nation
 }
 
-add_ideas = {
-	export_focus
-	tax_average
-	tariffs_average
-	civilian_economy
-	press_free
-	private_control
-	fdi_allowed
-	foreign_volunteers
-	train_medium
-	officer_train_low
-	security_liberty_first
-	education_budget5
-	health_budget5
-	foreign_neutral
-}
+oob = "generic_1775"
 
 set_convoys = 10
 set_politics = {
@@ -36,19 +21,4 @@ set_popularities = {
 	neutrality = 0
 	democratic = 96
 	communism = 2
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 2
-		neutrality = 12
-		democratic = 84
-		communism = 2
-	}
 }

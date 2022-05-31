@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 539
 
-oob = "FRF_1941"
+oob = "generic_1775"
 
 add_ideas = {
 	#cons_expanded_draft
@@ -24,13 +24,4 @@ set_popularities = {
 	democratic = 70
 	fascism = 10
 	neutrality = 20
-}
-
-#Order matters here Laval will start as leaders because added last
-create_country_leader = {
-	name = "Charles de Gaulle"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
-	
-	ideology = conservatism
 }

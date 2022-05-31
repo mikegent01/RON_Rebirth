@@ -15,11 +15,3 @@ set_popularities = {
 	fascism = 60
 	communism = 20
 }
-
-create_country_leader = {
-	name = "John Smith"
-	picture = "gfx/leaders/GNM/John_Smith.dds"
-	
-	ideology = nazism
-}
-

@@ -1,10 +1,7 @@
 capital = 137
 RON_universal_setup = yes
 
-
-
-
-oob = "CRI_1918"
+oob = "generic_1775"
 
 set_convoys = 1
 
@@ -17,12 +14,4 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 100
-}
-
-create_country_leader = {
-	name = "Maciej Sulkiewicz"
-	desc = "POLITICS_SULKIEWICZ_DESC"
-	picture = "gfx/leaders/CRI/portrait_crimea_regional_maciej_sulkiewicz.dds"
-	
-	ideology = paternal_autocrat
 }

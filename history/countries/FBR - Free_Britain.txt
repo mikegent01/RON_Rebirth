@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 276
 
-oob = "CAN_1936"
+oob = "generic_1775"
 
 set_research_slots = 3
 set_country_flag = monroe_doctrine
@@ -24,11 +24,3 @@ set_popularities = {
 	fascism = 1
 	communism = 3
 }
-
-create_country_leader = {
-	name = "George V"
-	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.dds"
-	expire = "1936.1.20"
-	ideology = authoritarian_democracy
-}
-

@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
 capital = 613 # Nanjing
 
-oob = "CHI_1775"
+oob = "generic_1775"
 
 set_stability = 0.2
 set_war_support = 0.5
