@@ -69,7 +69,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "RON_Infantry_Weapon_1600_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 100 y = 160 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 	
