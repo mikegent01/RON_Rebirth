@@ -5,7 +5,7 @@ RON_handle_GEO_generals = {
 		}
 		create_corps_commander = {
 				name = "Wichard Joachim Heinrich von Möllendorf"
-				picture = "gfx/leaders/PRS/AOR/Wichard_Joachim_Heinrich_von_Mollendorf.dds"
+				picture = "AOR/Wichard_Joachim_Heinrich_von_Mollendorf.dds"
 				skill = 1
 		}
 	}

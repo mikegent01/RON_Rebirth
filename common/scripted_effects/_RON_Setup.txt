@@ -8,29 +8,8 @@ RON_universal_setup = {
 #Start Techs
 RON_start_techs = {
 
-	#Basic Techs just to play a game, will be removed when new tech tree is added
 	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_recon = 1
-		tech_support = 1		
-		tech_engineers = 1
-		gw_artillery = 1
-		basic_train = 1
-		formation_flying = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		fuel_refining = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
+		RON_Infantry_Weapon_1600 = 1
 	}
 	
 }

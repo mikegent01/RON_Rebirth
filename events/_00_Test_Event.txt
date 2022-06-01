@@ -1,0 +1,23 @@
+add_namespace = rontestevent
+country_event = {
+	id = rontestevent.1
+	title = rontestevent.1.t
+	desc = rontestevent.1.desc
+	picture = GFX_report_event_military_planning
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = "Add General"
+		
+		create_corps_commander = {
+				name = "Wichard Joachim Heinrich von Möllendorf"
+				picture = "AOR/Wichard_Joachim_Heinrich_von_Mollendorf.dds"
+				skill = 1
+		}
+		
+	}
+
+
+}

@@ -1,4 +1,5 @@
 spriteTypes = {	
+
 	#Folder Icons
 	SpriteType = {
 		name = "GFX_zombies_folder_tab"
@@ -29,6 +30,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/techtree_helicopter_tab.dds"
 		noOfFrames = 2
 	}
+	
 	#Folder Backgrounds
 	SpriteType = {
 		name = "GFX_wmd_techtree_bg"
@@ -42,6 +44,88 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_helicopter_techtree_bg"
 		texturefile = "gfx/interface/helicopter_techtree_bg.dds"
+	}
+	
+	#Equipment
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1725_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
 	}
 	
 		
