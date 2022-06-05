@@ -1,0 +1,8 @@
+RON_FRA_economic_situation = {
+	priority = 100
+	allowed = {
+		has_start_date < 1776.01.01
+		tag = FRA
+	}
+	visible_when_empty = yes
+}

@@ -5,3 +5,7 @@
 
  RON_USA_revolutionary_war_cat:0 "Revolutionary War"
  revoltionary_war_timer:0 "Revolutionary War"
+
+ RON_FRA_economic_situation:0 "Economic Situation"
+ RON_FRA_economic_situation_desc:0 "Since the seven years war, our economy is in ruins. To remediate this issue, we need either to push for reforms or increase taxes on the third estate. \n\n - Our money is §tweak§! \n - Tax rate is §Ohigh§! \n - The administration §tneeds reform§! \n\n\n §gBe careful, pushing too many reforms will anger the King and the nobility, pushing to little will anger the third estate"
+ FRA_reduce_administration:0 "Reduce Administration"

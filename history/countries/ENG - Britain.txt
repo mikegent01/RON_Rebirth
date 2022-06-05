@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
 capital = 126
-oob = "generic_1775"
+oob = "ENG_1775"
 
 starting_train_buffer = 4
 set_research_slots = 4

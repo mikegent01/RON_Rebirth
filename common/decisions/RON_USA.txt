@@ -65,6 +65,7 @@ RON_USA_revolutionary_war_cat = {
 	}
 	issue_declaration_of_independence = {
 		days_remove = 442
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 1000
 		}
@@ -98,7 +99,7 @@ RON_USA_revolutionary_war_cat = {
 		days_remove = 10
 
 		state_target = yes
-
+		fire_only_once = yes
 		target_trigger = {
 			FROM = {
 				state = 362
@@ -124,6 +125,31 @@ RON_USA_revolutionary_war_cat = {
 					division = "name = \"Rebels\" division_template = \"Rebels\" start_experience_factor = 0.5 start_equipment_factor = 0.5 start_manpower_factor = 0.5"
 					owner = USA
 				} 
+			}
+		}
+	}
+
+	support_the_rebels = {
+		allowed = {
+			tag = SPR
+
+		}
+		fire_only_once = yes
+		visible = {
+			FRA = {
+				has_completed_focus = FRA_side_with_the_brits
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			FRL = {
+				declare_war_on = {
+					target = THI
+					type = civil_war
+				}
+				add_civil_war_target = THI
 			}
 		}
 	}
