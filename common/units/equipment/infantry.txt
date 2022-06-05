@@ -20,15 +20,15 @@ equipments = {
 		maximum_speed = 4
 
 		#Defensive Abilities
-		defense = 20
-		breakthrough = 2
+		defense = 0.8
+		breakthrough = 1.5
 		hardness = 0
 		armor_value = 0
 
 		#Offensive Abilities
-		soft_attack = 3
-		hard_attack = 0.5
-		ap_attack = 1
+		soft_attack = 0.08
+		hard_attack = 0.02
+		ap_attack = 0.10
 		air_attack = 0
 
 		#Space taken in convoy
@@ -60,13 +60,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 0.89
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.08
+		hard_attack = 0.02
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -82,13 +82,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 0.99
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.09
+		hard_attack = 0.02
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -104,13 +104,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.09
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.10
+		hard_attack = 0.03
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -126,13 +126,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.21
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.11
+		hard_attack = 0.03
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -148,13 +148,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.28
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.12
+		hard_attack = 0.03
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -170,13 +170,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.35
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.13
+		hard_attack = 0.03
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -192,13 +192,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.50
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.14
+		hard_attack = 0.04
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -214,13 +214,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.66
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.16
+		hard_attack = 0.04
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -236,13 +236,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 1.84
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.17
+		hard_attack = 0.05
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -258,13 +258,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 2.05
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.19
+		hard_attack = 0.05
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -280,13 +280,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 2.27
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.21
+		hard_attack = 0.06
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -302,13 +302,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 2.52
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.24
+		hard_attack = 0.06
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -324,13 +324,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 2.80
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.26
+		hard_attack = 0.07
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -346,13 +346,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 3.11
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.29
+		hard_attack = 0.08
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -368,13 +368,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 3.45
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.32
+		hard_attack = 0.09
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
@@ -390,13 +390,13 @@ equipments = {
 		visual_level = 1
 
 		#Defensive Abilities
-		defense = 22
-		breakthrough = 3
+		defense = 3.83
+		breakthrough = 1.5
 
 		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 1
-		ap_attack = 4
+		soft_attack = 0.36
+		hard_attack = 0.1
+		ap_attack = 0.10
 		air_attack = 0
 
 		build_cost_ic = 0.50
