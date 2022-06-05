@@ -10,6 +10,9 @@ RON_start_techs = {
 
 	set_technology = {
 		RON_Infantry_Weapon_1600 = 1
+		RON_Infantry_Weapon_1700 = 1
+		RON_Infantry_Weapon_1725 = 1
+		RON_Infantry_Weapon_1750 = 1
 	}
 	
 }
