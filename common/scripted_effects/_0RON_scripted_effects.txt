@@ -284,7 +284,7 @@ ENG = {
 		security_liberty_first
 		education_budget5
 		health_budget5
-		foreign_interventionism
+		foreign_rule_the_waves
 		foreign_volunteers
 		army_budget3
 		airforce_budget3
