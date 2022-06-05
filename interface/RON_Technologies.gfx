@@ -55,77 +55,82 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1700_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1700.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1725_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1725.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1750_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1750.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1775_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1775.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1777.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1780_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1780.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1790_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1790.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1800_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1800.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1810_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1810.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1820_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1820.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1830_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1830.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1840_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1840.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1850_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1850.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1860_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1860.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1870_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1870.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1880_medium"
-		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1880.dds"
 	}
 	
 		
