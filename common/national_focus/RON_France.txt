@@ -18,11 +18,6 @@ focus_tree = {
 			original_tag = FRA
 			is_debug = yes
 		}
-
-		modifier = {
-			add = 100
-			tag = FRA
-		}
 	}
 
 	default = no
