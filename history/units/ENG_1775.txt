@@ -1,7 +1,7 @@
 division_template = {
 	name = "Line Infantry Regiment"
 
-	regiment = {
+	regiments = {
 		infantry = { x = 0 y = 0}
 	}
 	support = {
