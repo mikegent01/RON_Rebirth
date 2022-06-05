@@ -1,0 +1,21 @@
+spriteTypes = {	
+
+	#Folder Icons
+	SpriteType = {
+		name = "GFX_FRA_our_eternal_ennemy"
+		texturefile = "gfx/interface/focus/FRA/FRA_our_eternal_ennemy.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_put_our_differences_aside"
+		texturefile = "gfx/interface/focus/FRA/FRA_put_our_differences_aside.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_FRA_bring_the_fight_in_india"
+		texturefile = "gfx/interface/focus/FRA/FRA_bring_the_fight_in_india.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_support_USA"
+		texturefile = "gfx/interface/focus/FRA/FRA_support_USA.dds"
+	}
+}

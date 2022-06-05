@@ -1,0 +1,11 @@
+RON_FRA_economic_situation = {
+
+	FRA_reduce_administration = {
+		available = {
+			has_completed_focus = FRA_administrative_reforms
+		}
+		cost = 25
+		days_remove = 50
+	}
+
+}

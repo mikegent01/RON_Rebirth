@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+		FRA_lafayette_USA = {
+			
+			
+			targeted_modifier = {
+				tag = THI
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.2
+			}
+		}
+		FRA_lafayette_THI = {
+			targeted_modifier = {
+				tag = USA
+				attack_bonus_against = 0.2
+			}
+		}
+	}
+}

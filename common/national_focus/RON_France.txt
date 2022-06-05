@@ -1,0 +1,506 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_DIPLOMACY}
+
+focus_tree = {
+	id = RON_France
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10000
+			original_tag = FRA
+			is_debug = yes
+		}
+
+		modifier = {
+			add = 100
+			tag = FRA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1200 }
+
+
+	#Memories of the Seven years war
+	focus = {
+		id = FRA_memories_seven_years_war
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		x = 13
+		y = 2
+		
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = -50
+		}
+	}
+
+	focus = {
+		id = FRA_our_eternal_ennemy
+		relative_position_id = FRA_memories_seven_years_war
+		icon = GFX_FRA_our_eternal_ennemy
+		x = -3
+		y = 1
+
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			country_exists = USA
+			USA = {
+				has_war_with = THI
+			}
+		}
+		prerequisite = {
+			focus = FRA_memories_seven_years_war
+		}
+		mutually_exclusive = {
+			focus = FRA_put_our_differences_aside
+		}
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					modifier = FRA_eternal_ennemy
+					target = FRA
+				}
+			}
+			add_opinion_modifier = {
+				modifier = FRA_eternal_ennemy
+				target = ENG
+			}
+
+		}
+	}
+	focus = { 
+		id = FRA_support_USA
+		icon = GFX_FRA_support_USA
+		prerequisite = {
+			focus = FRA_our_eternal_ennemy
+		}
+		cost = 10
+		relative_position_id = FRA_our_eternal_ennemy
+		x = 1
+		y = 1
+		completion_reward = { 
+			USA = {
+				add_opinion_modifier = {
+					modifier = FRA_support_USA
+					target = FRA
+				}
+			}
+		}
+	} 
+	focus = {
+		id = FRA_bring_the_fight_in_india
+		relative_position_id = FRA_our_eternal_ennemy
+		icon = GFX_FRA_bring_the_fight_in_india
+		cost = 10
+		x = -1
+		y = 1
+		will_lead_to_war_with = RAJ
+		completion_reward = { 
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = RAJ
+			}
+		}
+		prerequisite = {
+			focus = FRA_our_eternal_ennemy
+		}
+	}
+
+	focus = {
+		id = FRA_contact_quebec
+		relative_position_id = FRA_our_eternal_ennemy
+		cost = 10
+		x = 0
+		y = 2
+		completion_reward = { 
+			start_resistance = QUE 
+			every_state = {
+				limit = {
+					is_core_of = QUE
+				}
+				add_resistance = 50
+				
+			}
+		}
+		prerequisite = {
+			focus = FRA_support_USA
+
+		}
+		prerequisite = {
+			focus = FRA_bring_the_fight_in_india
+		}
+	}
+
+	focus = {
+		id = FRA_send_lafayette_to_USA
+		relative_position_id = FRA_contact_quebec
+		cost = 10
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = FRA_contact_quebec
+		}
+
+		completion_reward = {
+			USA = {
+				add_ideas = FRA_lafayette_USA
+			}
+		}
+
+	}
+	focus = {
+		id = FRA_send_loan_to_USA
+		relative_position_id = FRA_contact_quebec
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = FRA_contact_quebec
+		}
+		cost = 10
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
+	}
+	focus = {
+		id = FRA_recognise_USA
+		relative_position_id = FRA_send_loan_to_USA
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_send_loan_to_USA
+		}
+	}
+	focus = {
+		id = FRA_trade_pact
+		relative_position_id = FRA_send_loan_to_USA
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_send_lafayette_to_USA
+			focus = FRA_send_loan_to_USA
+		}
+	}
+	focus = {
+		id = FRA_defensive_pact
+		relative_position_id = FRA_send_lafayette_to_USA
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_send_lafayette_to_USA
+		}
+		completion_reward = {
+			USA = {
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+		}
+	}
+	focus = {
+		id = FRA_pacte_de_famille
+		relative_position_id = FRA_defensive_pact
+		x = -1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_defensive_pact
+		}
+		prerequisite = {
+			focus = FRA_trade_pact
+		}
+		prerequisite = {
+			focus = FRA_recognise_USA
+		}
+	}
+	focus = {
+		id = FRA_austrian_netherland_pact
+		relative_position_id = FRA_defensive_pact
+		x = -3
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_defensive_pact
+		}
+		prerequisite = {
+			focus = FRA_trade_pact
+		}
+		prerequisite = {
+			focus = FRA_recognise_USA
+		}
+
+	}
+	focus = {
+		id = FRA_put_our_differences_aside
+		icon = GFX_FRA_put_our_differences_aside
+		cost = 10
+		relative_position_id = FRA_memories_seven_years_war
+		x = 3
+		y = 1
+		available = {
+			country_exists = USA
+			USA = {
+				has_war_with = THI
+			}
+		}
+		completion_reward = { }
+		prerequisite = {
+			focus = FRA_memories_seven_years_war
+		}
+		mutually_exclusive = {
+			focus = FRA_our_eternal_ennemy
+		}
+	}
+ 
+	focus = {
+		id = FRA_side_with_the_brits
+		prerequisite = {
+			focus = FRA_put_our_differences_aside
+		}
+		cost = 10
+		relative_position_id = FRA_put_our_differences_aside
+		x = 1
+		y = 1
+		will_lead_to_war_with = USA
+		completion_reward = { 
+		
+			add_to_war = { 
+				targeted_alliance = THI 
+				enemy = USA 
+				hostility_reason = asked_to_join
+				
+			}
+		}
+	}
+	focus = {
+		id = FRA_caen_agreements
+		relative_position_id = FRA_put_our_differences_aside
+		cost = 10
+		
+		x = -1
+		y = 1
+		completion_reward = { }
+		prerequisite = {
+			focus = FRA_put_our_differences_aside
+		}
+	}
+
+	focus = {
+		id = FRA_louisiana_question
+		relative_position_id = FRA_put_our_differences_aside
+		cost = 10
+		x = 0
+		y = 2
+		completion_reward = { }
+		prerequisite = {
+			focus = FRA_caen_agreements
+			
+		}
+		prerequisite = {
+			focus = FRA_side_with_the_brits
+		}
+	}
+	focus = {
+		id = FRA_central_america_for_india
+		relative_position_id = FRA_louisiana_question
+		cost = 10
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = FRA_louisiana_question
+		}
+	}
+	focus = {
+		id = FRA_compagnie_doceanie
+		relative_position_id = FRA_central_america_for_india
+		cost = 10
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = FRA_central_america_for_india
+		}
+		completion_reward = {
+			672 = {
+				add_claim_by = FRA
+			}
+			982 = {
+				add_claim_by = FRA
+			}
+			335 = {
+				add_claim_by = FRA
+			}
+			333 = {
+				add_claim_by = FRA
+			}
+			334 = {
+				add_claim_by = FRA
+			}
+			1128 = {
+				add_claim_by = FRA
+			}
+		}
+	}
+	focus = {
+		id = FRA_send_lafayette_to_THI
+		relative_position_id = FRA_louisiana_question
+		cost = 10
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = FRA_louisiana_question
+		}
+		completion_reward = {
+			THI = {
+				add_ideas = FRA_lafayette_THI
+			}
+		}
+	}
+	focus = {
+		id = FRA_compagnie_dasie
+		relative_position_id = FRA_send_lafayette_to_THI
+		cost = 10
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = FRA_send_lafayette_to_THI
+		}
+		completion_reward = {
+			286 = {
+				add_claim_by = FRA
+			}
+			980 = {
+				add_claim_by = FRA
+			}
+			336 = {
+				add_claim_by = FRA
+			}
+			1093 = {
+				add_claim_by = FRA
+			}
+		}
+	}
+	focus = {
+		id = FRA_our_economic_situation
+		cost = 1
+
+		x = 25
+		y = 2
+		cost = 1
+
+
+	}
+	focus = {
+		id = FRA_necker_minister
+		cost = 5
+		relative_position_id = FRA_our_economic_situation
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = FRA_our_economic_situation
+		}
+	}
+	focus = {
+		id = FRA_genoan_money
+		cost = 3
+		
+		relative_position_id = FRA_necker_minister
+
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = FRA_necker_minister
+		}
+	}
+
+	focus = {
+		id = FRA_monetary_reform
+		cost = 10
+		relative_position_id = FRA_genoan_money
+
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = FRA_genoan_money
+
+		}
+
+	}
+	focus = {
+		id = FRA_tax_reform
+		cost = 10
+		relative_position_id = FRA_genoan_money
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = FRA_genoan_money
+		}
+	}
+
+	focus = {
+		id = FRA_royal_lottery
+		cost = 5
+		relative_position_id = FRA_genoan_money
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = FRA_monetary_reform
+			focus = FRA_administrative_reforms
+			focus = FRA_tax_reform
+		}
+	}
+	focus = {
+		id = FRA_administrative_reforms
+		cost = 5
+		relative_position_id = FRA_genoan_money
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = FRA_genoan_money
+		}
+	}
+	focus = {
+		id = FRA_mont_de_piete
+		cost = 5
+		x = 1
+		y = 2
+		relative_position_id = FRA_genoan_money
+		prerequisite = {
+			focus = FRA_monetary_reform
+			focus = FRA_administrative_reforms
+			focus = FRA_tax_reform
+		}
+	}
+	focus = {
+		id = FRA_manufacture_act
+		cost = 10
+		relative_position_id = FRA_royal_lottery
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = FRA_royal_lottery
+			focus = FRA_mont_de_piete
+		}
+	}
+}
