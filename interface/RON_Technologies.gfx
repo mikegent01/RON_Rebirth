@@ -48,6 +48,12 @@ spriteTypes = {
 	
 	#Equipment
 	
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1000.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_RON_Infantry_Weapon_1600_medium"
 		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"

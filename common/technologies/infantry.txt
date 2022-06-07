@@ -1,22 +1,54 @@
 technologies = {
 	
-	@1600 = 0
-	@1700 = 4
-	@1725 = 8
-	@1750 = 12
-	@1775 = 16
-	@1777 = 20
-	@1780 = 24
-	@1790 = 28
-	@1800 = 32
-	@1810 = 36
-	@1820 = 40
-	@1830 = 44
-	@1840 = 48
-	@1850 = 52
-	@1860 = 56
-	@1870 = 60
-	@1880 = 64
+	@1000 = 0
+	@1600 = 4
+	@1700 = 8
+	@1725 = 12
+	@1750 = 16
+	@1775 = 20
+	@1777 = 24
+	@1780 = 28
+	@1790 = 32
+	@1800 = 36
+	@1810 = 40
+	@1820 = 44
+	@1830 = 48
+	@1840 = 52
+	@1850 = 56
+	@1860 = 60
+	@1870 = 64
+	@1880 = 68
+	
+	RON_Infantry_Weapon_1000 = {
+
+		enable_equipments = {
+			infantry_equipment_1000
+		}
+		
+		enable_subunits = {
+			infantry
+		}
+		
+		path = {
+			leads_to_tech = RON_Infantry_Weapon_1600
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1000
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1000 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	RON_Infantry_Weapon_1600 = {
 

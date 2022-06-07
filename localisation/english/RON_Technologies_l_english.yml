@@ -1,6 +1,6 @@
 ﻿l_english:
 
-infantry_equipment_1000:0 "Longbow"
+infantry_equipment_1000:0 "Melee Weapons"
 infantry_equipment_1600:0 "Musket 1600"
 infantry_equipment_1700:0 "Musket 1700"
 infantry_equipment_1725:0 "Musket 1725"
@@ -19,7 +19,7 @@ infantry_equipment_1860:0 "Rifle 1860"
 infantry_equipment_1870:0 "Rifle 1870"
 infantry_equipment_1880:0 "Rifle 1880"
 
-infantry_equipment_1000_desc:0 "A longbow, is a type of tall bow that makes a fairly long draw possible. A longbow is not significantly recurved. Its limbs are relatively narrow and are circular or D-shaped in cross section. Flatbows can be just as long, but in cross-section, a flatbow has limbs that are approximately rectangular."
+infantry_equipment_1000_desc:0 "A melee weapon, hand weapon or close combat weapon is any handheld weapon used in hand-to-hand combat, i.e. for use within the direct physical reach of the weapon itself, essentially functioning as an additional extension of the user's limbs. By contrast, a ranged weapon is any other weapon capable of engaging targets at a distance beyond immediate physical contact."
 infantry_equipment_1600_desc:0 "A musket is a muzzle-loaded long gun that appeared as a smoothbore weapon in the early 16th century, at first as a heavier variant of the arquebus, capable of penetrating heavy armour."
 infantry_equipment_1700_desc:0 "A musket is a muzzle-loaded long gun that appeared as a smoothbore weapon in the early 16th century, at first as a heavier variant of the arquebus, capable of penetrating heavy armour."
 infantry_equipment_1725_desc:0 "A musket is a muzzle-loaded long gun that appeared as a smoothbore weapon in the early 16th century, at first as a heavier variant of the arquebus, capable of penetrating heavy armour."
