@@ -9,10 +9,16 @@ RON_universal_setup = {
 RON_start_techs = {
 
 	set_technology = {
+		RON_Infantry_Weapon_1000 = 1
 		RON_Infantry_Weapon_1600 = 1
 		RON_Infantry_Weapon_1700 = 1
 		RON_Infantry_Weapon_1725 = 1
 		RON_Infantry_Weapon_1750 = 1
+		RON_Artillery_Weapon_1000 = 1
+		RON_Artillery_Weapon_1400 = 1
+		RON_Artillery_Weapon_1600 = 1
+		RON_Artillery_Weapon_1700 = 1
+		RON_Artillery_Weapon_1750 = 1
 	}
 	
 }

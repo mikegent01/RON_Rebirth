@@ -1,0 +1,479 @@
+technologies = {
+
+@light_arty = 7
+	
+	@1000 = 0
+	@1400 = 2
+	@1600 = 4
+	@1700 = 6
+	@1750 = 8
+	@1775 = 10
+	@1780 = 12
+	@1790 = 14
+	@1800 = 16
+	@1810 = 18
+	@1820 = 20
+	@1830 = 22
+	@1840 = 24
+	@1850 = 26
+	@1860 = 28
+	@1870 = 30
+	@1880 = 32
+	
+	RON_Artillery_Weapon_1000 = {
+
+		enable_equipments = {
+			artillery_equipment_1000
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1400
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1000
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1000 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1400 = {
+
+		enable_equipments = {
+			artillery_equipment_1400
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1600
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1400
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1400 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1600 = {
+
+		enable_equipments = {
+			artillery_equipment_1600
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1700
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1600
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1600 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1700 = {
+
+		enable_equipments = {
+			artillery_equipment_1700
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1750
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1700
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1700 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	RON_Artillery_Weapon_1750 = {
+
+		enable_equipments = {
+			artillery_equipment_1750
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1775
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1750
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1750 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1775 = {
+
+		enable_equipments = {
+			artillery_equipment_1775
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1780
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1775
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1775 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	RON_Artillery_Weapon_1780 = {
+
+		enable_equipments = {
+			artillery_equipment_1780
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1790
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1780 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1790 = {
+
+		enable_equipments = {
+			artillery_equipment_1790
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1800
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1790
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1790 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1800 = {
+
+		enable_equipments = {
+			artillery_equipment_1800
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1810
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1800
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1800 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1810 = {
+
+		enable_equipments = {
+			artillery_equipment_1810
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1820
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1810
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1810 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1820 = {
+
+		enable_equipments = {
+			artillery_equipment_1820
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1830
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1820
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1820 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1830 = {
+
+		enable_equipments = {
+			artillery_equipment_1830
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1840
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1830
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1830 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1840 = {
+
+		enable_equipments = {
+			artillery_equipment_1840
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1850
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1840
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1840 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1850 = {
+
+		enable_equipments = {
+			artillery_equipment_1850
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1860
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1850
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1850 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1860 = {
+
+		enable_equipments = {
+			artillery_equipment_1860
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1870
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1860
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1860 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1870 = {
+
+		enable_equipments = {
+			artillery_equipment_1870
+		}
+		
+		path = {
+			leads_to_tech = RON_Artillery_Weapon_1880
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1870 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	RON_Artillery_Weapon_1880 = {
+
+		enable_equipments = {
+			artillery_equipment_1880
+		}	
+
+		research_cost = 1.5
+		start_year = 1880
+		folder = {
+			name = artillery_folder
+			position = { x = @light_arty y = @1880 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
