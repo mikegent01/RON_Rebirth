@@ -19,6 +19,9 @@ RON_start_techs = {
 		RON_Artillery_Weapon_1600 = 1
 		RON_Artillery_Weapon_1700 = 1
 		RON_Artillery_Weapon_1750 = 1
+		tech_support = 1
+		tech_engineers_1750 = 1
+		tech_recon_1750 = 1
 	}
 	
 }
