@@ -1,0 +1,138 @@
+RON_influence_over_india = {
+	decision_french_influence_state = {
+		visible = {
+			FROM = {
+				has_state_flag = french_indian_influence
+			}
+		}
+		icon = decision_french_indian_control
+		target_trigger = {
+			FROM = {
+				OR = {
+					is_controlled_by = MYS
+					is_controlled_by = NCA
+					is_controlled_by = NIZ
+					is_controlled_by = SIH
+					is_controlled_by = MAR
+					is_controlled_by = NAS
+					is_controlled_by = NAO
+				}
+			}
+		}
+		state_target = yes
+	}
+	decision_british_influence_state = {
+		visible = {
+			FROM = {
+				has_state_flag = british_indian_influence
+			}
+		}
+		icon = decision_british_indian_control
+		target_trigger = {
+			FROM = {
+				OR = {
+					is_controlled_by = MYS
+					is_controlled_by = NCA
+					is_controlled_by = NIZ
+					is_controlled_by = SIH
+					is_controlled_by = MAR
+					is_controlled_by = NAS
+					is_controlled_by = NAO
+				}
+			}
+		}
+		state_target = yes
+	}
+}
+RON_conquest_of_india_cat = {
+	declare_war_on_NCA = {
+		war_with_on_remove = NCA
+		days_remove = 30
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10000
+				tag = MYS
+				date > 1780.6.1
+			}
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = NCA
+				type = annex_everything
+			}
+		}
+
+	}	
+
+	declare_on_MYS = {
+		war_with_on_remove = MYS
+		days_remove = 30
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10000
+				OR = {
+					date > 1780.8.1
+					NCA = {
+						has_war_with = NCA
+					}
+				}
+			}
+			
+		}
+		allowed = {
+			NOT = {
+				tag = MYS
+			}
+		}
+		remove_effect = {
+			create_wargoal = {
+				target = MYS
+				type = annex_everything
+			}
+		}
+	}
+	MYS_french_weapon_shipment = {
+		days_mission_timeout = 30
+		allowed = {
+			tag = MYS
+		}
+		activation = {
+			country_exists = FRA
+			has_equipment = {
+				infantry_equipment < 1001
+			}
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		cancel_trigger = {
+			OR = {
+				NOT = {
+					country_exists = FRA
+				}
+				has_equipment = {
+					infantry_equipment > 999
+				}
+			}
+		}
+		visible = {
+			has_equipment = {
+				infantry_equipment < 1001
+			}
+			country_exists = FRA
+		}
+	
+		
+		
+		timeout_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 100
+			}
+		}
+	}
+}

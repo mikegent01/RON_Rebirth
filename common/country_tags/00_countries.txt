@@ -466,6 +466,10 @@ DUR = "countries/Durrani Empire.txt"
 NAO = "countries/Nawab of Oudh.txt"
 NAS = "countries/Nawab of Sindh.txt"
 NIZ = "countries/Nizam's Dominion.txt"
+NCA = "countries/Nawab of the Carnatic.txt"
+
+NDY = "countries/Normandy.txt"
+DBA = "countries/Duchy of Bar.txt"
 
 ACR = "countries/Acre.txt"
 

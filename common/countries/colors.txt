@@ -1576,4 +1576,15 @@ NAS = {
 	color = rgb { 240 213 138 }
 	color_ui = rgb { 240 213 138 }
 }
-
+NCA = {
+	color = rgb { 240 213 138 }
+	color_ui = rgb { 240 213 138 }
+}
+DBA = {
+	color = rgb { 27 91 121 }
+	color_ui = rgb { 27 91 121 }
+}
+NDY = {
+	color = rgb { 203 62 32 }
+	color_ui = rgb { 203 62 32 }
+}

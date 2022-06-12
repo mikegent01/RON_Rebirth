@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "decision_british_indian_control" 
+		texturefile = "gfx/interface/decisions/decision_british_control.dds"
+	}
+	spriteType = {
+		name = "decision_french_indian_control" 
+		texturefile = "gfx/interface/decisions/decision_french_control.dds"
+	}
+	
+}

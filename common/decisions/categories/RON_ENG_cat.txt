@@ -1,0 +1,35 @@
+RON_conquest_of_india_cat = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = RAJ
+			tag = MYS
+		}
+	}
+	visible = {
+		has_start_date < 1800.1.1
+		OR = {
+			tag = RAJ
+			AND ={
+				tag = ENG
+				RAJ = {
+					is_ai = yes
+				}
+			}
+			tag = MYS
+		}
+		
+	}
+}
+
+RON_influence_over_india = {
+	allowed = {
+		OR = {
+			tag = ENG
+			tag = FRA
+		}
+	}
+	visible = {
+		has_start_date < 1800.1.1
+	}
+}

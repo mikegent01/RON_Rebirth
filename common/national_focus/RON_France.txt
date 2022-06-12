@@ -18,6 +18,11 @@ focus_tree = {
 			original_tag = FRA
 			is_debug = yes
 		}
+
+		modifier = {
+			add = 100
+			tag = FRA
+		}
 	}
 
 	default = no
@@ -123,6 +128,7 @@ focus_tree = {
 		id = FRA_contact_quebec
 		relative_position_id = FRA_our_eternal_ennemy
 		cost = 10
+		icon = GFX_FRA_contact_quebec
 		x = 0
 		y = 2
 		completion_reward = { 
@@ -147,6 +153,7 @@ focus_tree = {
 	focus = {
 		id = FRA_send_lafayette_to_USA
 		relative_position_id = FRA_contact_quebec
+		icon = GFX_FRA_lafayette_USA 
 		cost = 10
 		x = 1
 		y = 1
@@ -326,6 +333,21 @@ focus_tree = {
 		prerequisite = {
 			focus = FRA_louisiana_question
 		}
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_core_of = IND
+				}
+				remove_claim_by = FRA
+			}
+			every_state = {
+				limit = {
+					is_core_of = VRS
+				
+				}
+				add_claim_by = FRA
+			}
+		}
 	}
 	focus = {
 		id = FRA_compagnie_doceanie
@@ -360,6 +382,7 @@ focus_tree = {
 	focus = {
 		id = FRA_send_lafayette_to_THI
 		relative_position_id = FRA_louisiana_question
+		icon = GFX_FRA_lafayette_THI
 		cost = 10
 		x = 1
 		y = 1
@@ -397,6 +420,18 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = FRA_anglo_norman_alliance 
+		relative_position_id = FRA_central_america_for_india
+		x = 1
+		y = 1
+		cost = 10
+		prerequisite = {
+			focus = FRA_send_lafayette_to_THI
+			focus= FRA_central_america_for_india
+		}
+		
+	}
+	focus = {
 		id = FRA_our_economic_situation
 		cost = 1
 
@@ -404,7 +439,7 @@ focus_tree = {
 		y = 2
 		cost = 1
 
-
+ 
 	}
 	focus = {
 		id = FRA_necker_minister
@@ -496,6 +531,63 @@ focus_tree = {
 		prerequisite = {
 			focus = FRA_royal_lottery
 			focus = FRA_mont_de_piete
+		}
+	}
+	focus = {
+		id = FRA_provincial_assembly
+		cost = 10
+		relative_position_id = FRA_manufacture_act
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = FRA_manufacture_act
+		}
+		completion_reward = {
+			
+			
+			
+			
+			814 = {
+				add_core_of = DBA
+			}
+			816 = {
+				add_core_of = DBA
+			}
+			817 = {
+				add_core_of = DBA
+			}
+			
+			17 = {
+				add_core_of = BGN
+			}
+			27 = {
+				add_core_of = BGN
+			}
+			15 = {
+				add_core_of = NDY
+			}
+			818 = {
+				add_core_of = NDY
+			}
+			release = DBA
+			release = NDY
+			release = BGN
+			release = OCC
+			release = BRT
+			release = ALS
+			POL = {
+				puppet = DBA
+			}
+		}
+	}
+	focus = {
+		id = FRA_neckers_resignation
+		cost = 10
+		relative_position_id = FRA_manufacture_act
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = FRA_manufacture_act
 		}
 	}
 }

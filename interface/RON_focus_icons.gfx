@@ -18,4 +18,16 @@ spriteTypes = {
 		name = "GFX_FRA_support_USA"
 		texturefile = "gfx/interface/focus/FRA/FRA_support_USA.dds"
 	}
+	SpriteType = {
+		name = "GFX_FRA_contact_quebec"
+		texturefile = "gfx/interface/focus/FRA/FRA_contact_quebec.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_lafayette_THI"
+		texturefile = "gfx/interface/focus/FRA/FRA_lafayette_THI.dds"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_lafayette_USA"
+		texturefile = "gfx/interface/focus/FRA/FRA_lafayette_USA.dds"
+	} 
 }
