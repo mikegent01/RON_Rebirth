@@ -1,3 +1,13 @@
 ﻿l_english:
+
+## GENERIC
+RI_strikes1:0 "Strikes"
+RI_strikes2:0 "Strikes"
+RI_strikes3:0 "Huge Strikes"
+RI_strikes4:0 "General Strikes"
+RI_strikes5:0 "General Strikes"
+
+
+## FRANCE
  FRA_lafayette_USA:0 "Lafayette"
  FRA_lafayette_THI:0 "Lafayette"

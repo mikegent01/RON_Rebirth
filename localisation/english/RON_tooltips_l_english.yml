@@ -2,7 +2,7 @@
 ### Demobilisation ###
  
 mobilisation_penalty_modifier:0 "Above Division Limit"
-
+army_demobilization_requirement_tt:0 "Has less than §Y[?max_divisions]§! divisions in the Field"
 unit_limit_count:0 "[unit_limit_count_loc]/[?max_divisions|H0]"
 
 toggle_news_text_red_fake_intel:0 "[?num_actual_divisions|G0]"

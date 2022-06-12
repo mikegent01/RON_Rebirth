@@ -1,4 +1,5 @@
 ﻿l_english:
+ public_asks_for_demob:0 "Public asks for Demobilization"
  RON_expand_influence:0 "Colonial Expeditions"
  RON_launch_expedition_in_STATE:0 "Launch Expedition in [FROM.GetName]"
  expedition_underway:0 "a Foreign country is already launching an expedition there"

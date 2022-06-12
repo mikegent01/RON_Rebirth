@@ -160,3 +160,33 @@ RON_is_allowed_to_trigger_important_decisions = {
 		is_major = yes
 	}
 }
+
+needs_army_reduction_for_manpower = {
+	#first check the number of units a country's factories can support
+	set_temp_variable = { num_supported_units = 0 }
+	set_temp_variable = { num_civs = num_of_civilian_factories }
+	multiply_temp_variable = { num_civs = 0.5 }
+	add_to_temp_variable = { num_supported_units = num_civs }
+	set_temp_variable = { num_mils = num_of_military_factories }
+	multiply_temp_variable = { num_mils = 0.5 }
+	add_to_temp_variable = { num_supported_units = num_mils }
+
+	#now check to make sure we're not under that number
+	num_divisions > num_supported_units
+
+	#and check to make sure we're low on manpower
+	has_manpower < 5000
+}
+has_reached_maximum_divisions = {
+	if = {
+		limit = {
+			check_variable = { num_battalions_with_type@fake_intel_unit > 0 }
+		}
+		set_temp_variable = { num_real_divisions = num_divisions }
+		subtract_from_temp_variable = { num_real_divisions = num_battalions_with_type@fake_intel_unit }
+		check_variable = { num_real_divisions > max_divisions }
+	}
+	else = {
+		check_variable = { num_divisions > max_divisions }
+	}
+}

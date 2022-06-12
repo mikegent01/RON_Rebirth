@@ -168,3 +168,35 @@ calculate_mobilisation_penalty = {
 	#for negative effects
 	multiply_variable = { mobilisation_penalty_var = -1 }
 }
+
+increase_strikes = {
+	if = {
+		limit = {
+			has_idea = RI_strikes4
+		}
+		add_ideas = RI_strikes5
+	}
+	else_if = {
+		limit = {
+			has_idea = RI_strikes3
+		}
+		add_ideas = RI_strikes4
+	}
+	else_if = {
+		limit = {
+			has_idea = RI_strikes2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = RI_strikes1
+		}
+		add_ideas = RI_strikes2
+
+	}
+	else = {
+		add_ideas = RI_strikes1
+	}
+
+
+}
