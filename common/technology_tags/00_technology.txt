@@ -134,7 +134,7 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			always = no
+			is_debug = yes
 		}
 	}
 	nsb_armour_folder = {
@@ -149,7 +149,7 @@ technology_folders = {
 	air_techs_folder = {
 		ledger = air
 		available = {
-			always = no
+			is_debug = yes
 		}
 	}
 	naval_folder = {
@@ -181,16 +181,26 @@ technology_folders = {
 	}
 	space_folder = {
 		ledger = civilian
+		available = {
+			is_debug = yes
+		}
 	}
 	wmd_folder = {
 		ledger = civilian
+		available = {
+			is_debug = yes
+		}
 	}
 	train_folder = {
 		ledger = civilian
+		available = {
+			is_debug = yes
+		}
 	}
 	zombies_folder = {
 		available = {
-			has_game_rule = { rule = RON_game_mode option = ZOMBIE_MODE }
+			is_debug = yes
+			#has_game_rule = { rule = RON_game_mode option = ZOMBIE_MODE }
 		}
 		ledger = civilian
 	}
