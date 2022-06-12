@@ -195,3 +195,8 @@ tech_logistics_company_1850_desc:0 "Military logistics is the discipline of plan
 tech_logistics_company_1860_desc:0 "Military logistics is the discipline of planning and carrying out the movement, supply, and maintenance of military forces."
 tech_logistics_company_1870_desc:0 "Military logistics is the discipline of planning and carrying out the movement, supply, and maintenance of military forces."
 tech_logistics_company_1880_desc:0 "Military logistics is the discipline of planning and carrying out the movement, supply, and maintenance of military forces."
+
+#Naval
+
+destroyer_1750:0 "Fifth-Rate 1750"
+destroyer_1750_desc:0 "In the rating system of the Royal Navy used to categorise sailing warships, a fifth rate was the second smallest class of warships in a hierarchical system of six ratings based on size and firepower."

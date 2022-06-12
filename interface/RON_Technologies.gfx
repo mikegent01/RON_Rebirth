@@ -517,6 +517,13 @@ spriteTypes = {
 		name = "GFX_tech_logistics_company_1880_medium"
 		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
+
+	#Naval Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Destroyer_Tech_1750_medium"
+		texturefile = "gfx/interface/technologies/Naval_Folder/Generic/Fifth_Rate.dds"
+	}
 	
 		
 }
