@@ -16,6 +16,7 @@ tags={
 	"Utilities"
 }
 name="Rise of Nations Rebirth"
+replace_path= "common/ai_equipment"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"

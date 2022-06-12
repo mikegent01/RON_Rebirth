@@ -25,7 +25,7 @@ ideas = {
 				lend_lease_tension = 0.10
 				send_volunteers_tension = 0.70
 				guarantee_tension = 0.20
-				#unit_limit_max = 75
+				unit_limit_max = 75
 			}
 
 
@@ -190,7 +190,7 @@ ideas = {
 				lend_lease_tension = -0.10
 				send_volunteers_tension = -0.10
 				guarantee_tension = -0.10
-				#unit_limit_bonus = 25
+				unit_limit_bonus = 25
 			}
 
 
@@ -255,7 +255,7 @@ ideas = {
 				foreign_subversive_activites = 0.15
 				resistance_damage_to_garrison_on_our_occupied_states = 0.15
 				generate_wargoal_tension = -0.20
-				#unit_limit_bonus = 50
+				unit_limit_bonus = 50
 			}
 
 
@@ -330,7 +330,7 @@ ideas = {
 				lend_lease_tension = -0.20
 				send_volunteers_tension = -0.20
 				guarantee_tension = -0.20
-				#unit_limit_bonus = 50
+				unit_limit_bonus = 50
 			}
 
 
@@ -396,7 +396,7 @@ ideas = {
 				lend_lease_tension = -0.20
 				send_volunteers_tension = -0.20
 				guarantee_tension = -0.20
-				#unit_limit_bonus = 50
+				unit_limit_bonus = 50
 			}
 
 
@@ -464,7 +464,7 @@ ideas = {
 				lend_lease_tension = -0.20
 				send_volunteers_tension = -0.20
 				guarantee_tension = -0.20
-				#unit_limit_bonus = 50
+				unit_limit_bonus = 50
 			}
 
 
