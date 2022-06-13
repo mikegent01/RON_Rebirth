@@ -1,0 +1,10 @@
+RON_has_nuclear_program = {
+	OR = {
+		has_idea = nuclear_budget2
+		has_idea = nuclear_budget3
+		has_idea = nuclear_budget4
+		has_idea = nuclear_budget5
+		has_idea = nuclear_budget6
+		has_idea = nuclear_budget7
+	}
+}
