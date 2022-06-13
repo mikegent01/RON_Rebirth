@@ -1,5 +1,40 @@
 spriteTypes = {	
 
+	spriteType = {
+		name = "GFX_idea_RON_GEO"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_GEO.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_VIC"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_VIC.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_DNC"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_DNC.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_Interwar"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_Interwar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_WW2"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_WW2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_Cold_War"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_Cold_War.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RON_Modern_Day"
+		texturefile = "gfx/interface/ideas/RON_Laws/era/RON_Modern_Day.dds"
+	}
+
 spriteType = {
 		name = "GFX_idea_nodefcon"
 		texturefile = "gfx/interface/ideas/RON_Laws/defcon/nodefcon.dds"
