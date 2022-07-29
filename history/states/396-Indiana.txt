@@ -6,13 +6,12 @@ state = {
 
 	history = {
 		set_state_flag = german_population
-		owner = THI
+		owner = USA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 5
 		}
 		add_core_of = USA
-		add_core_of = THI
 		victory_points = {
 			1595 5
 		}

@@ -18,7 +18,7 @@ state = {
 			13303 5
 
 		}
-		owner = NAT
+		owner = MOR
 		add_core_of = MOR
 		add_core_of = WSH
 		buildings = {

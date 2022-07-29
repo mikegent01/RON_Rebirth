@@ -4,7 +4,7 @@ state={
 	name="STATE_346"
 
 	history={
-		owner = TUR
+		owner = OTT
 		buildings = {
 			infrastructure = 3
 			air_base = 5
@@ -14,10 +14,10 @@ state={
 			940 1 
 		}
 		add_core_of = TUR
-		
+		add_core_of = OTT
 		1910.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = OTT
+			controller = OTT
 
 		}
 		1920.1.1 = {

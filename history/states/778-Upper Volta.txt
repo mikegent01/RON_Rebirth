@@ -5,7 +5,7 @@ state = {
 
 	state_category = pastoral
 	history = {
-		owner = NAT
+		owner = FRA
 		add_core_of = VOL
 		victory_points = {
 			10836 1

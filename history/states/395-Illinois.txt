@@ -5,7 +5,7 @@ state = {
 	state_category = megalopolis
 
 	history = {
-		owner = THI
+		owner = USA
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -13,7 +13,6 @@ state = {
 			air_base = 3
 		}
 		add_core_of = USA
-		add_core_of = THI
 		victory_points = {
 			9450 30
 		}

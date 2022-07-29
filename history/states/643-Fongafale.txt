@@ -9,7 +9,7 @@ state = {
 		victory_points = {
 			13056 5
 		}
-		owner = NAT
+		owner = ENG
 		#add_core_of = KIR
 		add_core_of = TUV
 		buildings = {
@@ -20,11 +20,6 @@ state = {
 			13054 = {
 				naval_base = 1
 			}
-		}
-		
-		1886.1.1 = {
-			owner = ENG
-			controller = ENG
 		}
 
 		1980.1.1 = { owner = TUV controller = TUV }

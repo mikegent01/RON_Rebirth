@@ -3,7 +3,7 @@ state = {
 	name = "STATE_726"
 
 	history = {
-		owner = NAT
+		owner = ENG
 		add_core_of = SMO
 
 		victory_points = {

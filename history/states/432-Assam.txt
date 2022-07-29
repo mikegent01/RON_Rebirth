@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = NAT
+		owner = RAJ
 		add_core_of = IND add_core_of = CPI
 		buildings = {
 			infrastructure = 3

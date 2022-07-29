@@ -4,8 +4,9 @@ state =
 	name = "STATE_638"
 	state_category = small_island
 	manpower = 75153
-	history = {
-		owner = SPR
+	history =
+	{
+		owner = USA
 		buildings = {
 			air_base = 2
 			infrastructure = 5
@@ -16,7 +17,6 @@ state =
 		victory_points = {
 			12140 1
 		}
-		1898.1.1 = { owner = USA controller = USA }
 
 	}
 	provinces = {

@@ -4,16 +4,16 @@ state = {
 
 	history = {
 		add_claim_by = GRE
-		owner = TUR
+		owner = OTT
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 
 		}
-		add_core_of = TUR 
+		add_core_of = TUR add_core_of = OTT
 		1910.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = OTT
+			controller = OTT
 		}
 		1920.1.1 = {
 			owner = TUR

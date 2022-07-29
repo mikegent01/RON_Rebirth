@@ -14,7 +14,7 @@ state = {
 		victory_points = {
 			6464 5
 		}
-		owner = PRS
+		owner = GER
 		add_core_of = POL
 		add_core_of = GER
 		add_core_of = PRS

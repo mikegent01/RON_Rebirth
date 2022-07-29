@@ -4,8 +4,7 @@ state = {
 
 	history = {
 		add_core_of = PUE
-		add_core_of = SWN
-		owner = SWN
+		owner = USA
 		victory_points = {
 			1440 1
 		}
@@ -18,8 +17,6 @@ state = {
 			}
 
 		}
-		
-		1899.1.1 = { owner = USA controller = USA }
 
 	}
 

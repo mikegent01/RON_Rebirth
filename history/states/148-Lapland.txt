@@ -10,16 +10,11 @@ state = {
 		chromium = 2 # was: 2
 	}
 	history = {
-		owner = SWE
+		owner = RUE
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = FIN 
-		add_core_of = FNR  
-		 
-		 
-		add_core_of = SWE
-		1918.11.11 = { owner = FIN controller = FIN }
+		add_core_of = FIN add_core_of = FNR  add_core_of = RUE add_core_of = WHR  1918.11.11 = { owner = FIN controller = FIN }
 	}
 
 	provinces = {

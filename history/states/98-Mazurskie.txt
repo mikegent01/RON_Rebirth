@@ -6,14 +6,12 @@ state = {
 		victory_points = {
 			3230 5
 		}
-		owner = POL
+		owner = RUE
 		buildings = {
 			infrastructure = 6
 
 		}
-		add_core_of = POL     
-		
-		1918.11.11 = { owner = POL controller = POL }
+		add_core_of = POL  add_core_of = RUE add_core_of = WHR  1918.11.11 = { owner = POL controller = POL }
 
 		1940.1.1 = { owner = GER controller = GER }
 

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = AUS
+		owner = AUH
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -20,15 +20,16 @@ state = {
 			732 10
 		}
 		add_core_of = AUS
-		#add_core_of = AUC
+		add_core_of = AUC
+		add_core_of = AUH
 		1910.1.1 = {
-			owner = AUS
-			controller = AUS
+			owner = AUH
+			controller = AUH
 		}
 		1918.11.11 = {
 			owner = AUS
 			controller = AUS
-			#remove_core_of = AUS
+			#remove_core_of = AUH
 		}
 		1938.3.12 = {
 			owner = GER

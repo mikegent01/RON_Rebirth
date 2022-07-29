@@ -6,9 +6,8 @@ state = {
 
 
 	history = {
-		owner = NCA
+		owner = RAJ
 		add_core_of = IND add_core_of = CPI
-		add_core_of = NCA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

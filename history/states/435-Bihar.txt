@@ -3,8 +3,7 @@ state = {
 	name = "STATE_435"
 
 	history = {
-		owner = MAR
-		add_core_of = MAR
+		owner = RAJ
 		add_core_of = IND add_core_of = CPI
 		victory_points = {
 			4516 1
@@ -13,9 +12,7 @@ state = {
 			infrastructure = 5
 
 		}
-		1819.1.1 = {
-			owner = RAJ
-		}
+
 		1947.1.1 = {
 			owner = IND
 			controller = IND

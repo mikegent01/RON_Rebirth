@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = NAT
+		owner = COG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = FRL
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -15,7 +15,6 @@ state = {
 
 		}
 		add_core_of = USA
-		add_core_of = FRL
 		victory_points = {
 			1806 1
 		}

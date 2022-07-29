@@ -4,7 +4,7 @@ state = {
 
 	history = {
 		add_core_of = OMA
-		owner = NAT
+		owner = OMA
 		victory_points = {
 			13219 1
 		}

@@ -3,19 +3,19 @@ state = {
 	name = "STATE_163"
 
 	history = {
-		owner = KLV
+		owner = AUH
 		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = AUS
+		add_core_of = AUH
 		1910.1.1 = {
-			owner = AUS
-			controller = AUS
+			owner = AUH
+			controller = AUH
 
 		}
 		1918.11.11 = {
 			owner = ITA
 			controller = ITA
-			#remove_core_of = AUS
+			#remove_core_of = AUH
 		}
 
 		1944.1.1 = {

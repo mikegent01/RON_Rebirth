@@ -6,7 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = NAT
+		owner = OTT
+		add_core_of = OTT
 		add_core_of = BHR
 		victory_points = {
 			13218 1

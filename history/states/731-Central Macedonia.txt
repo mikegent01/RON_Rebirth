@@ -3,7 +3,7 @@ state = {
 	name = "STATE_731"
 
 	history = {
-		owner = TUR
+		owner = OTT
 		victory_points = {
 			9837 3
 		}
@@ -21,11 +21,11 @@ state = {
 			}
 
 		}
-		add_core_of = GRE add_core_of = GRC  add_core_of = TUR
+		add_core_of = GRE add_core_of = GRC  add_core_of = OTT
 		add_claim_by = BUL
 		1910.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = OTT
+			controller = OTT
 		}
 
 

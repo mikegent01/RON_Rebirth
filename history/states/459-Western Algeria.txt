@@ -9,9 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = TUR
+		owner = FRA
 		add_core_of = ALG
-		add_core_of = TUR
 
 		victory_points = {
 			1145 5

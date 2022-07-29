@@ -9,7 +9,7 @@ state = {
 	state_category = city
 
 	history = {
-		owner = VRG
+		owner = ECU
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -20,7 +20,6 @@ state = {
 			}
 		}
 		add_core_of = ECU
-		add_core_of = VRG
 		victory_points = {
 			12798 5
 		}

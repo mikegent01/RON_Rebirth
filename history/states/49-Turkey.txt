@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TUR
+		owner = OTT
 		victory_points = {
 			11747 10
 		}
@@ -17,10 +17,10 @@ state = {
 			air_base = 3
 
 		}
-		add_core_of = TUR 
+		add_core_of = TUR add_core_of = OTT
 		1910.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = OTT
+			controller = OTT
 		}
 		1919.1.1 = {
 			owner = TUR

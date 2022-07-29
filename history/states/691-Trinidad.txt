@@ -11,8 +11,7 @@ state = {
 
 	history = {
 		add_core_of = TRI
-		add_core_of = SWN
-		owner = SWN
+		owner = ENG
 		victory_points = {
 			3284 1
 		}
@@ -22,10 +21,7 @@ state = {
 				naval_base = 1
 			}
 		}
-		1797.1.1 = {
-			owner = ENG
-			controller = ENG
-		}
+
 		1962.1.1 = {
 			owner = TRI
 			controller = TRI

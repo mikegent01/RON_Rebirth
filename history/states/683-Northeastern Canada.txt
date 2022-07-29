@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = NAT
+		owner = CAN
 		buildings = {
 			infrastructure = 1
 

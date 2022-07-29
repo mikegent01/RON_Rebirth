@@ -4,7 +4,7 @@ state={
 	name="STATE_554"
 
 	history={
-		owner = TUR
+		owner = OTT
 		victory_points = {
 			4111 5 
 		}
@@ -15,13 +15,13 @@ state={
 		}
 		add_core_of = SYR
 		add_core_of = UAR
-		add_core_of = TUR
+		add_core_of = OTT
 		add_core_of = SIG
 		add_core_of = ROJ
 		add_core_of = ISS
 		1910.1.1 = {
-			owner = TUR
-			controller = TUR
+			owner = OTT
+			controller = OTT
 
 		}
 		1918.11.11 = {

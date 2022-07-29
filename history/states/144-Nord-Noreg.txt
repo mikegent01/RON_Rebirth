@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = DEN
+		owner = KNS
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -21,7 +21,6 @@ state = {
 			9116 1
 		}
 		add_core_of = NOR
-		add_core_of = DEN
 		add_core_of = KNS
 
 		1905.10.26 = {

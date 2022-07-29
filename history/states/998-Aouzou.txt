@@ -5,16 +5,16 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = NAT
+		owner = OTT
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = LBA #  
+		add_core_of = LBA # add_core_of = OTT 
 		add_core_of = CHA
 		1910.1.1 = {
-			owner = NAT
-			controller = TUR
+			owner = OTT
+			controller = OTT
 		}
 		1914.1.1 = {
 			owner = ITA

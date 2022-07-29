@@ -7,7 +7,7 @@ state =
 	state_category = rural
 	history =
 	{
-		owner = TUR
+		owner = GRE
 		victory_points = {
 			9940 5
 		}
@@ -25,9 +25,7 @@ state =
 				naval_base = 3
 			}
 		}
-		add_core_of = GRE
-		add_core_of = TUR
-		add_core_of = GRC
+		add_core_of = GRE add_core_of = GRC
 
 		1941.1.1 = {
 			owner = GER

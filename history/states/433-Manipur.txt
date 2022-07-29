@@ -14,16 +14,13 @@ state = {
 		victory_points = {
 			2054 1
 		}
-		owner = MAR
-		add_core_of = MAR
+		owner = RAJ
 		add_core_of = IND add_core_of = CPI
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		1819.1.1 = {
-			owner = RAJ
-		}
+
 		1947.1.1 = {
 			owner = IND
 			controller = IND

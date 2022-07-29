@@ -3,7 +3,7 @@ state = {
 	name = "STATE_839"
 
 	history = {
-		owner = THI
+		owner = USA
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -13,7 +13,7 @@ state = {
 			}
 
 		}
-		add_core_of = USA add_core_of = THI 
+		add_core_of = USA
 		victory_points = {
 			9832  1
 		}

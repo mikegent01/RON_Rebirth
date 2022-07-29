@@ -8,12 +8,12 @@ state = {
 	buildings_max_level_factor = 1.000
 	state_category = pastoral
 	history = {
-		owner = CHI
+		owner = QIN
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = TIB
-		add_core_of = CHI
+		add_core_of = QIN
 
 		1900.1.1 = {
 			set_state_flag = ENG_influence

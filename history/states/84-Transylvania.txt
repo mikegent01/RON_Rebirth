@@ -9,7 +9,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = AUS
+		owner = AUH
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -18,17 +18,17 @@ state = {
 		victory_points = {
 			690 1
 		}
-		add_core_of = AUS
+		add_core_of = AUH
 		add_core_of = ROM
 		add_core_of = TRA
 		1910.1.1 = {
-			owner = AUS
-			controller = AUS
+			owner = AUH
+			controller = AUH
 		}
 		1918.11.11 = {
 			owner = ROM
 			controller = ROM
-			#remove_core_of = AUS
+			#remove_core_of = AUH
 		}
 	}
 

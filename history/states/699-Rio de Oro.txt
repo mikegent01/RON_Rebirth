@@ -3,7 +3,7 @@ state = {
 	name = "STATE_699"
 
 	history = {
-		owner = NAT
+		owner = MOR
 		add_core_of = MOR
 		add_core_of = WSH
 		buildings = {

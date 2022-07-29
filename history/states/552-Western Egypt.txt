@@ -7,7 +7,7 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = TUR add_core_of = TUR 
+		owner = ENG
 		buildings = {
 			infrastructure = 0
 		}

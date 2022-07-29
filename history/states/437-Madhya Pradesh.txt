@@ -6,14 +6,12 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = MAR add_core_of = MAR add_core_of = IND add_core_of = CPI
+		owner = RAJ add_core_of = IND add_core_of = CPI
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		1819.1.1 = {
-			owner = RAJ
-		}
+
 		1947.1.1 = {
 			owner = IND
 			controller = IND

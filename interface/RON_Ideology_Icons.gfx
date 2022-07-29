@@ -9,5 +9,35 @@ spriteType = {
 		name = "GFX_ideology_islamism_group"
 		texturefile = "gfx/interface/ideologies/islamism_group.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_extremist_group"
+		texturefile = "gfx/interface/ideologies/extremist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/social_conservative_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/market_liberal_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_progressive_group"
+		texturefile = "gfx/interface/ideologies/progressive_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nationalist_group"
+		texturefile = "gfx/interface/ideologies/nationalist_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		texturefile = "gfx/interface/ideologies/socialist_group.dds"
+	}
 
 }

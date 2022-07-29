@@ -9,7 +9,7 @@ state = {
 	state_category = rural
 
 	history = {
-		owner = CHI
+		owner = QIN
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -19,9 +19,9 @@ state = {
 			10627 3
 		}
 		add_core_of = TAN
-		add_core_of = CHI
-		 
-		add_core_of = SOV 
+		add_core_of = QIN
+		add_core_of = RUE add_core_of = WHR
+		add_core_of = SOV add_core_of = RUS
 
 		1900.1.1 = {
 			set_state_flag = RUE_influence
@@ -30,13 +30,13 @@ state = {
 
 		1912.1.1 = { owner = TAN controller = TAN }
 
-		1918.11.11 = { owner = SOV controller = SOV }
+		1918.11.11 = { owner = WHR controller = WHR }
 
 		1923.1.1 = { owner = TAN controller = TAN }
 
 		1944.1.1 = { owner = SOV controller = SOV }
 
-		1992.1.1 = { owner = SOV controller = SOV }
+		1992.1.1 = { owner = RUS controller = RUS }
 	}
 
 	provinces = {

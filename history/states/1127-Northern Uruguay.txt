@@ -8,13 +8,12 @@ state={
 	}
 
 	history={
-		owner = VRR
+		owner = URG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 		}
 		add_core_of = URG
-		add_core_of = VRR
 		victory_points = {
 			1626 2 #Rivera 
 		}

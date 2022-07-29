@@ -3,7 +3,7 @@ state = {
 	name = "STATE_917"
 
 	history = {
-		owner = VRG
+		owner = COL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -11,9 +11,8 @@ state = {
 		}
 		add_core_of = PAN
 		add_core_of = COL
-		add_core_of = VRG
 
-		1903.11.3 = { owner = VRG controller = PAN remove_core_of = COL }
+		1903.11.3 = { owner = PAN controller = PAN remove_core_of = COL }
 
 	}
 

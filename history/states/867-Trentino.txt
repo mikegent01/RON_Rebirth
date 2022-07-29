@@ -6,7 +6,7 @@ state = {
 		victory_points = {
 			9598 1
 		}
-		owner = AUS
+		owner = AUH
 		buildings = {
 			infrastructure = 6
 
@@ -16,15 +16,16 @@ state = {
 		#add_core_of = VEC
 		add_core_of = KLV
 		add_core_of = AUS
-		#add_core_of = AUC
+		add_core_of = AUC
+		add_core_of = AUH
 		1910.1.1 = {
-			owner = AUS
-			controller = AUS
+			owner = AUH
+			controller = AUH
 		}
 		1918.11.11 = {
 			owner = ITA
 			controller = ITA
-			#remove_core_of = AUS
+			#remove_core_of = AUH
 		}
 
 		1944.1.1 = {

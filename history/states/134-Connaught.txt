@@ -13,12 +13,10 @@ state =
 			infrastructure = 6
 		}
 		add_core_of = IRE
-		add_core_of = ENG
 
 		1922.01.01 = {
 			owner = IRE
 			controller = IRE
-			remove_core_of = ENG
 		}
 
 	}
