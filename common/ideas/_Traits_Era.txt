@@ -5,44 +5,11 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		RON_GEO = {
-			default = yes
+		
 
-			removal_cost = -1
-			level = 1
-
-			available = {
-				always = no
-			}
-
-			modifier = {
-
-			}
-
-			cancel_if_invalid = no
-
-		}
-
-		RON_VIC = {
-
-
-			removal_cost = -1
-			level = 1
-
-			available = {
-				always = no
-			}
-
-			modifier = {
-
-			}
-
-			cancel_if_invalid = no
-
-		}
 
 		RON_DNC = {
-
+			default = yes
 
 			removal_cost = -1
 			level = 1
