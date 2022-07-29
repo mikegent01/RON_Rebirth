@@ -3,7 +3,7 @@ RON_universal_setup = yes
 
 
 capital = 828
-oob = "generic_1775"
+oob = "generic_1900"
 give_military_access = SWI
 set_research_slots = 1
 

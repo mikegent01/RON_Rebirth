@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 659
-oob = "generic_1775"
+oob = "generic_1900"
 set_convoys = 5
 set_politics = {
 	ruling_party = democratic

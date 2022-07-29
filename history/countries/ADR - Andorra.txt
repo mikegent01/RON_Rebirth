@@ -1,6 +1,6 @@
 ﻿RON_universal_setup = yes
 capital = 824
-oob = "generic_1775"
+oob = "generic_1900"
 set_research_slots = 3
 set_stability = 0.75
 give_military_access = FRA
@@ -11,7 +11,7 @@ add_ideas = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1775.1.1"
+	last_election = "1900.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

@@ -1,7 +1,7 @@
 capital = 137
 RON_universal_setup = yes
 
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_convoys = 1
 

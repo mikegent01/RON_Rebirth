@@ -3,7 +3,7 @@
 
 capital = 608
 
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_convoys = 40
 

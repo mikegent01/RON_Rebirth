@@ -4,7 +4,7 @@ capital = 747
 
 set_research_slots = 2
 
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_convoys = 50
 

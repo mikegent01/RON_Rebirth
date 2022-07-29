@@ -4,7 +4,7 @@ RON_universal_setup = yes
 
 set_research_slots = 3
 
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_stability = 0.4
 set_war_support = 0.1

@@ -2,7 +2,7 @@
   
 capital = 375#LA
 set_research_slots = 3
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_convoys = 30
 set_politics = {

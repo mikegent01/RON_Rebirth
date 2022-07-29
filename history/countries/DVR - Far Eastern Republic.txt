@@ -7,7 +7,7 @@ set_research_slots = 2
 set_convoys = 10
 
 
-oob = "generic_1775"
+oob = "generic_1900"
 
 set_politics = {
 	ruling_party = fascism
