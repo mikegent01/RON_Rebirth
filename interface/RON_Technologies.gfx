@@ -45,6 +45,488 @@ spriteTypes = {
 		name = "GFX_helicopter_techtree_bg"
 		texturefile = "gfx/interface/helicopter_techtree_bg.dds"
 	}
+<<<<<<< HEAD
+=======
+	
+	#Infantry Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1700.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1725_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1725.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1750.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1775.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1780.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1790.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1800.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1810.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1820.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1830.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1840.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1850.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1860.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1870.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1880.dds"
+	}
+	
+	#Artillery Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1400_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1400.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1700.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1750.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1775.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1780.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1790.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1800.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1810.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1820.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1830.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1840.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1850.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1860.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1870.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1880.dds"
+	}
+
+#Support Folder
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+
+	#Naval Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Destroyer_Tech_1750_medium"
+		texturefile = "gfx/interface/technologies/Naval_Folder/Generic/Fifth_Rate.dds"
+	}
+>>>>>>> parent of 62d9deec (New Ideologies)
 	
 	#Infantry Folder
 	

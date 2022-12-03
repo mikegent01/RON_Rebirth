@@ -92,6 +92,39 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
+<<<<<<< HEAD
+=======
+	sniper_tech
+	flamethrower_tech
+	mortar_tech
+	space_rockets
+	space_manned
+	space_unmanned
+	space_lunar
+	space_shuttle
+	space_mars
+	space_venus
+	space_mercury
+	space_jupiter
+	space_saturn
+	space_colonization
+	space_station
+	icbm
+	missile
+	space_research
+	helicopter
+	mechanized_tech
+	desert_infantry_tech
+	jungle_infantry_tech
+	fighter_bomber
+	modern_fighter
+	cv_multirole
+	gas_mask_category
+	aa_tech
+	torpedotech
+	zombies_tech
+	wonder_weapon
+>>>>>>> parent of 62d9deec (New Ideologies)
 }
 
 technology_folders = {
@@ -104,7 +137,11 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
+<<<<<<< HEAD
 			always = no
+=======
+			is_debug = yes
+>>>>>>> parent of 62d9deec (New Ideologies)
 		}
 	}
 	nsb_armour_folder = {
@@ -119,7 +156,11 @@ technology_folders = {
 	air_techs_folder = {
 		ledger = air
 		available = {
+<<<<<<< HEAD
 			always = no
+=======
+			is_debug = yes
+>>>>>>> parent of 62d9deec (New Ideologies)
 		}
 	}
 	naval_folder = {
@@ -149,6 +190,34 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
+<<<<<<< HEAD
+=======
+	space_folder = {
+		ledger = civilian
+		available = {
+			is_debug = yes
+		}
+	}
+	wmd_folder = {
+		ledger = civilian
+		available = {
+			is_debug = yes
+		}
+	}
+	train_folder = {
+		ledger = civilian
+		available = {
+			is_debug = yes
+		}
+	}
+	zombies_folder = {
+		available = {
+			is_debug = yes
+			#has_game_rule = { rule = RON_game_mode option = ZOMBIE_MODE }
+		}
+		ledger = civilian
+	}
+>>>>>>> parent of 62d9deec (New Ideologies)
 }
 
  
