@@ -6,8 +6,7 @@ state =
 	manpower = 21657
 	history =
 	{
-		owner = GER
-		add_core_of = JAP
+		owner = SPR
 
 		buildings = {
 			infrastructure = 3
@@ -23,8 +22,10 @@ state =
 		victory_points = {
 			3995 1
 		}
+		
+		1899.1.1 = { owner = GER controller = GER }
 
-		1919.1.1 = { owner = JAP controller = JAP }
+		1919.1.1 = { owner = JAP controller = JAP add_core_of = JAP }
 
 		1946.1.1 = {
 			owner = USA

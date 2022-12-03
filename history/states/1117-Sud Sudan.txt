@@ -19,7 +19,7 @@ state = {
 			2096 5
 
 		}
-		owner = ENG
+		owner = NAT
 		add_core_of = SSD
 		buildings = {
 			infrastructure = 3

@@ -8,12 +8,16 @@ state = {
 	history = {
 		add_core_of = STL
 		add_core_of = BAS
-		owner = ENG
+		owner = FRA
 		buildings = {
 			infrastructure = 4
 		}
 		victory_points = {
 			13009 3
+		}
+		1778.1.1 = {
+			owner = ENG
+			controller = ENG
 		}
 		1979.1.1 = {
 			owner = STL

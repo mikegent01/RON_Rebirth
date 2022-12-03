@@ -5,7 +5,7 @@ state = {
 	state_category = tiny_island
 
 	history = {
-		owner = FRA
+		owner = NAT
 		add_core_of = SOL
 		buildings = {
 			infrastructure = 3

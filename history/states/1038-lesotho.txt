@@ -3,7 +3,7 @@ state = {
 	name = "STATE_1038"
 
 	history = {
-		owner = ENG
+		owner = NAT
 		buildings = {
 			infrastructure = 4
 

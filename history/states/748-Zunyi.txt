@@ -5,10 +5,10 @@ state = {
 		1010 4141 4325 4431 9939 10763 11972
 	}
 	history = {
-		owner = QIN
+		owner = CHI
 
-		add_core_of = QIN
-		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		add_core_of = CHI
+		add_core_of = PRC  add_core_of = BOX
 		add_core_of = GUI
 
 		1900.1.1 = {
@@ -16,7 +16,7 @@ state = {
 
 		}
 
-		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1912.1.1 = { owner = CHI controller = CHI  }
 		1919.7.1 = { owner = GUI controller = GUI }
 		buildings = {
 			infrastructure = 2

@@ -8,7 +8,7 @@ state =
 
 	history =
 	{
-		owner = USA
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 			4429 = {

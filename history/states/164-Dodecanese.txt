@@ -8,7 +8,7 @@ state =
 
 	history =
 	{
-		owner = OTT
+		owner = TUR
 		victory_points = {
 			10007 1
 		}
@@ -22,10 +22,10 @@ state =
 				naval_base = 1
 			}
 		}
-		add_core_of = GRE add_core_of = GRC  add_core_of = OTT
+		add_core_of = GRE add_core_of = GRC  add_core_of = TUR
 		1910.1.1 = {
-			owner = OTT
-			controller = OTT
+			owner = TUR
+			controller = TUR
 		}
 		1912.11.11 = {
 			owner = ITA

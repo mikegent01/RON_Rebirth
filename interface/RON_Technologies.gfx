@@ -45,685 +45,966 @@ spriteTypes = {
 		name = "GFX_helicopter_techtree_bg"
 		texturefile = "gfx/interface/helicopter_techtree_bg.dds"
 	}
-
+<<<<<<< HEAD
+=======
 	
-	# Nuclear Techs
-	
-	SpriteType = {
-		name = "GFX_RON_Radioactive_Materials_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Atomic_Sprite.dds"
-	}
+	#Infantry Folder
 	
 	SpriteType = {
-		name = "GFX_RON_Radiography_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Atomic_Sprite.dds"
+		name = "GFX_RON_Infantry_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1000.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Nuclear_Fission_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Atomic_Sprite.dds"
+		name = "GFX_RON_Infantry_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Atomic_Research_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Atomic_Sprite.dds"
+		name = "GFX_RON_Infantry_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1700.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Nuclear_Reactor_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1725_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1725.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Nukes_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Nukes.dds"
+		name = "GFX_RON_Infantry_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1750.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Thermonuclear_Bomb_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Thermonuclear_Bomb.dds"
+		name = "GFX_RON_Infantry_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1775.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Thermonuclear_Bomb2_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Thermonuclear_Bomb2.dds"
+		name = "GFX_RON_Infantry_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1777.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Thermonuclear_Bomb3_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Thermonuclear_Bomb3.dds"
+		name = "GFX_RON_Infantry_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1780.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Neutron_Bomb_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Neutron_Bomb.dds"
+		name = "GFX_RON_Infantry_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1790.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Improved_Miniaturization_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Improved_Miniaturization.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Orbital_Launch_Site_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Orbital_Launch_Site.dds"
+		name = "GFX_RON_Infantry_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1800.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Antimatter_Bomb_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Antimatter_Bomb.dds"
+		name = "GFX_RON_Infantry_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1810.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_MIRV_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_MIRV.dds"
+		name = "GFX_RON_Infantry_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1820.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_MHD_Department_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_MHD_Department.dds"
+		name = "GFX_RON_Infantry_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1830.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Nuclear_Reactor_MK1_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1840.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Tomahawk_Reactor_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1850.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Fission_Reactor1_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1860.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Fission_Reactor2_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1870.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Fission_Reactor3_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Infantry_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1880.dds"
+	}
+	
+	#Artillery Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1000.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_EPR_Technology_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Artillery_Weapon_1400_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1400.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Fusion_Reactor_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/RON_Nuclear_Reactor.dds"
+		name = "GFX_RON_Artillery_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1600.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_SRBM1_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+		name = "GFX_RON_Artillery_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1700.dds"
 	}
-	
-SpriteType = {
-		name = "GFX_RON_SRBM2_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_SRBM3_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_SRBM4_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_SRBM5_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-	
-SpriteType = {
-		name = "GFX_RON_SRBM6_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}	
 	
 	SpriteType = {
-		name = "GFX_RON_IRBM1_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+		name = "GFX_RON_Artillery_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1750.dds"
 	}
-	
-SpriteType = {
-		name = "GFX_RON_IRBM2_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_IRBM3_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_IRBM4_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-
-SpriteType = {
-		name = "GFX_RON_IRBM5_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-	
-SpriteType = {
-		name = "GFX_RON_IRBM6_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}	
 	
 	SpriteType = {
-		name = "GFX_RON_ICBM1_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+		name = "GFX_RON_Artillery_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1775.dds"
 	}
 	
-SpriteType = {
-		name = "GFX_RON_ICBM2_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1777.dds"
 	}
-
-SpriteType = {
-		name = "GFX_RON_ICBM3_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1780.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1790.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1800.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1810.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1820.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1830.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1840.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1850.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1860.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1870.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1880.dds"
 	}
 
-SpriteType = {
-		name = "GFX_RON_ICBM4_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
+#Support Folder
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
 	}
 
-SpriteType = {
-		name = "GFX_RON_ICBM5_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}
-	
-SpriteType = {
-		name = "GFX_RON_ICBM6_medium"
-		texturefile = "gfx/interface/technologies/WMD_Folder/Generic/Vanilla_Missile_Sprite.dds"
-	}	
-	
-	#Space Folder
-	
-	SpriteType = {
-		name = "GFX_RON_Early_Rocketry_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Blueprint.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Pulsoreactors_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Blueprint.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Integrated_Guidance_System_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Blueprint.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Experimental_Rockets_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/experimental_rockets.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Rocket_Engines_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Jet_Engines_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/jet_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Improved_Rocket_Engines_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_Advanced_Rocket_Engines_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Rocket_Engines_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_Multi_Staged_Rockets_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Develop_Missiles_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/experimental_rockets.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_First_Satellite_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Satellite.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Early_Spy_Satellite_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Spy_Satellite.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Modernization_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Reusability_Era_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Recycle.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Life_Support_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Astronaut.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Manned_Orbital_Flights_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Orbital_Flight.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Interplanetary_Probes_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Probes.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_First_Moon_Flyby_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Moon.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Moon_Soft_Landing_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Moon_Soft_Landing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_First_Spacewalk_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Astronaut.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Massive_Rockets_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/rocket_engines.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Lunar_Modules_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Lunar_Module.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_First_Man_On_The_Moon_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Moon_Landing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_A_New_Era_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/New_Era.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Orbital_Stations_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/International_Space_Station.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Moon_Base_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Moon_Base.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Martian_Orbit_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Mars.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Martian_Landing_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Mars_Landing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Martian_Rover_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Mars_Rover.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_First_Man_On_Mars_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Man_on_Mars.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Mars_Colony_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Mars_Base.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Venus_Flyby_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Venus.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Venus_Landing_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Venus_Landing.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_The_Grand_Tour_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Solar_System.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Leave_The_Solar_System_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Solar_System.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_RON_Comet_Landing_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Comet.dds"
-	}
-	
-	#### MISSILES
-	
-	### SURFACE TO AIR
-	
-	SpriteType = {
-		name = "GFX_RON_STAM_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_STAM2_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_STAM3_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_STAM4_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_STAM5_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_STAM6_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Surface_To_Air_Missile_small.dds"
-	}
-	
-	### AIR TO AIR
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM2_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM3_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM4_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM5_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATAM6_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Air_Missile_small.dds"
-	}
-	
-	### AIR TO SURFACE
-	
-	SpriteType = {
-		name = "GFX_RON_ATS_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATS2_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATS3_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATS4_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATS5_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATS6_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Air_To_Surface_Missile_small.dds"
-	}
-	
-	### AIR TO SHIP MISSILE
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM2_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM3_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM4_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM5_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ASHM6_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Ship_Missile_small.dds"
-	}
-	
-	
-	### ANTI TANK MISSILE
-	
-	SpriteType = {
-		name = "GFX_RON_ATM_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATM2_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATM3_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATM4_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATM5_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_RON_ATM6_medium"
-		texturefile = "gfx/interface/technologies/Space_Folder/Generic/Anti_Tank_Missile_small.dds"
-	}
-	
-#Zombies Folder
 
-SpriteType = {
-		name = "GFX_ray_gun_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Ray_Gun.dds"
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_ray_gun_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Ray_Gun_V2.dds"
+		name = "GFX_tech_recon_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_thundergun_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Thundergun.dds"
+		name = "GFX_tech_recon_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_thundergun_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zeus_Cannon.dds"
+		name = "GFX_tech_recon_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_anti_zombie_mechanized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zombie_Mechanized.dds"
+		name = "GFX_tech_recon_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_anti_zombie_motorized_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zombie_Motorized.dds"
+		name = "GFX_tech_recon_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
 	}
 
+
+	
 	SpriteType = {
-		name = "GFX_RON_Adrenaline_Shot_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Adrenaline_Shot.dds"
+		name = "GFX_tech_field_hospital_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Defibrillator_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Defibrillator.dds"
+		name = "GFX_tech_field_hospital_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Double_Tap_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Double_Tap.dds"
+		name = "GFX_tech_field_hospital_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Element_115_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Element_115.dds"
+		name = "GFX_tech_field_hospital_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_First_Aid_Kit_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/First_Aid_Kit.dds"
+		name = "GFX_tech_field_hospital_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Juggernog_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Juggernog.dds"
+		name = "GFX_tech_field_hospital_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Monkey_Bombs_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Monkey_Bombs.dds"
+		name = "GFX_tech_field_hospital_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Mystery_Box_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Mystery_Box.dds"
+		name = "GFX_tech_field_hospital_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Pack_A_Punch_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Pack_A_Punch.dds"
+		name = "GFX_tech_field_hospital_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Pain_Pills_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Pain_Pills.dds"
+		name = "GFX_tech_field_hospital_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Quick_Revive_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Quick_Revive.dds"
+		name = "GFX_tech_field_hospital_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Ray_Gun_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Ray_Gun.dds"
+		name = "GFX_tech_field_hospital_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Ray_Gun_V2_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Ray_Gun_V2.dds"
+		name = "GFX_tech_field_hospital_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Speed_Cola_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Speed_Cola.dds"
+		name = "GFX_tech_field_hospital_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Teleporter_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Teleporter.dds"
+		name = "GFX_tech_logistics_company_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Thundergun_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Thundergun.dds"
+		name = "GFX_tech_logistics_company_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Zeus_Cannon_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zeus_Cannon.dds"
+		name = "GFX_tech_logistics_company_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Zombie_Mechanized_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zombie_Mechanized.dds"
+		name = "GFX_tech_logistics_company_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_RON_Zombie_Motorized_medium"
-		texturefile = "gfx/interface/technologies/Zombie_Folder/Generic/Zombie_Motorized.dds"
+		name = "GFX_tech_logistics_company_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+
+	#Naval Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Destroyer_Tech_1750_medium"
+		texturefile = "gfx/interface/technologies/Naval_Folder/Generic/Fifth_Rate.dds"
+	}
+>>>>>>> parent of 62d9deec (New Ideologies)
+	
+	#Infantry Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1700.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1725_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1725.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1750.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1775.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1780.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1790.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1800.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1810.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1820.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1830.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1840.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1850.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1860.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1870.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Infantry_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Infantry_Folder/Generic/Infantry_Equipment_1880.dds"
+	}
+	
+	#Artillery Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1000_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1400_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1400.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1600_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1600.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1700_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1700.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1750_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1750.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1775_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1775.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1777_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1777.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1780_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1780.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1790_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1790.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1800_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1800.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1810_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1810.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1820_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1820.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1830_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1830.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1840_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1840.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1850_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1850.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1860_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1860.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1870_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1870.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_RON_Artillery_Weapon_1880_medium"
+		texturefile = "gfx/interface/technologies/Artillery_Folder/Generic/Artillery_Equipment_1880.dds"
+	}
+
+#Support Folder
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Engineers.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_recon_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Recon.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Hospital.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1750_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1775_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1777_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1780_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1790_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1800_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1810_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1820_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1830_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1840_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1850_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1860_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1870_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_1880_medium"
+		texturefile = "gfx/interface/technologies/Support_Folder/Generic/Logistics.dds"
+	}
+
+	#Naval Folder
+	
+	SpriteType = {
+		name = "GFX_RON_Destroyer_Tech_1750_medium"
+		texturefile = "gfx/interface/technologies/Naval_Folder/Generic/Fifth_Rate.dds"
 	}
 	
 		

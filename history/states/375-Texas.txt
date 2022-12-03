@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = USA
+		owner = VRS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 6
@@ -20,6 +20,7 @@ state = {
 		}
 		add_core_of = USA
 		add_core_of = TEX
+		add_core_of = VRS
 		victory_points = {
 			10337 10
 		}

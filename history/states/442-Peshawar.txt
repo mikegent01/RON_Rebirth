@@ -9,7 +9,8 @@ state = {
 		victory_points = {
 			12763 3
 		}
-		owner = RAJ
+		owner = AFG
+		add_core_of = AFG
 		buildings = {
 			infrastructure = 3
 			air_base = 3

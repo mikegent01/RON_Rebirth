@@ -10,7 +10,7 @@ state =
 	state_category = town
 	history =
 	{
-		owner = HON
+		owner = VRS
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -24,6 +24,7 @@ state =
 			}
 		}
 		add_core_of = HON
+		add_core_of = VRS
 		victory_points = {
 			12865 3
 		}

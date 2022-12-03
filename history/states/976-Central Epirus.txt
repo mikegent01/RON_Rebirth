@@ -6,7 +6,7 @@ state = {
 		victory_points = {
 			3914 3
 		}
-		owner = OTT
+		owner = TUR
 		buildings = {
 			infrastructure = 4
 			9805 = {
@@ -15,10 +15,10 @@ state = {
 			}
 
 		}
-		add_core_of = GRE add_core_of = GRC  add_core_of = OTT
+		add_core_of = GRE add_core_of = GRC  add_core_of = TUR
 		1910.1.1 = {
-			owner = OTT
-			controller = OTT
+			owner = TUR
+			controller = TUR
 		}
 		1914.1.1 = {
 			owner = GRE

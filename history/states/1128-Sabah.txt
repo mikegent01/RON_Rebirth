@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = NAT
 		victory_points = {
 			10212 1 
 		}

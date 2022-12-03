@@ -7,13 +7,15 @@ state = {
 	state_category = large_town
 	history =
 	{
-		owner = RUE
-		add_core_of = QIN
+		owner = CHI
+		add_core_of = CHI
 		add_core_of = MAN
-		add_core_of = PRC add_core_of = CHI add_core_of = BOX
+		add_core_of = PRC  add_core_of = BOX
 		victory_points = {
 			1150 1
 		}
+		
+		1898.1.1 = { owner = SOV controller = SOV }
 
 		1905.1.1 = {
 			owner = JAP
@@ -25,7 +27,7 @@ state = {
 			}
 		}
 
-		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1912.1.1 = { owner = CHI controller = CHI  }
 		1919.7.1 = { owner = JAP controller = JAP }
 		1933.1.1 = {
 			owner = MAN

@@ -5,7 +5,7 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = SAU
+		owner = NAT
 		buildings = {
 			infrastructure = 0
 
