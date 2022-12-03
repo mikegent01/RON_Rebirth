@@ -92,8 +92,6 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
-<<<<<<< HEAD
-=======
 	sniper_tech
 	flamethrower_tech
 	mortar_tech
@@ -124,7 +122,6 @@ technology_categories = {
 	torpedotech
 	zombies_tech
 	wonder_weapon
->>>>>>> parent of 62d9deec (New Ideologies)
 }
 
 technology_folders = {
@@ -137,11 +134,7 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-<<<<<<< HEAD
-			always = no
-=======
 			is_debug = yes
->>>>>>> parent of 62d9deec (New Ideologies)
 		}
 	}
 	nsb_armour_folder = {
@@ -156,11 +149,7 @@ technology_folders = {
 	air_techs_folder = {
 		ledger = air
 		available = {
-<<<<<<< HEAD
-			always = no
-=======
 			is_debug = yes
->>>>>>> parent of 62d9deec (New Ideologies)
 		}
 	}
 	naval_folder = {
@@ -190,8 +179,6 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-<<<<<<< HEAD
-=======
 	space_folder = {
 		ledger = civilian
 		available = {
@@ -217,7 +204,6 @@ technology_folders = {
 		}
 		ledger = civilian
 	}
->>>>>>> parent of 62d9deec (New Ideologies)
 }
 
  
