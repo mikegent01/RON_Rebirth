@@ -9,7 +9,7 @@ state = {
 
 
 	history = {
-		owner = PER
+		owner = NAT
 		buildings = {
 			infrastructure = 2
 		}

@@ -6,10 +6,10 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = BOX
-		add_core_of = QIN
-		add_core_of = PRC
+		owner = CHI
 		add_core_of = CHI
+		add_core_of = PRC
+		
 		add_core_of = BOX
 		add_core_of = ANH
 		buildings = {
@@ -27,8 +27,8 @@ state = {
 			10068 1
 		}
 
-		1901.9.7 = { owner = QIN controller = QIN }
-		1912.1.1 = { owner = CHI controller = CHI add_core_of = CHI }
+		1901.9.7 = { owner = CHI controller = CHI }
+		1912.1.1 = { owner = CHI controller = CHI  }
 		1919.7.1 = { owner = ANH controller = ANH }
 		1933.1.1 = { owner = CHI controller = CHI }
 

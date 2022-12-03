@@ -4,14 +4,14 @@ state={
 	name="STATE_511"
 
 	history={
-		owner = ARG
+		owner = VRR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
 
 		}
-		add_core_of = ARG
+		add_core_of = ARG add_core_of = VRR 
 		victory_points = {
 			8215 1 
 		}

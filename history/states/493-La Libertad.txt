@@ -9,7 +9,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = COL
+		owner = VRG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -22,6 +22,7 @@ state = {
 			}
 		}
 		add_core_of = COL
+		add_core_of = VRG
 		victory_points = {
 			2023 1
 		}

@@ -3,7 +3,7 @@ state = {
 	name = "STATE_107"
 
 	history = {
-		owner = SER
+		owner = TUR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3
@@ -16,6 +16,7 @@ state = {
 		}
 		add_core_of = YUG
 		add_core_of = SER
+		add_core_of = TUR
 
 		1918.11.11 = {
 			owner = YUG

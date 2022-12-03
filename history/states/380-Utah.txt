@@ -10,13 +10,14 @@ state = {
 	}
 
 	history = {
-		owner = USA
+		owner = VRS
 		buildings = {
 			air_base = 2
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = USA
+		add_core_of = VRS
 		victory_points = {
 			4865 3
 		}

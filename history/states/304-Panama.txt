@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = COL
+		owner = VRG
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -21,7 +21,7 @@ state = {
 		add_core_of = PAN
 		add_core_of = COL
 
-		1903.11.3 = { owner = PAN controller = PAN remove_core_of = COL }
+		1903.11.3 = { owner = VRG controller = PAN remove_core_of = COL }
 
 		victory_points = {
 			7630 5

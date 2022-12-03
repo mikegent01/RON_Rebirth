@@ -7,13 +7,14 @@ state = {
 
 	history = {
 		set_state_flag = german_population
-		owner = USA
+		owner = FRL
 		buildings = {
 			air_base = 2
 			infrastructure = 6
 			industrial_complex = 4
 		}
 		add_core_of = USA
+		add_core_of = FRL
 		victory_points = {
 			1770 3
 		}

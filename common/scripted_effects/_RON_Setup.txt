@@ -6,10 +6,42 @@ RON_universal_setup = {
 }
 
 #Start Techs
-RON_start_techs = {	
+RON_start_techs = {
+
+	set_technology = {
+		RON_Infantry_Weapon_1000 = 1
+		RON_Infantry_Weapon_1600 = 1
+		RON_Infantry_Weapon_1700 = 1
+		RON_Infantry_Weapon_1725 = 1
+		RON_Infantry_Weapon_1750 = 1
+		RON_Artillery_Weapon_1000 = 1
+		RON_Artillery_Weapon_1400 = 1
+		RON_Artillery_Weapon_1600 = 1
+		RON_Artillery_Weapon_1700 = 1
+		RON_Artillery_Weapon_1750 = 1
+		tech_support = 1
+		tech_engineers_1750 = 1
+		tech_recon_1750 = 1
+	}
+	
 }
 
 RON_handle_era_flags = {
+
+	if = {
+		limit = {
+			has_start_date < 1837.1.1
+		}
+		add_ideas = RON_GEO
+	}
+	
+	if = {
+		limit = {
+			has_start_date > 1836.1.1
+			has_start_date < 1901.1.1
+		}
+		add_ideas = RON_VIC
+	}
 
 	if = {
 		limit = {
@@ -52,4 +84,11 @@ RON_handle_era_flags = {
 }
 
 RON_handle_era_generals = {
+	if = {
+		limit = {
+			has_start_date < 1837.1.1
+			RON_has_custom_generals_GEO = yes
+		}
+		RON_handle_GEO_generals = yes
+	}
 }

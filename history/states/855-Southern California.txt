@@ -2,7 +2,7 @@ state = {
 	id = 855
 	name = "STATE_855"
 	history = {
-		owner = USA
+		owner = VRS
 
 		buildings = {
 			infrastructure = 6
@@ -17,6 +17,7 @@ state = {
 		}
 		add_core_of = USA
 		add_core_of = CAL
+		add_core_of = VRS
 		victory_points = {
 			1562 15
 		}

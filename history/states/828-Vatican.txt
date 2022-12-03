@@ -3,19 +3,19 @@ state = {
 	name = "STATE_828"
 
 	history = {
-		owner = ITA
+		owner = PST
 		buildings = {
 			infrastructure = 7
 		}
-		add_core_of = VCT
 		add_core_of = ITA 
 		add_core_of = RSI
 		add_core_of = PST
 
 		1929.2.11 = {
-			owner = VCT
-			controller = VCT
+			owner = PST
+			controller = PST
 			remove_core_of = ITA
+			remove_core_of = RSI
 		}
 
 	}

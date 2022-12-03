@@ -6,7 +6,7 @@ state = {
 	state_category = town
 
 	history = {
-		owner = OTT
+		owner = TUR
 		victory_points = {
 			792 5
 		}
@@ -20,10 +20,10 @@ state = {
 		}
 
 		add_core_of = LEB
-		add_core_of = OTT
+		add_core_of = TUR
 		1910.1.1 = {
-			owner = OTT
-			controller = OTT
+			owner = TUR
+			controller = TUR
 		}
 		1918.11.11 = {
 			owner = FRA

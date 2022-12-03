@@ -5,7 +5,7 @@ state = {
 
 	history = {
 		add_core_of = QAT
-		owner = OTT
+		owner = NAT
 		victory_points = {
 			8051 1
 		}
@@ -16,8 +16,8 @@ state = {
 			}
 		}
 		1910.1.1 = {
-			owner = OTT
-			controller = OTT
+			owner = TUR
+			controller = TUR
 		}
 		1918.11.11 = {
 			owner = ENG

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = VRR
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 4
@@ -30,12 +30,12 @@ state={
 		victory_points = {
 			12964 1 
 		}
-		add_core_of = ARG
+		add_core_of = ARG add_core_of = VRR 
 
 	}
 
 	provinces={
-		1449 2172 5163 5184 7500 8187 8208 8238 10515 10943 10975 10985 11007 12453 12942 12964 13000 13308 
+		1449 2172 5163 5184 7500 8187 8208 8238 10515 10943 10975 10985 11007 12453 12942 12964 13000 13308 13312 
 	}
 	manpower=3497169
 	buildings_max_level_factor=1.000
