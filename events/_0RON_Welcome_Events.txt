@@ -10,10 +10,13 @@ country_event = {
 	desc = ron_welcomeevents.1.d
 	picture = GFX_report_event_ron_welcome
 	is_triggered_only = yes
-
+	hidden = yes
 	immediate = {
 		hidden_effect = {
 			set_global_flag = power_status_in_progress
+		country_event = {
+			id = power_status.1
+		}
 		}
 	}
 
@@ -25,10 +28,6 @@ country_event = {
 		
 		hidden_effect = {
 			RON_welcome_laws_ok_effects = yes
-		}
-
-		country_event = {
-			id = power_status.1
 		}
 	}
 }

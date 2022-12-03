@@ -19,7 +19,7 @@ country_event = {
 	#	}
 
 	is_triggered_only = yes
-
+	hidden = yes
 	immediate = {
 		hidden_effect = {
 			RON_power_status_immediate_effects = yes
