@@ -1,6 +1,6 @@
 RON_universal_setup = yes
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 capital = 554
 

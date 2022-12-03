@@ -2,7 +2,7 @@ RON_universal_setup = yes
 
 capital = 219
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_research_slots = 3
 set_stability = 0.5

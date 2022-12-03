@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 539
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 add_ideas = {
 	#cons_expanded_draft

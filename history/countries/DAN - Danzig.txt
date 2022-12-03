@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 85
-oob = "generic_1900"
+oob = "generic_1775"
 set_research_slots = 2
 set_convoys = 5
 set_politics = {

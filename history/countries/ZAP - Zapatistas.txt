@@ -2,7 +2,7 @@
   
 capital = 277
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_country_flag = monroe_doctrine
 

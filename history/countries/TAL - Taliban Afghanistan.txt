@@ -1,7 +1,7 @@
 RON_universal_setup = yes
   
 capital = 267
-oob = "generic_1900"
+oob = "generic_1775"
 
 ### WW1 Start Date
 set_politics = {

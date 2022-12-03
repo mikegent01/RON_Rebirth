@@ -2,7 +2,7 @@ RON_universal_setup = yes
   
 capital = 17 # Nanzig
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism
