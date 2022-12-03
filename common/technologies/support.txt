@@ -1,0 +1,986 @@
+technologies = {
+	
+	@1700 = 0
+	@1750 = 2
+	@1775 = 4
+	@1780 = 6
+	@1790 = 8
+	@1800 = 10
+	@1810 = 12
+	@1820 = 14
+	@1830 = 16
+	@1840 = 18
+	@1850 = 20
+	@1860 = 22
+	@1870 = 24
+	@1880 = 26
+
+	@engineers = 0
+	@recon = 2
+	@field_hospital = 4
+	@logistics = 6
+
+
+	tech_support = {
+
+		enable_equipments = {
+			support_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = tech_engineers_1750
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = tech_recon_1750
+			research_cost_coeff = 1
+		}	
+
+		research_cost = 1.0
+		start_year = 1700
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1700 }
+		}
+		
+		categories = {
+			support_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+
+	
+	tech_engineers_1750 = {
+
+		enable_subunits = {
+			engineer
+		}
+		
+		path = {
+			leads_to_tech = tech_engineers_1775
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1750
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1750 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	tech_engineers_1775 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		
+		
+		path = {
+			leads_to_tech = tech_engineers_1780
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1775
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1775 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	tech_engineers_1780 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1790
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1780 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	tech_engineers_1790 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1800
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1790
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1790 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1800 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1810
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1800
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1800 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1810 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1820
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1810
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1810 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1820 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1830
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1820
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1820 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1830 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1840
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1830
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1830 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1840 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1850
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1840
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1840 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1850 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1860
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1850
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1850 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1860 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1870
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1860
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1860 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1870 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		path = {
+			leads_to_tech = tech_engineers_1880
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1870 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_engineers_1880 = {
+
+		engineer = {
+			entrenchment  = 2
+			
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+
+			river = {
+				attack = 0.10	
+				defence = 0.10
+			}
+
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+
+		}
+
+		research_cost = 1.5
+		start_year = 1880
+		folder = {
+			name = support_folder
+			position = { x = @engineers y = @1880 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+
+	tech_recon_1750 = {
+
+		enable_subunits = {
+			recon
+			mot_recon
+			armored_car_recon
+			light_tank_recon
+		}
+		
+		path = {
+			leads_to_tech = tech_recon_1775
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1750
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1750 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	tech_recon_1775 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		
+		
+		path = {
+			leads_to_tech = tech_recon_1780
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1775
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1775 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	tech_recon_1780 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1790
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 1780
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1780 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	tech_recon_1790 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1800
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1790
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1790 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1800 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1810
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1800
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1800 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1810 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1820
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1810
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1810 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1820 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1830
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1820
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1820 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1830 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1840
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1830
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1830 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1840 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1850
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1840
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1840 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1850 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1860
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1850
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1850 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1860 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1870
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1860
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1860 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1870 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		path = {
+			leads_to_tech = tech_recon_1880
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1870 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+tech_recon_1880 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		research_cost = 1.5
+		start_year = 1880
+		folder = {
+			name = support_folder
+			position = { x = @recon y = @1880 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+}

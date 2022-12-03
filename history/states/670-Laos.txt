@@ -3,7 +3,7 @@ state = {
 	name = "STATE_670"
 
 	history = {
-		owner = FRA
+		owner = NAT
 		add_core_of = LAO
 		victory_points = {
 			1464 1
@@ -12,11 +12,11 @@ state = {
 			infrastructure = 2
 
 		}
-		1900.1.1 = { owner = VIN controller = VIN add_core_of = VIN }
+
 		1941.1.1 = { owner = JAP controller = JAP }
 		1946.1.1 = { owner = FRA controller = FRA }
 
-		1954.1.1 = { owner = LAO controller = LAO remove_core_of = VIN}
+		1954.1.1 = { owner = LAO controller = LAO }
 
 	}
 

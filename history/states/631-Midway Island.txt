@@ -6,7 +6,7 @@ state =
 	state_category = tiny_island
 
 	history = {
-		owner = USA
+		owner = NAT
 		buildings = {
 			infrastructure = 3
 			13052 = {
@@ -16,6 +16,7 @@ state =
 		victory_points = {
 			13052 1
 		}
+		1867.1.1 = { owner = USA controller = USA }
 	}
 
 	provinces = {

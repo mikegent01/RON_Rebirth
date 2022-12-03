@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = USA
+		owner = THI
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -19,6 +19,7 @@ state = {
 			}
 		}
 		add_core_of = USA
+		add_core_of = THI
 		victory_points = {
 			6732 20
 		}

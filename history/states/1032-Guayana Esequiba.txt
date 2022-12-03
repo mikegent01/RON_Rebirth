@@ -5,7 +5,7 @@ state = {
 	history = {
 		add_core_of = GYA
 		add_claim_by = VEN
-		owner = ENG
+		owner = HOL
 		buildings = {
 			infrastructure = 1
 

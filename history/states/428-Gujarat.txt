@@ -10,7 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = RAJ
+		owner = MAR
+		add_core_of = MAR
 		add_core_of = IND add_core_of = CPI
 		victory_points = {
 			9975 1
@@ -22,7 +23,9 @@ state = {
 				naval_base = 2
 			}
 		}
-
+		1819.1.1 = {
+			owner = RAJ
+		}
 		1947.1.1 = {
 			owner = IND
 			controller = IND

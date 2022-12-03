@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BEL
+		owner = HNE
 		victory_points = {
 			3516 5
 		}
@@ -25,6 +25,8 @@ state={
 		}
 		add_core_of = BEL
 		add_core_of = WLL
+		add_core_of = HNE
+		
 		1941.1.1 = {
 			owner = GER
 			controller = GER

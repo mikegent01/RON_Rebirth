@@ -10,7 +10,7 @@ state = {
 
 
 	history = {
-		owner = ENG
+		owner = NAT
 		buildings = {
 			infrastructure = 5
 			air_base = 1

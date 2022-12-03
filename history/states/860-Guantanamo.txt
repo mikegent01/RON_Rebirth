@@ -3,7 +3,7 @@ state = {
 	name = "STATE_860"
 
 	history = {
-		owner = USA
+		owner = SWN
 		buildings = {
 			infrastructure = 5
 			13223 = {
@@ -11,6 +11,7 @@ state = {
 			}
 		}
 		add_core_of = CUB
+		add_core_of = SWN
 
 		1900.6.20 = { owner = USA controller = USA }
 

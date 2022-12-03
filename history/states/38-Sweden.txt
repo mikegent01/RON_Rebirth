@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = KNS
+		owner = SWE
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

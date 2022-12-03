@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = FRA
+		owner = NAT
 		add_core_of = CAR
 		victory_points = {
 			12830 1

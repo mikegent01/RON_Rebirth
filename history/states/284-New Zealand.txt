@@ -6,7 +6,7 @@ state = {
 	state_category = city
 
 	history = {
-		owner = ENG
+		owner = NAT
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

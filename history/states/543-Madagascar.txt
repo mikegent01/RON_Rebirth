@@ -7,7 +7,7 @@ state = {
 
 	history = {
 		add_core_of = MAD
-		owner = FRA
+		owner = NAT
 		victory_points = {
 			5128 1
 		}

@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = ENG
+		owner = NAT
 		add_core_of = NGA
 		buildings = {
 			infrastructure = 3

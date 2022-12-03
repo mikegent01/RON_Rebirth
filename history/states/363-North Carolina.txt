@@ -6,7 +6,7 @@ state = {
 	state_category = city
 
 	history = {
-		owner = USA
+		owner = THI
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
@@ -16,6 +16,7 @@ state = {
 			}
 		}
 		add_core_of = USA
+		add_core_of = THI
 		victory_points = {
 			7138 3
 		}

@@ -8,7 +8,7 @@ state =
 
 	history =
 	{
-		owner = USA
+		owner = SPR
 		buildings = {
 			infrastructure = 3
 			12118 = {
@@ -21,7 +21,7 @@ state =
 		}
 		add_core_of = PHI
 
-		1902.7.2 = { owner = USA controller = USA }
+		1902.7.2 = { owner = SPR controller = USA }
 
 		1935.1.1 = { owner = PHI controller = PHI }
 		1942.1.1 = { owner = JAP controller = JAP }
