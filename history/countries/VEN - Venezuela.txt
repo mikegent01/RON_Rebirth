@@ -1,7 +1,7 @@
 RON_universal_setup = yes
 
 capital = 307
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_country_flag = monroe_doctrine
 set_convoys = 10

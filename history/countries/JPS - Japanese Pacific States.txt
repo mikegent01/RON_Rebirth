@@ -2,7 +2,7 @@
 capital = 378
 RON_universal_setup = yes
 
-oob = "generic_1900"
+oob = "generic_1775"
   
 
 ### Research slots / Stability / War support

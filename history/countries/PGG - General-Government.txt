@@ -1,7 +1,7 @@
 capital = 88
 RON_universal_setup = yes
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_research_slots = 3
 

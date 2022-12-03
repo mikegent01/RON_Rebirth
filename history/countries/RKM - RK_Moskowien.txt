@@ -8,7 +8,7 @@ set_stability = 0.4
 set_war_support = 0.1
 set_convoys = 10
 
-oob = "generic_1900"
+oob = "generic_1775"
 
 set_politics = {
 	ruling_party = fascism

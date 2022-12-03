@@ -1,7 +1,7 @@
 ﻿RON_universal_setup = yes
   
 capital = 545
-oob = "generic_1900"
+oob = "generic_1775"
 set_convoys = 5
 # A colongy of Italy in 1939, however if independent it would have the same politics as in 1936
 set_politics = {
