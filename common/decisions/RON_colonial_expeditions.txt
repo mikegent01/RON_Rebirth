@@ -35,7 +35,7 @@ RON_expand_influence = {
 			modifier = {
 				add = 100
 				FROM = {
-					is_claimed_by = ROOT
+					is_coastal = yes
 				}
 			}
 		}
