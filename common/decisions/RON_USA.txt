@@ -1,6 +1,6 @@
 RON_USA_revolutionary_war_cat = {
 	revoltionary_war_timer = {
-		days_mission_timeout = 110
+		days_mission_timeout = 2557
 		icon = revolt
 		is_good = no
 		fire_only_once = yes
