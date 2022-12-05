@@ -1,6 +1,14 @@
 ideas = {
-
-	country = {
+country = {
+FRA_defeat_in_the_seven_years_war = {
+picture = FRA_defeat_in_the_seven_years_war
+modifier = {
+			conscription = -0.04
+			war_support_factor = -0.4
+			production_speed_buildings_factor = 0.3
+			stability_factor = -0.2
+			}
+			}
 		FRA_lafayette_USA = {
 			
 			

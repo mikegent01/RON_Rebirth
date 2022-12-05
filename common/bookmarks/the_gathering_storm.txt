@@ -10,6 +10,9 @@ bookmarks = {
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = monarchism
+			ideas = {
+			FRA_defeat_in_the_seven_years_war
+			}
 		}
 		
 		"PRS"={
