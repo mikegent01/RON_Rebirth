@@ -12,6 +12,8 @@ bookmarks = {
 			ideology = monarchism
 			ideas = {
 			FRA_defeat_in_the_seven_years_war
+			FRA_Revolutionary_Fervor
+			FRA_devlaued_money
 			}
 		}
 		
