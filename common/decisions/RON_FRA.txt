@@ -22,7 +22,7 @@ RON_FRA_economic_situation = {
 				has_global_flag = FRA_situations_worsens
 				}	
 			}
-cancel_effect = {
+timeout_effect  = {
 	activate_mission = FRA_situations_worsensII
 	set_global_flag = FRA_situations_worsens 
 	random_owned_state= {
@@ -64,7 +64,7 @@ damage_building = {
 		NOT = {has_global_flag = FRA_situations_worsensII }
 		has_global_flag = FRA_situations_worsens
 			}
-cancel_effect = {
+timeout_effect  = {
 	set_global_flag = FRA_situations_worsensII
 	random_owned_state= {
 	damage_building = {
@@ -105,7 +105,7 @@ damage_building = {
 		has_global_flag = FRA_situations_worsens
 		has_global_flag = FRA_situations_worsensII
 			}
-cancel_effect = {
+timeout_effect  = {
 	set_global_flag = FRA_situations_worsensIII
 	random_owned_state= {
 	damage_building = {
@@ -147,14 +147,14 @@ damage_building = {
 		has_global_flag = FRA_situations_worsensII
 		has_global_flag = FRA_situations_worsensIII
 			}
-cancel_effect = {
+timeout_effect  = {
 	set_global_flag = FRA_situations_worsensIV
 	add_ideas = strikes_2
 	random_owned_state= {
 	damage_building = {
     type = infrastructure
     damage = 7
-}
+} 
 	}
 	random_owned_state= {
 damage_building = {
@@ -192,7 +192,7 @@ damage_building = {
 		has_global_flag = FRA_situations_worsensIII
 		has_global_flag = FRA_situations_worsensIV
 			}	
-	cancel_effect = {
+	timeout_effect  = {
 		set_global_flag = FRA_situations_worsensV
 		add_ideas = strikes_3
 		remove_ideas = strikes_2
@@ -237,7 +237,7 @@ damage_building = {
 		has_global_flag = FRA_situations_worsensIV
 		has_global_flag = FRA_situations_worsensV
 			}	
-	cancel_effect = {
+	timeout_effect  = {
 		set_global_flag = FRA_situations_worsensVI
 		remove_ideas = strikes_3
 		news_event = france.1
