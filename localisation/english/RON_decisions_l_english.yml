@@ -6,10 +6,36 @@
 
  RON_USA_revolutionary_war_cat:0 "Revolutionary War"
  revoltionary_war_timer:0 "Revolutionary War"
+pause_timer:0 "The Situation is stable....."
 
  RON_FRA_economic_situation:0 "Economic Situation"
  RON_FRA_economic_situation_desc:0 "Since the seven years war, our economy is in ruins. To remediate this issue, we need either to push for reforms or increase taxes on the third estate. \n\n - Our money is §tweak§! \n - Tax rate is §Ohigh§! \n - The administration §tneeds reform§! \n\n\n §gBe careful, pushing too many reforms will anger the King and the nobility, pushing to little will anger the third estate"
- FRA_reduce_administration:0 "Reduce Administration"
+ FRA_reduce_administration:0 "Stabilize The Administration"
+
+FRA_tax_reform:0 "Pass tax reform"
+stable_money:0 "Has Stable Currency"
+stable_tax_rate:0 "Normal tax rate"
+FRA_money_reform:0 "Reform our currency"
+
+RON_FRA_economic_situation1:0 "Economic Situation"
+ RON_FRA_economic_situation1_desc:0 "Since the seven years war, our economy is in ruins. To remediate this issue, we need either to push for reforms or increase taxes on the third estate. \n\n - Our money is §tweak§! \n - Tax rate is §Ohigh§! \n - The administration §YIs stable§! \n\n\n §gBe careful, pushing too many reforms will anger the King and the nobility, pushing to little will anger the third estate"
+ FRA_reduce_administration:0 "Stabilize The Administration"
+
+#weak money stable tax
+ RON_FRA_economic_situation2:0 "Economic Situation"
+ RON_FRA_economic_situation2_desc:0 "Since the seven years war, our economy is in ruins. To remediate this issue, we need either to push for reforms or increase taxes on the third estate. \n\n - Our money is §tweak§! \n - Tax rate is §GNormal§! \n - The administration §YIs stable§! \n\n\n §gBe careful, pushing too many reforms will anger the King and the nobility, pushing to little will anger the third estate"
+ FRA_reduce_administration:0 "Stabilize The Administration"
+
+#weak tax stable money
+RON_FRA_economic_situation3:0 "Economic Situation"
+ RON_FRA_economic_situation3_desc:0 "Since the seven years war, our economy is in ruins. To remediate this issue, we need either to push for reforms or increase taxes on the third estate. \n\n - Our money is §YIn good standing§! \n - Tax rate is §Ohigh§! \n - The administration §YIs stable§! \n\n\n §gBe careful, pushing too many reforms will anger the King and the nobility, pushing to little will anger the third estate"
+ FRA_reduce_administration:0 "Stabilize The Administration"
+
+
+
+
+
+
 #1 
 FRA_situations_worsens:0 "Economic Slowdown "
 FRA_situations_worsens_desc:0"We must fix this situation in terms of money. If the French economy does not stabilize, then the country will face a humanitarian crisis and its people will suffer. The French government must take immediate action to improve the economic situation, or else the situation will continue to deteriorate and the French people will become more and more desperate. This is a matter of national security, and the French government must act swiftly and decisively to ensure that the country does not disintegrate due to economic hardship."

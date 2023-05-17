@@ -1,18 +1,66 @@
 RON_FRA_economic_situation = {
+		FRA_money_reform = {
+		cost = 100
+		fire_only_once = yes
+		is_good = no
+		available = {
+			has_completed_focus = FRA_monetary_reform
+			}			
+		activation = {
+			has_country_flag = pause_timer
+			tag = FRA
+			}
+					complete_effect  = {
+						set_country_flag = stable_money
+						}
+}
+FRA_tax_reform = {
+	cost = 100
+		available = {
+			has_completed_focus = FRA_tax_reform
+			}	
+		fire_only_once = yes
+		is_good = no
+		activation = {
+			has_country_flag = pause_timer
+			tag = FRA
+			}
+					complete_effect  = {
+						set_country_flag = stable_tax_rate
+						}
+}
+}
+
+RON_FRA_economic_situation = {
 
 	FRA_reduce_administration = {
 		available = {
 			has_completed_focus = FRA_administrative_reforms
-		}
+			}
+			cost = 100
+			complete_effect  = {
+				set_country_flag = pause_timer
+				add_political_power = 100
+				custom_effect_tooltip = 4_FRA_tt 
+			}
 				days_remove = 50
 	}
+
+
+
+
+
+#############################TIMED EVENTS ########################################################################
 	FRA_situations_worsens = {
 				available = {
-			has_completed_focus = FRA_administrative_reforms
-				}
+					OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}
+			}
 		fire_only_once = yes
 
-		days_mission_timeout  = 2
+		days_mission_timeout  = 100
 		is_good = no
 		cancel_trigger = {
 		 has_global_flag = FRA_situations_worsens
@@ -52,10 +100,12 @@ damage_building = {
 
 	FRA_situations_worsensII = {
 		available = {
-			has_completed_focus = FRA_administrative_reforms
-		}
+					OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}		}
 		fire_only_once = yes
-		days_mission_timeout  = 2		
+		days_mission_timeout  = 100		
 		is_good = no
 		cancel_trigger = {
 		has_global_flag = FRA_situations_worsensII 
@@ -91,11 +141,13 @@ damage_building = {
 	################# 3 ##################
 	FRA_situations_worsensIII = {
 				available = {
-			has_completed_focus = FRA_administrative_reforms
-		}
+								OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}		}
 
 				fire_only_once = yes
-		days_mission_timeout  = 2		
+		days_mission_timeout  = 100		
 		is_good = no
 		cancel_trigger = {
 		 has_global_flag = FRA_situations_worsensIII
@@ -133,10 +185,12 @@ damage_building = {
 	################# 4 ##################
 	FRA_situations_worsensIV = {
 				available = {
-			has_completed_focus = FRA_administrative_reforms
-				}
+								OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}				}
 		fire_only_once = yes
-		days_mission_timeout  = 2		
+		days_mission_timeout  = 100		
 		is_good = no
 		cancel_trigger = {
 		 has_global_flag = FRA_situations_worsensIV
@@ -176,10 +230,12 @@ damage_building = {
 		################# 5 ##################
 		FRA_situations_worsensV = {
 			available = {
-				has_completed_focus = FRA_administrative_reforms
-			}
+									OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}			}
 						fire_only_once = yes
-			days_mission_timeout  = 2	
+			days_mission_timeout  = 100	
 			is_good = no
 		cancel_trigger = { 
 		 has_global_flag = FRA_situations_worsensV
@@ -221,10 +277,12 @@ damage_building = {
 		################# 6 ##################
 		FRA_situations_worsensVI = {
 			available = {
-				has_completed_focus = FRA_administrative_reforms
-						}
+									OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}						}
 		fire_only_once = yes
-			days_mission_timeout  = 2
+			days_mission_timeout  = 100
 			is_good = no
 		cancel_trigger = {
 		 has_global_flag = FRA_situations_worsensVI

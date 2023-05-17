@@ -1,0 +1,45 @@
+defined_text = {
+    name = "RON_FRA_economic_situation"
+    text = {
+        trigger = {
+            has_country_flag = pause_timer
+            has_start_date < 1776.01.01
+            tag = FRA
+        }
+        localization_key = "RON_FRA_economic_situation1"
+    }
+    text = {
+        trigger = {
+            has_country_flag = pause_timer
+            NOT = {
+                has_country_flag = stable_money
+            }
+            has_country_flag = stable_tax_rate
+            has_start_date < 1776.01.01
+            tag = FRA
+        }
+        localization_key = "RON_FRA_economic_situation2"
+    }
+    text = {
+        trigger = {
+            has_country_flag = pause_timer
+            has_country_flag = stable_money
+            NOT = {
+                has_country_flag = stable_tax_rate
+            }
+            has_start_date < 1776.01.01
+            tag = FRA
+        }
+        localization_key = "RON_FRA_economic_situation3"
+    }
+    text = {
+        trigger = {
+            has_country_flag = pause_timer
+            has_country_flag = stable_money
+            has_country_flag = stable_tax_rate
+            has_start_date < 1776.01.01
+            tag = FRA
+        }
+        localization_key = "RON_FRA_economic_situation4"
+    }
+}
