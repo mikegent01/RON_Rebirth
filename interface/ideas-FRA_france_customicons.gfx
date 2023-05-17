@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Defeat in the Seven Years War
+	SpriteType = { 
+		name = "GFX_idea_FRA_defeat_in_the_seven_years_war"
+		texturefile = "gfx/interface/ideas/FRA_defeat_in_the_seven_years_war.dds"
+	}
+
+ 
+ }

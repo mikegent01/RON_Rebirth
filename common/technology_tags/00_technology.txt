@@ -92,36 +92,17 @@ technology_categories = {
 	cat_production
 	cat_synth_rubber
 	cat_synth_oil
-	sniper_tech
-	flamethrower_tech
-	mortar_tech
-	space_rockets
-	space_manned
-	space_unmanned
-	space_lunar
-	space_shuttle
-	space_mars
-	space_venus
-	space_mercury
-	space_jupiter
-	space_saturn
-	space_colonization
-	space_station
-	icbm
-	missile
-	space_research
-	helicopter
-	mechanized_tech
-	desert_infantry_tech
-	jungle_infantry_tech
-	fighter_bomber
-	modern_fighter
-	cv_multirole
-	gas_mask_category
-	aa_tech
-	torpedotech
-	zombies_tech
-	wonder_weapon
+	cat_armored_cars
+	cat_special_forces_generic
+	cat_torpedoes
+	cat_ship_light_battery
+	cat_ship_medium_battery
+	cat_ship_heavy_battery
+	air_equipment
+	plane_modules_tech
+	cat_air_guns
+	cat_air_engine
+	cat_air_bombs
 }
 
 technology_folders = {
@@ -134,30 +115,45 @@ technology_folders = {
 	armour_folder = {
 		ledger = army
 		available = {
-			is_debug = yes
+			NOT = {
+				has_dlc = "No Step Back"
+			}
 		}
 	}
 	nsb_armour_folder = {
 		ledger = army
 		available = {
-			always = no
+			has_dlc = "No Step Back"
 		}
 	}
 	artillery_folder = {
 		ledger = army
 	}
 	air_techs_folder = {
+		available = { NOT = { has_dlc = "By Blood Alone" } }
 		ledger = air
+	}
+	bba_air_techs_folder = {
 		available = {
-			is_debug = yes
+			has_dlc = "By Blood Alone"
 		}
+		ledger = air
 	}
 	naval_folder = {
+		available = {
+			not = { has_dlc = "Man the Guns" }
+		}
 		ledger = navy
 	}
 	mtgnavalfolder = {
 		available = {
-			always = no
+			has_dlc = "Man the Guns"
+		}
+		ledger = navy
+	}
+	mtgnavalsupportfolder = {
+		available = {
+			has_dlc = "Man the Guns"
 		}
 		ledger = navy
 	}
@@ -179,31 +175,7 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-	space_folder = {
-		ledger = civilian
-		available = {
-			is_debug = yes
-		}
-	}
-	wmd_folder = {
-		ledger = civilian
-		available = {
-			is_debug = yes
-		}
-	}
-	train_folder = {
-		ledger = civilian
-		available = {
-			is_debug = yes
-		}
-	}
-	zombies_folder = {
-		available = {
-			is_debug = yes
-			#has_game_rule = { rule = RON_game_mode option = ZOMBIE_MODE }
-		}
-		ledger = civilian
-	}
+	#secret_weapons_folder
 }
 
  

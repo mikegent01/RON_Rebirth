@@ -1,45 +1,99 @@
 ﻿l_english:
- FRA_memories_seven_years_war:0 "Memories of the Seven Years War"
- FRA_memories_seven_years_war_desc:0 ""
- FRA_our_eternal_ennemy:0 "Our Eternal Ennemies"
- FRA_our_eternal_ennemy_desc:0 ""
- FRA_support_USA:0 "Support the Rebels"
- FRA_support_USA_desc:0 ""
- FRA_bring_the_fight_in_india:0 "Bring the Fight to India"
- FRA_bring_the_fight_in_india_desc:0 ""
- FRA_contact_quebec:0 "Contact Quebec Resistance"
- FRA_contact_quebec_desc:0 ""
- FRA_put_our_differences_aside:0 "Put our differences Asside"
- FRA_put_our_differences_aside_desc:0 ""
- FRA_side_with_the_brits:0 "Side with the Brits"
- FRA_side_with_the_brits_desc:0 ""
- FRA_caen_agreements:0 "The Caen Agreements"
- FRA_caen_agreements_desc:0 ""
- FRA_louisiana_question:0 "The Louisiana Question"
- FRA_louisiana_question_desc:0 ""
- FRA_send_lafayette_to_USA:0 "Send Lafayette to America"
- FRA_send_lafayette_to_USA_desc:0 ""
- FRA_send_loan_to_USA:0 "Send Money to the Rebels"
- FRA_send_loan_to_USA_desc:0 ""
- FRA_recognise_USA:0 "Recogise the Rebels"
- FRA_recognise_USA_desc:0 ""
- FRA_trade_pact:0 "Trade Agreements"
- FRA_trade_pact_desc:0 ""
- FRA_defensive_pact:0 "A Defensive Pact"
- FRA_defensive_pact_desc:0 ""
- FRA_pacte_de_famille:0 "Pacte de Famille"
- FRA_pacte_de_famille_desc:0 ""
- FRA_austrian_netherland_pact:0 "Austrian Netherlands Pact"
- FRA_austrian_netherland_pact_desc:0 ""
- FRA_central_america_for_india:0 "Central America for India"
- FRA_central_america_for_india_desc:0 ""
- FRA_send_lafayette_to_THI:0 "Send Lafayette to America"
- FRA_send_lafayette_to_THI_desc:0 ""
- FRA_administrative_reforms:0 "Administrative Reforms"
- FRA_administrative_reforms_desc:0 ""
- FRA_compagnie_doceanie:0 "Compagnie D'Océanie"
- FRA_compagnie_doceanie_desc:0 ""
- FRA_compagnie_dasie:0 "Compagnie D'Asie"
- FRA_compagnie_dasie_desc:0 ""
- FRA_anglo_norman_alliance:0 "Anglo-Normand Alliance"
- FRA_anglo_norman_alliance_desc:0 ""
+FRA_memories_seven_years_war:0 "Memories ofThe Seven Years' War"
+FRA_memories_seven_years_war_desc:0 "The French government still remembersThe humiliation ofThe Seven Years' War, when France lost much of its territory to Britain. We are determined to rebuild our strength and regain our position as a great power."
+
+FRA_our_eternal_ennemy:0 "Our Eternal Enemy"
+FRA_our_eternal_ennemy_desc:0 "The British are our eternal enemies.They have always sought to thwart our ambitions and to undermine our power. We must never forget this, and we must always be prepared to fightThem."
+
+FRA_support_USA:0 "SupportThe Rebels"
+FRA_support_USA_desc:0 "The French government has been followingThe events inThe Thirteen Colonies with great interest. We sympathize withThe colonists' desire for self-determination, and we believe thatThey have a just cause. We are considering providingThem with financial and military assistance."
+
+FRA_bring_the_fight_in_india:0 "BringThe Fight to India"
+FRA_bring_the_fight_in_india_desc:0 "The British have been encroaching on French territory in India for years. We must take action to defend our interests inThe region. We are considering sending troops to India to helpThe local rulers fight offThe British."
+
+FRA_contact_quebec:0 "Contact Quebec Resistance"
+FRA_contact_quebec_desc:0 "The French government has been in contact withThe resistance movement in Quebec. We are providingThem with financial and logistical support. We hope thatThey will be able to overthrow British rule in Quebec."
+
+FRA_put_our_differences_aside:0 "Put Our Differences Aside"
+FRA_put_our_differences_aside_desc:0 "The French and British have been enemies for centuries. ButThe Seven Years' War has shown us that we have more to lose by fighting each other than by working together. We must put our differences aside and work together to build a better future for both of our countries."
+
+FRA_side_with_the_brits:0 "Side withThe Brits"
+FRA_side_with_the_brits_desc:0 "The French government is considering siding withThe British inThe upcoming war againstThe United States. This would be a major shift in French foreign policy, and it would have far-reaching consequences.The French government is still weighingThe pros and cons of this decision."
+
+FRA_caen_agreements:0 "The Caen Agreements"
+FRA_caen_agreements_desc:0 "The Caen Agreements were a series of treaties signed in 1783 between France and Britain.The agreements endedThe American Revolutionary War and establishedThe borders betweenThe two countries.The agreements also included a number of provisions that were designed to promote trade and cooperation between France and Britain."
+
+FRA_louisiana_question:0 "The Louisiana Question"
+FRA_louisiana_question_desc:0 "The Louisiana Question is a dispute overThe ownership ofThe Louisiana Territory.The territory was claimed by both France and Spain. In 1803,The United States purchasedThe Louisiana Territory from France. This purchase doubledThe size ofThe United States and sparked a major diplomatic crisis betweenThe United States and Spain."
+
+FRA_send_lafayette_to_USA:0 "Send Lafayette to America"
+FRA_send_lafayette_to_USA_desc:0 "The French government has decided to sendThe Marquis de Lafayette to America to helpThe rebels fight againstThe British. Lafayette is a popular figure in France, and his arrival in America will be a major boost toThe morale ofThe rebels."
+
+FRA_send_loan_to_USA:0 "Send Money toThe Rebels"
+FRA_send_loan_to_USA_desc:0 "The French government has decided to send a loan toThe rebels in America.The loan will helpThe rebels pay forTheir supplies and weapons. It will also helpThem to financeTheir war effort."
+
+FRA_recognise_USA:0 "RecognizeThe Rebels"
+FRA_recognise_USA_desc:0 "The French government has decided to recognizeThe rebels in America as an independent nation. This recognition will giveThe rebels a major boost onThe diplomatic front. It will also make it more difficult forThe British to winThe war."
+
+FRA_trade_pact:0 "Trade Agreements"
+FRA_trade_pact_desc:0 "The French government is considering signing a series of trade agreements withThe United States.These agreements would help to boost trade"
+
+FRA_defensive_pact:0 "A Defensive Pact"
+FRA_defensive_pact_desc:0 "The French government is considering signing a defensive pact withThe United States. This pact would commitThe two countries to come to each other's aid inThe event of an attack. It would help to deter aggression from other countries and would makeThe world a safer place."
+
+FRA_pacte_de_famille:0 "Pacte de Famille"
+FRA_pacte_de_famille_desc:0 "The Pacte de Famille was a series of treaties signed between France and Spain inThe 16th century.The treaties were designed to uniteThe two countries againstTheir common enemy, Britain.The treaties were successful in unitingThe two countries, andThey played a major role inThe Seven Years' War andThe American Revolutionary War."
+
+FRA_austrian_netherland_pact:0 "Austrian Netherlands Pact"
+FRA_austrian_netherland_pact_desc:0 "The Austrian Netherlands Pact was a treaty signed between France and Austria in 1781.The treaty was designed to protectThe Austrian Netherlands from attack by Britain.The treaty was successful in protectingThe Austrian Netherlands, and it helped to ensure that France and Austria remained allies duringThe American Revolutionary War." 
+
+FRA_central_america_for_india:0 "Focus on India"
+FRA_central_america_for_india_desc:0 "France considered using Central America as a staging ground for an invasion of India inThe early 19th century.The plan was eventually abandoned."
+
+FRA_send_lafayette_to_THI:0 "Send Lafayette to the colonies"
+FRA_send_lafayette_to_THI_desc:0 "The French government sentThe Marquis de Lafayette to Thailand to helpThe Thai government in its war against Burma. Lafayette served with distinction inThe Thai army and helped to ensureThe eventual victory ofThe Thai government."
+
+FRA_administrative_reforms:0 "Administrative Reforms"
+FRA_administrative_reforms_desc:0 "InThe late 16th century, France underwent a series of administrative reforms designed to improveThe efficiency ofThe French government and to make it more responsive toThe needs ofThe people."
+
+FRA_compagnie_doceanie:0 "Compagnie Doceanie"
+FRA_compagnie_doceanie_desc:0 "The Compagnie DOcéanie was a French trading company that was founded in 1700.The company was given a monopoly on trade withThe Pacific Ocean.The Compagnie DOcéanie was a major success and helped to make France a major power inThe Pacific"
+
+FRA_compagnie_dasie:0 "Crate Compagnie DAsie"
+FRA_compagnie_dasie_desc:0 "The Compagnie DAsie was a French trading company that was founded in 1786.The company was given a monopoly on trade with Asia.The Compagnie DAsie was a major success and helped to make France a major power in Asia."
+
+FRA_anglo_norman_alliance:0 "Anglo Norman Alliance"
+FRA_anglo_norman_alliance_desc:0 "The Anglo-Normand Alliance was an alliance between France and England that was formed in 1106.The alliance was formed afterThe Norman Conquest of England and was designed to preventThe two countries from going to war against each other."
+
+FRA_our_economic_situation:0 "Our Economic Situation"
+FRA_our_economic_situation_desc:0 "France's economic situation inThe late 16th century was dire.The country was deeply in debt, andThe government was struggling to raise revenue.The people were suffering from high taxes and food shortages.The economic situation was a major factor inThe French Revolution."
+
+FRA_necker_minister:0 "Necker as Minister of Finance"
+FRA_necker_minister_desc:0 "In 1776, Jacques Necker was appointed Minister of Finance. Necker was a successful banker, and he was brought in to try to solve France's financial problems. Necker made some progress, but he was eventually forced to resign in 1781. Necker's resignation was a major setback forThe French government."
+
+FRA_genoan_money:0 "Genoan Loan"
+FRA_genoan_money_desc:0 "The French government borrowed a large sum of money fromThe Bank of Genoa.The loan was used to pay off some ofThe country's debt, but it did not solveThe underlying problems.The Genoan loan was a major factor inThe French Revolution."
+
+FRA_monetary_reform:0 "Monetary Reform"
+FRA_monetary_reform_desc:0 "The French government attempted to reformThe country's monetary system.The reform was designed to makeThe currency more stable and to reduce inflation. However,The reform was unpopular withThe people, and it was eventually abandoned"
+
+FRA_administrative_reforms:0 "Administrative Reforms"
+FRA_administrative_reforms_desc:0 "InThe late 16th century,The French government attempted to reformThe country's administrative system.The reforms were designed to makeThe government more efficient and to reduce corruption. However,The reforms were not successful, andThey were eventually abandoned."
+
+FRA_tax_reform:0 "Tax Reform"
+FRA_tax_reform_desc:0 "InThe late 16th century,The French government attempted to reformThe country's tax system.The reforms were designed to makeThe tax system more fair and to reduceThe burden onThe people. However,The reforms were not successful, andThey were eventually abandoned."
+
+FRA_royal_lottery:0 "Royal Lottery"
+FRA_royal_lottery_desc:0 "We will take a gamble and try to increase popular support for our royalty."
+
+FRA_mont_de_piete:0 "Mont de Piété"
+FRA_mont_de_piete_desc:0 "The Mont de Piété was a pawnshop that was established in France in 1777.The pawnshop was designed to provide loans toThe poor at low interest rates.The Mont de Piété was a success, and it helped to alleviate some ofThe poverty in France."
+
+FRA_manufacture_act:0 "Manufacture Act"
+FRA_manufacture_act_desc:0 "The French government passedThe Manufacture Act.The act was designed to encourageThe development of manufacturing in France.The act was a success, and it helped to stimulateThe French economy."
+
+FRA_provincial_assembly:0 "Provincial Assembly"
+FRA_provincial_assembly_desc:0 "In 1787,The French government established provincial assemblies.The assemblies were designed to giveThe people a voice in local government.The provincial assemblies were a success, andThey helped to promote democracy in France."
+
+FRA_neckers_resignation:0 "Necker's Resignation"
+FRA_neckers_resignation_desc:0 "In 1781, Jacques Necker was forced to resign as Minister of Finance. Necker's resignation was a major setback forThe French government. It led to a loss of confidence inThe government and helped to contribute toThe French Revolution."

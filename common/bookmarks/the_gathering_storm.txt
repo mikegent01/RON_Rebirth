@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1775.1.1.12
+		date = 1770.1.1.12
 		picture = "GFX_select_date_1775"
 		default_country = "ENG"
 		default = yes
@@ -10,6 +10,11 @@ bookmarks = {
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = monarchism
+			ideas = {
+			FRA_defeat_in_the_seven_years_war
+			FRA_Revolutionary_Fervor
+			FRA_devlaued_money
+			}
 		}
 		
 		"PRS"={

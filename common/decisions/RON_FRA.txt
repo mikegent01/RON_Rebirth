@@ -1,11 +1,335 @@
 RON_FRA_economic_situation = {
+		FRA_money_reform = {
+		cost = 100
+		fire_only_once = yes
+		is_good = no
+		available = {
+			has_completed_focus = FRA_monetary_reform
+			}			
+		activation = {
+			has_country_flag = pause_timer
+			tag = FRA
+			}
+					complete_effect  = {
+						set_country_flag = stable_money
+						}
+}
+FRA_tax_reform = {
+	cost = 100
+		available = {
+			has_completed_focus = FRA_tax_reform
+			}	
+		fire_only_once = yes
+		is_good = no
+		activation = {
+			has_country_flag = pause_timer
+			tag = FRA
+			}
+					complete_effect  = {
+						set_country_flag = stable_tax_rate
+						}
+}
+}
+
+RON_FRA_economic_situation = {
 
 	FRA_reduce_administration = {
 		available = {
 			has_completed_focus = FRA_administrative_reforms
-		}
-		cost = 25
-		days_remove = 50
+			}
+			cost = 100
+			complete_effect  = {
+				set_country_flag = pause_timer
+				add_political_power = 100
+				custom_effect_tooltip = 4_FRA_tt 
+			}
+				days_remove = 50
 	}
 
+
+
+
+
+#############################TIMED EVENTS ########################################################################
+	FRA_situations_worsens = {
+				available = {
+					OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}
+			}
+		fire_only_once = yes
+
+		days_mission_timeout  = 100
+		is_good = no
+		cancel_trigger = {
+		 has_global_flag = FRA_situations_worsens
+		}
+		activation = {
+			NOT = {  
+				has_global_flag = FRA_situations_worsens
+				}	
+			}
+timeout_effect  = {
+	activate_mission = FRA_situations_worsensII
+	set_global_flag = FRA_situations_worsens 
+	random_owned_state= {
+	damage_building = {
+    type = infrastructure
+    damage = 1
 }
+	}
+	random_owned_state= {
+damage_building = {
+    type = arms_factory
+    damage = 5
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = industrial_complex
+    damage = 3
+}
+	
+    }
+
+}
+	}
+
+		################# 2 ##################
+
+	FRA_situations_worsensII = {
+		available = {
+					OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}		}
+		fire_only_once = yes
+		days_mission_timeout  = 100		
+		is_good = no
+		cancel_trigger = {
+		has_global_flag = FRA_situations_worsensII 
+		}
+		activation = {
+		NOT = {has_global_flag = FRA_situations_worsensII }
+		has_global_flag = FRA_situations_worsens
+			}
+timeout_effect  = {
+	set_global_flag = FRA_situations_worsensII
+	random_owned_state= {
+	damage_building = {
+    type = infrastructure
+    damage = 2
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = arms_factory
+    damage = 5
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = industrial_complex
+    damage = 3
+}
+	activate_mission = FRA_situations_worsensIII
+
+	}
+    }
+	}
+	################# 3 ##################
+	FRA_situations_worsensIII = {
+				available = {
+								OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}		}
+
+				fire_only_once = yes
+		days_mission_timeout  = 100		
+		is_good = no
+		cancel_trigger = {
+		 has_global_flag = FRA_situations_worsensIII
+		}
+		activation = {
+		NOT = {has_global_flag = FRA_situations_worsensIII }
+		has_global_flag = FRA_situations_worsens
+		has_global_flag = FRA_situations_worsensII
+			}
+timeout_effect  = {
+	set_global_flag = FRA_situations_worsensIII
+	random_owned_state= {
+	damage_building = {
+    type = infrastructure
+    damage = 2
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = arms_factory
+    damage = 5
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = industrial_complex
+    damage = 3
+}
+	activate_mission = FRA_situations_worsensIV
+
+	}
+    }
+}
+	
+	################# 4 ##################
+	FRA_situations_worsensIV = {
+				available = {
+								OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}				}
+		fire_only_once = yes
+		days_mission_timeout  = 100		
+		is_good = no
+		cancel_trigger = {
+		 has_global_flag = FRA_situations_worsensIV
+		}
+		activation = {
+		NOT = {has_global_flag = FRA_situations_worsensIV }
+		has_global_flag = FRA_situations_worsens
+		has_global_flag = FRA_situations_worsensII
+		has_global_flag = FRA_situations_worsensIII
+			}
+timeout_effect  = {
+	set_global_flag = FRA_situations_worsensIV
+	add_ideas = strikes_2
+	random_owned_state= {
+	damage_building = {
+    type = infrastructure
+    damage = 7
+} 
+	}
+	random_owned_state= {
+damage_building = {
+    type = arms_factory
+    damage = 10
+}
+	}
+	random_owned_state= {
+damage_building = {
+    type = industrial_complex
+    damage = 6
+}
+	}
+    
+	activate_mission = FRA_situations_worsensV
+	}
+}
+
+		################# 5 ##################
+		FRA_situations_worsensV = {
+			available = {
+									OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}			}
+						fire_only_once = yes
+			days_mission_timeout  = 100	
+			is_good = no
+		cancel_trigger = { 
+		 has_global_flag = FRA_situations_worsensV
+		}
+		activation = {
+		NOT = {has_global_flag = FRA_situations_worsensV }
+		has_global_flag = FRA_situations_worsensV
+		has_global_flag = FRA_situations_worsens
+		has_global_flag = FRA_situations_worsensII
+		has_global_flag = FRA_situations_worsensIII
+		has_global_flag = FRA_situations_worsensIV
+			}	
+	timeout_effect  = {
+		set_global_flag = FRA_situations_worsensV
+		add_ideas = strikes_3
+		remove_ideas = strikes_2
+		random_owned_state= {
+		damage_building = {
+		type = infrastructure
+		damage = 10
+	}
+		}
+		random_owned_state= {
+	damage_building = {
+		type = arms_factory
+		damage = 10
+	}
+		}
+		random_owned_state= {
+	damage_building = {
+		type = industrial_complex
+		damage = 10
+	}
+		}
+				activate_mission = FRA_situations_worsensVI
+
+		}
+		}
+		################# 6 ##################
+		FRA_situations_worsensVI = {
+			available = {
+									OR = {
+					has_completed_focus = FRA_provincial_assembly
+					has_country_flag = pause_timer
+					}						}
+		fire_only_once = yes
+			days_mission_timeout  = 100
+			is_good = no
+		cancel_trigger = {
+		 has_global_flag = FRA_situations_worsensVI
+		}
+		activation = {
+		NOT = {has_global_flag = FRA_situations_worsensVI }
+		has_global_flag = FRA_situations_worsens
+		has_global_flag = FRA_situations_worsensII
+		has_global_flag = FRA_situations_worsensIII
+		has_global_flag = FRA_situations_worsensIV
+		has_global_flag = FRA_situations_worsensV
+			}	
+	timeout_effect  = {
+		set_global_flag = FRA_situations_worsensVI
+		remove_ideas = strikes_3
+		news_event = france.1
+		814 = {
+			add_core_of = DBA
+		}
+		816 = {
+			add_core_of = DBA
+		}
+		817 = {
+			add_core_of = DBA
+		}
+		
+		17 = {
+			add_core_of = BGN
+		}
+		27 = {
+			add_core_of = BGN
+		}
+		15 = {
+			add_core_of = NDY
+		}
+		818 = {
+			add_core_of = NDY
+		}
+		release = DBA
+		release = NDY
+		release = BGN
+		release = OCC
+		release = BRT
+		release = ALS
+		POL = {
+			puppet = DBA
+		}
+		}
+		}
+		} 

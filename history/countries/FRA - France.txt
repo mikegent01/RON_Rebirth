@@ -14,7 +14,12 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = yes
 }
-
+add_ideas = {
+FRA_defeat_in_the_seven_years_war
+FRA_defeat_in_the_seven_years_war
+FRA_Revolutionary_Fervor
+FRA_devlaued_money
+}
 set_popularities = {
 	monarchism = 100
 }
